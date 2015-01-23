@@ -126,7 +126,6 @@ class Slim
             $fileName  .= str_replace('\\', DIRECTORY_SEPARATOR, $namespace) . DIRECTORY_SEPARATOR;
         }
         $fileName .= str_replace('_', DIRECTORY_SEPARATOR, $className) . '.php';
-
         if (file_exists($fileName)) {
             require $fileName;
         }
@@ -469,7 +468,6 @@ class Slim
     public function get()
     {
         $args = func_get_args();
-
         return $this->mapRoute($args)->via(\Slim\Http\Request::METHOD_GET, \Slim\Http\Request::METHOD_HEAD);
     }
 

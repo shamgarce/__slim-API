@@ -8,6 +8,9 @@
  * If you are using Composer, you can skip this step.
  */
 require 'Slim/Slim.php';
+require '../C/Config.C.php';
+//require 'C/APP.php';
+
 
 \Slim\Slim::registerAutoloader();
 
@@ -30,6 +33,15 @@ $app = new \Slim\Slim();
  * is an anonymous function.
  */
 
+$app->get('/hello/:name/:na', function ($name,$na) {
+	global $_W;
+	print_r($_W);
+	exit;
+	//$appbase = new AppBase();
+	//$appbase->run();
+	//    echo "Hello, $name";
+});
+
 // GET route
 $app->get(
     '/',
@@ -43,27 +55,6 @@ $app->post(
     '/post',
     function () {
         echo 'This is a POST route';
-    }
-);
-
-// PUT route
-$app->put(
-    '/put',
-    function () {
-        echo 'This is a PUT route';
-    }
-);
-
-// PATCH route
-$app->patch('/patch', function () {
-    echo 'This is a PATCH route';
-});
-
-// DELETE route
-$app->delete(
-    '/delete',
-    function () {
-        echo 'This is a DELETE route';
     }
 );
 
