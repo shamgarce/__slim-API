@@ -1,6 +1,6 @@
 <?php
 
-$_W['_Files'][] 	= __FILE__;
+DEBUG_TRACER && $_W['_Files'][] 		= __FILE__;
 
 // +----------------------------------------------------------------------
 // | Author: sham <shampeak@gmail.com>

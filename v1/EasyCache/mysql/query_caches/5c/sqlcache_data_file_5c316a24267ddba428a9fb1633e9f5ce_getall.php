@@ -1,0 +1,1 @@
+<?php exit;?>//[begin]//a:3:{s:9:"cachename";s:10:"desc lz_ly";s:7:"cachetm";i:1415176317;s:12:"cachecontent";s:137:"a:1:{i:0;a:6:{s:5:"Field";s:5:"ly_id";s:4:"Type";s:7:"int(11)";s:4:"Null";s:2:"NO";s:3:"Key";s:0:"";s:7:"Default";N;s:5:"Extra";s:0:"";}}";}//[end]//

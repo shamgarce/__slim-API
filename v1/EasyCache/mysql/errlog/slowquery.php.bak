@@ -1,0 +1,84 @@
+DESC sy_log
+TM : 0.0732860565186 : 2014-04-22 09:17:49
+INSERT INTO sy_log (uid, code, url, ca, cookies, sessions, gets, posts, hash, nr, msg, PHP_SELF, QUERY_STRING, HTTP_HOST, HTTP_REFERER, REMOTE_ADDR, tm, state) VALUES ('18', '9999', 'http://s.so/admin/I.php?m=ioSys.ms', 'Io.in', 'a:14:{s:14:\"CNZZDATA155540\";s:134:\"cnzz_eid=1199123840-1393558843-http%3A%2F%2Fs.so%2F&amp;ntime=1394090338&amp;cnzz_a=0&amp;sin=none&amp;ltime=1394090343914&amp;rtime=1\";s:15:\"CNZZDATA3933263\";s:101:\"cnzz_eid=1040653134-1393896214-&amp;ntime=1393989724&amp;cnzz_a=4&amp;ltime=1393981824539&amp;rtime=1\";s:15:\"CNZZDATA5128329\";s:114:\"cnzz_eid=1840524148-1393896214-&amp;ntime=1394698691&amp;cnzz_a=1&amp;sin=none&amp;ltime=1394698798087&amp;rtime=2\";s:15:\"CNZZDATA5149854\";s:114:\"cnzz_eid=1434568421-1393896214-&amp;ntime=1394698691&amp;cnzz_a=1&amp;sin=none&amp;ltime=1394698797961&amp;rtime=2\";s:39:\"Hm_lvt_4a6296f81379396c8ab28d874e3ad19a\";s:43:\"1393917204,1393981829,1393987533,1393989731\";s:39:\"Hm_lvt_bcbfd88c2f7d4224a710e0466553b672\";s:43:\"1393917205,1393981829,1393987533,1393989731\";s:39:\"Hm_lvt_b3dbc6c65502799269e7e38d6e9cad0c\";s:43:\"1393917205,1393981829,1393987533,1393989731\";s:39:\"Hm_lvt_adcc355dd4bdb9bb92aabef386448e7d\";s:10:\"1394698740\";s:39:\"Hm_lvt_8f63175c6ff197cdd16497ed7ffb30b2\";s:10:\"1394698768\";s:39:\"Hm_lvt_ed1d93bde535ec21d66952e31f9b752c\";s:10:\"1394698768\";s:15:\"CNZZDATA4701716\";s:120:\"cnzz_eid=87286835-1394698691-http%3A%2F%2Fs.so%2F&amp;ntime=1394698691&amp;cnzz_a=1&amp;sin=none&amp;ltime=1394698798152\";s:4:\"suid\";s:2:\"18\";s:6:\"suname\";s:9:\"管理员\";s:9:\"PHPSESSID\";s:2:\"18\";}', 'a:0:{}', 'a:3:{s:1:\"m\";s:8:\"ioSys.ms\";s:1:\"c\";s:2:\"Io\";s:1:\"a\";s:2:\"in\";}', 'a:0:{}', '', 's:0:\"\";', '接口', '/admin/I.php', 'm=ioSys.ms', 's.so', 'http://s.so/admin/index.php?c=Sys.main', '127.0.0.1', '1398129469', '0')
+TM : 0.0732860565186 : 2014-04-22 09:17:49
+select count(*) from sy_msg
+				where uid = 18
+				and states = 0
+				and isread = 0
+				
+TM : 0.0732860565186 : 2014-04-22 09:17:49
+SELECT u_login,u_name,u_department,u_lead 
+				FROM `sy_user` 
+				where id = 18
+TM : 0.0732860565186 : 2014-04-22 09:17:49
+DESC sy_log
+TM : 0.111532926559 : 2014-05-08 09:55:52
+INSERT INTO sy_log (uid, code, url, ca, cookies, sessions, gets, posts, hash, nr, msg, PHP_SELF, QUERY_STRING, HTTP_HOST, HTTP_REFERER, REMOTE_ADDR, tm, state) VALUES ('18', '9999', 'http://s.so/I.php?m=ioSys.ms', 'Io.in', 'a:17:{s:14:\"CNZZDATA155540\";s:134:\"cnzz_eid=1199123840-1393558843-http%3A%2F%2Fs.so%2F&amp;ntime=1394090338&amp;cnzz_a=0&amp;sin=none&amp;ltime=1394090343914&amp;rtime=1\";s:15:\"CNZZDATA3933263\";s:101:\"cnzz_eid=1040653134-1393896214-&amp;ntime=1393989724&amp;cnzz_a=4&amp;ltime=1393981824539&amp;rtime=1\";s:15:\"CNZZDATA5128329\";s:114:\"cnzz_eid=1840524148-1393896214-&amp;ntime=1398246846&amp;cnzz_a=1&amp;sin=none&amp;ltime=1398247033826&amp;rtime=3\";s:15:\"CNZZDATA5149854\";s:114:\"cnzz_eid=1434568421-1393896214-&amp;ntime=1398246846&amp;cnzz_a=1&amp;sin=none&amp;ltime=1398247033709&amp;rtime=3\";s:39:\"Hm_lvt_4a6296f81379396c8ab28d874e3ad19a\";s:43:\"1393917204,1393981829,1393987533,1393989731\";s:39:\"Hm_lvt_bcbfd88c2f7d4224a710e0466553b672\";s:43:\"1393917205,1393981829,1393987533,1393989731\";s:39:\"Hm_lvt_b3dbc6c65502799269e7e38d6e9cad0c\";s:43:\"1393917205,1393981829,1393987533,1393989731\";s:39:\"Hm_lvt_adcc355dd4bdb9bb92aabef386448e7d\";s:10:\"1394698740\";s:39:\"Hm_lvt_8f63175c6ff197cdd16497ed7ffb30b2\";s:10:\"1398247034\";s:39:\"Hm_lvt_ed1d93bde535ec21d66952e31f9b752c\";s:10:\"1398247034\";s:15:\"CNZZDATA4701716\";s:132:\"cnzz_eid=87286835-1394698691-http%3A%2F%2Fs.so%2F&amp;ntime=1398246846&amp;cnzz_a=1&amp;sin=none&amp;ltime=1398247033859&amp;rtime=1\";s:39:\"Hm_lvt_cdbf2deff5c46b0fa06ae3b08aad9cce\";s:10:\"1398247034\";s:7:\"ucookie\";s:22:\"code139824703419260571\";s:3:\"zxb\";s:1:\"0\";s:9:\"PHPSESSID\";s:2:\"18\";s:4:\"suid\";s:2:\"18\";s:6:\"suname\";s:9:\"管理员\";}', 'a:0:{}', 'a:3:{s:1:\"m\";s:8:\"ioSys.ms\";s:1:\"c\";s:2:\"Io\";s:1:\"a\";s:2:\"in\";}', 'a:0:{}', '', 's:0:\"\";', '接口', '/I.php', 'm=ioSys.ms', 's.so', 'http://s.so/index.php?c=sys.main', '127.0.0.1', '1399514152', '0')
+TM : 0.111532926559 : 2014-05-08 09:55:52
+select count(*) from sy_msg
+				where uid = 18
+				and states = 0
+				and isread = 0
+				
+TM : 0.111532926559 : 2014-05-08 09:55:52
+SELECT u_login,u_name,u_department,u_lead 
+				FROM `sy_user` 
+				where id = 18
+TM : 0.111532926559 : 2014-05-08 09:55:53
+DESC sy_log
+TM : 0.101693153381 : 2014-05-09 09:43:44
+INSERT INTO sy_log (uid, code, url, ca, cookies, sessions, gets, posts, hash, nr, msg, PHP_SELF, QUERY_STRING, HTTP_HOST, HTTP_REFERER, REMOTE_ADDR, tm, state) VALUES ('18', '9999', 'http://s.so/I.php?m=ioSys.ms', 'Io.in', 'a:17:{s:14:\"CNZZDATA155540\";s:134:\"cnzz_eid=1199123840-1393558843-http%3A%2F%2Fs.so%2F&amp;ntime=1394090338&amp;cnzz_a=0&amp;sin=none&amp;ltime=1394090343914&amp;rtime=1\";s:15:\"CNZZDATA3933263\";s:101:\"cnzz_eid=1040653134-1393896214-&amp;ntime=1393989724&amp;cnzz_a=4&amp;ltime=1393981824539&amp;rtime=1\";s:15:\"CNZZDATA5128329\";s:114:\"cnzz_eid=1840524148-1393896214-&amp;ntime=1398246846&amp;cnzz_a=1&amp;sin=none&amp;ltime=1398247033826&amp;rtime=3\";s:15:\"CNZZDATA5149854\";s:114:\"cnzz_eid=1434568421-1393896214-&amp;ntime=1398246846&amp;cnzz_a=1&amp;sin=none&amp;ltime=1398247033709&amp;rtime=3\";s:39:\"Hm_lvt_4a6296f81379396c8ab28d874e3ad19a\";s:43:\"1393917204,1393981829,1393987533,1393989731\";s:39:\"Hm_lvt_bcbfd88c2f7d4224a710e0466553b672\";s:43:\"1393917205,1393981829,1393987533,1393989731\";s:39:\"Hm_lvt_b3dbc6c65502799269e7e38d6e9cad0c\";s:43:\"1393917205,1393981829,1393987533,1393989731\";s:39:\"Hm_lvt_adcc355dd4bdb9bb92aabef386448e7d\";s:10:\"1394698740\";s:39:\"Hm_lvt_8f63175c6ff197cdd16497ed7ffb30b2\";s:10:\"1398247034\";s:39:\"Hm_lvt_ed1d93bde535ec21d66952e31f9b752c\";s:10:\"1398247034\";s:15:\"CNZZDATA4701716\";s:132:\"cnzz_eid=87286835-1394698691-http%3A%2F%2Fs.so%2F&amp;ntime=1398246846&amp;cnzz_a=1&amp;sin=none&amp;ltime=1398247033859&amp;rtime=1\";s:39:\"Hm_lvt_cdbf2deff5c46b0fa06ae3b08aad9cce\";s:10:\"1398247034\";s:7:\"ucookie\";s:22:\"code139824703419260571\";s:5:\"ztmyy\";s:1:\"1\";s:9:\"PHPSESSID\";s:2:\"18\";s:4:\"suid\";s:2:\"18\";s:6:\"suname\";s:9:\"管理员\";}', 'a:0:{}', 'a:3:{s:1:\"m\";s:8:\"ioSys.ms\";s:1:\"c\";s:2:\"Io\";s:1:\"a\";s:2:\"in\";}', 'a:0:{}', '', 's:0:\"\";', '接口', '/I.php', 'm=ioSys.ms', 's.so', 'http://s.so/index.php?c=sys.main', '127.0.0.1', '1399599824', '0')
+TM : 0.101693153381 : 2014-05-09 09:43:44
+select count(*) from sy_msg
+				where uid = 18
+				and states = 0
+				and isread = 0
+				
+TM : 0.101693153381 : 2014-05-09 09:43:44
+SELECT u_login,u_name,u_department,u_lead 
+				FROM `sy_user` 
+				where id = 18
+TM : 0.101693153381 : 2014-05-09 09:43:45
+DESC sy_log
+TM : 0.163238048553 : 2014-05-13 09:56:26
+INSERT INTO sy_log (uid, code, url, ca, cookies, sessions, gets, posts, hash, nr, msg, PHP_SELF, QUERY_STRING, HTTP_HOST, HTTP_REFERER, REMOTE_ADDR, tm, state) VALUES ('18', '9999', 'http://s.so/I.php?m=ioSys.ms', 'Io.in', 'a:16:{s:14:\"CNZZDATA155540\";s:134:\"cnzz_eid=1199123840-1393558843-http%3A%2F%2Fs.so%2F&amp;ntime=1394090338&amp;cnzz_a=0&amp;sin=none&amp;ltime=1394090343914&amp;rtime=1\";s:15:\"CNZZDATA3933263\";s:101:\"cnzz_eid=1040653134-1393896214-&amp;ntime=1393989724&amp;cnzz_a=4&amp;ltime=1393981824539&amp;rtime=1\";s:15:\"CNZZDATA5128329\";s:114:\"cnzz_eid=1840524148-1393896214-&amp;ntime=1398246846&amp;cnzz_a=1&amp;sin=none&amp;ltime=1398247033826&amp;rtime=3\";s:15:\"CNZZDATA5149854\";s:114:\"cnzz_eid=1434568421-1393896214-&amp;ntime=1398246846&amp;cnzz_a=1&amp;sin=none&amp;ltime=1398247033709&amp;rtime=3\";s:39:\"Hm_lvt_4a6296f81379396c8ab28d874e3ad19a\";s:43:\"1393917204,1393981829,1393987533,1393989731\";s:39:\"Hm_lvt_bcbfd88c2f7d4224a710e0466553b672\";s:43:\"1393917205,1393981829,1393987533,1393989731\";s:39:\"Hm_lvt_b3dbc6c65502799269e7e38d6e9cad0c\";s:43:\"1393917205,1393981829,1393987533,1393989731\";s:39:\"Hm_lvt_adcc355dd4bdb9bb92aabef386448e7d\";s:10:\"1394698740\";s:39:\"Hm_lvt_8f63175c6ff197cdd16497ed7ffb30b2\";s:10:\"1398247034\";s:39:\"Hm_lvt_ed1d93bde535ec21d66952e31f9b752c\";s:10:\"1398247034\";s:15:\"CNZZDATA4701716\";s:132:\"cnzz_eid=87286835-1394698691-http%3A%2F%2Fs.so%2F&amp;ntime=1398246846&amp;cnzz_a=1&amp;sin=none&amp;ltime=1398247033859&amp;rtime=1\";s:39:\"Hm_lvt_cdbf2deff5c46b0fa06ae3b08aad9cce\";s:10:\"1398247034\";s:7:\"ucookie\";s:22:\"code139824703419260571\";s:9:\"PHPSESSID\";s:2:\"18\";s:4:\"suid\";s:2:\"18\";s:6:\"suname\";s:9:\"管理员\";}', 'a:0:{}', 'a:3:{s:1:\"m\";s:8:\"ioSys.ms\";s:1:\"c\";s:2:\"Io\";s:1:\"a\";s:2:\"in\";}', 'a:0:{}', '', 's:0:\"\";', '接口', '/I.php', 'm=ioSys.ms', 's.so', 'http://s.so/index.php?c=sys.main', '127.0.0.1', '1399946186', '0')
+TM : 0.163238048553 : 2014-05-13 09:56:26
+select count(*) from sy_msg
+				where uid = 18
+				and states = 0
+				and isread = 0
+				
+TM : 0.163238048553 : 2014-05-13 09:56:26
+SELECT u_login,u_name,u_department,u_lead 
+				FROM `sy_user` 
+				where id = 18
+TM : 0.163238048553 : 2014-05-13 09:56:26
+DESC sy_log
+TM : 0.140537977219 : 2014-05-14 09:40:55
+INSERT INTO sy_log (uid, code, url, ca, cookies, sessions, gets, posts, hash, nr, msg, PHP_SELF, QUERY_STRING, HTTP_HOST, HTTP_REFERER, REMOTE_ADDR, tm, state) VALUES ('18', '9999', 'http://s.so/I.php?m=ioSys.ms', 'Io.in', 'a:16:{s:14:\"CNZZDATA155540\";s:134:\"cnzz_eid=1199123840-1393558843-http%3A%2F%2Fs.so%2F&amp;ntime=1394090338&amp;cnzz_a=0&amp;sin=none&amp;ltime=1394090343914&amp;rtime=1\";s:15:\"CNZZDATA3933263\";s:101:\"cnzz_eid=1040653134-1393896214-&amp;ntime=1393989724&amp;cnzz_a=4&amp;ltime=1393981824539&amp;rtime=1\";s:15:\"CNZZDATA5128329\";s:114:\"cnzz_eid=1840524148-1393896214-&amp;ntime=1398246846&amp;cnzz_a=1&amp;sin=none&amp;ltime=1398247033826&amp;rtime=3\";s:15:\"CNZZDATA5149854\";s:114:\"cnzz_eid=1434568421-1393896214-&amp;ntime=1398246846&amp;cnzz_a=1&amp;sin=none&amp;ltime=1398247033709&amp;rtime=3\";s:39:\"Hm_lvt_4a6296f81379396c8ab28d874e3ad19a\";s:43:\"1393917204,1393981829,1393987533,1393989731\";s:39:\"Hm_lvt_bcbfd88c2f7d4224a710e0466553b672\";s:43:\"1393917205,1393981829,1393987533,1393989731\";s:39:\"Hm_lvt_b3dbc6c65502799269e7e38d6e9cad0c\";s:43:\"1393917205,1393981829,1393987533,1393989731\";s:39:\"Hm_lvt_adcc355dd4bdb9bb92aabef386448e7d\";s:10:\"1394698740\";s:39:\"Hm_lvt_8f63175c6ff197cdd16497ed7ffb30b2\";s:10:\"1398247034\";s:39:\"Hm_lvt_ed1d93bde535ec21d66952e31f9b752c\";s:10:\"1398247034\";s:15:\"CNZZDATA4701716\";s:132:\"cnzz_eid=87286835-1394698691-http%3A%2F%2Fs.so%2F&amp;ntime=1398246846&amp;cnzz_a=1&amp;sin=none&amp;ltime=1398247033859&amp;rtime=1\";s:39:\"Hm_lvt_cdbf2deff5c46b0fa06ae3b08aad9cce\";s:10:\"1398247034\";s:7:\"ucookie\";s:22:\"code139824703419260571\";s:9:\"PHPSESSID\";s:2:\"18\";s:4:\"suid\";s:2:\"18\";s:6:\"suname\";s:9:\"管理员\";}', 'a:0:{}', 'a:3:{s:1:\"m\";s:8:\"ioSys.ms\";s:1:\"c\";s:2:\"Io\";s:1:\"a\";s:2:\"in\";}', 'a:0:{}', '', 's:0:\"\";', '接口', '/I.php', 'm=ioSys.ms', 's.so', 'http://s.so/index.php?c=sys.main', '127.0.0.1', '1400031655', '0')
+TM : 0.140537977219 : 2014-05-14 09:40:56
+select count(*) from sy_msg
+				where uid = 18
+				and states = 0
+				and isread = 0
+				
+TM : 0.140537977219 : 2014-05-14 09:40:56
+SELECT u_login,u_name,u_department,u_lead 
+				FROM `sy_user` 
+				where id = 18
+TM : 0.140537977219 : 2014-05-14 09:40:56
+DESC sy_log
+TM : 0.105155944824 : 2014-05-20 10:19:50
+INSERT INTO sy_log (uid, code, url, ca, cookies, sessions, gets, posts, hash, nr, msg, PHP_SELF, QUERY_STRING, HTTP_HOST, HTTP_REFERER, REMOTE_ADDR, tm, state) VALUES ('18', '9999', 'http://s.so/I.php?m=ioSys.ms', 'Io.in', 'a:16:{s:14:\"CNZZDATA155540\";s:134:\"cnzz_eid=1199123840-1393558843-http%3A%2F%2Fs.so%2F&amp;ntime=1394090338&amp;cnzz_a=0&amp;sin=none&amp;ltime=1394090343914&amp;rtime=1\";s:15:\"CNZZDATA3933263\";s:101:\"cnzz_eid=1040653134-1393896214-&amp;ntime=1393989724&amp;cnzz_a=4&amp;ltime=1393981824539&amp;rtime=1\";s:15:\"CNZZDATA5128329\";s:114:\"cnzz_eid=1840524148-1393896214-&amp;ntime=1398246846&amp;cnzz_a=1&amp;sin=none&amp;ltime=1398247033826&amp;rtime=3\";s:15:\"CNZZDATA5149854\";s:114:\"cnzz_eid=1434568421-1393896214-&amp;ntime=1398246846&amp;cnzz_a=1&amp;sin=none&amp;ltime=1398247033709&amp;rtime=3\";s:39:\"Hm_lvt_4a6296f81379396c8ab28d874e3ad19a\";s:43:\"1393917204,1393981829,1393987533,1393989731\";s:39:\"Hm_lvt_bcbfd88c2f7d4224a710e0466553b672\";s:43:\"1393917205,1393981829,1393987533,1393989731\";s:39:\"Hm_lvt_b3dbc6c65502799269e7e38d6e9cad0c\";s:43:\"1393917205,1393981829,1393987533,1393989731\";s:39:\"Hm_lvt_adcc355dd4bdb9bb92aabef386448e7d\";s:10:\"1394698740\";s:39:\"Hm_lvt_8f63175c6ff197cdd16497ed7ffb30b2\";s:10:\"1398247034\";s:39:\"Hm_lvt_ed1d93bde535ec21d66952e31f9b752c\";s:10:\"1398247034\";s:15:\"CNZZDATA4701716\";s:132:\"cnzz_eid=87286835-1394698691-http%3A%2F%2Fs.so%2F&amp;ntime=1398246846&amp;cnzz_a=1&amp;sin=none&amp;ltime=1398247033859&amp;rtime=1\";s:39:\"Hm_lvt_cdbf2deff5c46b0fa06ae3b08aad9cce\";s:10:\"1398247034\";s:7:\"ucookie\";s:22:\"code139824703419260571\";s:9:\"PHPSESSID\";s:2:\"18\";s:4:\"suid\";s:2:\"18\";s:6:\"suname\";s:9:\"管理员\";}', 'a:0:{}', 'a:3:{s:1:\"m\";s:8:\"ioSys.ms\";s:1:\"c\";s:2:\"Io\";s:1:\"a\";s:2:\"in\";}', 'a:0:{}', '', 's:0:\"\";', '接口', '/I.php', 'm=ioSys.ms', 's.so', 'http://s.so/index.php?c=sys.main', '127.0.0.1', '1400552390', '0')
+TM : 0.105155944824 : 2014-05-20 10:19:50
+select count(*) from sy_msg
+				where uid = 18
+				and states = 0
+				and isread = 0
+				
+TM : 0.105155944824 : 2014-05-20 10:19:50
+SELECT u_login,u_name,u_department,u_lead 
+				FROM `sy_user` 
+				where id = 18
+TM : 0.105155944824 : 2014-05-20 10:19:51
