@@ -267,46 +267,9 @@ DEBUG_TRACER && $_W['_Files'][] 		= __FILE__;
 		return !(strpos($haystack, $needle) === FALSE);
 	}
 	
-	/**
-	+----------------------------------------------------------
-	* //sql转换
-	+----------------------------------------------------------
-	*/	function strip_sql($string) {
-		$pattern_arr = array("/ union /i", "/ select /i", "/ update /i", "/ outfile /i", "/ and /i", "/ or /i");
-		$replace_arr = array('&nbsp;union&nbsp;', '&nbsp;select&nbsp;', '&nbsp;update&nbsp;', '&nbsp;outfile&nbsp;', '&nbsp;and&nbsp;', '&nbsp;or&nbsp;');
-		return is_array($string) ? array_map('strip_sql', $string) : preg_replace($pattern_arr, $replace_arr, $string);
-	}
+
 		
-	function htmldecode($str){
-		if(empty($str)) return $str;
-		$str=str_replace("&amp;","&",$str);
-		$str=str_replace("&gt;",">",$str);
-		$str=str_replace("&lt;","<",$str);
-		$str=str_replace("&nbsp;",chr(32),$str);
-		$str=str_replace("&nbsp;",chr(9),$str);
-		// $str=str_replace("&#160;&#160;&#160;&#160;",chr(9),$str);
-		$str=str_replace("&#39;",chr(39),$str);
-		$str=str_replace("&#039;","'",$str);
-		$str=str_replace("&quot;",'"',$str);
-//		$str=str_replace("<br />",chr(13),$str);
-		$str=str_replace("''","'",$str);
-		$str=str_replace("select","select",$str);
-		$str=str_replace("join","join",$str);
-		$str=str_replace("union","union",$str);
-		$str=str_replace("where","where",$str);
-		$str=str_replace("insert","insert",$str);
-		$str=str_replace("delete","delete",$str);
-		$str=str_replace("update","update",$str);
-		$str=str_replace("like","like",$str);
-		$str=str_replace("drop","drop",$str);
-		$str=str_replace("create","create",$str);
-		$str=str_replace("modify","modify",$str);
-		$str=str_replace("rename","rename",$str);
-		$str=str_replace("alter","alter",$str);
-		$str=str_replace("ca&#115;","cast",$str);
-		//$str=str_replace("&",chr(34),$str);
-		return $str;
-	}	
+
 	
 	//获取字符串
 	function getsubstr($string, $length, $in_slashes = 0, $out_slashes = 0, $censor = 0, $bbcode = 0, $html = 0) {

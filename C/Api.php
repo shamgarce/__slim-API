@@ -34,17 +34,17 @@ class ApiBase {
 		global $_W;
 
 		$_W['_args'] 	= $args;			//源数据 -各项参数
-		$_W['_args']['v'] == 'debug' &&	$_W['debug'] = 1;
+		$_W['_args']['v'] == 'debug' &&	$_W['_args']['debug'] = 1;
 		//---------------------------------------------------------
 		//检查版本是否正确
 		if(in_array($_W['_args']['v'],$_W['verlib'])){			//判断合法的版本号
-			$_W['debug'] == 1 && $_W['_args']['v'] ==  $_W['verlib'][0];
+			$_W['_args']['debug'] == 1 && $_W['_args']['v'] ==  $_W['verlib'][0];
 		}else{
 			$_W['json']['code'] = -555;
 			$_W['json']['msg'] = '错误的版本号';
 		}
 		//---------------------------------------------------------
-		if($_W['json']['code'] != -555 && !$_W['debug']) self::fileini($_W['_args']);					//判断文件是否存在，并且初始化
+		if($_W['json']['code'] != -555 && !$_W['_args']['debug']) self::fileini($_W['_args']);					//判断文件是否存在，并且初始化
 			
 		include MP.$_W['_args']['v'].'/EasyConf/Config.inc.php';	//加载主配置文件
 		include MP.$_W['_args']['v'].'/EasyConf/Fun.inc.php';	//加载主配置文件

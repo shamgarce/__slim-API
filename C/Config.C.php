@@ -36,6 +36,46 @@ if(version_compare(PHP_VERSION,'5.3.0','<'))  die('require PHP > 5.2.0 !');					
 if (function_exists('date_default_timezone_set'))	date_default_timezone_set($_W['Timezone']);	//设置时间
 ini_set("display_errors",DEBUG_ERROR_REPORT);					//设置错误显示
 //===============================================================
+/**
++----------------------------------------------------------
+* //sql转换
++----------------------------------------------------------
+*/	function strip_sql($string) {
+	$pattern_arr = array("/ union /i", "/ select /i", "/ update /i", "/ outfile /i", "/ and /i", "/ or /i");
+	$replace_arr = array('&nbsp;union&nbsp;', '&nbsp;select&nbsp;', '&nbsp;update&nbsp;', '&nbsp;outfile&nbsp;', '&nbsp;and&nbsp;', '&nbsp;or&nbsp;');
+	return is_array($string) ? array_map('strip_sql', $string) : preg_replace($pattern_arr, $replace_arr, $string);
+}
+function htmldecode($str){
+	if(empty($str)) return $str;
+	$str=str_replace("&amp;","&",$str);
+	$str=str_replace("&gt;",">",$str);
+	$str=str_replace("&lt;","<",$str);
+	$str=str_replace("&nbsp;",chr(32),$str);
+	$str=str_replace("&nbsp;",chr(9),$str);
+	// $str=str_replace("&#160;&#160;&#160;&#160;",chr(9),$str);
+	$str=str_replace("&#39;",chr(39),$str);
+	$str=str_replace("&#039;","'",$str);
+	$str=str_replace("&quot;",'"',$str);
+//		$str=str_replace("<br />",chr(13),$str);
+	$str=str_replace("''","'",$str);
+	$str=str_replace("select","select",$str);
+	$str=str_replace("join","join",$str);
+	$str=str_replace("union","union",$str);
+	$str=str_replace("where","where",$str);
+	$str=str_replace("insert","insert",$str);
+	$str=str_replace("delete","delete",$str);
+	$str=str_replace("update","update",$str);
+	$str=str_replace("like","like",$str);
+	$str=str_replace("drop","drop",$str);
+	$str=str_replace("create","create",$str);
+	$str=str_replace("modify","modify",$str);
+	$str=str_replace("rename","rename",$str);
+	$str=str_replace("alter","alter",$str);
+	$str=str_replace("ca&#115;","cast",$str);
+	//$str=str_replace("&",chr(34),$str);
+	return $str;
+}	
+	
 function saddslashes($string) {				//防止注入函数
 	if (is_array($string)) {
 		foreach ($string as $key => $val) {
@@ -56,6 +96,7 @@ function shtmlspecialchars($string) {		//XXS函数
 	}
 	return $string;
 }
+
 $magic_quote = get_magic_quotes_gpc(); 		//$magic_quote = 0
 if (empty($magic_quote)) {
 	$_GET 		= saddslashes($_GET);
