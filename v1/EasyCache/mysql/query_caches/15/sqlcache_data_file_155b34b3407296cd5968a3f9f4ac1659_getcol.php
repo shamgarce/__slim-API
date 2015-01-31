@@ -1,3 +1,0 @@
-<?php exit;?>//[begin]//a:3:{s:9:"cachename";s:88:"SELECT table_name
-				FROM information_schema.tables
-				where table_schema = 'ms_new'";s:7:"cachetm";i:1415176317;s:12:"cachecontent";s:415:"a:19:{i:0;s:4:"city";i:1;s:5:"lz_ad";i:2;s:5:"lz_ly";i:3;s:7:"lz_page";i:4;s:5:"lz_xm";i:5;s:16:"sy_article_class";i:6;s:8:"sy_group";i:7;s:6:"sy_log";i:8;s:8:"sy_menus";i:9;s:10:"sy_modules";i:10;s:6:"sy_msg";i:11;s:10:"sy_options";i:12;s:12:"sy_quicknote";i:13;s:11:"sy_register";i:14;s:16:"sy_register_coin";i:15;s:20:"sy_register_coin_log";i:16;s:15:"sy_register_log";i:17;s:7:"sy_user";i:18;s:10:"sy_user_mo";}";}//[end]//
