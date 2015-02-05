@@ -9,8 +9,8 @@
     <!-- Bootstrap -->
     <link href="/A/bootstrap-3.2.0/css/bootstrap.min.css" rel="stylesheet">
     <link href="/A/bootstrap-3.2.0/font.css" rel="stylesheet">
-    
-    
+
+
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -43,8 +43,8 @@
         </div>
         <div id="navbar" class="collapse navbar-collapse">
           <ul class="nav navbar-nav">
-            <li><a href="/Man/doc">文档</a></li>
             <li class="active"><a href="/Man/index">路由</a></li>
+            <li><a href="/Man/doc">文档</a></li>
             <li><a href="/Man/model">模块</a></li>
           </ul>
         </div><!--/.nav-collapse -->
@@ -54,38 +54,44 @@
         <h1>&nbsp;</h1>
       <div class="starter-template">
         <h1>接口管理  </h1>
-        <p class="lead">接口配置</p>
         
-        
-        <table class="table table-hover table-condensed" >
-  <tr>
-    <td colspan="4"><a class="apiaddnew">添加新的</a></td>
-    </tr>
-    <tr>
-      <td>路径</td>
-      <td>&nbsp;</td>
-      <td width="160">映射</td><td width="190">操作</td>
-    </tr>
-<?php
+        <table class="table table-hover table-condensed table-striped table-bordered" >
+          <tr></tr>
+          <tr>
+            <td width="40">
+            
+            </td>
+            <td><a class="apiaddnew">添加新的</a></td>
+            <td width="350">映射</td>
+            <td width="80">调试</td>
+          </tr>
+          <?php
 foreach($rc as $key=>$value) {
 ?>
-
-
-    <tr>
-        <td>/<?php echo $value['v']?>/<?php echo $value['api']?>/
-        </td>
-        <td><?php echo $value['debug']?></td>
-        <td><?php echo $value['ys']?></td>
-        <td>
-        <a class="apiedit" rel="<?php echo $value['id']?>">修改</a> 
-        <a class="apicode">代码</a></td>
-    </tr>
-<?php
+          <tr>
+            <td><?php echo $value['id']?></td>
+            <td><a class="viewdoc" rel=<?php echo $value['id']?>><?php echo $value['name']?></a></td>
+            <td><?php echo $value['api']?>[<?php echo $value['v']?>]</td>
+            <td> 
+            <?php
+            if($value['debug'] ==1){
+			?>
+            <a class="changedebug" rel=0 rid=<?php echo $value['id']?>><span class="glyphicon glyphicon-ok red"></span></a>
+            <?php
+			}else{
+			?>
+            <a class="changedebug" rel=1 rid=<?php echo $value['id']?>><span class="glyphicon glyphicon-remove-circle green" ></span></a>
+            <?php
+			}
+			?>
+&nbsp; 
+            <a class="apiedit" rel="<?php echo $value['id']?>"><span class="glyphicon glyphicon-wrench yellow"></span></a>
+            </td>
+          </tr>
+          <?php
 }
 ?>
-
-
-</table>
+        </table>
 执行时间 <strong>{elapsed_time}</strong> 秒
       </div>
 
@@ -100,28 +106,29 @@ foreach($rc as $key=>$value) {
 	<script language="javascript">
     $(document).ready(function(e) {	 
         
-		
-        $('.apiaddnew').click(function(){
-            $.CK({
-                rel:'apiaddnew',
-                url:'/Man/addnew',
-                _this:$(this),
-                buttonok	: true,
-                buttoncancel: true,
-                });
-        });
 
 
+$('.changedebug').click(function(){
 
-        $('.apicode').click(function(){
-            $.CK({
-                rel:'apicode',
-                url:'/Man/apicode',
-                _this:$(this),
-                buttonok	: true,
-                buttoncancel: true,
-                });
-        });
+		var res = $.ajax({
+			url : '/Man/changedebug/'+$(this).attr('rid')+'/'+$(this).attr('rel'),
+			type: 'post',
+			data: {},
+			dataType: "json",
+			async:false,
+			cache:false
+		}).responseText;
+		//==========================1
+		if(res.code<0){
+			alert(res.msg);
+			return false;
+		}else{
+			location.reload();
+			return true;
+		}				
+			
+
+});
 
         $('.apiedit').click(function(){
             $.CK({
@@ -132,6 +139,27 @@ foreach($rc as $key=>$value) {
                 buttoncancel: true,
                 });
         });
+		
+        $('.viewdoc').click(function(){
+            $.CK({
+                rel:'viewdoc',
+                url:'/Man/Docview/'+$(this).attr('rel'),
+                _this:$(this),
+                buttonok	: false,
+                buttoncancel: false,
+                });
+        });
+
+        $('.apiaddnew').click(function(){
+            $.CK({
+                rel:'apiaddnew',
+                url:'/Man/addnew',
+                _this:$(this),
+                buttonok	: true,
+                buttoncancel: true,
+                });
+        });
+
     
     });
     </script>

@@ -51,6 +51,7 @@ class v1 extends CI_Controller
 			$___a 	= (substr($___aj, 0, 1) != ':')? empty($___aj)?'index':$___aj:'index';
 			$map[$___m][$___a] = array($value['id'],$value['ys']);
 		}
+
 		//等待匹配的map
 
 		$sign['method'] = $method;
@@ -83,7 +84,8 @@ class v1 extends CI_Controller
 			$this->load->library('M/'.ucwords($sp[0]),$params);
 			$this->$sp[0]->$sp[1]($sign);							//把头部签名文件传递进去
 		}else{
-			$this->jout(200,'designing');
+			//
+			$this->jout(200,'designing api closed');
 		}
 		//===============================================================
 	}

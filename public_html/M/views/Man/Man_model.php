@@ -35,8 +35,8 @@
         </div>
         <div id="navbar" class="collapse navbar-collapse">
           <ul class="nav navbar-nav">
-            <li><a href="/Man/doc">文档</a></li>
             <li><a href="/Man/index">路由</a></li>
+            <li><a href="/Man/doc">文档</a></li>
             <li class="active"><a href="/Man/model">模块</a></li>
           </ul>
         </div><!--/.nav-collapse -->

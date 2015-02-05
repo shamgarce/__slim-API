@@ -41,16 +41,7 @@ class Man extends CI_Controller
 		exit;
 	}
 
-	public function Docview($num = 0)
-	{
-		$sql = "select * from userapi where id = $num";
-		$data['row'] = $this->db->getrow($sql);
-		$data['id'] = $num;
-		$this->load->view('Man/Man_docview',$data);
-	}
-
-
-	//主要的管理界面
+	//自动生成接口文档
 	public function doc()
 	{
 		$rc = $this->db->getall("select * from userapi");
@@ -61,6 +52,16 @@ class Man extends CI_Controller
 
 
 
+
+	//单个查看接口详细
+	public function Docview($num = 0)
+	{
+		$sql = "select * from userapi where id = $num";
+		$data['row'] = $this->db->getrow($sql);
+		$data['id'] = $num;
+		$this->load->view('Man/Man_docview',$data);
+	}
+
 	//主要的管理界面
 	public function index()
 	{
@@ -69,6 +70,9 @@ class Man extends CI_Controller
 		$data['rc'] = $rc;
 		$this->load->view('Man/Man_index',$data);
 	}
+
+
+
 
 	//添加新的接口
 	public function addnew()
