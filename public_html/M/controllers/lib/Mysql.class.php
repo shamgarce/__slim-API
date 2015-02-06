@@ -41,7 +41,7 @@ final class MysqlConfig{    //不允许被继承
 
     //------------------------------数据库信息配置
     );
-
+    private function __clone(){}
     public static function getconfig()
     {
         return self::$MysqlConfig;
@@ -59,10 +59,10 @@ class Mysql{
     public $retemp      = array();      //临时结果集 gsql的结果集临时存储
     public $queryTime   = 0;
     public $queryLog    = array();
-    public $max_cache_time = 300; 						// 最大的缓存时间，以秒为单位
-    public $root_path           = 'EasyCache/';//RHCACHE
-    public $cache_data_dir     = 'query_caches/';		//缓存记录
-    public $err_path      	  = 'errlog/';				//错误/慢查询 日志
+    public $max_cache_time = 300; 					// 最大的缓存时间，以秒为单位
+    public $root_path           = 'EasyCache/';    //RHCACHE
+    public $cache_data_dir     = 'query_caches/';	//缓存记录
+    public $err_path      	  = 'errlog/';			//错误/慢查询 日志
     public $debug      	= false;
     public $error_message  = array();
     public $platform       = '';			//操作系统
@@ -71,8 +71,8 @@ class Mysql{
     public $starttime      = 0;
     public $timeline       = 0;
     public $timezone       = 0;
-    public $lifetime       = 0;			//缓存有效时间,<=0标识关闭
-    public $slowquery       = 0.5;			//慢查询记录时间 超过这个时间,进行记录
+    public $lifetime       = 0;			    //缓存有效时间,<=0标识关闭
+    public $slowquery       =0.5;			//慢查询记录时间 超过这个时间,进行记录
     public $mysql_config_cache_file_time = 0;
     public $cache_data 	= '';
     public $cache_data_name= '';
@@ -234,15 +234,16 @@ class Mysql{
             return false;
         }
 
-//        //记录慢查询   //暂时去掉慢查询记录
-//        $tm = $this->queryTime - $this->starttime;
-//        if ($tm>$this->slowquery){
-//            $str = $sql."\r\n".'TM : '.$tm.' : '.date('Y-m-d H:i:s')."\r\n----------------------------\r\n";
-//            $filename = 'slowquery.php';
-//            $tpath = $this->root_path.$this->err_path;
-//            $cachefile = $tpath .$filename;
-//            @file_put_contents($cachefile, $str, FILE_APPEND);
-//        }
+
+
+        //记录慢查询   //暂时去掉慢查询记录
+        $tm = $this->queryTime - $this->starttime;
+        if ($tm>$this->slowquery){
+            $str = $sql."\r\n".'TM : '.$tm.' : '.date('Y-m-d H:i:s')."\r\n----------------------------\r\n";
+            $cachefile = $this->root_path . $this->err_path . 'slowquery.php';
+            @file_put_contents($cachefile, $str, FILE_APPEND);
+        }
+
         return $query;
     }
 
@@ -504,9 +505,6 @@ class Mysql{
 
     //------------------------------------------------------------
     //元操作
-
-
-
     private function result($query, $row){
         return @mysql_result($query, $row);
     }
