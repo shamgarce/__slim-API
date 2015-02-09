@@ -21,7 +21,7 @@
 <tr>
   <td valign="top"><p>
 <p class="resultte">
-<?php echo $row['dis']?></p>
+<pre><?php echo $row['dis']?></pre></p>
 <hr>
 校验工具 : <a href="http://www.bejson.com/" target="_blank">http://www.bejson.com/</a></td>
 </tr>

@@ -47,7 +47,11 @@
       </tr>
       <tr>
         <td>说明<br />
-          <textarea name="textfield7" cols="60" rows="6" class="addnew_dis"></textarea></td>
+          <textarea name="textfield7" cols="60" rows="6" class="addnew_dis">模块 :
+说明 :
+参数 :
+成功 :
+失败 :</textarea></td>
       </tr>
     </table></td>
   </tr>

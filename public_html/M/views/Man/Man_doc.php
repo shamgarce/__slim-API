@@ -89,10 +89,7 @@ foreach($rc as $key=>$value){
         <h4><span class="label label-primary">关闭</span> : <?php echo $value['enable']?></h4>
         <h4><span class="label label-primary">说明</span> : </h4>
         </p>
-    <blockquote>
-    <p><?php echo $value['dis']?></p>
-    </blockquote>
-
+    <p><pre><?php echo $value['dis']?></pre></p>
     </div>
 </div>
 </div>
