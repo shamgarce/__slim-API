@@ -20,15 +20,7 @@
   </head>
   <body>
 
-
-
-
-
-
-
-
     <div class="container">
-
 
  <nav class="navbar navbar-inverse navbar-fixed-top">
       <div class="container">
@@ -107,28 +99,28 @@ foreach($rc as $key=>$value) {
     $(document).ready(function(e) {	 
         
 
-
-$('.changedebug').click(function(){
-
-		var res = $.ajax({
-			url : '/Man/changedebug/'+$(this).attr('rid')+'/'+$(this).attr('rel'),
-			type: 'post',
-			data: {},
-			dataType: "json",
-			async:false,
-			cache:false
-		}).responseText;
-		//==========================1
-		if(res.code<0){
-			alert(res.msg);
-			return false;
-		}else{
-			location.reload();
-			return true;
-		}				
-			
-
-});
+		
+		$('.changedebug').click(function(){
+		
+				var res = $.ajax({
+					url : '/Man/changedebug/'+$(this).attr('rid')+'/'+$(this).attr('rel'),
+					type: 'post',
+					data: {},
+					dataType: "json",
+					async:false,
+					cache:false
+				}).responseText;
+				//==========================1
+				if(res.code<0){
+					alert(res.msg);
+					return false;
+				}else{
+					location.reload();
+					return true;
+				}				
+					
+		
+		});
 
         $('.apiedit').click(function(){
             $.CK({
@@ -146,7 +138,7 @@ $('.changedebug').click(function(){
                 url:'/Man/Docview/'+$(this).attr('rel'),
                 _this:$(this),
                 buttonok	: false,
-                buttoncancel: false,
+                buttoncancel: true,
                 });
         });
 

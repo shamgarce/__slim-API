@@ -115,7 +115,10 @@ class Mysql{
         }
     }
 
+    //=====================================================
+    // return true or false
     //连接数据库
+    //=====================================================
     private function connect($dbhost, $dbuser, $dbpw, $dbname = '', $charset = 'utf8', $pconnect = 0, $quiet = 0)
     {
             $this->link_id = @mysql_connect($dbhost, $dbuser, $dbpw, true);         //非持久连接
@@ -213,17 +216,13 @@ class Mysql{
             $this->connect($this->settings['dbhost'], $this->settings['dbuser'], $this->settings['dbpw'], $this->settings['dbname'], $this->settings['charset'], $this->settings['pconnect']);
             // $this->settings = array();
         }
-        if ($this->queryCount++ <= 999){
-            $this->queryLog[] = $sql;
-        }
+        if ($this->queryCount++ <= 999){            $this->queryLog[] = $sql;        }
         if ($this->queryTime == 0){
             $this->queryTime = microtime(true);     //版本5.3是环境必须
         }
 
         /* 当当前的时间大于类初始化时间的时候，自动执行 ping 这个自动重新连接操作 */
-        if (time() > $this->starttime + 1){
-            mysql_ping($this->link_id);
-        }
+        if (time() > $this->starttime + 1){            mysql_ping($this->link_id);        }
 
         if (!($query = mysql_query($sql, $this->link_id)) && $type != 'SILENT'){
             $this->error_message[]['message'] = 'MySQL Query Error';
@@ -236,14 +235,12 @@ class Mysql{
 
 
 
-        //记录慢查询   //暂时去掉慢查询记录
-        $tm = $this->queryTime - $this->starttime;
-        if ($tm>$this->slowquery){
-            $str = $sql."\r\n".'TM : '.$tm.' : '.date('Y-m-d H:i:s')."\r\n----------------------------\r\n";
+        //记录慢查询
+        if ($this->queryTime - $this->starttime>$this->slowquery){
+            $str = $sql."\r\n".'TM : '.$this->queryTime - $this->starttime.' : '.date('Y-m-d H:i:s')."\r\n----------------------------\r\n";
             $cachefile = $this->root_path . $this->err_path . 'slowquery.php';
             @file_put_contents($cachefile, $str, FILE_APPEND);
         }
-
         return $query;
     }
 

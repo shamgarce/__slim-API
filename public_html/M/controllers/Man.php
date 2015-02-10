@@ -5,7 +5,6 @@ class Man extends CI_Controller
 
 	/**
 	 * Index Page for this controller.
-	 *
 	 * Maps to the following URL
 	 *        http://example.com/index.php/welcome
 	 *    - or -
@@ -173,8 +172,7 @@ class Man extends CI_Controller
 	//=============================================================
 	public function model()
 	{
-		$rc = $this->db->getall("select * from user_model order by m");
-
+		$rc = $this->db->getall("select m from user_model order by m");
 		//==========================================================
 		$data['rc'] = $rc;
 		$this->load->view('Man/Man_model',$data);
