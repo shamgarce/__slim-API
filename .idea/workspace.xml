@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8fdaf63a-f73f-4dde-aabf-fdc3c5cc9f28" name="Default" comment="Rejected commit: Default">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/M/views/Doc/nrlist.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/M/views/Doc/vset.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/M/views/Doc/vset_addnew.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/M/views/Doc/vset_select.php" />
+    <list default="true" id="8fdaf63a-f73f-4dde-aabf-fdc3c5cc9f28" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/_1.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/_2.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="slim-API.iws" />
@@ -44,8 +42,8 @@
       <file leaf-file-name="Doc.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/public_html/M/controllers/Doc.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.7935943" vertical-offset="717" max-vertical-offset="1804">
-              <caret line="63" column="5" selection-start-line="63" selection-start-column="5" selection-end-line="63" selection-end-column="5" />
+            <state vertical-scroll-proportion="0.53262156" vertical-offset="717" max-vertical-offset="1804">
+              <caret line="53" column="34" selection-start-line="53" selection-start-column="34" selection-end-line="53" selection-end-column="34" />
               <folding />
             </state>
           </provider>
@@ -361,7 +359,13 @@
       <option name="project" value="LOCAL" />
       <updated>1423569982623</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Rejected commit: Default">
+      <created>1423570028121</created>
+      <option name="number" value="00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1423570028121</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -784,8 +788,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/public_html/M/controllers/Doc.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7935943" vertical-offset="717" max-vertical-offset="1804">
-          <caret line="63" column="5" selection-start-line="63" selection-start-column="5" selection-end-line="63" selection-end-column="5" />
+        <state vertical-scroll-proportion="0.53262156" vertical-offset="717" max-vertical-offset="1804">
+          <caret line="53" column="34" selection-start-line="53" selection-start-column="34" selection-end-line="53" selection-end-column="34" />
           <folding />
         </state>
       </provider>
