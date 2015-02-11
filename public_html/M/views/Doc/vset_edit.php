@@ -1,19 +1,25 @@
 <table width="750" border="0" cellspacing="1">
   <tr>
     <td>归属 : 
-    <input name="textfield3" type="text" id="selectguishu" value="无" size="70" rel=0 /></td>
+    <input name="textfield3" type="text" id="selectguishu" value="<?php echo $_rc[$rc['preid']]['title']?>" size="70" rel=<?php echo $rc['preid']?> />
+    
+<input name="textfield3" type="hidden" id="ssid" value="<?php echo $rc['id']?>" />
+    
+    
+    
+    </td>
   </tr>
   <tr>
     <td>
     标题 : 
-      <input name="textfield" type="text" id="addnew_articletitle" size="70" /></td>
+      <input name="textfield" type="text" id="addnew_articletitle" value="<?php echo $rc['title']?>" size="70" /></td>
   </tr>
   <tr>
-    <td>内容 :<br />      <textarea id="editor_id" name="content" style="width:650px;height:300px;"></textarea></td>
+    <td>内容 :<br />      <textarea id="editor_id" name="content" style="width:650px;height:300px;"><?php echo $rc['content']?></textarea></td>
   </tr>
   <tr>
     <td>URL :
-      <br />      <textarea name="textfield2" cols="70" rows="5" id="addnew_url"></textarea></td>
+      <br />      <textarea name="textfield2" cols="70" rows="5" id="addnew_url"><?php echo $rc['url']?></textarea></td>
   </tr>
 </table>
 <script type="text/dialog">
@@ -59,9 +65,11 @@ $.getScript('/A/kindeditor-4.1.10/kindeditor-min.js', function() {
 	this.opt = {				//确定按钮的点击
 		ok:function(){
 				var res = $.ajax({
-				url : '/Doc/vset_addnew_exc',
+				url : '/Doc/vset_edit_exc',
 				type: 'post',
 				data: {
+					
+					id 		: $('#ssid').val(),
 					bguishu : $('#selectguishu').attr("rel"),
 					btiaoti : $('#addnew_articletitle').val(),
 					bnr 	: editor.html(),
