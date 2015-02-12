@@ -9,6 +9,11 @@
       <input name="textfield" type="text" id="addnew_articletitle" size="70" /></td>
   </tr>
   <tr>
+    <td>标题模式 ： 
+      <input type="checkbox" name="titleonly" id="titleonly" value="1"/>
+    <label for="checkbox"></label></td>
+  </tr>
+  <tr>
     <td>内容 :<br />      <textarea id="editor_id" name="content" style="width:650px;height:300px;"></textarea></td>
   </tr>
   <tr>
@@ -66,6 +71,7 @@ $.getScript('/A/kindeditor-4.1.10/kindeditor-min.js', function() {
 					btiaoti : $('#addnew_articletitle').val(),
 					bnr 	: editor.html(),
 					burl 	: $('#addnew_url').val(),
+					titleonly 	: $("input[name='titleonly']:checked").val(),
 					},
 				dataType: "json",
 				async:false,

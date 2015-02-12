@@ -41,7 +41,7 @@
         	<a href="/Doc/">Easy</a> &raquo; 
         </li>
 <?php
-foreach($treepath as $key=>$value){
+foreach($nav as $key=>$value){
 	if($value['id'] != $listid){
 ?>
 <li><a href="/Doc/index/<?php echo $value['id']; ?>"><?php echo $value['title']?></a> &raquo;</li>
@@ -135,7 +135,7 @@ title="下一章">数据库表,数据库表定义文件及模型命名规则</a>
         
 <li><a href="/Doc/">Easy</a> &raquo;</li>
 <?php
-foreach($treepath as $key=>$value){
+foreach($nav as $key=>$value){
 ?>
 <li><a href="/Doc/index/<?php echo $value['id']; ?>"><?php echo $value['title']?></a> &raquo;</li>
 <?php

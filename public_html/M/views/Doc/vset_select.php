@@ -1,17 +1,17 @@
 
 <div id="selectbm"><table width="750" border="0" cellspacing="1">
   <tr>
-    <td><a relid="0" rel="根">根</a></td>
+    <td><a relid="0" rel="根">-> 根</a></td>
   </tr>
+  <?php foreach($list as $key=>$value){ ?>
   <tr>
-    <td><a relid="1" rel="根1">根1</a></td>
+    <td><?php echo $value['_vchr']; ?>
+    
+    <a relid="<?php echo $value['id']; ?>" rel="<?php echo $value['title'] ?>"><?php echo $value['title']; ?></a>
+    
+    </td>
   </tr>
-  <tr>
-    <td><a relid="2" rel="根2">根2</a></td>
-  </tr>
-  <tr>
-    <td><a relid="3" rel="根3">根3</a></td>
-  </tr>
+  <?php	  }?>    
 </table>
 </a>
 <script type="text/dialog">

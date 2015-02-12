@@ -11,152 +11,63 @@ class Doc extends CI_Controller
 		include(MBASE.'\Mysql.class.php');
 		$this->db = Mysql::getInstance();
 		//连接数据库================================================
+
+		include(MBASE.'\Tree.class.php');
 	}
 
 	//可编辑的首页,在适当的位置会有个edit标签		首页 是一个封面
 	public function index($listid = 0)
 	{
 		//=============================================================
-		//是否指向文章页面,根据两重数据来进行判断
-		//1 : 数据库指定的ar标签 否则为list
-		//2 :
-		//初始化
-		// $listid	类别ID
-		// $rc		容器
-		// $_rc		资源数据
-		//=============================================================
 		$listid = intval($listid);
-		$rc 	= array();
-		$rc2 	= array();
-		$sql	= "select id,preid,title from doc_document where enable = 0 order by sort desc ,id";
+		$sql	= "select id,preid,title,titleonly from doc_document where enable = 0 order by sort desc ,id";
 		$_rc	= $this->db->getall($sql,'id');		//所有的数据
+
+		$Tree = new Tree($_rc);
+		$leaf = $Tree->leaf($listid);
+		$data['leaf'] = $leaf;
+		$level = $Tree->leaf_level($listid);
+		$nav = $Tree->navi($listid);
+		$data['nav'] = $nav;
 
 		//=============================================================
 		//整课树的运算  第一,运算处小树枝 第二 运算出是否叶子
-		$_rc = $this->unc_tree(0,$_rc);				//获得一棵树			//['ye']
 		$_rc['id'] = 0;
 		$_rc['title'] = '根';
-		$rc = $this->unc_find_father($_rc);			//对叶子的父亲进行标记	//['fa']
-
-		//对树进行遍历,找到合适的分叉
-		$rc = $this->unc_find_id($listid,$rc);		//根据ID找到分叉;
-		$this->unc_find_path($listid,$_rc);			//根据整棵树建立路径
-
-		//print_r($this->treepath);
-
 
 
 		//=============================================================
 		//跟本id同级,以及下级的
 		$data['listid'] = $listid;
-		$data['rc'] = $rc;							//ok对一级,二级进行列表,其他层级不管
-
-		krsort($this->treepath);
-		$data['treepath'] = $this->treepath;		//路径
+		$data['TA'] = array("0"=>"A","1"=>"T");		//路径
 
 		$this->load->helper('cookie');
 		$this->load->view('Doc/index',$data);
 	}
 
-
-	//对整棵树进行检查,计算出叶子
-	//中止条件 : 数据不在are中
-	//入口 0
-	function unc_tree($id, $are=array()){
-		// 根据id 检索出需要处理的单元
-		//返回数据是该单元,和该单元下面的子数据
-		//中止条件,叶子
-		$fwe = true;
-		$ar = $are[$id];
-		foreach($are as $key=>$value){
-			if($value['preid'] == $id){
-				$fwe = false;
-				$ar['child'][$value['id']] = $this->unc_tree($value['id'],$are);
-			}
-		}
-		if($fwe) $ar['ye'] = $fwe;			//叶子标记
-		return $ar;
-	}
-
-	//对叶子的父亲进行标记
-	function unc_find_father($are=array())
-	{
-		if($are['ye']==1){		//叶子
-			return $are;
-		}
-		if($are['ye']!=1) {        //非叶子
-			$reflag = true;
-			foreach($are['child'] as $key=>$value) {
-				if($value['ye']!=1) {
-					$reflag = false;
-				}
-			}
-			if($reflag){
-				$are['fa']=1;
-				return $are;
-			}
-		}
-		//===============================================
-		foreach($are['child'] as $key=>$value){
-			$are['child'][$key] = $this->unc_find_father($value);
-		}
-		return $are;
-	}
-
-	//根据id,获取相应的分支
-	function unc_find_id($id,$are=array())
-	{
-		if($id == 0) return $are;
-		if($id == $are['id']) return $are;
-		//===============================================
-		foreach($are['child'] as $key=>$value){
-			return $this->unc_find_id($id,$value);
-		}
-		return array();
-	}
-
-	//根据id,获取相应的分支
-	function unc_find_path($id,$are=array())
-	{
-		if($id == $are['id'] || $id == 0){
-			return true;
-		}
-		//echo print_r($are['child']);
-		//===============================================
-		foreach($are['child'] as $key=>$value){
-			$mc = $this->unc_find_path($id,$value);
-			if($mc){
-				$uc = $value;
-				unset($uc['child']);
-				$this->treepath[] = $uc;
-				return $mc;
-			}
-		}
-		return false;
-	}
-
 	//=============================================================
 	//查看
 	public function nrview($listid = 0){
+		//=============================================================
 		$listid = intval($listid);
-		$rc 	= array();
-		$rc2 	= array();
-		$sql	= "select id,preid,title from doc_document where enable = 0 order by sort desc ,id";
+		$sql	= "select id,preid,title,titleonly from doc_document where enable = 0 order by sort desc ,id";
 		$_rc	= $this->db->getall($sql,'id');		//所有的数据
 
+		$Tree = new Tree($_rc);
+		$leaf = $Tree->leaf($listid);
+		$data['leaf'] = $leaf;
+//		$level = $Tree->leaf_level($listid);
+		$nav = $Tree->navi($listid);
+		$data['nav'] = $nav;
 
 		//=============================================================
 		//整课树的运算  第一,运算处小树枝 第二 运算出是否叶子
-		$_rc = $this->unc_tree(0,$_rc);				//获得一棵树			//['ye']
+
 		$_rc['id'] = 0;
 		$_rc['title'] = '根';
-		$rc = $this->unc_find_father($_rc);			//对叶子的父亲进行标记	//['fa']
 
-		//对树进行遍历,找到合适的分叉
-		$rc = $this->unc_find_id($listid,$rc);		//根据ID找到分叉;
-		$this->unc_find_path($listid,$_rc);			//根据整棵树建立路径
-
-//print_r($this->treepath);
+		//=============================================================
+		$data['listid'] = $listid;		//跟本id同级,以及下级的
 
 		//=============================================================
 		//本页内容
@@ -168,16 +79,8 @@ class Doc extends CI_Controller
 		$data['mcmain'] = $mcmain;
 		$data['mc'] = $mc;
 		//=============================================================
-		//跟本id同级,以及下级的
-		$data['listid'] = $listid;
-		$data['rc'] = $rc;							//ok对一级,二级进行列表,其他层级不管
-
-		krsort($this->treepath);
-		$data['treepath'] = $this->treepath;		//路径
 
 		$this->load->helper('cookie');
-
-
 		$this->load->view('Doc/nrview',$data);
 	}
 
@@ -208,17 +111,24 @@ class Doc extends CI_Controller
 	//选择 归属
 	public function vset_select(){
 		//检索所有的信息,选择归属
-
-
 		//功能 :设置是否显示编辑和排序,还有是否展示地址
-		$sql	= "select id,preid,title from doc_document
-					where LENGTH(content) = 0 and enable = 0
-					order by sort desc ,id";
+
+		$sql	= "select id,preid,title,titleonly from doc_document where titleonly = 1 and enable = 0 order by sort desc ,id";
 		$_rc	= $this->db->getall($sql,'id');		//所有的数据
+
+		$Tree = new Tree($_rc);
+		$leaf = $Tree->leaf(0);
+		$data['leaf'] = $leaf;
+		$level = $Tree->leaf_level(0);
+		$list = $Tree->getlist();
+
+		$_rc['id'] = 0;
+		$_rc['title'] = '根';
+//print_r($list);
+		$data['list'] = $list;
 		$data['_rc'] = $_rc;
-
-//print_r($_rc);
-
+		//=============================================================
+		$this->sor = $_rc;
 		$this->load->view('Doc/vset_select',$data);
 	}
 
@@ -227,9 +137,11 @@ class Doc extends CI_Controller
 	{
 		$id = $_POST['id'];
 		$rc['preid'] 	= $_POST['bguishu'];
+		$rc['titleonly'] = empty($_POST['titleonly'])?0:1;
+
 		$rc['title'] 	= trim($_POST['btiaoti']);
-		$rc['content'] 	= $_POST['bnr'];
-		$rc['url'] 		= $_POST['burl'];
+		if($rc['titleonly'] !=1) $rc['content'] 	= $_POST['bnr'];
+		if($rc['titleonly'] !=1) $rc['url'] 		= $_POST['burl'];
 
 		if(empty($rc['title']))	{
 			echo json_encode(array("code"=>"-200","msg"=>'标题必须填写'));
@@ -252,9 +164,6 @@ class Doc extends CI_Controller
 		$_rc	= $this->db->getall($sql,'id');		//所有的数据
 		$data['_rc'] = $_rc;
 
-
-
-
 		$this->load->view('Doc/vset_edit',$data);
 	}
 
@@ -266,10 +175,12 @@ class Doc extends CI_Controller
 	}
 
 	public function vset_addnew_exc(){
+
 		//doc_document add
 		$rc['preid'] 	= $_POST['bguishu'];
 		$rc['title'] 	= trim($_POST['btiaoti']);
-		$rc['content'] 	= $_POST['bnr'];
+		$rc['titleonly'] = empty($_POST['titleonly'])?0:1;
+		if(!$rc['titleonly'])$rc['content'] 	= $_POST['bnr'];
 		$rc['url'] 		= $_POST['burl'];
 		if(empty($rc['title']))	{
 			echo json_encode(array("code"=>"-200","msg"=>'标题必须填写'));

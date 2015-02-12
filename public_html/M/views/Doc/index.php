@@ -44,7 +44,7 @@
         	<a href="/Doc/">Easy</a> &raquo; 
         </li>
 <?php
-foreach($treepath as $key=>$value){
+foreach($nav as $key=>$value){
 ?>
 <li><a href="/Doc/index/<?php echo $value['id']; ?>"><?php echo $value['title']?></a> &raquo;</li>
 <?php
@@ -61,20 +61,20 @@ foreach($treepath as $key=>$value){
             
 <ul>
 <?php
-foreach($rc['child'] as $key=>$value){
+foreach($leaf as $key=>$value){
 ?>
 
 	<?php
-	if($value['ye'] !=1 && $value['fa'] !=1){
+	if($value['_leaf'] !=1 && $value['_pure'] !=1){
     ?>
-        <li><a href="/Doc/index/<?php echo $value['id']; ?>" class=""><?php echo $value['title']; ?></a>  
+        <li><?php echo $TA[$value['titleonly']]; ?> <a href="/Doc/index/<?php echo $value['id']; ?>" class=""><?php echo $value['title']; ?></a>  
         <?php if(get_cookie('set_edit') == 1){?>
         <a class="aredit" relid=<?php echo $value['id']; ?>><span style="font-size:11px;background-color:#006600;color:#DFC5A4;">编辑</span></a>
         <?php }?>
 	<?php
 	}else{
     ?>
-        <li><a href="/Doc/nrview/<?php echo $value['id']; ?>" class=""><?php echo $value['title']; ?></a>
+        <li><?php echo $TA[$value['titleonly']]; ?> <a href="/Doc/nrview/<?php echo $value['id']; ?>" class=""><?php echo $value['title']; ?></a>
         <?php if(get_cookie('set_edit') == 1){?>
         <a class="aredit" relid=<?php echo $value['id']; ?>><span style="font-size:11px;background-color:#006600;color:#DFC5A4;">编辑</span></a>
         <?php }?>
@@ -94,9 +94,9 @@ foreach($rc['child'] as $key=>$value){
 
 
 			<?php
-            if($value2['ye'] !=1 && $value2['fa'] !=1){
+            if($value2['_leaf'] !=1 && $value2['_pure'] !=1){
             ?>
-            <li><a href="/Doc/index/<?php echo $value2['id']; ?>" class=""><?php echo $value2['title']; ?></a>
+            <li><?php echo $TA[$value2['titleonly']]; ?> <a href="/Doc/index/<?php echo $value2['id']; ?>" class=""><?php echo $value2['title']; ?></a>
 			<?php if(get_cookie('set_edit') == 1){?>
             <a class="aredit" relid=<?php echo $value2['id']; ?>><span style="font-size:11px;background-color:#006600;color:#DFC5A4;">编辑</span></a>
             <?php }?>
@@ -104,7 +104,7 @@ foreach($rc['child'] as $key=>$value){
             <?php
             }else{
             ?>
-            <li><a href="/Doc/nrview/<?php echo $value2['preid']; ?>#id<?php echo $value2['id']; ?>" class=""><?php echo $value2['title']; ?></a>1
+            <li><?php echo $TA[$value2['titleonly']]; ?> <a href="/Doc/nrview/<?php echo $value2['preid']; ?>#id<?php echo $value2['id']; ?>" class=""><?php echo $value2['title']; ?></a>
 			<?php if(get_cookie('set_edit') == 1){?>
             <a class="aredit" relid=<?php echo $value2['id']; ?>><span style="font-size:11px;background-color:#006600;color:#DFC5A4;">编辑</span></a>
             <?php }?>
@@ -174,7 +174,7 @@ foreach($rc['child'] as $key=>$value){
         
 <li><a href="/Doc/">Easy</a> &raquo;</li>
 <?php
-foreach($treepath as $key=>$value){
+foreach($nav as $key=>$value){
 ?>
 <li><a href="/Doc/index/<?php echo $value['id']; ?>"><?php echo $value['title']?></a> &raquo;</li>
 <?php

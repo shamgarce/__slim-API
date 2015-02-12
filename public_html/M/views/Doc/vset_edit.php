@@ -12,8 +12,12 @@
   <tr>
     <td>
     标题 : 
-      <input name="textfield" type="text" id="addnew_articletitle" value="<?php echo $rc['title']?>" size="70" /></td>
+      <input name="textfield" type="text" id="addnew_articletitle" value="<?php echo $rc['title']?>" size="70" />
+      <input name="titleonly" type="checkbox" id="titleonly" value="1" <?php if($rc['titleonly'] ==1){?>checked="checked"<?php }?>/> 仅标题
+     </td>
   </tr>
+<?php if($rc['titleonly'] !=1){?>
+  
   <tr>
     <td>内容 :<br />      <textarea id="editor_id" name="content" style="width:650px;height:300px;"><?php echo $rc['content']?></textarea></td>
   </tr>
@@ -21,10 +25,12 @@
     <td>URL :
       <br />      <textarea name="textfield2" cols="70" rows="5" id="addnew_url"><?php echo $rc['url']?></textarea></td>
   </tr>
+<?php }?>    
+  
 </table>
 <script type="text/dialog">
 
-	
+<?php if($rc['titleonly'] !=1){?>
 var editor2;
 $.getScript('/A/kindeditor-4.1.10/kindeditor-min.js', function() {
 	KindEditor.basePath = '/A/kindeditor-4.1.10/';
@@ -45,6 +51,7 @@ $.getScript('/A/kindeditor-4.1.10/kindeditor-min.js', function() {
 		]
 	});
 });
+<?php }?>    
 	
 			//bz_nr: editor.html(),
 			
@@ -72,8 +79,11 @@ $.getScript('/A/kindeditor-4.1.10/kindeditor-min.js', function() {
 					id 		: $('#ssid').val(),
 					bguishu : $('#selectguishu').attr("rel"),
 					btiaoti : $('#addnew_articletitle').val(),
+					<?php if($rc['titleonly'] !=1){?>
 					bnr 	: editor.html(),
+					<?php }?>    
 					burl 	: $('#addnew_url').val(),
+					titleonly 	: $("input[name='titleonly']:checked").val(),
 					},
 				dataType: "json",
 				async:false,
