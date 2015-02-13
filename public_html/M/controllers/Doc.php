@@ -11,7 +11,6 @@ class Doc extends CI_Controller
 		include(MBASE.'\Mysql.class.php');
 		$this->db = Mysql::getInstance();
 		//连接数据库================================================
-
 		include(MBASE.'\Tree.class.php');
 	}
 
@@ -25,16 +24,17 @@ class Doc extends CI_Controller
 
 		$Tree = new Tree($_rc);
 		$leaf = $Tree->leaf($listid);
+
 		$data['leaf'] = $leaf;
 		$level = $Tree->leaf_level($listid);
 		$nav = $Tree->navi($listid);
+
 		$data['nav'] = $nav;
 
 		//=============================================================
 		//整课树的运算  第一,运算处小树枝 第二 运算出是否叶子
 		$_rc['id'] = 0;
 		$_rc['title'] = '根';
-
 
 		//=============================================================
 		//跟本id同级,以及下级的
@@ -112,19 +112,17 @@ class Doc extends CI_Controller
 	public function vset_select(){
 		//检索所有的信息,选择归属
 		//功能 :设置是否显示编辑和排序,还有是否展示地址
-
-		$sql	= "select id,preid,title,titleonly from doc_document where titleonly = 1 and enable = 0 order by sort desc ,id";
-		$_rc	= $this->db->getall($sql,'id');		//所有的数据
-
-		$Tree = new Tree($_rc);
-		$leaf = $Tree->leaf(0);
-		$data['leaf'] = $leaf;
-		$level = $Tree->leaf_level(0);
-		$list = $Tree->getlist();
-
+		//=============================================================
+		$sql	= "select id,preid,title,titleonly from doc_document where enable = 0 order by sort desc ,id";
+		$_rc	= $this->db->getall($sql);		//所有的数据
+		//=============================================================
+		$Tree 	= new Tree($_rc);
+		$leaf 	= $Tree->leaf(0);
+		$level 	= $Tree->leaf_level(0);
+		$list 	= $Tree->getlist();
+		//=============================================================
 		$_rc['id'] = 0;
 		$_rc['title'] = '根';
-//print_r($list);
 		$data['list'] = $list;
 		$data['_rc'] = $_rc;
 		//=============================================================
@@ -147,7 +145,7 @@ class Doc extends CI_Controller
 			echo json_encode(array("code"=>"-200","msg"=>'标题必须填写'));
 			exit;
 		}
-
+		$rc = saddslashes($rc);
 		$this->db->autoExecute("doc_document",$rc,'UPDATE',"id=$id");
 		echo json_encode(array("code"=>"200","msg"=>'完成'));
 		exit;
@@ -186,11 +184,43 @@ class Doc extends CI_Controller
 			echo json_encode(array("code"=>"-200","msg"=>'标题必须填写'));
 			exit;
 		}
+		$rc = saddslashes($rc);
 		$this->db->autoExecute("doc_document",$rc,'INSERT');
 		echo json_encode(array("code"=>"200","msg"=>'完成'));
 		exit;
 	}
 
+	public function vset_sort_exc()
+	{
+		$hsort = $_POST['hsort'];
+		foreach($hsort as $key=>$value){
+			//--------------------------------------------
+			$v = intval($value);
+			$i = intval($key);
+			$sql = "update doc_document set sort= $v where id = $i";
+			$this->db->query($sql);
+			//--------------------------------------------
+		}
+
+		echo json_encode(array("code"=>"200","msg"=>'完成'));
+		exit;
+	}
+
+	//=============================================================
+	//排序
+	public function vset_sort($listid = 0){
+		//功能 :设置是否显示编辑和排序,还有是否展示地址
+		$sql	= " select id,preid,title,titleonly from doc_document
+					where preid =$listid  and enable = 0
+					order by sort desc ,id";
+		$rc	= $this->db->getall($sql);		//所有的数据
+
+
+
+		$data['rc'] = $rc;
+		$data['listid'] = $listid;
+		$this->load->view('Doc/vset_sort',$data);
+	}
 
 
 

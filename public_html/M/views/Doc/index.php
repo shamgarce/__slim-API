@@ -31,7 +31,7 @@
 		<?php }?>
         <?php if(get_cookie('set_sort') == 1){?>
         <li class="right" >
-        	<a calss="mbtest" id="vmanage_add">排序</a> |
+        	<a calss="mbtest" relid="<?php echo $listid;?>" id="vmanage_sort">排序</a> |
         </li>
 		<?php }?>
         
@@ -61,7 +61,7 @@ foreach($nav as $key=>$value){
             
 <ul>
 <?php
-foreach($leaf as $key=>$value){
+foreach($leaf['child'] as $key=>$value){
 ?>
 
 	<?php
@@ -219,6 +219,9 @@ foreach($nav as $key=>$value){
 			buttoncancel: true,
 			});
 	});   
+	
+
+	
 	$('#vmanage_add').click(function(){
 		 $.CK({
 			rel:'vset_add',
@@ -229,6 +232,18 @@ foreach($nav as $key=>$value){
 			buttoncancel: true,
 			});
 	});   
+	
+
+	$('#vmanage_sort').click(function(){
+		 $.CK({
+			rel:'vmanage_sort',
+			url:'/Doc/vset_sort/'+$(this).attr("relid"),
+			width:'500px',
+			_this:$(this),
+			buttonok	: true,
+			buttoncancel: true,
+			});
+	});   	
 		
 	});
 </script>

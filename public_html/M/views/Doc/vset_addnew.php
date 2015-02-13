@@ -30,7 +30,8 @@ $.getScript('/A/kindeditor-4.1.10/kindeditor-min.js', function() {
 	editor = KindEditor.create('#editor_id',{
 		resizeType : 1,
 		allowPreviewEmoticons : false,
-		allowImageUpload : false,
+		allowImageUpload : true,
+		allowFileManager : true,
 		items : [
  'source', '|', 'undo', 'redo', '|', 'preview',  'template', 'code', 'cut', 'copy', 'paste',
 'plainpaste', 'wordpaste', '|', 'justifyleft', 'justifycenter', 'justifyright',

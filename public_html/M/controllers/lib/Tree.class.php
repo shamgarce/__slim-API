@@ -25,7 +25,8 @@ class  Tree{
      */
     public function __construct($result,$fields = array('id', 'preid')) {
         $this->tmplevel = 0;
-        $this->result = $result;
+        $this->result = $result;        //只保存原始的输入数据,小标->id leaf 标记 pure 标记
+        $this->tmp = array();           //分段标记
         $this->fields = $fields;        //$this->fields[1]
         //$this->root = 0;
         $this->handler();
@@ -35,17 +36,16 @@ class  Tree{
      * 树型数据表结果集处理
      */
     private function handler() {
-
         //首先,改写源数据,查找叶子
         foreach ($this->result as $node) {
-            array_push($this->par,$node[$this->fields[1]]);                                        //获取所有的非叶子id
-            $_result[$node[$this->fields[0]]] = $node;
+            $this->tmp[$node['preid']] = 1;                                   //获取所有的非叶子id
+            $_result[$node['id']] = $node;                                    //更新result数据
         }
         $this->result = $_result;
 
         foreach ($this->result as $key=>$node) {
-            if(!in_array($node[$this->fields[0]],$this->par))   $this->result[$key]['_leaf'] = 1;   //标记叶子
-            $_tmp[$node[$this->fields[1]]][] = $this->result[$key];                                 //非叶子的child数据
+            if (!$this->tmp[$node['id']]) $this->result[$key]['_leaf'] = 1;   //标记叶子
+            $_tmp[$node['preid']][] = $this->result[$key];                    //非叶子的child数据 //可能节点 计算_pure
         }
 
         //purefather 检查
@@ -57,44 +57,34 @@ class  Tree{
             if($purefather) $this->result[$key]['_pure'] = 1;
         }
 
-        foreach ($this->result as $node) {
-            $tmp[$node[$this->fields[1]]][] = $node;                                 //建立新的tmp
+        foreach ($this->tmp as $key=>$value) {
+            $this->tmp[$key] = $this->get_tree($key);
         }
-        krsort($tmp);	//排序
-
         unset($_result);
         unset($_tmp);
-
-        for ($i = count($tmp); $i > 0; $i--) {		//对temp进行循环
-            foreach ($tmp as $k => $v) {			//遍历temp的元素值
-                if (!in_array($k, $this->already)) {
-                    if (!$this->tmp) {
-                        $this->tmp = array($k, $v);
-                        $this->already[] = $k;
-                        continue;
-                    } else {
-                        foreach ($v as $key => $value) {
-                            if ($value[$this->fields[0]] == $this->tmp[0]) {
-                                $tmp[$k][$key]['child'] = $this->tmp[1];
-                                $this->tmp = array($k, $tmp[$k]);		//递归形成数据
-                            }
-                        }
-                    }
-                }
-            }
-            $this->tmp = null;
-        }
-        $this->tmp = $tmp;
     }
+
+
+    //根据散列的数据,建立树
+    function get_tree($id){
+        $ar = $this->result[$id];
+        foreach($this->result as $key=>$value){
+            if($value['preid'] == $id){
+                $ar['child'][$value['id']] = $this->get_tree($value['id'],$this->result);
+            }
+        }
+        return $ar;
+    }
+
 
     /**
      * 反向递归 从叶子到根
      */
     private function recur_n($arr, $id) {
         foreach ($arr as $v) {
-            if ($v[$this->fields[0]] == $id) {
+            if ($v['id'] == $id) {
                 $this->arr[] = $v;
-                if ($v[$this->fields[1]] != 0) $this->recur_n($arr, $v[$this->fields[1]]);
+                if ($v['preid'] != 0) $this->recur_n($arr, $v['preid']);
             }
         }
     }
@@ -103,14 +93,17 @@ class  Tree{
      */
     private function recur_p($arr) {
         foreach ($arr as $v) {
-            $this->arr[] = $v[$this->fields[0]];
+            $this->arr[] = $v['id'];
             if ($v['child']) $this->recur_p($v['child']);
         }
     }
 
     //获取一个叶子
     public function leaf($id = null) {//获得叶子数据 [_pure][_leaf]
+
         if(!$this->_leaf[$id])  $this->_leaf($id);
+
+
         return $this->_leaf[$id];
     }
 
@@ -119,6 +112,7 @@ class  Tree{
      * @return array 返回分支，默认返回整个树
      */
     private function _leaf($id = null) {
+
         $id = ($id == null) ? 0 : $id;
         $this->_leaf[$id] =$this->tmp[$id];
     }
@@ -141,16 +135,18 @@ class  Tree{
 
     public function getlist()
     {
+        $this->list = $this->slist[0];
         foreach($this->list as $key=>$value){
-            unset($this->list[$key]['child']);
+            //if($this->list[$key]['child']) unset($this->list[$key]['child']);
         }
-        return $this->list;
+        return $this->slist;
     }
 
     private function get_leaf_level($arr, $num,$chr = '└─') {
+        $arr = $arr['child'];
         foreach ($arr as $k=>$v) {
             $arr[$k]['_level'] = $num +1;
-            //----------------------------------------
+//            //----------------------------------------
             $chr_ = '';
             for($i=0;$i<$num+1;$i++){
                 $chr_  .= "&nbsp;&nbsp;";
@@ -159,9 +155,9 @@ class  Tree{
             //----------------------------------------
         }
         foreach ($arr as $k=>$v) {
-            $this->list[] =  $v;
+            $this->slist[] =  $v;
             if(!empty($arr[$k]['child'])){
-                $arr[$k]['child'] = $this->get_leaf_level($v['child'],$v['_level'],$chr);
+                $arr[$k]['child'] = $this->get_leaf_level($v,$v['_level'],$chr);
             }
         }
         return $arr;

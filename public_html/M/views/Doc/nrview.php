@@ -6,8 +6,13 @@
     <title>
       业务逻辑库(library) &mdash; ECOS百科全书    </title>
 <link rel="stylesheet" href="/_static/default.css" type="text/css" />
-<link rel="stylesheet" href="/_static/pygments.css" type="text/css" />
 
+<link rel="stylesheet" href="/_static/pygments.css" type="text/css" />
+<script type="text/javascript" src="/A/syntaxhighlighter_3.0.83/scripts/shCore.js"></script>
+<script type="text/javascript" src="/A/syntaxhighlighter_3.0.83/scripts/shBrushJScript.js"></script>
+<script type="text/javascript" src="/A/syntaxhighlighter_3.0.83/scripts/shBrushPhp.js"></script>
+<link type="text/css" rel="stylesheet" href="/A/syntaxhighlighter_3.0.83/styles/shCoreDefault.css"/>
+<script type="text/javascript">SyntaxHighlighter.all();</script>
 
   </head>
   <body>
@@ -28,7 +33,7 @@
 		<?php }?>
         <?php if(get_cookie('set_sort') == 1){?>
         <li class="right" >
-        	<a calss="mbtest" id="vmanage_add">排序</a> |
+        	<a calss="mbtest" relid="<?php echo $listid;?>" id="vmanage_sort">排序</a> |
         </li>
 		<?php }?>
         
@@ -60,13 +65,23 @@ foreach($nav as $key=>$value){
       <div class="documentwrapper">
         <div class="bodywrapper">
           <div class="body">
-            <h1><?php echo $mcmain['title']?></h1>
+            <h1><?php echo $mcmain['title']?>  <?php if(get_cookie('set_edit') == 1){?>
+        <a class="aredit" relid=<?php echo $mcmain['id']; ?>><span style="font-size:11px;background-color:#006600;color:#DFC5A4;">编辑</span></a>
+        <?php }?>
+        </h1>
 <?php echo $mcmain['content']?>
 
 <?php
 foreach($mc as $key=>$value){
-	echo "<h2><a name=\"id{$value['id']}\">{$value['title']}</a></h2>";
-    echo $value['content'];
+?>
+<h2><a name="id<?php echo $value['id']?>"><?php echo $value['title']?></a> <?php if(get_cookie('set_edit') == 1){?>
+        <a class="aredit" relid=<?php echo $value['id']; ?>><span style="font-size:11px;background-color:#006600;color:#DFC5A4;">编辑</span></a>
+        <?php }?></h2>
+<?php 
+echo $value['content'];
+?>
+
+<?php
 }
 ?>
 
@@ -147,5 +162,67 @@ foreach($nav as $key=>$value){
 <script src="/A/artDialog4.1.7/artDialog.js?skin=default"></script>
 <script src="/A/CK.js"></script>
 <script src="/A/CommonIni.js"></script>
+
+
+
+
+
+<script language="javascript">
+    $(document).ready(function() {	
+	KindEditor = null;
+
+
+	$('.aredit').click(function(){
+		 $.CK({
+			rel:'aredit',
+			url:'/Doc/vset_edit/'+$(this).attr("relid"),
+			width:'500px',
+			_this:$(this),
+			buttonok	: true,
+			buttoncancel: true,
+			});
+	});   
+
+	 
+	$('#vmanage').click(function(){
+		 $.CK({
+			rel:'vset',
+			url:'/Doc/vset',
+			width:'500px',
+			_this:$(this),
+			buttonok	: true,
+			buttoncancel: true,
+			});
+	});   
+	
+
+	
+	$('#vmanage_add').click(function(){
+		 $.CK({
+			rel:'vset_add',
+			url:'/Doc/vset_addnew',
+			width:'500px',
+			_this:$(this),
+			buttonok	: true,
+			buttoncancel: true,
+			});
+	});   
+	
+
+	$('#vmanage_sort').click(function(){
+		 $.CK({
+			rel:'vmanage_sort',
+			url:'/Doc/vset_sort/'+$(this).attr("relid"),
+			width:'500px',
+			_this:$(this),
+			buttonok	: true,
+			buttoncancel: true,
+			});
+	});   	
+		
+	});
+</script>
+
+
   </body>
 </html>
