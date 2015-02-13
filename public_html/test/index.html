@@ -1,0 +1,705 @@
+<!DOCTYPE html>
+<!--[if IE 6]><html class="ie lt-ie8"><![endif]-->
+<!--[if IE 7]><html class="ie lt-ie8"><![endif]-->
+<!--[if IE 8]><html class="ie ie8"><![endif]-->
+<!--[if IE 9]><html class="ie ie9"><![endif]-->
+<!--[if !IE]><!--> <html> <!--<![endif]-->
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"beacon-1.newrelic.com","errorBeacon":"bam.nr-data.net","licenseKey":"1255494d3a","applicationID":"1070872","transactionName":"e1daR0JWVV9RER9fWlVdG1peXVxL","queueTime":0,"applicationTime":14,"agent":"js-agent.newrelic.com/nr-536.min.js"}</script>
+<script type="text/javascript">(window.NREUM||(NREUM={})).loader_config={xpid:"XAUOVFNACQMHVFlVBQ=="};window.NREUM||(NREUM={}),__nr_require=function(t,e,n){function r(n){if(!e[n]){var o=e[n]={exports:{}};t[n][0].call(o.exports,function(e){var o=t[n][1][e];return r(o?o:e)},o,o.exports)}return e[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<n.length;o++)r(n[o]);return r}({QJf3ax:[function(t,e){function n(t){function e(e,n,a){t&&t(e,n,a),a||(a={});for(var c=s(e),u=c.length,f=i(a,o,r),d=0;u>d;d++)c[d].apply(f,n);return f}function a(t,e){u[t]=s(t).concat(e)}function s(t){return u[t]||[]}function c(){return n(e)}var u={};return{on:a,emit:e,create:c,listeners:s,_events:u}}function r(){return{}}var o="nr@context",i=t("gos");e.exports=n()},{gos:"7eSDFh"}],ee:[function(t,e){e.exports=t("QJf3ax")},{}],3:[function(t){function e(t,e,n,i,s){try{c?c-=1:r("err",[s||new UncaughtException(t,e,n)])}catch(u){try{r("ierr",[u,(new Date).getTime(),!0])}catch(f){}}return"function"==typeof a?a.apply(this,o(arguments)):!1}function UncaughtException(t,e,n){this.message=t||"Uncaught error with no additional information",this.sourceURL=e,this.line=n}function n(t){r("err",[t,(new Date).getTime()])}var r=t("handle"),o=t(5),i=t("ee"),a=window.onerror,s=!1,c=0;t("loader").features.err=!0,window.onerror=e;try{throw new Error}catch(u){"stack"in u&&(t(3),t(4),"addEventListener"in window&&t(1),window.XMLHttpRequest&&XMLHttpRequest.prototype&&XMLHttpRequest.prototype.addEventListener&&t(2),s=!0)}i.on("fn-start",function(){s&&(c+=1)}),i.on("fn-err",function(t,e,r){s&&(this.thrown=!0,n(r))}),i.on("fn-end",function(){s&&!this.thrown&&c>0&&(c-=1)}),i.on("internal-error",function(t){r("ierr",[t,(new Date).getTime(),!0])})},{1:4,2:7,3:6,4:5,5:20,ee:"QJf3ax",handle:"D5DuLP",loader:"G9z0Bl"}],4:[function(t,e){function n(t){i.inPlace(t,["addEventListener","removeEventListener"],"-",r)}function r(t){return t[1]}var o=(t(1),t("ee").create()),i=t(2)(o),a=t("gos");if(e.exports=o,n(window),"getPrototypeOf"in Object){for(var s=document;s&&!s.hasOwnProperty("addEventListener");)s=Object.getPrototypeOf(s);s&&n(s);for(var c=XMLHttpRequest.prototype;c&&!c.hasOwnProperty("addEventListener");)c=Object.getPrototypeOf(c);c&&n(c)}else XMLHttpRequest.prototype.hasOwnProperty("addEventListener")&&n(XMLHttpRequest.prototype);o.on("addEventListener-start",function(t){if(t[1]){var e=t[1];"function"==typeof e?this.wrapped=t[1]=a(e,"nr@wrapped",function(){return i(e,"fn-",null,e.name||"anonymous")}):"function"==typeof e.handleEvent&&i.inPlace(e,["handleEvent"],"fn-")}}),o.on("removeEventListener-start",function(t){var e=this.wrapped;e&&(t[1]=e)})},{1:20,2:21,ee:"QJf3ax",gos:"7eSDFh"}],5:[function(t,e){var n=(t(2),t("ee").create()),r=t(1)(n);e.exports=n,r.inPlace(window,["requestAnimationFrame","mozRequestAnimationFrame","webkitRequestAnimationFrame","msRequestAnimationFrame"],"raf-"),n.on("raf-start",function(t){t[0]=r(t[0],"fn-")})},{1:21,2:20,ee:"QJf3ax"}],6:[function(t,e){function n(t,e,n){var r=t[0];"string"==typeof r&&(r=new Function(r)),t[0]=o(r,"fn-",null,n)}var r=(t(2),t("ee").create()),o=t(1)(r);e.exports=r,o.inPlace(window,["setTimeout","setInterval","setImmediate"],"setTimer-"),r.on("setTimer-start",n)},{1:21,2:20,ee:"QJf3ax"}],7:[function(t,e){function n(){c.inPlace(this,d,"fn-")}function r(t,e){c.inPlace(e,["onreadystatechange"],"fn-")}function o(t,e){return e}var i=t("ee").create(),a=t(1),s=t(2),c=s(i),u=s(a),f=window.XMLHttpRequest,d=["onload","onerror","onabort","onloadstart","onloadend","onprogress","ontimeout"];e.exports=i,window.XMLHttpRequest=function(t){var e=new f(t);try{i.emit("new-xhr",[],e),u.inPlace(e,["addEventListener","removeEventListener"],"-",function(t,e){return e}),e.addEventListener("readystatechange",n,!1)}catch(r){try{i.emit("internal-error",[r])}catch(o){}}return e},window.XMLHttpRequest.prototype=f.prototype,c.inPlace(XMLHttpRequest.prototype,["open","send"],"-xhr-",o),i.on("send-xhr-start",r),i.on("open-xhr-start",r)},{1:4,2:21,ee:"QJf3ax"}],8:[function(t){function e(t){if("string"==typeof t&&t.length)return t.length;if("object"!=typeof t)return void 0;if("undefined"!=typeof ArrayBuffer&&t instanceof ArrayBuffer&&t.byteLength)return t.byteLength;if("undefined"!=typeof Blob&&t instanceof Blob&&t.size)return t.size;if("undefined"!=typeof FormData&&t instanceof FormData)return void 0;try{return JSON.stringify(t).length}catch(e){return void 0}}function n(t){var n=this.params,r=this.metrics;if(!this.ended){this.ended=!0;for(var i=0;c>i;i++)t.removeEventListener(s[i],this.listener,!1);if(!n.aborted){if(r.duration=(new Date).getTime()-this.startTime,4===t.readyState){n.status=t.status;var a=t.responseType,u="arraybuffer"===a||"blob"===a||"json"===a?t.response:t.responseText,f=e(u);if(f&&(r.rxSize=f),this.sameOrigin){var d=t.getResponseHeader("X-NewRelic-App-Data");d&&(n.cat=d.split(", ").pop())}}else n.status=0;r.cbTime=this.cbTime,o("xhr",[n,r,this.startTime])}}}function r(t,e){var n=i(e),r=t.params;r.host=n.hostname+":"+n.port,r.pathname=n.pathname,t.sameOrigin=n.sameOrigin}if(window.XMLHttpRequest&&XMLHttpRequest.prototype&&XMLHttpRequest.prototype.addEventListener&&!/CriOS/.test(navigator.userAgent)){t("loader").features.xhr=!0;var o=t("handle"),i=t(2),a=t("ee"),s=["load","error","abort","timeout"],c=s.length,u=t(1);t(4),t(3),a.on("new-xhr",function(){this.totalCbs=0,this.called=0,this.cbTime=0,this.end=n,this.ended=!1,this.xhrGuids={}}),a.on("open-xhr-start",function(t){this.params={method:t[0]},r(this,t[1]),this.metrics={}}),a.on("open-xhr-end",function(t,e){"loader_config"in NREUM&&"xpid"in NREUM.loader_config&&this.sameOrigin&&e.setRequestHeader("X-NewRelic-ID",NREUM.loader_config.xpid)}),a.on("send-xhr-start",function(t,n){var r=this.metrics,o=t[0],i=this;if(r&&o){var u=e(o);u&&(r.txSize=u)}this.startTime=(new Date).getTime(),this.listener=function(t){try{"abort"===t.type&&(i.params.aborted=!0),("load"!==t.type||i.called===i.totalCbs&&(i.onloadCalled||"function"!=typeof n.onload))&&i.end(n)}catch(e){try{a.emit("internal-error",[e])}catch(r){}}};for(var f=0;c>f;f++)n.addEventListener(s[f],this.listener,!1)}),a.on("xhr-cb-time",function(t,e,n){this.cbTime+=t,e?this.onloadCalled=!0:this.called+=1,this.called!==this.totalCbs||!this.onloadCalled&&"function"==typeof n.onload||this.end(n)}),a.on("xhr-load-added",function(t,e){var n=""+u(t)+!!e;this.xhrGuids&&!this.xhrGuids[n]&&(this.xhrGuids[n]=!0,this.totalCbs+=1)}),a.on("xhr-load-removed",function(t,e){var n=""+u(t)+!!e;this.xhrGuids&&this.xhrGuids[n]&&(delete this.xhrGuids[n],this.totalCbs-=1)}),a.on("addEventListener-end",function(t,e){e instanceof XMLHttpRequest&&"load"===t[0]&&a.emit("xhr-load-added",[t[1],t[2]],e)}),a.on("removeEventListener-end",function(t,e){e instanceof XMLHttpRequest&&"load"===t[0]&&a.emit("xhr-load-removed",[t[1],t[2]],e)}),a.on("fn-start",function(t,e,n){e instanceof XMLHttpRequest&&("onload"===n&&(this.onload=!0),("load"===(t[0]&&t[0].type)||this.onload)&&(this.xhrCbStart=(new Date).getTime()))}),a.on("fn-end",function(t,e){this.xhrCbStart&&a.emit("xhr-cb-time",[(new Date).getTime()-this.xhrCbStart,this.onload,e],e)})}},{1:"XL7HBI",2:9,3:7,4:4,ee:"QJf3ax",handle:"D5DuLP",loader:"G9z0Bl"}],9:[function(t,e){e.exports=function(t){var e=document.createElement("a"),n=window.location,r={};e.href=t,r.port=e.port;var o=e.href.split("://");return!r.port&&o[1]&&(r.port=o[1].split("/")[0].split("@").pop().split(":")[1]),r.port&&"0"!==r.port||(r.port="https"===o[0]?"443":"80"),r.hostname=e.hostname||n.hostname,r.pathname=e.pathname,r.protocol=o[0],"/"!==r.pathname.charAt(0)&&(r.pathname="/"+r.pathname),r.sameOrigin=!e.hostname||e.hostname===document.domain&&e.port===n.port&&e.protocol===n.protocol,r}},{}],10:[function(t,e){function n(t){return function(){r(t,[(new Date).getTime()].concat(i(arguments)))}}var r=t("handle"),o=t(1),i=t(2);"undefined"==typeof window.newrelic&&(newrelic=window.NREUM);var a=["setPageViewName","trackUserAction","finished","traceEvent","inlineHit","noticeError"];o(a,function(t,e){window.NREUM[e]=n("api-"+e)}),e.exports=window.NREUM},{1:19,2:20,handle:"D5DuLP"}],gos:[function(t,e){e.exports=t("7eSDFh")},{}],"7eSDFh":[function(t,e){function n(t,e,n){if(r.call(t,e))return t[e];var o=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(t,e,{value:o,writable:!0,enumerable:!1}),o}catch(i){}return t[e]=o,o}var r=Object.prototype.hasOwnProperty;e.exports=n},{}],D5DuLP:[function(t,e){function n(t,e,n){return r.listeners(t).length?r.emit(t,e,n):(o[t]||(o[t]=[]),void o[t].push(e))}var r=t("ee").create(),o={};e.exports=n,n.ee=r,r.q=o},{ee:"QJf3ax"}],handle:[function(t,e){e.exports=t("D5DuLP")},{}],XL7HBI:[function(t,e){function n(t){var e=typeof t;return!t||"object"!==e&&"function"!==e?-1:t===window?0:i(t,o,function(){return r++})}var r=1,o="nr@id",i=t("gos");e.exports=n},{gos:"7eSDFh"}],id:[function(t,e){e.exports=t("XL7HBI")},{}],G9z0Bl:[function(t,e){function n(){var t=l.info=NREUM.info;if(t&&t.licenseKey&&t.applicationID&&u&&u.body){s(h,function(e,n){e in t||(t[e]=n)}),l.proto="https"===p.split(":")[0]||t.sslForHttp?"https://":"http://",a("mark",["onload",i()]);var e=u.createElement("script");e.src=l.proto+t.agent,u.body.appendChild(e)}}function r(){"complete"===u.readyState&&o()}function o(){a("mark",["domContent",i()])}function i(){return(new Date).getTime()}var a=t("handle"),s=t(1),c=(t(2),window),u=c.document,f="addEventListener",d="attachEvent",p=(""+location).split("?")[0],h={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-536.min.js"},l=e.exports={offset:i(),origin:p,features:{}};u[f]?(u[f]("DOMContentLoaded",o,!1),c[f]("load",n,!1)):(u[d]("onreadystatechange",r),c[d]("onload",n)),a("mark",["firstbyte",i()])},{1:19,2:10,handle:"D5DuLP"}],loader:[function(t,e){e.exports=t("G9z0Bl")},{}],19:[function(t,e){function n(t,e){var n=[],o="",i=0;for(o in t)r.call(t,o)&&(n[i]=e(o,t[o]),i+=1);return n}var r=Object.prototype.hasOwnProperty;e.exports=n},{}],20:[function(t,e){function n(t,e,n){e||(e=0),"undefined"==typeof n&&(n=t?t.length:0);for(var r=-1,o=n-e||0,i=Array(0>o?0:o);++r<o;)i[r]=t[e+r];return i}e.exports=n},{}],21:[function(t,e){function n(t){return!(t&&"function"==typeof t&&t.apply&&!t[i])}var r=t("ee"),o=t(1),i="nr@wrapper",a=Object.prototype.hasOwnProperty;e.exports=function(t){function e(t,e,r,a){function nrWrapper(){var n,i,s,u;try{i=this,n=o(arguments),s=r&&r(n,i)||{}}catch(d){f([d,"",[n,i,a],s])}c(e+"start",[n,i,a],s);try{return u=t.apply(i,n)}catch(p){throw c(e+"err",[n,i,p],s),p}finally{c(e+"end",[n,i,u],s)}}return n(t)?t:(e||(e=""),nrWrapper[i]=!0,u(t,nrWrapper),nrWrapper)}function s(t,r,o,i){o||(o="");var a,s,c,u="-"===o.charAt(0);for(c=0;c<r.length;c++)s=r[c],a=t[s],n(a)||(t[s]=e(a,u?s+o:o,i,s,t))}function c(e,n,r){try{t.emit(e,n,r)}catch(o){f([o,e,n,r])}}function u(t,e){if(Object.defineProperty&&Object.keys)try{var n=Object.keys(t);return n.forEach(function(n){Object.defineProperty(e,n,{get:function(){return t[n]},set:function(e){return t[n]=e,e}})}),e}catch(r){f([r])}for(var o in t)a.call(t,o)&&(e[o]=t[o]);return e}function f(e){try{t.emit("internal-error",e)}catch(n){}}return t||(t=r),e.inPlace=s,e.flag=i,e}},{1:20,ee:"QJf3ax"}]},{},["G9z0Bl",3,8]);</script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0,user-scalable=no">
+    <script data-apikey="5abb12613f217476dc531df54ad96676" src="assets/bugsnag-2.min.js"></script>
+    <meta http-equiv="mobile-agent" content="format=html5; url=http://www.jianshu.com/">
+  
+    <title>首页 - 简书</title>
+    <!--[if lte IE 8]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+    <link href="assets/base.css" media="all" rel="stylesheet" />
+    <link href="assets/reading.css" media="all" rel="stylesheet" />
+    <script src="assets/modernizr.js"></script>
+  <!-- Le HTML5 shim, for IE6-8 support of HTML elements -->
+  <!--[if IE 8]><link href="http://static.jianshu.io/assets/scaffolding/for_ie-14ba2a622a00976f31155e41f89cc728.css" media="all" rel="stylesheet" /><![endif]-->
+  <!--[if lt IE 9]><link href="http://static.jianshu.io/assets/scaffolding/for_ie-14ba2a622a00976f31155e41f89cc728.css" media="all" rel="stylesheet" /><![endif]-->
+  <link href="assets/favicon.ico" rel="icon">
+  <link rel="apple-touch-icon-precomposed" href="assets/icon114.png" />
+  
+  
+  <script>
+    var _czc = _czc || [];
+    _czc.push(["_setAccount", "1253183112"]);
+  </script>
+</head>
+
+  <body class="output fluid zh cn win mozilla reader-night-mode reader-font1" data-js-module="recommendation" data-locale="zh-CN">
+    
+    <div class="navbar navbar-jianshu shrink">
+  <div class="dropdown">
+    <a class="dropdown-toggle logo" id="dLabel" role="button" data-toggle="dropdown" data-target="#" href="javascript:void(0)">
+      简
+    </a>
+    <ul class="dropdown-menu" role="menu" aria-labelledby="dLabel">
+      <li class="">
+      <a href="/">
+        <i class="icon-home"></i> 首页
+</a>      </li>
+      <li>
+      <a href="/collections">
+        <i class="icon-th"></i> 专题
+</a>      </li>
+    </ul>
+  </div>
+</div>
+<div class="navbar navbar-user">
+  <div class="container">
+    <div class="nav-collapse collapse">
+      <ul class="nav pull-right">
+          <li><a class="nighttime set-view-mode" href="javascript:void(0)"><i class="icon-sun"></i></a></li>
+
+            <li class="signin">
+              <a data-signin-link="true" data-toggle="modal" href="/sign_in"><i class="icon-signin"></i> 登录</a>
+            </li>
+            <li class="signin"><a data-signup-link="true" data-toggle="modal" href="/sign_up"><i class="icon-user"></i> 注册</a></li>
+      </ul>
+    </div>
+  </div>
+</div>
+<div class="navbar navbar-jianshu expanded">
+  <div class="dropdown">
+      <a class="active logo" data-container="div.expanded" data-original-title="个人主页" href="/" role="button">
+        <b>简</b><i class="icon-home"></i><span class="title">首页</span>
+</a>      <a data-container="div.expanded" data-original-title="专题" data-placement="right" data-toggle="tooltip" href="/collections">
+        <i class="icon-th"></i><span class="title">专题</span>
+</a>    <a data-container="body" data-original-title="下载手机应用" data-placement="right" data-toggle="tooltip" href="/apps">
+      <i class="icon-mobile-phone"></i></i><span class="title">下载手机应用</span>
+</a>  </div>
+  <div class="nav-user">
+      <a href='#view-mode-modal' data-toggle='modal'><i class='icon-font'></i><span class="title">显示模式</span></a>
+
+      <a class="signin" data-container="div.expanded" data-original-title="登录" data-placement="right" data-signin-link="true" data-toggle="modal" href="/sign_in">
+        <i class="icon-signin"></i><span class="title">登录</span>
+</a>    </div>
+  </div>
+
+    <div tabindex="-1" aria-hidden="true" id='login-modal' class="modal hide fade login-modal" data-js-module="login-modal">
+  <div class="modal-header">
+    <h4 class="title">
+      <span>
+        <a class="active" href="javascript:void(null);" id="signin-link">登录</a>
+        <b>·</b>
+        <a href="javascript:void(null);" id="signup-link">注册</a>
+      </span>
+    </h4>
+    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+  </div>
+
+  <div class="modal-body large-login">
+    <div class="sign-up">
+      <form accept-charset="UTF-8" action="/users.json" class="form-horizontal" data-remote="true" id="sign_up" method="post"><div style="display:none"><input name="utf8" type="hidden" value="&#x2713;" /></div>
+        <p id="signup_errors" class="signin_error hide"></p>
+<div class="input-prepend">
+  <span class="add-on"><i class="icon-envelope-alt"></i></span>
+  <input class="span2" id="sign_up_email" name="email" placeholder="你的邮件地址" type="text" value="" />
+</div>
+<div class="input-prepend">
+  <span class="add-on"><i class="icon-user"></i></span>
+  <input class="span2" id="nickname" name="nickname" placeholder="选一个昵称" type="text" value="" />
+</div>
+<div class="input-prepend">
+  <span class="add-on"><i class="icon-unlock-alt"></i></span>
+  <input class="span2" id="sign_up_password" name="password" placeholder="输入密码" type="password" />
+</div>
+<div class="input-prepend captcha">
+  <div class="captcha_fields">
+    
+  </div>
+</div>
+
+<button class="ladda-button submit-button" data-color="green">
+  <span class="ladda-label">注册</span>
+</button>
+</form>    </div>
+    <div class="sign-in">
+      <form accept-charset="UTF-8" action="/sessions.json" class="form-horizontal" data-remote="true" id="sign_in" method="post"><div style="display:none"><input name="utf8" type="hidden" value="&#x2713;" /></div>
+        <p id="signin_errors" class="signin_error hide"></p>
+<div class="input-prepend">
+  <span class="add-on"><i class="icon-envelope-alt"></i></span>
+  <input class="span2" id="sign_in_email" name="email" placeholder="邮箱" type="text" value="" />
+</div>
+<div class="input-prepend">
+  <span class="add-on"><i class="icon-unlock-alt"></i></span>
+  <input class="span2" id="sign_in_password" name="password" placeholder="密码" type="password" />
+</div>
+<div class="input-prepend captcha">
+  <div class="captcha_fields">
+    
+  </div>
+</div>
+
+<button class="ladda-button submit-button" data-color="blue">
+  <span class="ladda-label">登 录</span>
+</button>
+<div class="control-group text-left">
+  <input checked="checked" id="remember_me" name="remember_me" type="checkbox" value="true" /> 记住我
+  <a href="/users/password/new">忘记密码</a>
+</div>
+
+</form>    </div>
+
+    <div class="login-sns">
+      <p>您还可以通过以下方式直接登录</p>
+      <ul class="login-sns">
+        <li class="weibo"><a href="/users/auth/weibo"></a></li>
+        <li class="qq"><a href="/users/auth/qq_connect"></a></li>
+        <li class="douban"><a href="/users/auth/douban"></a></li>
+        <li class="google"><a href="/users/auth/google_oauth2"></a></li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+    <div class="row-fluid">
+      
+  <div class="recommended">
+    <!-- aside -->
+      <div class="span3 left-aside">
+    <div class="cover-img" style="background-image: url(assets/sbqBxbDxehv3DUnx1X6P.jpg)"></div>
+    <div class="bottom-block">
+      
+      <h1>简书</h1>
+      <h3>交流故事，沟通想法</h3>
+      <p>一个基于内容分享的社区</p>
+      <a class="btn btn btn-large btn-success" data-signin-link="true" data-toggle="modal" href="/sign_in" id="write-button">提笔写篇文章</a>
+
+    </div>
+      <div class="img-info">
+        <i class="icon-info"></i>
+        <div class="info">
+           Photo by: <a href="http://unsplash.com/" target="_blank">unsplash</a>
+        </div>
+      </div>
+  </div>
+
+    <div class="span7 offset3">
+      <div class="page-title">
+        <ul class="recommened-nav navigation clearfix" data-container='#list-container' data-loader='.loader-tiny'
+           data-user-slug=>
+            <!-- 未登录状态 -->
+            <!-- Active: recommended notes list -->
+            <li class="active">
+              <a data-pjax="true" href="/recommendations/notes">今日看点</a>
+            </li>
+            <li class="">
+              <a data-pjax="true" href="/trending/now">热门文章</a>
+            </li>
+          <img alt="Tiny" class="hide loader-tiny" src="assets/tiny.gif" />
+          <li class="search">
+            <form accept-charset="UTF-8" action="/search" class="search-form" method="get"><div style="display:none"><input name="utf8" type="hidden" value="&#x2713;" /></div>
+  <input class="input-medium search-query" id="q" name="q" placeholder="搜索" type="text" />
+</form>
+          </li>
+        </ul>
+      </div>
+      <div id="list-container">
+        
+
+  <ul class="unstyled clearfix sort-nav" id="collection-categories-nav" data-js-module="collection-category" data-fetch-url="/recommendations/notes">
+    <li class="active">
+      <a class="category" href="javascript:void(null);">全部</a>
+    </li>
+      <li>
+        <a class="category" data-category-id="24" href="javascript:void(null);">热议</a>
+      </li>
+      <li>
+        <a class="category" data-category-id="10" href="javascript:void(null);">故事</a>
+      </li>
+      <li>
+        <a class="category" data-category-id="8" href="javascript:void(null);">科技</a>
+      </li>
+      <li>
+        <a class="category" data-category-id="25" href="javascript:void(null);">电影</a>
+      </li>
+      <li>
+        <a class="category" data-category-id="30" href="javascript:void(null);">书</a>
+      </li>
+      <li>
+        <a class="category" data-category-id="4" href="javascript:void(null);">涨知识</a>
+      </li>
+      <li>
+        <a class="category" data-category-id="33" href="javascript:void(null);">有意思</a>
+      </li>
+    <li>
+      <img alt="Tiny" class="hide loader-tiny" src="assets/tiny.gif" />
+    </li>
+  </ul>
+
+
+<ul class="thumbnails">
+      <li>
+      <div class="article">
+        <a class="title" href="/p/b1490559ba51" target="_blank">跨越时间的照片，才能感受世间万千</a>
+        <a class="avatar maleskine-author" data-user-slug="e447b96581bd" href="/users/e447b96581bd"><img alt="Cb28997a8438" quality="100" src="http://upload.jianshu.io/users/upload_avatars/107067/cb28997a8438.png?imageMogr/thumbnail/90x90/quality/100" thumbnail="90x90" /></a>
+        <br>
+        <a class="content" href="/p/b1490559ba51" target="_blank">@随水 是我认识的一个旅行纪实摄影师朋友。他走过印度、孟加拉这几个南亚国家，也去过中国的一些偏远地区。与其他摄影师不同的是，他并没有踏遍五湖四海的欲望，他更喜欢对同样的地方进行多次拍摄，深挖那里人的生活和故事。  问到这么做的原因，他是这么回答的：  “因为无论去哪里，第一次去都是猎奇。只有对...</a>
+        <div class="article-info">
+          <a class="author" href="/users/e447b96581bd">声色犬马hedonist</a>
+          <i class="icon-book"></i>
+          <a class="notebook" href="/notebooks/285857/latest">声活家</a>
+          <i class="icon-th"></i>&nbsp;<a class="collections" href="/collection/bDHhpK">今日看点_,</a><a class="collections" href="/collection/1e3a12335932">声色犬马Hedonist,</a><a class="collections" href="/collection/f0a0237ca438">城 事</a>
+          <a href="/p/b1490559ba51#comments" target="_blank">
+            <i class="icon-comments-alt"></i>1
+</a>          <a class="like-icon-button" data-signin-link="true" data-toggle="modal" href="/sign_in" id="like-note"><i class='icon-heart-empty'></i>5</a>
+            <a class="bookmark" data-signin-link="true" data-toggle="modal" href="/sign_in">
+    <i class="icon-bookmark-empty"></i><span>收藏文章</span>
+</a>
+        </div>
+      </div>
+    </li>
+    <li>
+      <div class="article">
+        <a class="title" href="/p/e3b39102ee64" target="_blank">爱情的样子</a>
+        <a class="avatar maleskine-author" data-user-slug="0f0392b427ce" href="/users/0f0392b427ce"><img alt="0" src="http://tp1.sinaimg.cn/2174601124/180/40006878428/0" /></a>
+        <br>
+        <a class="content" href="/p/e3b39102ee64" target="_blank">上周六，去参加朋友楠的婚礼。大半年没见，她怀孕四个月，穿上婚纱的样子美丽极了。冬日午后暖暖的阳光从哥大教堂大门里照进来，她挽着妈妈缓缓从光里走来。空气中是大提琴和钢琴弹奏的巴赫，我们屏息凝视，看着她缓缓走向新郎。不知是否因为我第一次参加西式婚礼的关系，这样的仪式感，让新人远远望着，再慢慢接近，...</a>
+        <div class="article-info">
+          <a class="author" href="/users/0f0392b427ce">靠谱庄小光</a>
+          <i class="icon-book"></i>
+          <a class="notebook" href="/notebooks/433272/latest">纽约奇遇记</a>
+          <i class="icon-th"></i>&nbsp;<a class="collections" href="/collection/bDHhpK">今日看点_,</a><a class="collections" href="/collection/fcd7a62be697">身边的故事,</a><a class="collections" href="/collection/723de9bac3cd">每天写1000字</a>
+          <a href="/p/e3b39102ee64#comments" target="_blank">
+            <i class="icon-comments-alt"></i>0
+</a>          <a class="like-icon-button" data-signin-link="true" data-toggle="modal" href="/sign_in" id="like-note"><i class='icon-heart-empty'></i>17</a>
+            <a class="bookmark" data-signin-link="true" data-toggle="modal" href="/sign_in">
+    <i class="icon-bookmark-empty"></i><span>收藏文章</span>
+</a>
+        </div>
+      </div>
+    </li>
+    <li>
+      <div class="article">
+        <a class="title" href="/p/47285594554c" target="_blank">孤独星球</a>
+        <a class="avatar maleskine-author" data-user-slug="d30a7d2b0587" href="/users/d30a7d2b0587"><img alt="3ae2e4b8b890" quality="100" src="http://upload.jianshu.io/users/upload_avatars/180516/3ae2e4b8b890.jpg?imageMogr/thumbnail/90x90/quality/100" thumbnail="90x90" /></a>
+        <br>
+        <a class="content" href="/p/47285594554c" target="_blank">科技急速发展，自以为是的人类一步步跋涉进化身造物主的梦靥，无畏，无节，无制，自信满满，直到十指终于无力拉紧刹车的手柄，文明的大厦刹那崩塌溃败，几亿年的进化链瞬间支离破碎，能源消耗，环境污染，物种灭绝。  空空荡荡的天地间，只剩下了这个女人和她襁褓中的孩子。  *****************...</a>
+        <div class="article-info">
+          <a class="author" href="/users/d30a7d2b0587">澜南潜石</a>
+          <i class="icon-book"></i>
+          <a class="notebook" href="/notebooks/371670/latest">脑洞大开</a>
+          <i class="icon-th"></i>&nbsp;<a class="collections" href="/collection/dqfRwQ">短篇小说,</a><a class="collections" href="/collection/bDHhpK">今日看点_,</a><a class="collections" href="/collection/9f5ca272e2cb">童话·寓言</a>
+          <a href="/p/47285594554c#comments" target="_blank">
+            <i class="icon-comments-alt"></i>3
+</a>          <a class="like-icon-button" data-signin-link="true" data-toggle="modal" href="/sign_in" id="like-note"><i class='icon-heart-empty'></i>3</a>
+            <a class="bookmark" data-signin-link="true" data-toggle="modal" href="/sign_in">
+    <i class="icon-bookmark-empty"></i><span>收藏文章</span>
+</a>
+        </div>
+      </div>
+    </li>
+    <li>
+      <div class="article">
+        <a class="title" href="/p/731f4cdbfd83" target="_blank">《平凡的世界》：农村小青年的自尊、爱情和奋斗</a>
+        <a class="avatar maleskine-author" data-user-slug="xaLdZp" href="/users/xaLdZp"><img alt="8d045108793d" quality="100" src="http://upload.jianshu.io/users/upload_avatars/2140/8d045108793d.jpg?imageMogr/thumbnail/90x90/quality/100" thumbnail="90x90" /></a>
+        <br>
+        <a class="content" href="/p/731f4cdbfd83" target="_blank">《平凡的世界》是我今年看的最长的一本书，以前尝试了很多次都没有看完。我知道的这是影响了整整一代人的书，这在历史上肯定是不多的，在我看来，《平凡的世界》还有一个伟大的地方，那就是它记录了一个风云变幻的时代浪潮及其每一个浪花的细节，熟悉那个时代的人终究会老去，但这本书可以作为那个时代的百科全书来阅...</a>
+        <div class="article-info">
+          <a class="author" href="/users/xaLdZp">王铁牛</a>
+          <i class="icon-book"></i>
+          <a class="notebook" href="/notebooks/414689/latest">读书笔记</a>
+          <i class="icon-th"></i>&nbsp;<a class="collections" href="/collection/yD9GAd">读书,</a><a class="collections" href="/collection/bDHhpK">今日看点_,</a><a class="collections" href="/collection/30181cb9df9a">读书笔记</a>
+          <a href="/p/731f4cdbfd83#comments" target="_blank">
+            <i class="icon-comments-alt"></i>5
+</a>          <a class="like-icon-button" data-signin-link="true" data-toggle="modal" href="/sign_in" id="like-note"><i class='icon-heart-empty'></i>9</a>
+            <a class="bookmark" data-signin-link="true" data-toggle="modal" href="/sign_in">
+    <i class="icon-bookmark-empty"></i><span>收藏文章</span>
+</a>
+        </div>
+      </div>
+    </li>
+    <li>
+      <div class="article">
+        <a class="title" href="/p/b04365c60d85" target="_blank">再见，大众市场！细分服务是未来的主战场</a>
+        <a class="avatar maleskine-author" data-user-slug="922bb3469674" href="/users/922bb3469674"><img alt="8b0dfa1c6958" quality="100" src="http://upload.jianshu.io/users/upload_avatars/190636/8b0dfa1c6958.jpg?imageMogr/thumbnail/90x90/quality/100" thumbnail="90x90" /></a>
+        <br>
+        <a class="content" href="/p/b04365c60d85" target="_blank">过去，只有大众市场才能形成规模经济，进而取得商业上的效益，每个人必须放弃自己的个性化，而选择通用需求。  当然，如果你坚持你的个性化需求，或许能够发现利基市场，但通常，这样的服务都非常昂贵。比如，你想读金融新闻，可以选择金融时报，也可以去读华尔街日报，但你必须忍受搭售的其他行业新闻（对于其他领...</a>
+        <div class="article-info">
+          <a class="author" href="/users/922bb3469674">赵博思</a>
+          <i class="icon-book"></i>
+          <a class="notebook" href="/notebooks/392671/latest">科技十年后</a>
+          <i class="icon-th"></i>&nbsp;<a class="collections" href="/collection/bDHhpK">今日看点_,</a><a class="collections" href="/collection/bd97f28042fd">互联网的世界,</a><a class="collections" href="/collection/b15041929a07">互联网杂谈</a>
+          <a href="/p/b04365c60d85#comments" target="_blank">
+            <i class="icon-comments-alt"></i>1
+</a>          <a class="like-icon-button" data-signin-link="true" data-toggle="modal" href="/sign_in" id="like-note"><i class='icon-heart-empty'></i>7</a>
+            <a class="bookmark" data-signin-link="true" data-toggle="modal" href="/sign_in">
+    <i class="icon-bookmark-empty"></i><span>收藏文章</span>
+</a>
+        </div>
+      </div>
+    </li>
+    <li>
+      <div class="article">
+        <a class="title" href="/p/08efa6585c05" target="_blank">狗哥学英语的一点经验</a>
+        <a class="avatar maleskine-author" data-user-slug="90875ba854b1" href="/users/90875ba854b1"><img alt="Aba015e3173d" quality="100" src="http://upload.jianshu.io/users/upload_avatars/137337/aba015e3173d.jpg?imageMogr/thumbnail/90x90/quality/100" thumbnail="90x90" /></a>
+        <br>
+        <a class="content" href="/p/08efa6585c05" target="_blank">谈感受的文章，很容易把自己弄成个老成持重的样子，也容易往悲情一路上引，这着实可恶，所以就不写《我学英语的一点感受》了，让狗哥讲讲他学英语的那点事。  读小学时就知道写文章有个手法叫先抑后扬，这基本上就是铺垫后大转折给人期待的路子。  狗哥英语差，这个倒不用细讲。他的同事不是说“我太了解他这山东...</a>
+        <div class="article-info">
+          <a class="author" href="/users/90875ba854b1">大象的印象</a>
+          <i class="icon-book"></i>
+          <a class="notebook" href="/notebooks/282857/latest">狗哥系列</a>
+          <i class="icon-th"></i>&nbsp;<a class="collections" href="/collection/bDHhpK">今日看点_,</a><a class="collections" href="/collection/3365fcb15ee6">人生修炼,</a><a class="collections" href="/collection/a8105d1ec268">英语点滴</a>
+          <a href="/p/08efa6585c05#comments" target="_blank">
+            <i class="icon-comments-alt"></i>5
+</a>          <a class="like-icon-button" data-signin-link="true" data-toggle="modal" href="/sign_in" id="like-note"><i class='icon-heart-empty'></i>92</a>
+            <a class="bookmark" data-signin-link="true" data-toggle="modal" href="/sign_in">
+    <i class="icon-bookmark-empty"></i><span>收藏文章</span>
+</a>
+        </div>
+      </div>
+    </li>
+    <li>
+      <div class="article">
+        <a class="title" href="/p/0d1b1afdef99" target="_blank">仅仅是个开始</a>
+        <a class="avatar maleskine-author" data-user-slug="Tmg29t" href="/users/Tmg29t"><img alt="5bb870ff7d23" quality="100" src="http://upload.jianshu.io/users/upload_avatars/3945/5bb870ff7d23.jpg?imageMogr/thumbnail/90x90/quality/100" thumbnail="90x90" /></a>
+        <br>
+        <a class="content" href="/p/0d1b1afdef99" target="_blank">本文作者为享借首席科学家 袁长庚 博士   在“享借”所秉持的诸多理念中，我们格外看重的是对文本的珍视。在过往一段时间里，我们花费大量的时间和精力来制作、打磨我们所需要的每一篇文字，看重作为“作者”的“享借”与作为“读者”的用户之间的每一次相遇。简言之，我们不满足于搭建一个物品流通的平台，而更...</a>
+        <div class="article-info">
+          <a class="author" href="/users/Tmg29t">Pekingcat享借</a>
+          <i class="icon-book"></i>
+          <a class="notebook" href="/notebooks/246574/latest">startup</a>
+          <i class="icon-th"></i>&nbsp;<a class="collections" href="/collection/bDHhpK">今日看点_,</a><a class="collections" href="/collection/a3f0e96f656e">借______</a>
+          <a href="/p/0d1b1afdef99#comments" target="_blank">
+            <i class="icon-comments-alt"></i>5
+</a>          <a class="like-icon-button" data-signin-link="true" data-toggle="modal" href="/sign_in" id="like-note"><i class='icon-heart-empty'></i>8</a>
+            <a class="bookmark" data-signin-link="true" data-toggle="modal" href="/sign_in">
+    <i class="icon-bookmark-empty"></i><span>收藏文章</span>
+</a>
+        </div>
+      </div>
+    </li>
+    <li>
+      <div class="article">
+        <a class="title" href="/p/2fb9d0f7b983" target="_blank">为什么要生小孩</a>
+        <a class="avatar maleskine-author" data-user-slug="243b7f7b1500" href="/users/243b7f7b1500"><img alt="Df62621d4417" quality="100" src="http://upload.jianshu.io/users/upload_avatars/118382/df62621d4417.jpg?imageMogr/thumbnail/90x90/quality/100" thumbnail="90x90" /></a>
+        <br>
+        <a class="content" href="/p/2fb9d0f7b983" target="_blank">在我的印象里，我的爷爷辈儿的那一代人，都有很多子女。我的姥姥有四个女儿三个儿子，我的奶奶有两个女儿四个儿子（这还只算上了成活下来的）。为什么生孩子这件事，对于那一代人，仿佛根本就不是什么问题。也没有人会问为什么要生小孩这样的问题。当然，那时对这个问题也有现成的答案：养儿防老嘛！ 
+ 我父辈这代...</a>
+        <div class="article-info">
+          <a class="author" href="/users/243b7f7b1500">我的名字叫清阳</a>
+          <i class="icon-book"></i>
+          <a class="notebook" href="/notebooks/243345/latest">奶爸养成记</a>
+          <i class="icon-th"></i>&nbsp;<a class="collections" href="/collection/bDHhpK">今日看点_,</a><a class="collections" href="/collection/72c6094dbb37">每周500字</a>
+          <a href="/p/2fb9d0f7b983#comments" target="_blank">
+            <i class="icon-comments-alt"></i>1
+</a>          <a class="like-icon-button" data-signin-link="true" data-toggle="modal" href="/sign_in" id="like-note"><i class='icon-heart-empty'></i>8</a>
+            <a class="bookmark" data-signin-link="true" data-toggle="modal" href="/sign_in">
+    <i class="icon-bookmark-empty"></i><span>收藏文章</span>
+</a>
+        </div>
+      </div>
+    </li>
+    <li>
+      <div class="article">
+        <a class="title" href="/p/dda56f772215" target="_blank">饭岛爱</a>
+        <a class="avatar maleskine-author" data-user-slug="5fe86004354c" href="/users/5fe86004354c"><img alt="E2bcacd63d44" quality="100" src="http://upload.jianshu.io/users/upload_avatars/161307/e2bcacd63d44.jpeg?imageMogr/thumbnail/90x90/quality/100" thumbnail="90x90" /></a>
+        <br>
+        <a class="content" href="/p/dda56f772215" target="_blank">饭岛爱 
+跟绝大多数人不同，关于AV，带我入门的不是苍井空老师．甚至我从来都没有看过一部苍井空老师的作品．在我看来，苍老师的颜并不是那么地对我胃口． 我喜欢饭岛爱． 我第一次认识饭岛爱，是在台湾作家骆以军的小说＜ 平安夜 ＞： 
+  之后一个叫海贼王的家伙Call in进去。 小爱死了。他说。...</a>
+        <div class="article-info">
+          <a class="author" href="/users/5fe86004354c">蓝鲸林</a>
+          <i class="icon-book"></i>
+          <a class="notebook" href="/notebooks/467218/latest">小人事</a>
+          <i class="icon-th"></i>&nbsp;<a class="collections" href="/collection/bDHhpK">今日看点_,</a><a class="collections" href="/collection/723de9bac3cd">每天写1000字,</a><a class="collections" href="/collection/72c6094dbb37">每周500字</a>
+          <a href="/p/dda56f772215#comments" target="_blank">
+            <i class="icon-comments-alt"></i>13
+</a>          <a class="like-icon-button" data-signin-link="true" data-toggle="modal" href="/sign_in" id="like-note"><i class='icon-heart-empty'></i>37</a>
+            <a class="bookmark" data-signin-link="true" data-toggle="modal" href="/sign_in">
+    <i class="icon-bookmark-empty"></i><span>收藏文章</span>
+</a>
+        </div>
+      </div>
+    </li>
+    <li>
+      <div class="article">
+        <a class="title" href="/p/8870da65664a" target="_blank">如何在这个情人节，优雅地送出你的玫瑰？</a>
+        <a class="avatar maleskine-author" data-user-slug="e447b96581bd" href="/users/e447b96581bd"><img alt="Cb28997a8438" quality="100" src="http://upload.jianshu.io/users/upload_avatars/107067/cb28997a8438.png?imageMogr/thumbnail/90x90/quality/100" thumbnail="90x90" /></a>
+        <br>
+        <a class="content" href="/p/8870da65664a" target="_blank">图片来自Dior官网 
+  两天后，就是几家欢喜几家愁的情人节了。昨晚我们讲了烛光晚餐后，有童鞋留言表示说：“喂能不能有点创意，你们这也太俗了嘛！”   好，既然你都这么说了，那我也就不矫情了，今天我决定一俗到底，俗得任性，讲讲情人节送玫瑰的那些事儿。  情人节要不要送玫瑰  骚年，关于这个问...</a>
+        <div class="article-info">
+          <a class="author" href="/users/e447b96581bd">声色犬马hedonist</a>
+          <i class="icon-book"></i>
+          <a class="notebook" href="/notebooks/285873/latest">色即空</a>
+          <i class="icon-th"></i>&nbsp;<a class="collections" href="/collection/3sT4qY">今日看点,</a><a class="collections" href="/collection/c94418b97654">如何优雅,</a><a class="collections" href="/collection/1e3a12335932">声色犬马Hedonist</a>
+          <a href="/p/8870da65664a#comments" target="_blank">
+            <i class="icon-comments-alt"></i>0
+</a>          <a class="like-icon-button" data-signin-link="true" data-toggle="modal" href="/sign_in" id="like-note"><i class='icon-heart-empty'></i>4</a>
+            <a class="bookmark" data-signin-link="true" data-toggle="modal" href="/sign_in">
+    <i class="icon-bookmark-empty"></i><span>收藏文章</span>
+</a>
+        </div>
+      </div>
+    </li>
+    <li>
+      <div class="article">
+        <a class="title" href="/p/8fc2a0e8e1ff" target="_blank">我们终将学会《目送》</a>
+        <a class="avatar maleskine-author" data-user-slug="c7d763555e78" href="/users/c7d763555e78"><img alt="00c187ae62da" quality="100" src="http://upload.jianshu.io/users/upload_avatars/228294/00c187ae62da.jpg?imageMogr/thumbnail/90x90/quality/100" thumbnail="90x90" /></a>
+        <br>
+        <a class="content" href="/p/8fc2a0e8e1ff" target="_blank">读完这本长居“亚马逊销售排行榜”榜单上的书大概已经是几周以前的事了。这段时间在家窝着有些犯懒，又时常觉得自己没有太多灵感，就把写书评这件事一再搁浅。 
+  《目送》这本书的封面异常简洁，舒心的绿色浓淡相间，平和朴实。可在满眼油画般墨绿简单的封面上，我看到了这样美的句子：“这是一本生死笔记，深邃...</a>
+        <div class="article-info">
+          <a class="author" href="/users/c7d763555e78">许雅茉</a>
+          <i class="icon-book"></i>
+          <a class="notebook" href="/notebooks/470038/latest">观想</a>
+          <i class="icon-th"></i>&nbsp;<a class="collections" href="/collection/yD9GAd">读书,</a><a class="collections" href="/collection/bDHhpK">今日看点_,</a><a class="collections" href="/collection/69313d47e8ba">读书</a>
+          <a href="/p/8fc2a0e8e1ff#comments" target="_blank">
+            <i class="icon-comments-alt"></i>4
+</a>          <a class="like-icon-button" data-signin-link="true" data-toggle="modal" href="/sign_in" id="like-note"><i class='icon-heart-empty'></i>17</a>
+            <a class="bookmark" data-signin-link="true" data-toggle="modal" href="/sign_in">
+    <i class="icon-bookmark-empty"></i><span>收藏文章</span>
+</a>
+        </div>
+      </div>
+    </li>
+    <li>
+      <div class="article">
+        <a class="title" href="/p/3e1fa1688cb9" target="_blank">她3</a>
+        <a class="avatar maleskine-author" data-user-slug="4XxYmD" href="/users/4XxYmD"><img alt="1" src="http://tp3.sinaimg.cn/1956176990/180/5601474166/1" /></a>
+        <br>
+        <a class="content" href="/p/3e1fa1688cb9" target="_blank">前情回顾请看 《她》 ， 《她2》   许多年之后，当他已是耄耋老人时，他肯定还会想起那个冰冷地下室的下午。然而他终究没有这个机会去回忆往事了。一只修长的利箭从他的后胸穿过胸膛，直达前胸，把他穿了一个透心凉。“我跟你什么仇什么怨，你竟这样对我？”他竭斯底里地怒吼着，眼神里充满了愤怒，更多的是不...</a>
+        <div class="article-info">
+          <a class="author" href="/users/4XxYmD">黎明鸟</a>
+          <i class="icon-book"></i>
+          <a class="notebook" href="/notebooks/36730/latest">开脑洞</a>
+          <i class="icon-th"></i>&nbsp;<a class="collections" href="/collection/dqfRwQ">短篇小说,</a><a class="collections" href="/collection/bDHhpK">今日看点_,</a><a class="collections" href="/collection/723de9bac3cd">每天写1000字</a>
+          <a href="/p/3e1fa1688cb9#comments" target="_blank">
+            <i class="icon-comments-alt"></i>5
+</a>          <a class="like-icon-button" data-signin-link="true" data-toggle="modal" href="/sign_in" id="like-note"><i class='icon-heart-empty'></i>6</a>
+            <a class="bookmark" data-signin-link="true" data-toggle="modal" href="/sign_in">
+    <i class="icon-bookmark-empty"></i><span>收藏文章</span>
+</a>
+        </div>
+      </div>
+    </li>
+    <li>
+      <div class="article">
+        <a class="title" href="/p/4eff611e0c46" target="_blank">紫气南来克利夫兰帝星归位　悍将叛逃明尼苏达新王登基</a>
+        <a class="avatar maleskine-author" data-user-slug="e187f11fe1d2" href="/users/e187f11fe1d2"><img alt="695aa054ab34" quality="100" src="http://upload.jianshu.io/users/upload_avatars/63933/695aa054ab34.jpg?imageMogr/thumbnail/90x90/quality/100" thumbnail="90x90" /></a>
+        <br>
+        <a class="content" href="/p/4eff611e0c46" target="_blank">前文摘要：  且说那吾皇詹姆斯，自03年君临克利夫兰以来，先是用两年时间秣兵历马韬光养晦待战机，待到05年羽翼日渐丰满，便率雄师出击，直指中原。那0号特工阿里纳斯率华盛顿奇才，携贾米森、巴特勒号称首都三叉戟，却被詹姆斯横刀立马，片刻斩落马下，但之后詹皇于底特律遇猛虎围城，只能率部归国。次年，詹...</a>
+        <div class="article-info">
+          <a class="author" href="/users/e187f11fe1d2">犬君</a>
+          <i class="icon-book"></i>
+          <a class="notebook" href="/notebooks/131823/latest">中二病人狂想曲（中短篇小说集）</a>
+          <i class="icon-th"></i>&nbsp;<a class="collections" href="/collection/dqfRwQ">短篇小说,</a><a class="collections" href="/collection/bDHhpK">今日看点_,</a><a class="collections" href="/collection/7bafd5ca9551">音乐是你，另一个自我复活的地方</a>
+          <a href="/p/4eff611e0c46#comments" target="_blank">
+            <i class="icon-comments-alt"></i>5
+</a>          <a class="like-icon-button" data-signin-link="true" data-toggle="modal" href="/sign_in" id="like-note"><i class='icon-heart-empty'></i>5</a>
+            <a class="bookmark" data-signin-link="true" data-toggle="modal" href="/sign_in">
+    <i class="icon-bookmark-empty"></i><span>收藏文章</span>
+</a>
+        </div>
+      </div>
+    </li>
+    <li>
+      <div class="article">
+        <a class="title" href="/p/b806341435ce" target="_blank">死别</a>
+        <a class="avatar maleskine-author" data-user-slug="ee9d9ef89095" href="/users/ee9d9ef89095"><img alt="U44323707 4" src="http://img3.douban.com/icon/u44323707-4.jpg" /></a>
+        <br>
+        <a class="content" href="/p/b806341435ce" target="_blank">人世间最痛不欲生的事，莫过于亲友的离世。逝者撒手人寰，从此与生者阴阳两隔。大多数时候，这件事是被动的，被动即表示当事人是不希望这件事情发生的，死去的人不希望，活着的人也不希望。  这种事情在新闻里并不少见。一个土老板应酬时喝高了，逞能说自己闭着眼睛也能开车回家，坐上自己的宝马7系，连安全带都不...</a>
+        <div class="article-info">
+          <a class="author" href="/users/ee9d9ef89095">Bacon</a>
+          <i class="icon-book"></i>
+          <a class="notebook" href="/notebooks/66478/latest">乱弹</a>
+          <i class="icon-th"></i>&nbsp;<a class="collections" href="/collection/bDHhpK">今日看点_,</a><a class="collections" href="/collection/0f46b1a23c16">人生の感悟</a>
+          <a href="/p/b806341435ce#comments" target="_blank">
+            <i class="icon-comments-alt"></i>5
+</a>          <a class="like-icon-button" data-signin-link="true" data-toggle="modal" href="/sign_in" id="like-note"><i class='icon-heart-empty'></i>18</a>
+            <a class="bookmark" data-signin-link="true" data-toggle="modal" href="/sign_in">
+    <i class="icon-bookmark-empty"></i><span>收藏文章</span>
+</a>
+        </div>
+      </div>
+    </li>
+    <li>
+      <div class="article">
+        <a class="title" href="/p/dad0bd88c55f" target="_blank">致动漫宅腐—除了漫威，你还应该知道的美漫手游</a>
+        <a class="avatar maleskine-author" data-user-slug="0cbea4cad91f" href="/users/0cbea4cad91f"><img alt="D9a4f5074eef" quality="100" src="http://upload.jianshu.io/users/upload_avatars/43343/d9a4f5074eef.jpg?imageMogr/thumbnail/90x90/quality/100" thumbnail="90x90" /></a>
+        <br>
+        <a class="content" href="/p/dad0bd88c55f" target="_blank">羊年，玩不一样 
+ 文艺怪咖，请看这里。  运动达人，请看这里。  进步青年，请看这里。  动漫宅腐，请看这里。  技术大牛，请看这里。 
+ 你有什么不得不玩的手机游戏，让闷瓜来告诉你！  闷瓜将分别盘点每类人最适合的手机游戏。  同时在微信公众号闷瓜网络（menguaapp）里送上现金红包 ...</a>
+        <div class="article-info">
+          <a class="author" href="/users/0cbea4cad91f">陈沉</a>
+          <i class="icon-book"></i>
+          <a class="notebook" href="/notebooks/164073/latest">闷瓜电台</a>
+          <i class="icon-th"></i>&nbsp;<a class="collections" href="/collection/bDHhpK">今日看点_,</a><a class="collections" href="/collection/33b058125e5d">闷瓜电台</a>
+          <a href="/p/dad0bd88c55f#comments" target="_blank">
+            <i class="icon-comments-alt"></i>0
+</a>          <a class="like-icon-button" data-signin-link="true" data-toggle="modal" href="/sign_in" id="like-note"><i class='icon-heart-empty'></i>2</a>
+            <a class="bookmark" data-signin-link="true" data-toggle="modal" href="/sign_in">
+    <i class="icon-bookmark-empty"></i><span>收藏文章</span>
+</a>
+        </div>
+      </div>
+    </li>
+    <li>
+      <div class="article">
+        <a class="title" href="/p/297dae5e8293" target="_blank">如果有一样东西它让一切成功，就是幸运</a>
+        <a class="avatar maleskine-author" data-user-slug="865589b7cc59" href="/users/865589b7cc59"><img alt="2a814ec63bdc" quality="100" src="http://upload.jianshu.io/users/upload_avatars/128218/2a814ec63bdc.jpg?imageMogr/thumbnail/90x90/quality/100" thumbnail="90x90" /></a>
+        <br>
+        <a class="content" href="/p/297dae5e8293" target="_blank">我老公在简书上开了一个叫 《婚后日常》 的系列，记录了很多我和他结婚以后的各种糗事、乌龙事。当然也有他的思考，他的发现。  每次他发布了新的文章，隔一段时间，我会去看看大家的评论怎么说。同时自己会顺带回忆一下当初发生这些事的情景。  温习的同时，我加入了一些思考和自省，逐步我意识到，我和他最终...</a>
+        <div class="article-info">
+          <a class="author" href="/users/865589b7cc59">windfort</a>
+          <i class="icon-book"></i>
+          <a class="notebook" href="/notebooks/263894/latest">随笔</a>
+          <i class="icon-th"></i>&nbsp;<a class="collections" href="/collection/bDHhpK">今日看点_,</a><a class="collections" href="/collection/GQ5FAs">谈谈情，说说爱,</a><a class="collections" href="/collection/fcd7a62be697">身边的故事</a>
+          <a href="/p/297dae5e8293#comments" target="_blank">
+            <i class="icon-comments-alt"></i>12
+</a>          <a class="like-icon-button" data-signin-link="true" data-toggle="modal" href="/sign_in" id="like-note"><i class='icon-heart-empty'></i>37</a>
+            <a class="bookmark" data-signin-link="true" data-toggle="modal" href="/sign_in">
+    <i class="icon-bookmark-empty"></i><span>收藏文章</span>
+</a>
+        </div>
+      </div>
+    </li>
+    <li>
+      <div class="article">
+        <a class="title" href="/p/58e5d7c2cd08" target="_blank">噢！老板！老板！【3】</a>
+        <a class="avatar maleskine-author" data-user-slug="d30a7d2b0587" href="/users/d30a7d2b0587"><img alt="3ae2e4b8b890" quality="100" src="http://upload.jianshu.io/users/upload_avatars/180516/3ae2e4b8b890.jpg?imageMogr/thumbnail/90x90/quality/100" thumbnail="90x90" /></a>
+        <br>
+        <a class="content" href="/p/58e5d7c2cd08" target="_blank">*****************************预约***************************  老板脸色微妙地问我：为嘛日历上有一个头头的会议预约是在这周六晚上啊！  我屁颠屁颠跑去问了，对方秘书姐姐表示，没有啊，搞错了吧。  回去告诉老板，老板安心开会去了。     ...</a>
+        <div class="article-info">
+          <a class="author" href="/users/d30a7d2b0587">澜南潜石</a>
+          <i class="icon-book"></i>
+          <a class="notebook" href="/notebooks/371670/latest">脑洞大开</a>
+          <i class="icon-th"></i>&nbsp;<a class="collections" href="/collection/bDHhpK">今日看点_,</a><a class="collections" href="/collection/fcd7a62be697">身边的故事,</a><a class="collections" href="/collection/adc58df7bcf9">千字文</a>
+          <a href="/p/58e5d7c2cd08#comments" target="_blank">
+            <i class="icon-comments-alt"></i>9
+</a>          <a class="like-icon-button" data-signin-link="true" data-toggle="modal" href="/sign_in" id="like-note"><i class='icon-heart-empty'></i>21</a>
+            <a class="bookmark" data-signin-link="true" data-toggle="modal" href="/sign_in">
+    <i class="icon-bookmark-empty"></i><span>收藏文章</span>
+</a>
+        </div>
+      </div>
+    </li>
+    <li>
+      <div class="article">
+        <a class="title" href="/p/ccc844ec71df" target="_blank">饭友</a>
+        <a class="avatar maleskine-author" data-user-slug="0b89d6f8161c" href="/users/0b89d6f8161c"><img alt="0" src="http://tp1.sinaimg.cn/2111430264/180/5688008333/0" /></a>
+        <br>
+        <a class="content" href="/p/ccc844ec71df" target="_blank">我们家是很少到外边的餐馆吃饭的，因为母亲总觉得外面的食物处理的不干净。但是母亲的手艺说不上有多么好，所以我常常盼望着别人家的婚丧嫁娶，又或者家里突然来了客人，好到外面的餐馆里吃上一顿。  外面的东西好吃，这种心理一直伴随着我的整个青春少年时期，直到我遇到江珉。     大二的一个平常的周末，一...</a>
+        <div class="article-info">
+          <a class="author" href="/users/0b89d6f8161c">月落</a>
+          <i class="icon-book"></i>
+          <a class="notebook" href="/notebooks/68231/latest">短篇</a>
+          <i class="icon-th"></i>&nbsp;<a class="collections" href="/collection/bDHhpK">今日看点_,</a><a class="collections" href="/collection/38c314241512">跟着脑袋走,</a><a class="collections" href="/collection/b4b8b7e99b4b">我所喜欢的</a>
+          <a href="/p/ccc844ec71df#comments" target="_blank">
+            <i class="icon-comments-alt"></i>15
+</a>          <a class="like-icon-button" data-signin-link="true" data-toggle="modal" href="/sign_in" id="like-note"><i class='icon-heart-empty'></i>75</a>
+            <a class="bookmark" data-signin-link="true" data-toggle="modal" href="/sign_in">
+    <i class="icon-bookmark-empty"></i><span>收藏文章</span>
+</a>
+        </div>
+      </div>
+    </li>
+
+</ul>
+
+<div class="load-more"><button class="ladda-button " 
+  data-style="slide-left" 
+  data-type="script"
+  data-remote
+  data-size="medium"
+  data-url="/recommendations/notes?max_id=1423785662" 
+  data-color="maleskine"
+  data-method="get">
+  <span class="ladda-label">点击查看更多</span>
+</button>
+</div>
+      </div>
+    </div>
+  </div>
+
+    </div>
+    <footer>
+  <div class="footer-l">
+    <p>
+      <a href="http://www.jianshu.com/collection/jppzD2" target="_blank">关于简书</a> |
+      <a href="/contact" target="_blank">联系我们</a> |
+      <a href="http://www.jianshu.com/collection/fc488cd78374" target="_blank">作者成书计划</a> |
+      <a href="http://www.jianshu.com/notebooks/547/latest" target="_blank">帮助中心</a> |
+      <a href="http://jianshucom.taobao.com/" target="_blank">简书周边</a> |
+      <a href="/all/collections">专题</a> |
+      <a href="/all/notes">文章</a>
+    </p>
+    <p>©2012-2015 <a href="/" target="_blank">简书</a> / 沪ICP备11018329号-5 </p>
+  </div>
+
+  <div class="footer-r pull-right">
+    <div class="app-download-btn">
+      <a href="/apps">
+        <img alt="Ios" src="assets/app-page/ios.png" />
+</a>      <a href="/apps">
+        <img alt="Android" src="assets/app-page/android.png" />
+</a>    </div>
+    <div>
+      关注我们:
+      <a href="http://weibo.com/jianshuio" target="_blank">
+        <img alt="Icon weibo" src="assets/app-page/icon_weibo.png" />
+      </a>
+      <a class="weixin" href="#share-weixin-modal" data-toggle="modal">
+        <img alt="Icon weixin" src="assets/app-page/icon_weixin.png" />
+      </a>
+      <a href="https://twitter.com/jianshucom" target="_blank">
+        <img alt="Icon twitter" src="assets/app-page/icon_twitter.png" />
+      </a>
+      <br><a href="http://windows.microsoft.com/zh-CN/internet-explorer/download-ie" class="upgrade-ie">本网站不支持 IE6/IE7，如果您希望继续使用 IE 浏览器，请升级至IE8及以上版本</a>
+    </div>
+  </div>
+
+  <!--modal-->
+  <div class="modal hide fade share-weixin-modal" id="share-weixin-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+      </div>
+      <div class="modal-content">
+        <div class="modal-body">
+          <p>关注我们的微信公众号，获得每日好文推荐。微信中搜索「简书」或者扫一扫下方二维码：</p>
+          <img alt="Jianshu wechat qrcode" src="http://baijii-common.b0.upaiyun.com/logos/jianshu_wechat_qrcode.jpg" />
+        </div>
+      </div>
+    </div>
+  </div>
+
+</footer>
+
+    <div class="hide" id="flash"></div>
+    
+  <div id="view-mode-modal" tabindex="-1" class="modal hide read-modal" aria-hidden="false" data-js-module='view-mode-modal'>
+    <div class="btn-group change-background" data-toggle="buttons-radio">
+      <a class="btn btn-daytime " data-mode="day" href="javascript:void(null);">
+        <i class="icon-sun"></i>
+</a>      <a class="btn btn-nighttime active" data-mode="night" href="javascript:void(null);">
+        <i class="icon-moon"></i>
+</a>    </div>
+    <div class="btn-group change-font" data-toggle="buttons-radio">
+      <a class="btn font active" data-font="font1" href="javascript:void(null);">宋体</a>
+      <a class="btn font hei " data-font="font2" href="javascript:void(null);">黑体</a>
+    </div>
+    <div class="btn-group change-locale" data-toggle="buttons-radio">
+      <a class="btn font active" data-locale="zh-CN" href="javascript:void(null);">简</a>
+      <a class="btn font hei " data-locale="zh-TW" href="javascript:void(null);">繁</a>
+    </div>
+  </div>
+
+    <!-- Javascripts
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="assets/base.js"></script>
+    <script src="assets/reading-base.js"></script>
+      <script src="assets/reading/module_sets/home.js"></script>
+  
+
+  </body>
+</html>
