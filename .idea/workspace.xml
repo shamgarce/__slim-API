@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8fdaf63a-f73f-4dde-aabf-fdc3c5cc9f28" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public_html/M/controllers/lib/EasyCache/query_caches/sqlcache_config_file_8e8a972141bd9bb698b38e7bd9289cba.php" afterPath="$PROJECT_DIR$/public_html/M/controllers/lib/EasyCache/query_caches/sqlcache_config_file_8e8a972141bd9bb698b38e7bd9289cba.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="slim-API.iws" />
@@ -336,7 +335,13 @@
       <option name="project" value="LOCAL" />
       <updated>1423908301506</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Rejected commit: Default">
+      <created>1423908523773</created>
+      <option name="number" value="00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1423908523773</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="ToolWindowManager">
