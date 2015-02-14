@@ -46,7 +46,27 @@
         <h1>&nbsp;</h1>
       <div class="starter-template">
         <h1>接口管理  </h1>
-        
+       
+<table class="table table-hover table-condensed table-striped table-bordered" >
+<tr>
+  <td>  <a href="/Man/index/v1" type="button" class="btn btn-primary" <?php if($ver === 'v1' && $mm == ''){echo 'disabled';}?>>版本 v1</a>
+  <a href="/Man/index/v3" type="button" class="btn btn-primary" <?php if($ver === 'v3' && $mm == ''){echo 'disabled';}?>>版本 v3</a></td>
+</tr>
+<tr>
+  <td>模块 : 
+<?php
+foreach($ma as $key=>$value){
+?>
+<a href="/Man/index/<?php echo $ver;?>/<?php echo $key;?>" type="button" class="btn btn-default" <?php if($mm === $key){echo 'disabled';}?>><?php echo $key;?></a>
+<?php
+}
+?>
+</td>
+</tr>
+
+</table> 
+       
+       
         <table class="table table-hover table-condensed table-striped table-bordered" >
           <tr></tr>
           <tr>

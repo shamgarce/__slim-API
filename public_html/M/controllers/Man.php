@@ -41,11 +41,25 @@ class Man extends CI_Controller
 	}
 
 	//自动生成接口文档
-	public function doc()
+	public function doc($ver = 0,$mm=0)
 	{
-		$rc = $this->db->getall("select * from userapi");
+		$sql = !empty($ver)?" v= '$ver'":" 1";
+		$sql .= !empty($mm)?" and (`api` like '$mm%')":"";
+
+		$sql = "select * from userapi where $sql";
+		$rc = $this->db->getall($sql);
+
+		foreach($rc as $key=>$value){
+			$apis = explode('/',$value['api']);
+			$ma[$apis[0]][$apis[1]] = 1;
+		}
+
 		$data['msg'] = "默认m";
 		$data['rc'] = $rc;
+		$data['ver'] 	= $ver;
+		$data['mm'] 	= $mm;
+		$data['ma'] 	= $ma;
+
 		$this->load->view('Man/Man_doc',$data);
 	}
 
@@ -62,9 +76,32 @@ class Man extends CI_Controller
 	}
 
 	//主要的管理界面
-	public function index()
+	public function index($ver = 0,$mm=0)
 	{
-		$rc = $this->db->getall("select * from userapi");
+
+
+		$sql = !empty($ver)?" v= '$ver'":" 1";
+		$sql .= !empty($mm)?" and (`api` like '$mm%')":"";
+		$sql = "select * from userapi where $sql";
+
+
+		$rc = $this->db->getall($sql);
+
+		foreach($rc as $key=>$value){
+			$apis = explode('/',$value['api']);
+			$ma[$apis[0]][$apis[1]] = 1;
+		}
+
+
+
+
+
+
+
+		$data['ver'] 	= $ver;
+		$data['mm'] 	= $mm;
+		$data['ma'] 	= $ma;
+
 		$data['msg'] = "默认m";
 		$data['rc'] = $rc;
 		$this->load->view('Man/Man_index',$data);
