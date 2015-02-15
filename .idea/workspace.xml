@@ -2,6 +2,175 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8fdaf63a-f73f-4dde-aabf-fdc3c5cc9f28" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/test_/assets/app-page/android.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/test_/assets/cb28997a8438.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/test_/assets/favicon.ico" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/test_/assets/font/fontawesome-webfont-5a124eb00729a5490a299bbbd11fadb2.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/test_/assets/icon114.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/test_/assets/app-page/icon_twitter.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/test_/assets/app-page/icon_weibo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/test_/assets/app-page/icon_weixin.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/test_/assets/app-page/ios.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/test_/assets/jianshu_wechat_qrcode.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/test_/assets/sbqBxbDxehv3DUnx1X6P.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/test_/assets/select2/select2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/test_/assets/select2/select2x2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/test_/assets/sprite-3a6ce43dbcff09385cd1e0b6faaac89b.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/test_/assets/sprite_for_ie-1c616f35ca712d28aba949d84c04c49b.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/test_/assets/tiny.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/Mib/Doc/.htaccess" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/Mib/Doc/cache/.htaccess" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/Mib/Te/.htaccess" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/Mib/Te/cache/.htaccess" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/Doc.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/Mib/Doc/controllers/Doc.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/Man.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/Mib/Doc/controllers/lib/Mem.class.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/Mib/Te/controllers/lib/Mem.class.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/Mib/Doc/controllers/lib/Mysql.class.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/Mib/Te/controllers/lib/Mysql.class.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/Mib/Te/libraries/Myte.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/Te.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/Mib/Doc/libraries/Te.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/Mib/Te/controllers/Te.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/Mib/Doc/controllers/lib/Tree.class.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/Mib/Te/controllers/lib/Tree.class.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/Mib/Doc/libraries/Tree.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/Mib/Te/libraries/Tree.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/Mib/Doc/views/_____code404.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/Mib/Te/views/_____code404.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/test_/js/aq_auth.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/Mib/Doc/config/autoload.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/Mib/Te/config/autoload.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/test_/assets/base.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/test_/assets/base.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/test_/assets/bugsnag-2.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/Mib/Doc/config/config.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/Mib/Te/config/config.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/Mib/Doc/config/constants.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/Mib/Te/config/constants.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/Mib/Doc/config/database.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/Mib/Te/config/database.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/Mib/Doc/config/doctypes.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/Mib/Te/config/doctypes.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/Mib/Doc/errors/error_404.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/Mib/Te/errors/error_404.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/Mib/Doc/errors/error_db.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/Mib/Te/errors/error_db.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/Mib/Doc/errors/error_general.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/Mib/Te/errors/error_general.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/Mib/Doc/errors/error_php.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/Mib/Te/errors/error_php.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/Mib/Doc/config/foreign_chars.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/Mib/Te/config/foreign_chars.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/test_/assets/reading/module_sets/home.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/Mib/Doc/config/hooks.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/Mib/Te/config/hooks.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/Mib/Doc/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/Mib/Doc/cache/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/Mib/Doc/config/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/Mib/Doc/controllers/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/Mib/Doc/core/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/Mib/Doc/errors/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/Mib/Doc/helpers/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/Mib/Doc/hooks/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/Mib/Doc/language/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/Mib/Doc/language/english/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/Mib/Doc/libraries/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/Mib/Doc/logs/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/Mib/Doc/models/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/Mib/Doc/third_party/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/Mib/Doc/views/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/Mib/Te/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/Mib/Te/cache/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/Mib/Te/config/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/Mib/Te/controllers/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/Mib/Te/core/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/Mib/Te/errors/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/Mib/Te/helpers/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/Mib/Te/hooks/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/Mib/Te/language/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/Mib/Te/language/english/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/Mib/Te/libraries/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/Mib/Te/logs/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/Mib/Te/models/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/Mib/Te/third_party/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/Mib/Te/views/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/test_/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/Mib/Doc/views/index.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/Mib/Te/views/index.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/Mib/Doc/views/json_out.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/Mib/Te/views/json_out.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/Mib/Doc/config/migration.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/Mib/Te/config/migration.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/Mib/Doc/config/mimes.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/Mib/Te/config/mimes.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/test_/assets/modernizr.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/Mib/Doc/views/nrview.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/Mib/Te/views/nrview.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/Mib/Doc/config/profiler.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/Mib/Te/config/profiler.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/test_/assets/reading-base.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/test_/assets/reading.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/Mib/Doc/config/routes.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/Mib/Te/config/routes.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/test_/assets/select2/select2.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/Mib/Doc/controllers/lib/EasyCache/errlog/slowquery.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/Mib/Te/controllers/lib/EasyCache/errlog/slowquery.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/Mib/Doc/config/smileys.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/Mib/Te/config/smileys.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/Mib/Doc/controllers/lib/EasyCache/query_caches/sqlcache_config_file_5a5365ad9c75ee32b7dab0aec919a9f2.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/Mib/Te/controllers/lib/EasyCache/query_caches/sqlcache_config_file_5a5365ad9c75ee32b7dab0aec919a9f2.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/Mib/Doc/controllers/lib/EasyCache/query_caches/sqlcache_config_file_8e8a972141bd9bb698b38e7bd9289cba.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/Mib/Te/controllers/lib/EasyCache/query_caches/sqlcache_config_file_8e8a972141bd9bb698b38e7bd9289cba.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/Mib/Doc/controllers/test.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/Mib/Doc/config/user_agents.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/Mib/Te/config/user_agents.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/Mib/Doc/views/v1_msg.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/Mib/Te/views/v1_msg.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/Mib/Doc/views/vset.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/Mib/Te/views/vset.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/Mib/Doc/views/vset_addnew.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/Mib/Te/views/vset_addnew.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/Mib/Doc/views/vset_edit.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/Mib/Te/views/vset_edit.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/Mib/Doc/views/vset_select.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/Mib/Te/views/vset_select.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/Mib/Doc/views/vset_sort.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/Mib/Te/views/vset_sort.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/Mib/Doc/controllers/welcome.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/Mib/Te/controllers/welcome.php" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\test\assets\app-page\android.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\test\assets\app-page\icon_twitter.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\test\assets\app-page\icon_weibo.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\test\assets\app-page\icon_weixin.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\test\assets\app-page\ios.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\test\assets\base.css" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\test\assets\base.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\test\assets\bugsnag-2.min.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\test\assets\cb28997a8438.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\test\assets\favicon.ico" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\test\assets\font\fontawesome-webfont-5a124eb00729a5490a299bbbd11fadb2.eot" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\test\assets\icon114.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\test\assets\jianshu_wechat_qrcode.jpg" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\test\assets\modernizr.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\test\assets\reading-base.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\test\assets\reading.css" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\test\assets\reading\module_sets\home.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\test\assets\sbqBxbDxehv3DUnx1X6P.jpg" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\test\assets\select2\select2.css" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\test\assets\select2\select2.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\test\assets\select2\select2x2.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\test\assets\sprite-3a6ce43dbcff09385cd1e0b6faaac89b.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\test\assets\sprite_for_ie-1c616f35ca712d28aba949d84c04c49b.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\test\assets\tiny.gif" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\test\index.html" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\test\js\aq_auth.js" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public_html/.htaccess" afterPath="$PROJECT_DIR$/public_html/.htaccess" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public_html/M/controllers/Doc.php" afterPath="$PROJECT_DIR$/public_html/M/controllers/Doc.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public_html/M/config/autoload.php" afterPath="$PROJECT_DIR$/public_html/M/config/autoload.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public_html/M/config/config.php" afterPath="$PROJECT_DIR$/public_html/M/config/config.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public_html/M/controllers/lib/EasyCache/query_caches/sqlcache_config_file_8e8a972141bd9bb698b38e7bd9289cba.php" afterPath="$PROJECT_DIR$/public_html/M/controllers/lib/EasyCache/query_caches/sqlcache_config_file_8e8a972141bd9bb698b38e7bd9289cba.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="slim-API.iws" />
@@ -26,7 +195,48 @@
     <favorites_list name="slim-API" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file leaf-file-name="Doc.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public_html/Mib/Doc/controllers/Doc.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-12.774194" vertical-offset="66" max-vertical-offset="5478">
+              <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+              <folding>
+                <marker date="1423998539714" expanded="true" signature="731:820" placeholder="select id,pr..doc_document..." />
+                <marker date="1423998539714" expanded="true" signature="1701:1790" placeholder="select id,pr..doc_document..." />
+                <marker date="1423998539714" expanded="true" signature="2393:2478" placeholder="select * fro..doc_document..." />
+                <marker date="1423998539714" expanded="true" signature="2537:2625" placeholder="select * fro..doc_document..." />
+                <marker date="1423998539714" expanded="true" signature="3588:3677" placeholder="select id,pr..doc_document..." />
+                <marker date="1423998539714" expanded="true" signature="4878:4916" placeholder="select * fro..doc_document..." />
+                <marker date="1423998539714" expanded="true" signature="5026:5105" placeholder="select id,pr..doc_document..." />
+                <marker date="1423998539714" expanded="true" signature="6138:6182" placeholder="update doc_d..." />
+                <marker date="1423998539714" expanded="true" signature="6487:6606" placeholder="select id,pr..doc_document..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Te.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public_html/Mib/Doc/libraries/Te.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-18.967741" vertical-offset="424" max-vertical-offset="1298">
+              <caret line="46" column="30" selection-start-line="46" selection-start-column="30" selection-end-line="46" selection-end-column="30" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Tree.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/public_html/Mib/Doc/libraries/Tree.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.4436536" vertical-offset="330" max-vertical-offset="4444">
+              <caret line="32" column="5" selection-start-line="32" selection-start-column="5" selection-end-line="32" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="Git.Settings">
     <option name="ROOT_SYNC" value="DONT_SYNC" />
@@ -62,10 +272,24 @@
         <option value="$PROJECT_DIR$/public_html/_Tree.class.php" />
         <option value="$PROJECT_DIR$/public_html/_T.php" />
         <option value="$PROJECT_DIR$/public_html/M/controllers/lib/Tree.class.php" />
-        <option value="$PROJECT_DIR$/public_html/M/controllers/Doc.php" />
         <option value="$PROJECT_DIR$/public_html/Mongodb.class.php" />
         <option value="$PROJECT_DIR$/public_html/__.php" />
         <option value="$PROJECT_DIR$/public_html/M/controllers/Man.php" />
+        <option value="$PROJECT_DIR$/public_html/M/config/config.php" />
+        <option value="$PROJECT_DIR$/public_html/M/controllers/Doc.php" />
+        <option value="$PROJECT_DIR$/public_html/M/API/Caroute.php" />
+        <option value="$PROJECT_DIR$/public_html/M/config/autoload.php" />
+        <option value="$PROJECT_DIR$/public_html/M/libraries/Caroute.php" />
+        <option value="$PROJECT_DIR$/public_html/M/libraries/v1/Caroute.php" />
+        <option value="$PROJECT_DIR$/public_html/M/controllers/test.php" />
+        <option value="$PROJECT_DIR$/public_html/Mib/Doc/libraries/Te.php" />
+        <option value="$PROJECT_DIR$/public_html/Mib/Test/controllers/Test.php" />
+        <option value="$PROJECT_DIR$/public_html/Mib/Te/libraries/Te.php" />
+        <option value="$PROJECT_DIR$/public_html/Mib/Te/libraries/Myte.php" />
+        <option value="$PROJECT_DIR$/public_html/Mib/Te/controllers/Doc.php" />
+        <option value="$PROJECT_DIR$/public_html/Mib/Te/controllers/Te.php" />
+        <option value="$PROJECT_DIR$/public_html/.htaccess" />
+        <option value="$PROJECT_DIR$/public_html/Mib/Doc/controllers/Doc.php" />
       </list>
     </option>
   </component>
@@ -173,6 +397,82 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="slim-API" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="slim-API" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public_html" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test_" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="slim-API" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="slim-API" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public_html" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="newtest" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="slim-API" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="slim-API" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public_html" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="newtest" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="slim-API" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="slim-API" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public_html" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Mib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
     </panes>
@@ -205,13 +505,18 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\www\slim-API\public_html\M\API" />
+      <recent name="E:\www\slim-API\public_html\M\controllers" />
       <recent name="E:\www\slim-API\public_html" />
       <recent name="E:\www\slim-API\public_html\M\libraries\M" />
       <recent name="E:\www\slim-API\public_html\M\controllers\lib" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\www\slim-API\public_html\M\libraries\v1" />
+      <recent name="E:\www\slim-API\public_html\M\models\v1" />
+      <recent name="E:\www\slim-API\public_html\M\models" />
+      <recent name="E:\www\slim-API\public_html\M\libraries" />
       <recent name="E:\www\slim-API\public_html\newtest\assets" />
-      <recent name="E:\www\slim-API\public_html\Easy" />
     </key>
   </component>
   <component name="RunManager" selected="PHPUnit.slim-API">
@@ -238,15 +543,15 @@
     <configuration default="true" type="AppEnginePhpConfigurationType" factoryName="App Engine for PHP">
       <method />
     </configuration>
+    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
+      <method />
+    </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
       <node-options />
       <gulpfile />
       <tasks />
       <pass-parent-envs>true</pass-parent-envs>
       <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
       <method />
     </configuration>
     <list size="1">
@@ -341,33 +646,39 @@
       <option name="project" value="LOCAL" />
       <updated>1423908523773</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Rejected commit: Default">
+      <created>1423908537313</created>
+      <option name="number" value="00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1423908537313</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.77691454" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32890365" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32963374" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25346112" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.27263045" sideWeight="0.49944505" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.27529287" sideWeight="0.49944505" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2630458" sideWeight="0.5005549" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32963374" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.28792912" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32963374" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.77691454" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -396,90 +707,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/public_html/newtest/assets/M/controllers/Doc.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1804">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public_html/Easy/Easy.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="600" max-vertical-offset="4598">
-          <caret line="47" column="0" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public_html/Easy/Set.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="3833" max-vertical-offset="5434">
-          <caret line="191" column="0" selection-start-line="191" selection-start-column="0" selection-end-line="191" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public_html/Easy/Fun.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="374" max-vertical-offset="7656">
-          <caret line="17" column="6" selection-start-line="17" selection-start-column="6" selection-end-line="17" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public_html/Easy/Start.inc.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="528" max-vertical-offset="7480">
-          <caret line="24" column="9" selection-start-line="24" selection-start-column="9" selection-end-line="24" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public_html/Easy/Environment.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="418" max-vertical-offset="5214">
-          <caret line="49" column="3" selection-start-line="49" selection-start-column="3" selection-end-line="49" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public_html/Easy/Easy.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="4598">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public_html/Easy/Set.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="3833" max-vertical-offset="5434">
-          <caret line="191" column="0" selection-start-line="191" selection-start-column="0" selection-end-line="191" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public_html/Easy/Fun.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="374" max-vertical-offset="7656">
-          <caret line="17" column="6" selection-start-line="17" selection-start-column="6" selection-end-line="17" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public_html/Easy/Start.inc.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="528" max-vertical-offset="7480">
-          <caret line="24" column="9" selection-start-line="24" selection-start-column="9" selection-end-line="24" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public_html/Easy/Environment.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="418" max-vertical-offset="5214">
-          <caret line="49" column="3" selection-start-line="49" selection-start-column="3" selection-end-line="49" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public_html/Easy/Easy.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="4224">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public_html/Easy/Fun.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="506" max-vertical-offset="7656">
@@ -501,13 +728,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public_html/newtest/assets/M/libraries/M/Rr.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="924">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public_html/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="462" max-vertical-offset="5060">
@@ -515,38 +735,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public_html/newtest/assets/M/controllers/Man.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="960" max-vertical-offset="4950">
-          <caret line="60" column="27" selection-start-line="60" selection-start-column="27" selection-end-line="60" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public_html/newtest/assets/M/controllers/v1.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2376">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public_html/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="462" max-vertical-offset="5060">
           <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public_html/newtest/assets/M/controllers/Man.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="960" max-vertical-offset="4950">
-          <caret line="60" column="27" selection-start-line="60" selection-start-column="27" selection-end-line="60" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public_html/newtest/assets/M/controllers/v1.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2376">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -561,27 +753,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-5.142857" vertical-offset="1642" max-vertical-offset="2565">
           <caret line="94" column="0" selection-start-line="94" selection-start-column="0" selection-end-line="94" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public_html/newtest/assets/M/controllers/v1.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.25266904" vertical-offset="609" max-vertical-offset="2376">
-          <caret line="18" column="41" selection-start-line="18" selection-start-column="41" selection-end-line="18" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public_html/newtest/assets/M/libraries/M/R.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7307236" vertical-offset="0" max-vertical-offset="843">
-          <caret line="28" column="1" selection-start-line="28" selection-start-column="1" selection-end-line="28" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public_html/newtest/assets/M/libraries/M/Rr.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.39145908" vertical-offset="44" max-vertical-offset="924">
-          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -627,38 +798,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public_html/newtest/assets/M/controllers/lib/Mysql.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.39053255" vertical-offset="6336" max-vertical-offset="12936">
-          <caret line="299" column="27" selection-start-line="299" selection-start-column="27" selection-end-line="299" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public_html/newtest/assets/M/controllers/lib/Mem.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-10.225806" vertical-offset="1553" max-vertical-offset="2398">
-          <caret line="85" column="0" selection-start-line="85" selection-start-column="0" selection-end-line="85" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public_html/C/core/Controller.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-9.419354" vertical-offset="522" max-vertical-offset="1540">
           <caret line="37" column="20" selection-start-line="37" selection-start-column="20" selection-end-line="37" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public_html/newtest/assets/M/views/Doc/vset.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.07932692" vertical-offset="0" max-vertical-offset="832">
-          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public_html/newtest/assets/M/views/Man/Man_index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.52071005" vertical-offset="2816" max-vertical-offset="4202">
-          <caret line="148" column="34" selection-start-line="148" selection-start-column="34" selection-end-line="148" selection-end-column="34" />
         </state>
       </provider>
     </entry>
@@ -669,40 +812,336 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public_html/newtest/assets/M/controllers/lib/Tree.class.php">
+    <entry file="file://$PROJECT_DIR$/public_html/A/bootbox.min.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4495848" vertical-offset="2701" max-vertical-offset="4444">
-          <caret line="140" column="9" selection-start-line="140" selection-start-column="9" selection-end-line="140" selection-end-column="9" />
+        <state vertical-scroll-proportion="0.43437862" vertical-offset="0" max-vertical-offset="861">
+          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public_html/newtest/assets/M/controllers/Doc.php">
+    <entry file="file://$PROJECT_DIR$/public_html/M/controllers/v3.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.53262156" vertical-offset="2653" max-vertical-offset="5236">
-          <caret line="141" column="69" selection-start-line="141" selection-start-column="69" selection-end-line="141" selection-end-column="69" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2376">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1423908478005" expanded="true" signature="-1:-1" placeholder="select * fro..userapi..." />
+            <marker date="1423908478005" expanded="true" signature="-1:-1" placeholder="select * fro..userapi..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public_html/M/controllers/welcome.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-10.645162" vertical-offset="0" max-vertical-offset="726">
+          <caret line="15" column="71" selection-start-line="15" selection-start-column="71" selection-end-line="15" selection-end-column="71" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public_html/M/config/routes.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5960832" vertical-offset="327" max-vertical-offset="1144">
+          <caret line="37" column="1" selection-start-line="37" selection-start-column="1" selection-end-line="37" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public_html/M/libraries/M/Rr.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="924">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1423908478015" expanded="true" signature="-1:-1" placeholder="select id,NA..userapi..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public_html/M/libraries/M/R.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="874">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1423908478015" expanded="true" signature="-1:-1" placeholder="select respo..userapi..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public_html/M/models/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.13048635" vertical-offset="0" max-vertical-offset="843">
+          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public_html/M/libraries/M/User.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1210">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1423908478016" expanded="true" signature="-1:-1" placeholder="select respo..userapi..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public_html/M/libraries/M/Caroute.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5480427" vertical-offset="0" max-vertical-offset="843">
+          <caret line="21" column="1" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public_html/M/config/config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.2609727" vertical-offset="6725" max-vertical-offset="8096">
+          <caret line="354" column="47" selection-start-line="354" selection-start-column="47" selection-end-line="354" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public_html/M/config/autoload.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.55634636" vertical-offset="1885" max-vertical-offset="2728">
+          <caret line="107" column="12" selection-start-line="107" selection-start-column="12" selection-end-line="107" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public_html/M/controllers/v1.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-14.903226" vertical-offset="330" max-vertical-offset="2376">
+          <caret line="36" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
+          <folding>
+            <marker date="1423908478004" expanded="true" signature="-1:-1" placeholder="select * fro..userapi..." />
+            <marker date="1423908478004" expanded="true" signature="-1:-1" placeholder="select * fro..userapi..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public_html/M/controllers/test.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-20.419355" vertical-offset="203" max-vertical-offset="3564">
+          <caret line="38" column="36" selection-start-line="38" selection-start-column="36" selection-end-line="38" selection-end-column="36" />
+          <folding>
+            <marker date="1423980427849" expanded="true" signature="-1:-1" placeholder="select * fro..userapi..." />
+            <marker date="1423980427849" expanded="true" signature="-1:-1" placeholder="select * fro..userapi..." />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public_html/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.20828402" vertical-offset="0" max-vertical-offset="5060">
-          <caret line="8" column="28" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="28" />
+        <state vertical-scroll-proportion="-12.064516" vertical-offset="1782" max-vertical-offset="5060">
+          <caret line="98" column="21" selection-start-line="98" selection-start-column="21" selection-end-line="98" selection-end-column="21" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public_html/newtest/assets/M/controllers/Man.php">
+    <entry file="file://$PROJECT_DIR$/public_html/C/libraries/Upload.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6189349" vertical-offset="1567" max-vertical-offset="5720">
-          <caret line="95" column="0" selection-start-line="95" selection-start-column="0" selection-end-line="95" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.49584815" vertical-offset="66" max-vertical-offset="24530">
+          <caret line="22" column="24" selection-start-line="22" selection-start-column="24" selection-end-line="22" selection-end-column="24" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public_html/A/bootbox.min.js">
+    <entry file="file://$PROJECT_DIR$/public_html/M/libraries/v1/Caroute.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.43437862" vertical-offset="0" max-vertical-offset="861">
+        <state vertical-scroll-proportion="0.5219454" vertical-offset="0" max-vertical-offset="843">
+          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public_html/C/helpers/directory_helper.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33926454" vertical-offset="0" max-vertical-offset="1892">
+          <caret line="13" column="14" selection-start-line="13" selection-start-column="14" selection-end-line="13" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public_html/C/database/DB_active_rec.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.1397591" vertical-offset="1320" max-vertical-offset="45122">
           <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public_html/C/database/DB.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5219454" vertical-offset="0" max-vertical-offset="3696">
+          <caret line="20" column="2" selection-start-line="20" selection-start-column="2" selection-end-line="20" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public_html/C/libraries/Cache/Cache.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.49584815" vertical-offset="66" max-vertical-offset="4840">
+          <caret line="22" column="24" selection-start-line="22" selection-start-column="24" selection-end-line="22" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public_html/C/libraries/Sha1.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="5654">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public_html/C/libraries/Log.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33926454" vertical-offset="0" max-vertical-offset="2640">
+          <caret line="13" column="14" selection-start-line="13" selection-start-column="14" selection-end-line="13" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public_html/Mib/Te/config/routes.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6607355" vertical-offset="301" max-vertical-offset="1144">
+          <caret line="39" column="0" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public_html/Mib/Te/libraries/Myte.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.42586002" vertical-offset="455" max-vertical-offset="1408">
+          <caret line="37" column="5" selection-start-line="37" selection-start-column="5" selection-end-line="37" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public_html/Mib/Te/libraries/Tree.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5480427" vertical-offset="0" max-vertical-offset="4444">
+          <caret line="21" column="36" selection-start-line="21" selection-start-column="36" selection-end-line="21" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public_html/Te.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.47805455" vertical-offset="983" max-vertical-offset="4598">
+          <caret line="63" column="2" selection-start-line="63" selection-start-column="2" selection-end-line="63" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public_html/M/controllers/Man.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="33.35484" vertical-offset="1496" max-vertical-offset="5720">
+          <caret line="21" column="5" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
+          <folding>
+            <marker date="1423908477998" expanded="true" signature="-1:-1" placeholder="select `resp..." />
+            <marker date="1423908477998" expanded="true" signature="-1:-1" placeholder="select * fro..userapi..." />
+            <marker date="1423908477998" expanded="true" signature="-1:-1" placeholder="select * fro..userapi..." />
+            <marker date="1423908477998" expanded="true" signature="-1:-1" placeholder="select * fro..userapi..." />
+            <marker date="1423908477998" expanded="true" signature="-1:-1" placeholder="select * fro..userapi..." />
+            <marker date="1423908477998" expanded="true" signature="-1:-1" placeholder="select m fro..user_model..." />
+            <marker date="1423908477998" expanded="true" signature="-1:-1" placeholder="delete from ..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public_html/Mib/Doc/config/routes.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.4519573" vertical-offset="301" max-vertical-offset="1144">
+          <caret line="31" column="18" selection-start-line="31" selection-start-column="18" selection-end-line="31" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public_html/Mib/Te/controllers/Te.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.62633455" vertical-offset="0" max-vertical-offset="1760">
+          <caret line="24" column="5" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public_html/M/controllers/Doc.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.41755635" vertical-offset="374" max-vertical-offset="5258">
+          <caret line="33" column="0" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+          <folding>
+            <marker date="1423970255394" expanded="true" signature="-1:-1" placeholder="select id,pr..doc_document..." />
+            <marker date="1423970255394" expanded="true" signature="-1:-1" placeholder="select id,pr..doc_document..." />
+            <marker date="1423970255394" expanded="true" signature="-1:-1" placeholder="select * fro..doc_document..." />
+            <marker date="1423970255394" expanded="true" signature="-1:-1" placeholder="select * fro..doc_document..." />
+            <marker date="1423970255394" expanded="true" signature="-1:-1" placeholder="select id,pr..doc_document..." />
+            <marker date="1423970255394" expanded="true" signature="-1:-1" placeholder="select * fro..doc_document..." />
+            <marker date="1423970255394" expanded="true" signature="-1:-1" placeholder="select id,pr..doc_document..." />
+            <marker date="1423970255394" expanded="true" signature="-1:-1" placeholder="update doc_d..." />
+            <marker date="1423970255394" expanded="true" signature="-1:-1" placeholder="select id,pr..doc_document..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public_html/Doc.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.60023725" vertical-offset="1056" max-vertical-offset="4598">
+          <caret line="71" column="2" selection-start-line="71" selection-start-column="2" selection-end-line="71" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public_html/Mib/Doc/controllers/test.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.49584815" vertical-offset="132" max-vertical-offset="3564">
+          <caret line="25" column="55" selection-start-line="25" selection-start-column="55" selection-end-line="25" selection-end-column="55" />
+          <folding>
+            <marker date="1423980427849" expanded="true" signature="-1:-1" placeholder="select * fro..userapi..." />
+            <marker date="1423980427849" expanded="true" signature="-1:-1" placeholder="select * fro..userapi..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public_html/.htaccess">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5537757" vertical-offset="0" max-vertical-offset="874">
+          <caret line="22" column="36" selection-start-line="22" selection-start-column="36" selection-end-line="22" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public_html/Mib/Doc/controllers/Doc.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-12.774194" vertical-offset="66" max-vertical-offset="5478">
+          <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+          <folding>
+            <marker date="1423998539714" expanded="true" signature="731:820" placeholder="select id,pr..doc_document..." />
+            <marker date="1423998539714" expanded="true" signature="1701:1790" placeholder="select id,pr..doc_document..." />
+            <marker date="1423998539714" expanded="true" signature="2393:2478" placeholder="select * fro..doc_document..." />
+            <marker date="1423998539714" expanded="true" signature="2537:2625" placeholder="select * fro..doc_document..." />
+            <marker date="1423998539714" expanded="true" signature="3588:3677" placeholder="select id,pr..doc_document..." />
+            <marker date="1423998539714" expanded="true" signature="4878:4916" placeholder="select * fro..doc_document..." />
+            <marker date="1423998539714" expanded="true" signature="5026:5105" placeholder="select id,pr..doc_document..." />
+            <marker date="1423998539714" expanded="true" signature="6138:6182" placeholder="update doc_d..." />
+            <marker date="1423998539714" expanded="true" signature="6487:6606" placeholder="select id,pr..doc_document..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public_html/Mib/Doc/libraries/Te.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-18.967741" vertical-offset="424" max-vertical-offset="1298">
+          <caret line="46" column="30" selection-start-line="46" selection-start-column="30" selection-end-line="46" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public_html/Mib/Doc/libraries/Tree.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.4436536" vertical-offset="330" max-vertical-offset="4444">
+          <caret line="32" column="5" selection-start-line="32" selection-start-column="5" selection-end-line="32" selection-end-column="5" />
           <folding />
         </state>
       </provider>

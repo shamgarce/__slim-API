@@ -5,24 +5,34 @@ class Doc extends CI_Controller
 
 	function __construct()
 	{
+		//BASEPATH //:// E:/www/slim-API/public_html/C/
+
 		parent::__construct();
 		//连接数据库================================================
 		define('MBASE', dirname(__FILE__)."\\".'lib');	//v31 EASY的绝对路径
 		include(MBASE.'\Mysql.class.php');
 		$this->db = Mysql::getInstance();
 		//连接数据库================================================
+
+//		print_r(get_defined_constants());
+
 		include(MBASE.'\Tree.class.php');
+
+
+
 	}
 
 	//可编辑的首页,在适当的位置会有个edit标签		首页 是一个封面
 	public function index($listid = 0)
 	{
-		//$MT = $this->uri->uri_to_assoc(3);
 		//=============================================================
 		$listid = intval($listid);
 		$sql	= "select id,preid,title,titleonly from doc_document where enable = 0 order by sort desc ,id";
 		$_rc	= $this->db->getall($sql,'id');		//所有的数据
 
+//		$this->load->library('tree',$_rc);
+//echo 123;
+//		exit;
 		$Tree = new Tree($_rc);
 		$leaf = $Tree->leaf($listid);
 
@@ -43,7 +53,7 @@ class Doc extends CI_Controller
 		$data['TA'] = array("0"=>"A","1"=>"T");		//路径
 
 		$this->load->helper('cookie');
-		$this->load->view('Doc/index',$data);
+		$this->load->view('index',$data);
 	}
 
 	//=============================================================
@@ -53,7 +63,7 @@ class Doc extends CI_Controller
 		$listid = intval($listid);
 		$sql	= "select id,preid,title,titleonly from doc_document where enable = 0 order by sort desc ,id";
 		$_rc	= $this->db->getall($sql,'id');		//所有的数据
-
+		//$this->load->library('Tree');
 		$Tree = new Tree($_rc);
 		$leaf = $Tree->leaf($listid);
 		$data['leaf'] = $leaf;
@@ -82,7 +92,7 @@ class Doc extends CI_Controller
 		//=============================================================
 
 		$this->load->helper('cookie');
-		$this->load->view('Doc/nrview',$data);
+		$this->load->view('nrview',$data);
 	}
 
 
@@ -91,7 +101,7 @@ class Doc extends CI_Controller
 	//内容页
 	public function content(){
 		$this->load->helper('cookie');
-		$this->load->view('Doc/index_view_list',$data);
+		$this->load->view('index_view_list',$data);
 	}
 
 	//=============================================================
@@ -105,7 +115,7 @@ class Doc extends CI_Controller
 	public function vset(){
 		//功能 :设置是否显示编辑和排序,还有是否展示地址
 		$this->load->helper('cookie');
-		$this->load->view('Doc/vset',$data);
+		$this->load->view('vset',$data);
 	}
 
 	//=============================================================
@@ -128,7 +138,7 @@ class Doc extends CI_Controller
 		$data['_rc'] = $_rc;
 		//=============================================================
 		$this->sor = $_rc;
-		$this->load->view('Doc/vset_select',$data);
+		$this->load->view('vset_select',$data);
 	}
 
 
@@ -146,7 +156,7 @@ class Doc extends CI_Controller
 			echo json_encode(array("code"=>"-200","msg"=>'标题必须填写'));
 			exit;
 		}
-		$rc = saddslashes($rc);
+		//$rc = saddslashes($rc);
 		$this->db->autoExecute("doc_document",$rc,'UPDATE',"id=$id");
 		echo json_encode(array("code"=>"200","msg"=>'完成'));
 		exit;
@@ -163,14 +173,14 @@ class Doc extends CI_Controller
 		$_rc	= $this->db->getall($sql,'id');		//所有的数据
 		$data['_rc'] = $_rc;
 
-		$this->load->view('Doc/vset_edit',$data);
+		$this->load->view('vset_edit',$data);
 	}
 
 	//=============================================================
 	//设置
 	public function vset_addnew(){
 		//功能 :设置是否显示编辑和排序,还有是否展示地址
-		$this->load->view('Doc/vset_addnew',$data);
+		$this->load->view('vset_addnew',$data);
 	}
 
 	public function vset_addnew_exc(){
@@ -185,7 +195,7 @@ class Doc extends CI_Controller
 			echo json_encode(array("code"=>"-200","msg"=>'标题必须填写'));
 			exit;
 		}
-		$rc = saddslashes($rc);
+		//$rc = saddslashes($rc);
 		$this->db->autoExecute("doc_document",$rc,'INSERT');
 		echo json_encode(array("code"=>"200","msg"=>'完成'));
 		exit;
@@ -220,7 +230,7 @@ class Doc extends CI_Controller
 
 		$data['rc'] = $rc;
 		$data['listid'] = $listid;
-		$this->load->view('Doc/vset_sort',$data);
+		$this->load->view('vset_sort',$data);
 	}
 
 

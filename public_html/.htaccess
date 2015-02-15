@@ -11,8 +11,13 @@ RewriteEngine On
 
 
 RewriteEngine on
+RewriteRule ^Doc$ Doc.php [L]
+RewriteRule ^Te$ Te.php [L]
+
+RewriteRule ^Doc/(.*)$ Doc.php/$1 [L]
+RewriteRule ^Te/(.*)$ Te.php/$1 [L]
+
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
-
 RewriteCond $1 !^(index\.php|images|robots\.txt)
 RewriteRule ^(.*)$ /index.php/$1 [L]
