@@ -2,16 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8fdaf63a-f73f-4dde-aabf-fdc3c5cc9f28" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/lib/Easy/Easy.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/lib/Easy/Environment.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/lib/Easy/Fun.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/lib/Easy/Set.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/lib/Easy/Start.inc.php" />
-      <change type="DELETED" beforePath="E:\www\slim-API\public_html\Easy\Easy.php" afterPath="" />
-      <change type="DELETED" beforePath="E:\www\slim-API\public_html\Easy\Environment.php" afterPath="" />
-      <change type="DELETED" beforePath="E:\www\slim-API\public_html\Easy\Fun.php" afterPath="" />
-      <change type="DELETED" beforePath="E:\www\slim-API\public_html\Easy\Set.php" afterPath="" />
-      <change type="DELETED" beforePath="E:\www\slim-API\public_html\Easy\Start.inc.php" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/lib/ns.sql" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public_html/Mib/v1/libraries/EasyCache/query_caches/sqlcache_config_file_1e9f4807034b5e56eb2db5c9a2c7b243.php" afterPath="$PROJECT_DIR$/public_html/Mib/v1/libraries/EasyCache/query_caches/sqlcache_config_file_1e9f4807034b5e56eb2db5c9a2c7b243.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="slim-API.iws" />
@@ -227,28 +219,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="slim-API" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="slim-API" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public_html" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lib" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Easy" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
     </panes>
@@ -452,7 +422,13 @@
       <option name="project" value="LOCAL" />
       <updated>1424071759311</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Rejected commit: Default">
+      <created>1424071828274</created>
+      <option name="number" value="00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1424071828274</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TodoView" selected-index="4">
