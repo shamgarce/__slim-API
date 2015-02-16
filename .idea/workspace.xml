@@ -2,6 +2,1152 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8fdaf63a-f73f-4dde-aabf-fdc3c5cc9f28" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/Metro/images/1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/Metro/images/2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/kindeditor-4.1.10/attached/image/20150213/20150213150810_82119.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/kindeditor-4.1.10/attached/image/20150213/20150213152358_72146.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/kindeditor-4.1.10/attached/image/20150213/20150213155334_58749.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/kindeditor-4.1.10/attached/image/20150213/20150213161430_97451.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/kindeditor-4.1.10/attached/image/20150213/20150213161940_85577.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/kindeditor-4.1.10/attached/image/20150213/20150213190737_84858.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/kindeditor-4.1.10/attached/image/20150213/20150213190751_59844.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/kindeditor-4.1.10/attached/image/20150213/20150213193600_97802.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/kindeditor-4.1.10/attached/image/20150213/20150213193618_29404.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/kindeditor-4.1.10/attached/image/20150213/20150213193704_78760.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/kindeditor-4.1.10/attached/image/20150213/20150213193746_20101.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/kindeditor-4.1.10/attached/image/20150213/20150213193816_57070.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/kindeditor-4.1.10/attached/image/20150213/20150213193906_11834.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/kindeditor-4.1.10/attached/image/20150213/20150213193925_69515.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/kindeditor-4.1.10/attached/image/20150213/20150213193954_10335.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/kindeditor-4.1.10/attached/image/20150213/20150213194003_39465.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/kindeditor-4.1.10/attached/image/20150213/20150213194108_75624.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/kindeditor-4.1.10/attached/image/20150214/20150214135922_44433.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/kindeditor-4.1.10/attached/image/20150214/20150214140255_50534.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/kindeditor-4.1.10/attached/image/20150214/20150214140342_66181.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/kindeditor-4.1.10/attached/image/20150214/20150214140533_30679.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/kindeditor-4.1.10/attached/image/20150214/20150214160421_46513.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/kindeditor-4.1.10/attached/image/20150214/20150214170414_67823.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/Metro/images/3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/Metro/images/4.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/Metro/images/5.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/Metro/images/Battlefield_4_Icon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/Metro/images/BizSparkTile.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/Metro/images/Calendar-Next.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/Metro/images/Crysis-2-icon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/Metro/images/D3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/Metro/images/Folder-Rename.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/Metro/images/Metro-UI-CSS.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/Metro/images/Notebook-Save.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/Metro/images/Office365.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/Metro/_1/fonts/OpenSans-Bold.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/Metro/fonts/OpenSans-Bold.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/Metro/_1/fonts/OpenSans-Light.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/Metro/fonts/OpenSans-Light.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/Metro/_1/fonts/OpenSans.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/Metro/fonts/OpenSans.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/Metro/images/Open_Source_Iniative.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/Metro/_1/fonts/PTSerif-Caption.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/Metro/fonts/PTSerif-Caption.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/Metro/images/Print-Quick.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/Metro/_1/js/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/Metro/js/metro/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/Metro/images/Window-Refresh.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/Metro/images/Windows-8-Logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/Metro/images/access.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/Metro/images/author.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/Metro/images/b1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/Metro/images/beer.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/Metro/images/bizspark_b.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/Metro/images/bizspark_b_2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/Metro/images/clouds.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/Metro/images/clouds2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/Metro/images/css-logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/Metro/images/download-32.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/Metro/images/excel.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/Metro/images/excel2013icon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/Metro/images/fluent-menu.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/Metro/images/fork-32.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/Metro/images/grid2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/Metro/_1/fonts/iconFont.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/Metro/fonts/iconFont.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/Metro/_1/fonts/iconFont.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/Metro/fonts/iconFont.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/Metro/_1/fonts/iconFont.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/Metro/fonts/iconFont.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/Metro/images/jek_vorobey.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/Metro/images/jeki_chan.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/Metro/images/jetbrains.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/Metro/images/jolie.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/Metro/images/live1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/Metro/images/live2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/Metro/images/me.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/Metro/images/meter-210.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/Metro/_1/fonts/metroSysIcons.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/Metro/fonts/metroSysIcons.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/Metro/_1/fonts/metroSysIcons.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/Metro/fonts/metroSysIcons.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/Metro/images/myface.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/Metro/images/nuget-logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/Metro/images/obama.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/Metro/images/onenote.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/Metro/images/onenote2013icon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/Metro/images/org-01.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/Metro/images/outlook.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/Metro/images/phpstorm_7_eap.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/Metro/images/phpstorm_tn.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/Metro/images/phpstorm_tn_2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/Metro/images/powerpoint.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/Metro/images/shvarcenegger.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/Metro/images/spface.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/Metro/images/tiles-bg-2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/Metro/images/tiles-bg.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/Metro/images/windows_8_default_13_wallpaper.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/Metro/images/windows_modern_logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/Metro/images/word.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/Metro/images/word2013icon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/Metro/images/x.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/Metro/_1/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/Metro/.htaccess" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/syntaxhighlighter_3.0.83/tests/.rvmrc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/syntaxhighlighter_3.0.83/tests/cases/001_basic.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/syntaxhighlighter_3.0.83/tests/cases/002_brushes.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/syntaxhighlighter_3.0.83/tests/cases/003_script_tag.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/syntaxhighlighter_3.0.83/tests/cases/004_url_parsing.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/syntaxhighlighter_3.0.83/tests/cases/005_no_gutter.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/syntaxhighlighter_3.0.83/tests/cases/006_pad_line_numbers.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/syntaxhighlighter_3.0.83/tests/cases/007_collapse.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/syntaxhighlighter_3.0.83/tests/cases/007_collapse_interaction.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/syntaxhighlighter_3.0.83/tests/cases/008_first_line.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/syntaxhighlighter_3.0.83/tests/cases/009_class_name.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/syntaxhighlighter_3.0.83/tests/cases/010_highlight.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/syntaxhighlighter_3.0.83/tests/cases/011_smart_tabs.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/syntaxhighlighter_3.0.83/tests/cases/012_server_side.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/syntaxhighlighter_3.0.83/tests/cases/013_html_script.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/syntaxhighlighter_3.0.83/tests/cases/014_legacy.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/Metro/_1/CHANGELOG.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/syntaxhighlighter_3.0.83/LGPL-LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/Metro/_1/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/syntaxhighlighter_3.0.83/MIT-LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/Metro/_1/PULL-REQUESTS.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/Metro/_1/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/syntaxhighlighter_3.0.83/compass/_theme_template.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/Metro/accordion.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/Metro/_1/less/accordion.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/Metro/balloon.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/Metro/_1/less/balloon.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/Metro/_1/bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/Metro/_1/branch.cmd" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/Metro/_1/less/breadcrumbs.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/syntaxhighlighter_3.0.83/tests/brushes_tests.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/Metro/buttons.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/Metro/_1/less/buttons.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/Metro/calendar.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/Metro/_1/less/calendar.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/Metro/carousel.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/Metro/_1/less/carousel.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/Metro/_1/less/colors.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/Metro/_1/commit.cmd" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/syntaxhighlighter_3.0.83/tests/commonjs_tests.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/Metro/_1/compile.cmd" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/Metro/_1/compress/compressor.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/syntaxhighlighter_3.0.83/compass/config.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/Metro/_1/less/countdown.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/Metro/data/dataTables-objects.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/Metro/dataTables.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/Metro/_1/less/dataTables.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/Metro/datepicker.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/Metro/dialog.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/Metro/css/docs.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/Metro/js/docs.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/Metro/css/less/docs.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/Metro/examples.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/Metro/fluent-menu.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/Metro/_1/less/fluent-menu.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/Metro/footer.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/Metro/forms.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/Metro/_1/less/forms.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/Metro/_1/less/funcs.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/Metro/js/github.info.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/Metro/global.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/Metro/grid.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/Metro/_1/less/grid.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/Metro/header.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/Metro/hint.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/Metro/_1/less/hint.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/Metro/js/hitua.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/Metro/js/holder/holder.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/Metro/_1/less/iconFont-content.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/Metro/css/iconFont.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/Metro/_1/fonts/iconFont.dev.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/Metro/fonts/iconFont.dev.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/Metro/_1/fonts/iconFont.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/Metro/fonts/iconFont.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/Metro/_1/less/iconFont.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/Metro/_1/min/iconFont.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/Metro/_1/fonts/iconFont.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/Metro/fonts/iconFont.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/Metro/icons.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/Metro/_1/less/icons.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/Metro/images.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/Metro/_1/less/images.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/Metro/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/syntaxhighlighter_3.0.83/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/lib/webpage/metro/ini.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/syntaxhighlighter_3.0.83/tests/js/jquery-1.4.2.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/jquery.dataTables.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/Metro/js/jquery/jquery.dataTables.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/jquery.easing.1.3.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/Metro/js/jquery/jquery.easing.1.3.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/Metro/js/jquery/jquery.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/jquery.mousewheel.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/Metro/js/jquery/jquery.mousewheel.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/jquery.widget.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/Metro/js/jquery/jquery.widget.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/Metro/js/prettify/lang-apollo.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/js/prettify/lang-apollo.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/Metro/js/prettify/lang-basic.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/js/prettify/lang-basic.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/Metro/js/prettify/lang-clj.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/js/prettify/lang-clj.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/Metro/js/prettify/lang-css.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/js/prettify/lang-css.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/Metro/js/prettify/lang-dart.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/js/prettify/lang-dart.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/Metro/js/prettify/lang-erlang.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/js/prettify/lang-erlang.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/Metro/js/prettify/lang-go.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/js/prettify/lang-go.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/Metro/js/prettify/lang-hs.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/js/prettify/lang-hs.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/Metro/js/prettify/lang-lisp.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/js/prettify/lang-lisp.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/Metro/js/prettify/lang-llvm.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/js/prettify/lang-llvm.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/Metro/js/prettify/lang-lua.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/js/prettify/lang-lua.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/Metro/js/prettify/lang-matlab.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/js/prettify/lang-matlab.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/Metro/js/prettify/lang-ml.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/js/prettify/lang-ml.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/Metro/js/prettify/lang-mumps.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/js/prettify/lang-mumps.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/Metro/js/prettify/lang-n.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/js/prettify/lang-n.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/Metro/js/prettify/lang-pascal.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/js/prettify/lang-pascal.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/Metro/js/prettify/lang-proto.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/js/prettify/lang-proto.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/Metro/js/prettify/lang-r.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/js/prettify/lang-r.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/Metro/js/prettify/lang-rd.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/js/prettify/lang-rd.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/Metro/js/prettify/lang-scala.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/js/prettify/lang-scala.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/Metro/js/prettify/lang-sql.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/js/prettify/lang-sql.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/Metro/js/prettify/lang-tcl.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/js/prettify/lang-tcl.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/Metro/js/prettify/lang-tex.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/js/prettify/lang-tex.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/Metro/js/prettify/lang-vb.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/js/prettify/lang-vb.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/Metro/js/prettify/lang-vhdl.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/js/prettify/lang-vhdl.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/Metro/js/prettify/lang-wiki.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/js/prettify/lang-wiki.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/Metro/js/prettify/lang-xq.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/js/prettify/lang-xq.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/Metro/js/prettify/lang-yaml.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/js/prettify/lang-yaml.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/Metro/_1/less/layout.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/Metro/layouts.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/Metro/lists.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/Metro/_1/less/lists.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/Metro/js/load-metro.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/Metro/menus.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/Metro/_1/less/menus.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/Metro/_1/merge.cmd" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/Metro/_1/js/metro-accordion.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/Metro/js/metro/metro-accordion.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/Metro/_1/css/metro-bootstrap-responsive.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/Metro/css/metro-bootstrap-responsive.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/Metro/_1/less/metro-bootstrap-responsive.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/Metro/_1/min/metro-bootstrap-responsive.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/Metro/_1/css/metro-bootstrap.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/Metro/css/metro-bootstrap.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/Metro/_1/less/metro-bootstrap.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/Metro/_1/min/metro-bootstrap.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/Metro/_1/js/metro-button-set.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/Metro/js/metro/metro-button-set.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/Metro/_1/js/metro-calendar.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/Metro/js/metro/metro-calendar.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/Metro/_1/js/metro-carousel.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/Metro/js/metro/metro-carousel.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/Metro/_1/js/metro-core.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/Metro/js/metro/metro-core.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/Metro/_1/js/metro-countdown.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/Metro/js/metro/metro-countdown.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/Metro/_1/js/metro-date-format.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/Metro/js/metro/metro-date-format.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/Metro/_1/js/metro-datepicker.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/Metro/js/metro/metro-datepicker.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/Metro/_1/js/metro-dialog.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/Metro/js/metro/metro-dialog.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/Metro/_1/js/metro-drag-tile.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/Metro/js/metro/metro-drag-tile.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/Metro/_1/js/metro-dropdown.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/Metro/js/metro/metro-dropdown.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/Metro/_1/js/metro-fluentmenu.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/Metro/js/metro/metro-fluentmenu.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/Metro/_1/js/metro-global.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/Metro/js/metro/metro-global.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/Metro/_1/js/metro-hint.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/Metro/js/metro/metro-hint.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/Metro/_1/js/metro-initiator.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/Metro/js/metro/metro-initiator.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/Metro/_1/js/metro-input-control.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/Metro/js/metro/metro-input-control.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/Metro/_1/js/metro-listview.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/Metro/js/metro/metro-listview.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/Metro/_1/js/metro-live-tile.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/Metro/js/metro/metro-live-tile.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/Metro/_1/js/metro-loader.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/Metro/js/metro/metro-loader.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/Metro/_1/js/metro-locale.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/Metro/js/metro/metro-locale.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/Metro/_1/js/metro-notify.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/Metro/js/metro/metro-notify.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/Metro/_1/js/metro-panel.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/Metro/js/metro/metro-panel.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/Metro/_1/js/metro-plugin-template.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/Metro/js/metro/metro-plugin-template.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/Metro/_1/js/metro-popover.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/Metro/js/metro/metro-popover.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/Metro/_1/js/metro-progressbar.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/Metro/js/metro/metro-progressbar.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/Metro/_1/js/metro-pull.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/Metro/js/metro/metro-pull.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/Metro/_1/js/metro-rating.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/Metro/js/metro/metro-rating.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/Metro/_1/js/metro-scroll.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/Metro/js/metro/metro-scroll.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/Metro/_1/js/metro-slider.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/Metro/js/metro/metro-slider.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/Metro/_1/js/metro-stepper.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/Metro/js/metro/metro-stepper.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/Metro/_1/js/metro-streamer.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/Metro/js/metro/metro-streamer.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/Metro/_1/js/metro-tab-control.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/Metro/js/metro/metro-tab-control.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/Metro/_1/js/metro-table.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/Metro/js/metro/metro-table.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/Metro/_1/js/metro-tile-transform.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/Metro/js/metro/metro-tile-transform.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/Metro/_1/js/metro-times.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/Metro/js/metro/metro-times.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/Metro/_1/js/metro-touch-handler.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/Metro/js/metro/metro-touch-handler.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/Metro/_1/js/metro-treeview.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/Metro/js/metro/metro-treeview.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/Metro/_1/metro-ui-css-2.0.32.nuspec" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/Metro/_1/js/metro-wizard.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/Metro/js/metro/metro-wizard.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/Metro/_1/min/metro.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/Metro/js/metro.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/Metro/_1/fonts/metroSysIcons.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/Metro/fonts/metroSysIcons.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/Metro/_1/less/misc.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/Metro/navbar.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/Metro/_1/less/navigation-bar.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/CSS/normalize_.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/Metro/_1/less/notice.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/Metro/notices.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/Metro/notify.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/Metro/_1/less/notify.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/Metro/page-template.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/Metro/_1/less/pagination.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/Metro/panels.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/Metro/_1/less/panels.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/Metro/js/prettify/prettify.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/js/prettify/prettify.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/Metro/js/prettify/prettify.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/js/prettify/prettify.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/Metro/progress-bar.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/Metro/_1/less/progress-bar.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/Metro/_1/push.cmd" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/syntaxhighlighter_3.0.83/tests/js/qunit.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/syntaxhighlighter_3.0.83/tests/js/qunit.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/Metro/rating.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/Metro/_1/less/rating.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/Metro/requirements.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/Metro/_1/less/reset.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/Metro/responsive.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/Metro/js/prettify/run_prettify.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/js/prettify/run_prettify.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/syntaxhighlighter_3.0.83/tests/brushes/sass.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/Metro/scroll.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/Metro/_1/less/scroll.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/syntaxhighlighter_3.0.83/scripts/shAutoloader.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/syntaxhighlighter_3.0.83/src/shAutoloader.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/syntaxhighlighter_3.0.83/scripts/shBrushAS3.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/syntaxhighlighter_3.0.83/scripts/shBrushAppleScript.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/syntaxhighlighter_3.0.83/scripts/shBrushBash.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/syntaxhighlighter_3.0.83/scripts/shBrushCSharp.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/syntaxhighlighter_3.0.83/scripts/shBrushColdFusion.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/syntaxhighlighter_3.0.83/scripts/shBrushCpp.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/syntaxhighlighter_3.0.83/scripts/shBrushCss.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/syntaxhighlighter_3.0.83/scripts/shBrushDelphi.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/syntaxhighlighter_3.0.83/scripts/shBrushDiff.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/syntaxhighlighter_3.0.83/scripts/shBrushErlang.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/syntaxhighlighter_3.0.83/scripts/shBrushGroovy.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/syntaxhighlighter_3.0.83/scripts/shBrushJScript.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/syntaxhighlighter_3.0.83/scripts/shBrushJava.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/syntaxhighlighter_3.0.83/scripts/shBrushJavaFX.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/syntaxhighlighter_3.0.83/scripts/shBrushPerl.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/syntaxhighlighter_3.0.83/scripts/shBrushPhp.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/syntaxhighlighter_3.0.83/scripts/shBrushPlain.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/syntaxhighlighter_3.0.83/scripts/shBrushPowerShell.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/syntaxhighlighter_3.0.83/scripts/shBrushPython.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/syntaxhighlighter_3.0.83/scripts/shBrushRuby.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/syntaxhighlighter_3.0.83/scripts/shBrushSass.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/syntaxhighlighter_3.0.83/scripts/shBrushScala.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/syntaxhighlighter_3.0.83/scripts/shBrushSql.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/syntaxhighlighter_3.0.83/scripts/shBrushVb.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/syntaxhighlighter_3.0.83/scripts/shBrushXml.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/syntaxhighlighter_3.0.83/styles/shCore.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/syntaxhighlighter_3.0.83/scripts/shCore.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/syntaxhighlighter_3.0.83/src/shCore.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/syntaxhighlighter_3.0.83/compass/shCore.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/syntaxhighlighter_3.0.83/styles/shCoreDefault.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/syntaxhighlighter_3.0.83/compass/shCoreDefault.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/syntaxhighlighter_3.0.83/styles/shCoreDjango.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/syntaxhighlighter_3.0.83/compass/shCoreDjango.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/syntaxhighlighter_3.0.83/styles/shCoreEclipse.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/syntaxhighlighter_3.0.83/compass/shCoreEclipse.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/syntaxhighlighter_3.0.83/styles/shCoreEmacs.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/syntaxhighlighter_3.0.83/compass/shCoreEmacs.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/syntaxhighlighter_3.0.83/styles/shCoreFadeToGrey.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/syntaxhighlighter_3.0.83/compass/shCoreFadeToGrey.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/syntaxhighlighter_3.0.83/styles/shCoreMDUltra.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/syntaxhighlighter_3.0.83/compass/shCoreMDUltra.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/syntaxhighlighter_3.0.83/styles/shCoreMidnight.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/syntaxhighlighter_3.0.83/compass/shCoreMidnight.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/syntaxhighlighter_3.0.83/styles/shCoreRDark.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/syntaxhighlighter_3.0.83/compass/shCoreRDark.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/syntaxhighlighter_3.0.83/scripts/shLegacy.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/syntaxhighlighter_3.0.83/src/shLegacy.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/syntaxhighlighter_3.0.83/styles/shThemeDefault.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/syntaxhighlighter_3.0.83/compass/shThemeDefault.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/syntaxhighlighter_3.0.83/styles/shThemeDjango.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/syntaxhighlighter_3.0.83/compass/shThemeDjango.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/syntaxhighlighter_3.0.83/styles/shThemeEclipse.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/syntaxhighlighter_3.0.83/compass/shThemeEclipse.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/syntaxhighlighter_3.0.83/styles/shThemeEmacs.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/syntaxhighlighter_3.0.83/compass/shThemeEmacs.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/syntaxhighlighter_3.0.83/styles/shThemeFadeToGrey.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/syntaxhighlighter_3.0.83/compass/shThemeFadeToGrey.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/syntaxhighlighter_3.0.83/styles/shThemeMDUltra.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/syntaxhighlighter_3.0.83/compass/shThemeMDUltra.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/syntaxhighlighter_3.0.83/styles/shThemeMidnight.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/syntaxhighlighter_3.0.83/compass/shThemeMidnight.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/syntaxhighlighter_3.0.83/styles/shThemeRDark.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/syntaxhighlighter_3.0.83/compass/shThemeRDark.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/Metro/sidebar.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/Metro/_1/less/sidebar.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/Metro/slider.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/Metro/_1/less/slider.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/Metro/start-screen.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/Metro/js/start-screen.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/Metro/stepper.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/Metro/_1/less/stepper.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/Metro/streamer.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/Metro/_1/less/streamer.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/Metro/_1/switch.cmd" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/syntaxhighlighter_3.0.83/tests/syntaxhighlighter_tests.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/Metro/tab-control.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/Metro/_1/less/tab-control.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/Metro/tables.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/Metro/_1/less/tables.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/Metro/template-any.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/Metro/template-news-portal.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/Metro/test-page.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/syntaxhighlighter_3.0.83/tests/theme_tests.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/Metro/tiles.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/Metro/_1/less/tiles.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/Metro/times.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/Metro/_1/less/transform.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/Metro/treeview.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/Metro/_1/less/treeview.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/Metro/typography.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/Metro/_1/less/typography.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/Metro/_1/less/utils.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/Metro/_1/less/variables.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/syntaxhighlighter_3.0.83/tests/webrick.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/syntaxhighlighter_3.0.83/tests/webrick.sh" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/Metro/window.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/Metro/_1/less/window.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/Metro/wizard.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/Metro/_1/less/wizard.less" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\A\olton-Metro-UI-CSS\olton-Metro-UI-CSS-1f49dcd\.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\A\olton-Metro-UI-CSS\olton-Metro-UI-CSS-1f49dcd\CHANGELOG.md" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\A\olton-Metro-UI-CSS\olton-Metro-UI-CSS-1f49dcd\LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\A\olton-Metro-UI-CSS\olton-Metro-UI-CSS-1f49dcd\PULL-REQUESTS.md" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\A\olton-Metro-UI-CSS\olton-Metro-UI-CSS-1f49dcd\README.md" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\A\olton-Metro-UI-CSS\olton-Metro-UI-CSS-1f49dcd\bower.json" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\A\olton-Metro-UI-CSS\olton-Metro-UI-CSS-1f49dcd\branch.cmd" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\A\olton-Metro-UI-CSS\olton-Metro-UI-CSS-1f49dcd\commit.cmd" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\A\olton-Metro-UI-CSS\olton-Metro-UI-CSS-1f49dcd\compile.cmd" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\A\olton-Metro-UI-CSS\olton-Metro-UI-CSS-1f49dcd\compress\compressor.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\A\olton-Metro-UI-CSS\olton-Metro-UI-CSS-1f49dcd\css\metro-bootstrap-responsive.css" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\A\olton-Metro-UI-CSS\olton-Metro-UI-CSS-1f49dcd\css\metro-bootstrap.css" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\A\olton-Metro-UI-CSS\olton-Metro-UI-CSS-1f49dcd\docs\.htaccess" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\A\olton-Metro-UI-CSS\olton-Metro-UI-CSS-1f49dcd\docs\accordion.html" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\A\olton-Metro-UI-CSS\olton-Metro-UI-CSS-1f49dcd\docs\balloon.html" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\A\olton-Metro-UI-CSS\olton-Metro-UI-CSS-1f49dcd\docs\buttons.html" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\A\olton-Metro-UI-CSS\olton-Metro-UI-CSS-1f49dcd\docs\calendar.html" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\A\olton-Metro-UI-CSS\olton-Metro-UI-CSS-1f49dcd\docs\carousel.html" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\A\olton-Metro-UI-CSS\olton-Metro-UI-CSS-1f49dcd\docs\css\docs.css" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\A\olton-Metro-UI-CSS\olton-Metro-UI-CSS-1f49dcd\docs\css\iconFont.css" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\A\olton-Metro-UI-CSS\olton-Metro-UI-CSS-1f49dcd\docs\css\less\docs.less" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\A\olton-Metro-UI-CSS\olton-Metro-UI-CSS-1f49dcd\docs\css\metro-bootstrap-responsive.css" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\A\olton-Metro-UI-CSS\olton-Metro-UI-CSS-1f49dcd\docs\css\metro-bootstrap.css" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\A\olton-Metro-UI-CSS\olton-Metro-UI-CSS-1f49dcd\docs\dataTables.html" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\A\olton-Metro-UI-CSS\olton-Metro-UI-CSS-1f49dcd\docs\data\dataTables-objects.txt" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\A\olton-Metro-UI-CSS\olton-Metro-UI-CSS-1f49dcd\docs\datepicker.html" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\A\olton-Metro-UI-CSS\olton-Metro-UI-CSS-1f49dcd\docs\dialog.html" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\A\olton-Metro-UI-CSS\olton-Metro-UI-CSS-1f49dcd\docs\examples.html" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\A\olton-Metro-UI-CSS\olton-Metro-UI-CSS-1f49dcd\docs\fluent-menu.html" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\A\olton-Metro-UI-CSS\olton-Metro-UI-CSS-1f49dcd\docs\fonts\OpenSans-Bold.woff" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\A\olton-Metro-UI-CSS\olton-Metro-UI-CSS-1f49dcd\docs\fonts\OpenSans-Light.woff" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\A\olton-Metro-UI-CSS\olton-Metro-UI-CSS-1f49dcd\docs\fonts\OpenSans.woff" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\A\olton-Metro-UI-CSS\olton-Metro-UI-CSS-1f49dcd\docs\fonts\PTSerif-Caption.woff" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\A\olton-Metro-UI-CSS\olton-Metro-UI-CSS-1f49dcd\docs\fonts\iconFont.dev.svg" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\A\olton-Metro-UI-CSS\olton-Metro-UI-CSS-1f49dcd\docs\fonts\iconFont.eot" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\A\olton-Metro-UI-CSS\olton-Metro-UI-CSS-1f49dcd\docs\fonts\iconFont.json" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\A\olton-Metro-UI-CSS\olton-Metro-UI-CSS-1f49dcd\docs\fonts\iconFont.svg" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\A\olton-Metro-UI-CSS\olton-Metro-UI-CSS-1f49dcd\docs\fonts\iconFont.ttf" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\A\olton-Metro-UI-CSS\olton-Metro-UI-CSS-1f49dcd\docs\fonts\iconFont.woff" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\A\olton-Metro-UI-CSS\olton-Metro-UI-CSS-1f49dcd\docs\fonts\metroSysIcons.svg" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\A\olton-Metro-UI-CSS\olton-Metro-UI-CSS-1f49dcd\docs\fonts\metroSysIcons.ttf" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\A\olton-Metro-UI-CSS\olton-Metro-UI-CSS-1f49dcd\docs\fonts\metroSysIcons.woff" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\A\olton-Metro-UI-CSS\olton-Metro-UI-CSS-1f49dcd\docs\footer.html" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\A\olton-Metro-UI-CSS\olton-Metro-UI-CSS-1f49dcd\docs\forms.html" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\A\olton-Metro-UI-CSS\olton-Metro-UI-CSS-1f49dcd\docs\global.html" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\A\olton-Metro-UI-CSS\olton-Metro-UI-CSS-1f49dcd\docs\grid.html" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\A\olton-Metro-UI-CSS\olton-Metro-UI-CSS-1f49dcd\docs\header.html" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\A\olton-Metro-UI-CSS\olton-Metro-UI-CSS-1f49dcd\docs\hint.html" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\A\olton-Metro-UI-CSS\olton-Metro-UI-CSS-1f49dcd\docs\icons.html" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\A\olton-Metro-UI-CSS\olton-Metro-UI-CSS-1f49dcd\docs\images.html" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\A\olton-Metro-UI-CSS\olton-Metro-UI-CSS-1f49dcd\docs\images\1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\A\olton-Metro-UI-CSS\olton-Metro-UI-CSS-1f49dcd\docs\images\2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\A\olton-Metro-UI-CSS\olton-Metro-UI-CSS-1f49dcd\docs\images\3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\A\olton-Metro-UI-CSS\olton-Metro-UI-CSS-1f49dcd\docs\images\4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\A\olton-Metro-UI-CSS\olton-Metro-UI-CSS-1f49dcd\docs\images\5.jpg" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\A\olton-Metro-UI-CSS\olton-Metro-UI-CSS-1f49dcd\docs\images\Battlefield_4_Icon.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\A\olton-Metro-UI-CSS\olton-Metro-UI-CSS-1f49dcd\docs\images\BizSparkTile.jpg" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\A\olton-Metro-UI-CSS\olton-Metro-UI-CSS-1f49dcd\docs\images\Calendar-Next.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\A\olton-Metro-UI-CSS\olton-Metro-UI-CSS-1f49dcd\docs\images\Crysis-2-icon.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\A\olton-Metro-UI-CSS\olton-Metro-UI-CSS-1f49dcd\docs\images\D3.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\A\olton-Metro-UI-CSS\olton-Metro-UI-CSS-1f49dcd\docs\images\Folder-Rename.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\A\olton-Metro-UI-CSS\olton-Metro-UI-CSS-1f49dcd\docs\images\Metro-UI-CSS.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\A\olton-Metro-UI-CSS\olton-Metro-UI-CSS-1f49dcd\docs\images\Notebook-Save.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\A\olton-Metro-UI-CSS\olton-Metro-UI-CSS-1f49dcd\docs\images\Office365.jpg" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\A\olton-Metro-UI-CSS\olton-Metro-UI-CSS-1f49dcd\docs\images\Open_Source_Iniative.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\A\olton-Metro-UI-CSS\olton-Metro-UI-CSS-1f49dcd\docs\images\Print-Quick.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\A\olton-Metro-UI-CSS\olton-Metro-UI-CSS-1f49dcd\docs\images\Window-Refresh.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\A\olton-Metro-UI-CSS\olton-Metro-UI-CSS-1f49dcd\docs\images\Windows-8-Logo.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\A\olton-Metro-UI-CSS\olton-Metro-UI-CSS-1f49dcd\docs\images\access.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\A\olton-Metro-UI-CSS\olton-Metro-UI-CSS-1f49dcd\docs\images\author.jpg" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\A\olton-Metro-UI-CSS\olton-Metro-UI-CSS-1f49dcd\docs\images\b1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\A\olton-Metro-UI-CSS\olton-Metro-UI-CSS-1f49dcd\docs\images\beer.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\A\olton-Metro-UI-CSS\olton-Metro-UI-CSS-1f49dcd\docs\images\bizspark_b.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\A\olton-Metro-UI-CSS\olton-Metro-UI-CSS-1f49dcd\docs\images\bizspark_b_2.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\A\olton-Metro-UI-CSS\olton-Metro-UI-CSS-1f49dcd\docs\images\clouds.jpg" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\A\olton-Metro-UI-CSS\olton-Metro-UI-CSS-1f49dcd\docs\images\clouds2.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\A\olton-Metro-UI-CSS\olton-Metro-UI-CSS-1f49dcd\docs\images\css-logo.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\A\olton-Metro-UI-CSS\olton-Metro-UI-CSS-1f49dcd\docs\images\download-32.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\A\olton-Metro-UI-CSS\olton-Metro-UI-CSS-1f49dcd\docs\images\excel.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\A\olton-Metro-UI-CSS\olton-Metro-UI-CSS-1f49dcd\docs\images\excel2013icon.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\A\olton-Metro-UI-CSS\olton-Metro-UI-CSS-1f49dcd\docs\images\fluent-menu.jpg" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\A\olton-Metro-UI-CSS\olton-Metro-UI-CSS-1f49dcd\docs\images\fork-32.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\A\olton-Metro-UI-CSS\olton-Metro-UI-CSS-1f49dcd\docs\images\grid2.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\A\olton-Metro-UI-CSS\olton-Metro-UI-CSS-1f49dcd\docs\images\jek_vorobey.jpg" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\A\olton-Metro-UI-CSS\olton-Metro-UI-CSS-1f49dcd\docs\images\jeki_chan.jpg" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\A\olton-Metro-UI-CSS\olton-Metro-UI-CSS-1f49dcd\docs\images\jetbrains.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\A\olton-Metro-UI-CSS\olton-Metro-UI-CSS-1f49dcd\docs\images\jolie.jpg" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\A\olton-Metro-UI-CSS\olton-Metro-UI-CSS-1f49dcd\docs\images\live1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\A\olton-Metro-UI-CSS\olton-Metro-UI-CSS-1f49dcd\docs\images\live2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\A\olton-Metro-UI-CSS\olton-Metro-UI-CSS-1f49dcd\docs\images\me.jpg" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\A\olton-Metro-UI-CSS\olton-Metro-UI-CSS-1f49dcd\docs\images\meter-210.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\A\olton-Metro-UI-CSS\olton-Metro-UI-CSS-1f49dcd\docs\images\myface.jpg" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\A\olton-Metro-UI-CSS\olton-Metro-UI-CSS-1f49dcd\docs\images\nuget-logo.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\A\olton-Metro-UI-CSS\olton-Metro-UI-CSS-1f49dcd\docs\images\obama.jpg" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\A\olton-Metro-UI-CSS\olton-Metro-UI-CSS-1f49dcd\docs\images\onenote.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\A\olton-Metro-UI-CSS\olton-Metro-UI-CSS-1f49dcd\docs\images\onenote2013icon.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\A\olton-Metro-UI-CSS\olton-Metro-UI-CSS-1f49dcd\docs\images\org-01.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\A\olton-Metro-UI-CSS\olton-Metro-UI-CSS-1f49dcd\docs\images\outlook.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\A\olton-Metro-UI-CSS\olton-Metro-UI-CSS-1f49dcd\docs\images\phpstorm_7_eap.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\A\olton-Metro-UI-CSS\olton-Metro-UI-CSS-1f49dcd\docs\images\phpstorm_tn.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\A\olton-Metro-UI-CSS\olton-Metro-UI-CSS-1f49dcd\docs\images\phpstorm_tn_2.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\A\olton-Metro-UI-CSS\olton-Metro-UI-CSS-1f49dcd\docs\images\powerpoint.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\A\olton-Metro-UI-CSS\olton-Metro-UI-CSS-1f49dcd\docs\images\shvarcenegger.jpg" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\A\olton-Metro-UI-CSS\olton-Metro-UI-CSS-1f49dcd\docs\images\spface.jpg" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\A\olton-Metro-UI-CSS\olton-Metro-UI-CSS-1f49dcd\docs\images\tiles-bg-2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\A\olton-Metro-UI-CSS\olton-Metro-UI-CSS-1f49dcd\docs\images\tiles-bg.jpg" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\A\olton-Metro-UI-CSS\olton-Metro-UI-CSS-1f49dcd\docs\images\windows_8_default_13_wallpaper.jpg" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\A\olton-Metro-UI-CSS\olton-Metro-UI-CSS-1f49dcd\docs\images\windows_modern_logo.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\A\olton-Metro-UI-CSS\olton-Metro-UI-CSS-1f49dcd\docs\images\word.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\A\olton-Metro-UI-CSS\olton-Metro-UI-CSS-1f49dcd\docs\images\word2013icon.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\A\olton-Metro-UI-CSS\olton-Metro-UI-CSS-1f49dcd\docs\images\x.jpg" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\A\olton-Metro-UI-CSS\olton-Metro-UI-CSS-1f49dcd\docs\index.html" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\A\olton-Metro-UI-CSS\olton-Metro-UI-CSS-1f49dcd\docs\js\docs.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\A\olton-Metro-UI-CSS\olton-Metro-UI-CSS-1f49dcd\docs\js\github.info.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\A\olton-Metro-UI-CSS\olton-Metro-UI-CSS-1f49dcd\docs\js\hitua.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\A\olton-Metro-UI-CSS\olton-Metro-UI-CSS-1f49dcd\docs\js\holder\holder.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\A\olton-Metro-UI-CSS\olton-Metro-UI-CSS-1f49dcd\docs\js\jquery\jquery.dataTables.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\A\olton-Metro-UI-CSS\olton-Metro-UI-CSS-1f49dcd\docs\js\jquery\jquery.easing.1.3.min.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\A\olton-Metro-UI-CSS\olton-Metro-UI-CSS-1f49dcd\docs\js\jquery\jquery.min.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\A\olton-Metro-UI-CSS\olton-Metro-UI-CSS-1f49dcd\docs\js\jquery\jquery.mousewheel.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\A\olton-Metro-UI-CSS\olton-Metro-UI-CSS-1f49dcd\docs\js\jquery\jquery.widget.min.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\A\olton-Metro-UI-CSS\olton-Metro-UI-CSS-1f49dcd\docs\js\load-metro.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\A\olton-Metro-UI-CSS\olton-Metro-UI-CSS-1f49dcd\docs\js\metro.min.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\A\olton-Metro-UI-CSS\olton-Metro-UI-CSS-1f49dcd\docs\js\metro\README.md" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\A\olton-Metro-UI-CSS\olton-Metro-UI-CSS-1f49dcd\docs\js\metro\metro-accordion.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\A\olton-Metro-UI-CSS\olton-Metro-UI-CSS-1f49dcd\docs\js\metro\metro-button-set.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\A\olton-Metro-UI-CSS\olton-Metro-UI-CSS-1f49dcd\docs\js\metro\metro-calendar.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\A\olton-Metro-UI-CSS\olton-Metro-UI-CSS-1f49dcd\docs\js\metro\metro-carousel.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\A\olton-Metro-UI-CSS\olton-Metro-UI-CSS-1f49dcd\docs\js\metro\metro-core.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\A\olton-Metro-UI-CSS\olton-Metro-UI-CSS-1f49dcd\docs\js\metro\metro-countdown.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\A\olton-Metro-UI-CSS\olton-Metro-UI-CSS-1f49dcd\docs\js\metro\metro-date-format.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\A\olton-Metro-UI-CSS\olton-Metro-UI-CSS-1f49dcd\docs\js\metro\metro-datepicker.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\A\olton-Metro-UI-CSS\olton-Metro-UI-CSS-1f49dcd\docs\js\metro\metro-dialog.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\A\olton-Metro-UI-CSS\olton-Metro-UI-CSS-1f49dcd\docs\js\metro\metro-drag-tile.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\A\olton-Metro-UI-CSS\olton-Metro-UI-CSS-1f49dcd\docs\js\metro\metro-dropdown.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\A\olton-Metro-UI-CSS\olton-Metro-UI-CSS-1f49dcd\docs\js\metro\metro-fluentmenu.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\A\olton-Metro-UI-CSS\olton-Metro-UI-CSS-1f49dcd\docs\js\metro\metro-global.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\A\olton-Metro-UI-CSS\olton-Metro-UI-CSS-1f49dcd\docs\js\metro\metro-hint.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\A\olton-Metro-UI-CSS\olton-Metro-UI-CSS-1f49dcd\docs\js\metro\metro-initiator.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\A\olton-Metro-UI-CSS\olton-Metro-UI-CSS-1f49dcd\docs\js\metro\metro-input-control.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\A\olton-Metro-UI-CSS\olton-Metro-UI-CSS-1f49dcd\docs\js\metro\metro-listview.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\A\olton-Metro-UI-CSS\olton-Metro-UI-CSS-1f49dcd\docs\js\metro\metro-live-tile.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\A\olton-Metro-UI-CSS\olton-Metro-UI-CSS-1f49dcd\docs\js\metro\metro-loader.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\A\olton-Metro-UI-CSS\olton-Metro-UI-CSS-1f49dcd\docs\js\metro\metro-locale.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\A\olton-Metro-UI-CSS\olton-Metro-UI-CSS-1f49dcd\docs\js\metro\metro-notify.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\A\olton-Metro-UI-CSS\olton-Metro-UI-CSS-1f49dcd\docs\js\metro\metro-panel.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\A\olton-Metro-UI-CSS\olton-Metro-UI-CSS-1f49dcd\docs\js\metro\metro-plugin-template.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\A\olton-Metro-UI-CSS\olton-Metro-UI-CSS-1f49dcd\docs\js\metro\metro-popover.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\A\olton-Metro-UI-CSS\olton-Metro-UI-CSS-1f49dcd\docs\js\metro\metro-progressbar.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\A\olton-Metro-UI-CSS\olton-Metro-UI-CSS-1f49dcd\docs\js\metro\metro-pull.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\A\olton-Metro-UI-CSS\olton-Metro-UI-CSS-1f49dcd\docs\js\metro\metro-rating.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\A\olton-Metro-UI-CSS\olton-Metro-UI-CSS-1f49dcd\docs\js\metro\metro-scroll.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\A\olton-Metro-UI-CSS\olton-Metro-UI-CSS-1f49dcd\docs\js\metro\metro-slider.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\A\olton-Metro-UI-CSS\olton-Metro-UI-CSS-1f49dcd\docs\js\metro\metro-stepper.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\A\olton-Metro-UI-CSS\olton-Metro-UI-CSS-1f49dcd\docs\js\metro\metro-streamer.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\A\olton-Metro-UI-CSS\olton-Metro-UI-CSS-1f49dcd\docs\js\metro\metro-tab-control.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\A\olton-Metro-UI-CSS\olton-Metro-UI-CSS-1f49dcd\docs\js\metro\metro-table.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\A\olton-Metro-UI-CSS\olton-Metro-UI-CSS-1f49dcd\docs\js\metro\metro-tile-transform.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\A\olton-Metro-UI-CSS\olton-Metro-UI-CSS-1f49dcd\docs\js\metro\metro-times.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\A\olton-Metro-UI-CSS\olton-Metro-UI-CSS-1f49dcd\docs\js\metro\metro-touch-handler.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\A\olton-Metro-UI-CSS\olton-Metro-UI-CSS-1f49dcd\docs\js\metro\metro-treeview.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\A\olton-Metro-UI-CSS\olton-Metro-UI-CSS-1f49dcd\docs\js\metro\metro-wizard.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\A\olton-Metro-UI-CSS\olton-Metro-UI-CSS-1f49dcd\docs\js\prettify\lang-apollo.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\A\olton-Metro-UI-CSS\olton-Metro-UI-CSS-1f49dcd\docs\js\prettify\lang-basic.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\A\olton-Metro-UI-CSS\olton-Metro-UI-CSS-1f49dcd\docs\js\prettify\lang-clj.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\A\olton-Metro-UI-CSS\olton-Metro-UI-CSS-1f49dcd\docs\js\prettify\lang-css.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\A\olton-Metro-UI-CSS\olton-Metro-UI-CSS-1f49dcd\docs\js\prettify\lang-dart.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\A\olton-Metro-UI-CSS\olton-Metro-UI-CSS-1f49dcd\docs\js\prettify\lang-erlang.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\A\olton-Metro-UI-CSS\olton-Metro-UI-CSS-1f49dcd\docs\js\prettify\lang-go.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\A\olton-Metro-UI-CSS\olton-Metro-UI-CSS-1f49dcd\docs\js\prettify\lang-hs.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\A\olton-Metro-UI-CSS\olton-Metro-UI-CSS-1f49dcd\docs\js\prettify\lang-lisp.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\A\olton-Metro-UI-CSS\olton-Metro-UI-CSS-1f49dcd\docs\js\prettify\lang-llvm.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\A\olton-Metro-UI-CSS\olton-Metro-UI-CSS-1f49dcd\docs\js\prettify\lang-lua.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\A\olton-Metro-UI-CSS\olton-Metro-UI-CSS-1f49dcd\docs\js\prettify\lang-matlab.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\A\olton-Metro-UI-CSS\olton-Metro-UI-CSS-1f49dcd\docs\js\prettify\lang-ml.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\A\olton-Metro-UI-CSS\olton-Metro-UI-CSS-1f49dcd\docs\js\prettify\lang-mumps.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\A\olton-Metro-UI-CSS\olton-Metro-UI-CSS-1f49dcd\docs\js\prettify\lang-n.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\A\olton-Metro-UI-CSS\olton-Metro-UI-CSS-1f49dcd\docs\js\prettify\lang-pascal.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\A\olton-Metro-UI-CSS\olton-Metro-UI-CSS-1f49dcd\docs\js\prettify\lang-proto.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\A\olton-Metro-UI-CSS\olton-Metro-UI-CSS-1f49dcd\docs\js\prettify\lang-r.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\A\olton-Metro-UI-CSS\olton-Metro-UI-CSS-1f49dcd\docs\js\prettify\lang-rd.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\A\olton-Metro-UI-CSS\olton-Metro-UI-CSS-1f49dcd\docs\js\prettify\lang-scala.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\A\olton-Metro-UI-CSS\olton-Metro-UI-CSS-1f49dcd\docs\js\prettify\lang-sql.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\A\olton-Metro-UI-CSS\olton-Metro-UI-CSS-1f49dcd\docs\js\prettify\lang-tcl.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\A\olton-Metro-UI-CSS\olton-Metro-UI-CSS-1f49dcd\docs\js\prettify\lang-tex.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\A\olton-Metro-UI-CSS\olton-Metro-UI-CSS-1f49dcd\docs\js\prettify\lang-vb.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\A\olton-Metro-UI-CSS\olton-Metro-UI-CSS-1f49dcd\docs\js\prettify\lang-vhdl.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\A\olton-Metro-UI-CSS\olton-Metro-UI-CSS-1f49dcd\docs\js\prettify\lang-wiki.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\A\olton-Metro-UI-CSS\olton-Metro-UI-CSS-1f49dcd\docs\js\prettify\lang-xq.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\A\olton-Metro-UI-CSS\olton-Metro-UI-CSS-1f49dcd\docs\js\prettify\lang-yaml.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\A\olton-Metro-UI-CSS\olton-Metro-UI-CSS-1f49dcd\docs\js\prettify\prettify.css" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\A\olton-Metro-UI-CSS\olton-Metro-UI-CSS-1f49dcd\docs\js\prettify\prettify.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\A\olton-Metro-UI-CSS\olton-Metro-UI-CSS-1f49dcd\docs\js\prettify\run_prettify.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\A\olton-Metro-UI-CSS\olton-Metro-UI-CSS-1f49dcd\docs\js\start-screen.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\A\olton-Metro-UI-CSS\olton-Metro-UI-CSS-1f49dcd\docs\layouts.html" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\A\olton-Metro-UI-CSS\olton-Metro-UI-CSS-1f49dcd\docs\lists.html" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\A\olton-Metro-UI-CSS\olton-Metro-UI-CSS-1f49dcd\docs\menus.html" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\A\olton-Metro-UI-CSS\olton-Metro-UI-CSS-1f49dcd\docs\navbar.html" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\A\olton-Metro-UI-CSS\olton-Metro-UI-CSS-1f49dcd\docs\notices.html" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\A\olton-Metro-UI-CSS\olton-Metro-UI-CSS-1f49dcd\docs\notify.html" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\A\olton-Metro-UI-CSS\olton-Metro-UI-CSS-1f49dcd\docs\page-template.html" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\A\olton-Metro-UI-CSS\olton-Metro-UI-CSS-1f49dcd\docs\panels.html" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\A\olton-Metro-UI-CSS\olton-Metro-UI-CSS-1f49dcd\docs\progress-bar.html" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\A\olton-Metro-UI-CSS\olton-Metro-UI-CSS-1f49dcd\docs\rating.html" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\A\olton-Metro-UI-CSS\olton-Metro-UI-CSS-1f49dcd\docs\requirements.html" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\A\olton-Metro-UI-CSS\olton-Metro-UI-CSS-1f49dcd\docs\responsive.html" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\A\olton-Metro-UI-CSS\olton-Metro-UI-CSS-1f49dcd\docs\scroll.html" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\A\olton-Metro-UI-CSS\olton-Metro-UI-CSS-1f49dcd\docs\sidebar.html" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\A\olton-Metro-UI-CSS\olton-Metro-UI-CSS-1f49dcd\docs\slider.html" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\A\olton-Metro-UI-CSS\olton-Metro-UI-CSS-1f49dcd\docs\start-screen.html" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\A\olton-Metro-UI-CSS\olton-Metro-UI-CSS-1f49dcd\docs\stepper.html" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\A\olton-Metro-UI-CSS\olton-Metro-UI-CSS-1f49dcd\docs\streamer.html" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\A\olton-Metro-UI-CSS\olton-Metro-UI-CSS-1f49dcd\docs\tab-control.html" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\A\olton-Metro-UI-CSS\olton-Metro-UI-CSS-1f49dcd\docs\tables.html" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\A\olton-Metro-UI-CSS\olton-Metro-UI-CSS-1f49dcd\docs\template-any.html" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\A\olton-Metro-UI-CSS\olton-Metro-UI-CSS-1f49dcd\docs\template-news-portal.html" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\A\olton-Metro-UI-CSS\olton-Metro-UI-CSS-1f49dcd\docs\test-page.html" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\A\olton-Metro-UI-CSS\olton-Metro-UI-CSS-1f49dcd\docs\tiles.html" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\A\olton-Metro-UI-CSS\olton-Metro-UI-CSS-1f49dcd\docs\times.html" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\A\olton-Metro-UI-CSS\olton-Metro-UI-CSS-1f49dcd\docs\treeview.html" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\A\olton-Metro-UI-CSS\olton-Metro-UI-CSS-1f49dcd\docs\typography.html" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\A\olton-Metro-UI-CSS\olton-Metro-UI-CSS-1f49dcd\docs\window.html" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\A\olton-Metro-UI-CSS\olton-Metro-UI-CSS-1f49dcd\docs\wizard.html" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\A\olton-Metro-UI-CSS\olton-Metro-UI-CSS-1f49dcd\fonts\OpenSans-Bold.woff" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\A\olton-Metro-UI-CSS\olton-Metro-UI-CSS-1f49dcd\fonts\OpenSans-Light.woff" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\A\olton-Metro-UI-CSS\olton-Metro-UI-CSS-1f49dcd\fonts\OpenSans.woff" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\A\olton-Metro-UI-CSS\olton-Metro-UI-CSS-1f49dcd\fonts\PTSerif-Caption.woff" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\A\olton-Metro-UI-CSS\olton-Metro-UI-CSS-1f49dcd\fonts\iconFont.dev.svg" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\A\olton-Metro-UI-CSS\olton-Metro-UI-CSS-1f49dcd\fonts\iconFont.eot" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\A\olton-Metro-UI-CSS\olton-Metro-UI-CSS-1f49dcd\fonts\iconFont.json" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\A\olton-Metro-UI-CSS\olton-Metro-UI-CSS-1f49dcd\fonts\iconFont.svg" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\A\olton-Metro-UI-CSS\olton-Metro-UI-CSS-1f49dcd\fonts\iconFont.ttf" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\A\olton-Metro-UI-CSS\olton-Metro-UI-CSS-1f49dcd\fonts\iconFont.woff" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\A\olton-Metro-UI-CSS\olton-Metro-UI-CSS-1f49dcd\fonts\metroSysIcons.svg" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\A\olton-Metro-UI-CSS\olton-Metro-UI-CSS-1f49dcd\fonts\metroSysIcons.ttf" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\A\olton-Metro-UI-CSS\olton-Metro-UI-CSS-1f49dcd\fonts\metroSysIcons.woff" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\A\olton-Metro-UI-CSS\olton-Metro-UI-CSS-1f49dcd\js\README.md" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\A\olton-Metro-UI-CSS\olton-Metro-UI-CSS-1f49dcd\js\metro-accordion.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\A\olton-Metro-UI-CSS\olton-Metro-UI-CSS-1f49dcd\js\metro-button-set.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\A\olton-Metro-UI-CSS\olton-Metro-UI-CSS-1f49dcd\js\metro-calendar.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\A\olton-Metro-UI-CSS\olton-Metro-UI-CSS-1f49dcd\js\metro-carousel.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\A\olton-Metro-UI-CSS\olton-Metro-UI-CSS-1f49dcd\js\metro-core.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\A\olton-Metro-UI-CSS\olton-Metro-UI-CSS-1f49dcd\js\metro-countdown.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\A\olton-Metro-UI-CSS\olton-Metro-UI-CSS-1f49dcd\js\metro-date-format.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\A\olton-Metro-UI-CSS\olton-Metro-UI-CSS-1f49dcd\js\metro-datepicker.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\A\olton-Metro-UI-CSS\olton-Metro-UI-CSS-1f49dcd\js\metro-dialog.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\A\olton-Metro-UI-CSS\olton-Metro-UI-CSS-1f49dcd\js\metro-drag-tile.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\A\olton-Metro-UI-CSS\olton-Metro-UI-CSS-1f49dcd\js\metro-dropdown.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\A\olton-Metro-UI-CSS\olton-Metro-UI-CSS-1f49dcd\js\metro-fluentmenu.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\A\olton-Metro-UI-CSS\olton-Metro-UI-CSS-1f49dcd\js\metro-global.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\A\olton-Metro-UI-CSS\olton-Metro-UI-CSS-1f49dcd\js\metro-hint.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\A\olton-Metro-UI-CSS\olton-Metro-UI-CSS-1f49dcd\js\metro-initiator.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\A\olton-Metro-UI-CSS\olton-Metro-UI-CSS-1f49dcd\js\metro-input-control.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\A\olton-Metro-UI-CSS\olton-Metro-UI-CSS-1f49dcd\js\metro-listview.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\A\olton-Metro-UI-CSS\olton-Metro-UI-CSS-1f49dcd\js\metro-live-tile.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\A\olton-Metro-UI-CSS\olton-Metro-UI-CSS-1f49dcd\js\metro-loader.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\A\olton-Metro-UI-CSS\olton-Metro-UI-CSS-1f49dcd\js\metro-locale.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\A\olton-Metro-UI-CSS\olton-Metro-UI-CSS-1f49dcd\js\metro-notify.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\A\olton-Metro-UI-CSS\olton-Metro-UI-CSS-1f49dcd\js\metro-panel.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\A\olton-Metro-UI-CSS\olton-Metro-UI-CSS-1f49dcd\js\metro-plugin-template.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\A\olton-Metro-UI-CSS\olton-Metro-UI-CSS-1f49dcd\js\metro-popover.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\A\olton-Metro-UI-CSS\olton-Metro-UI-CSS-1f49dcd\js\metro-progressbar.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\A\olton-Metro-UI-CSS\olton-Metro-UI-CSS-1f49dcd\js\metro-pull.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\A\olton-Metro-UI-CSS\olton-Metro-UI-CSS-1f49dcd\js\metro-rating.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\A\olton-Metro-UI-CSS\olton-Metro-UI-CSS-1f49dcd\js\metro-scroll.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\A\olton-Metro-UI-CSS\olton-Metro-UI-CSS-1f49dcd\js\metro-slider.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\A\olton-Metro-UI-CSS\olton-Metro-UI-CSS-1f49dcd\js\metro-stepper.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\A\olton-Metro-UI-CSS\olton-Metro-UI-CSS-1f49dcd\js\metro-streamer.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\A\olton-Metro-UI-CSS\olton-Metro-UI-CSS-1f49dcd\js\metro-tab-control.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\A\olton-Metro-UI-CSS\olton-Metro-UI-CSS-1f49dcd\js\metro-table.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\A\olton-Metro-UI-CSS\olton-Metro-UI-CSS-1f49dcd\js\metro-tile-transform.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\A\olton-Metro-UI-CSS\olton-Metro-UI-CSS-1f49dcd\js\metro-times.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\A\olton-Metro-UI-CSS\olton-Metro-UI-CSS-1f49dcd\js\metro-touch-handler.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\A\olton-Metro-UI-CSS\olton-Metro-UI-CSS-1f49dcd\js\metro-treeview.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\A\olton-Metro-UI-CSS\olton-Metro-UI-CSS-1f49dcd\js\metro-wizard.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\A\olton-Metro-UI-CSS\olton-Metro-UI-CSS-1f49dcd\less\accordion.less" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\A\olton-Metro-UI-CSS\olton-Metro-UI-CSS-1f49dcd\less\balloon.less" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\A\olton-Metro-UI-CSS\olton-Metro-UI-CSS-1f49dcd\less\breadcrumbs.less" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\A\olton-Metro-UI-CSS\olton-Metro-UI-CSS-1f49dcd\less\buttons.less" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\A\olton-Metro-UI-CSS\olton-Metro-UI-CSS-1f49dcd\less\calendar.less" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\A\olton-Metro-UI-CSS\olton-Metro-UI-CSS-1f49dcd\less\carousel.less" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\A\olton-Metro-UI-CSS\olton-Metro-UI-CSS-1f49dcd\less\colors.less" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\A\olton-Metro-UI-CSS\olton-Metro-UI-CSS-1f49dcd\less\countdown.less" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\A\olton-Metro-UI-CSS\olton-Metro-UI-CSS-1f49dcd\less\dataTables.less" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\A\olton-Metro-UI-CSS\olton-Metro-UI-CSS-1f49dcd\less\fluent-menu.less" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\A\olton-Metro-UI-CSS\olton-Metro-UI-CSS-1f49dcd\less\forms.less" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\A\olton-Metro-UI-CSS\olton-Metro-UI-CSS-1f49dcd\less\funcs.less" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\A\olton-Metro-UI-CSS\olton-Metro-UI-CSS-1f49dcd\less\grid.less" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\A\olton-Metro-UI-CSS\olton-Metro-UI-CSS-1f49dcd\less\hint.less" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\A\olton-Metro-UI-CSS\olton-Metro-UI-CSS-1f49dcd\less\iconFont-content.less" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\A\olton-Metro-UI-CSS\olton-Metro-UI-CSS-1f49dcd\less\iconFont.less" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\A\olton-Metro-UI-CSS\olton-Metro-UI-CSS-1f49dcd\less\icons.less" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\A\olton-Metro-UI-CSS\olton-Metro-UI-CSS-1f49dcd\less\images.less" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\A\olton-Metro-UI-CSS\olton-Metro-UI-CSS-1f49dcd\less\layout.less" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\A\olton-Metro-UI-CSS\olton-Metro-UI-CSS-1f49dcd\less\lists.less" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\A\olton-Metro-UI-CSS\olton-Metro-UI-CSS-1f49dcd\less\menus.less" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\A\olton-Metro-UI-CSS\olton-Metro-UI-CSS-1f49dcd\less\metro-bootstrap-responsive.less" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\A\olton-Metro-UI-CSS\olton-Metro-UI-CSS-1f49dcd\less\metro-bootstrap.less" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\A\olton-Metro-UI-CSS\olton-Metro-UI-CSS-1f49dcd\less\misc.less" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\A\olton-Metro-UI-CSS\olton-Metro-UI-CSS-1f49dcd\less\navigation-bar.less" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\A\olton-Metro-UI-CSS\olton-Metro-UI-CSS-1f49dcd\less\notice.less" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\A\olton-Metro-UI-CSS\olton-Metro-UI-CSS-1f49dcd\less\notify.less" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\A\olton-Metro-UI-CSS\olton-Metro-UI-CSS-1f49dcd\less\pagination.less" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\A\olton-Metro-UI-CSS\olton-Metro-UI-CSS-1f49dcd\less\panels.less" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\A\olton-Metro-UI-CSS\olton-Metro-UI-CSS-1f49dcd\less\progress-bar.less" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\A\olton-Metro-UI-CSS\olton-Metro-UI-CSS-1f49dcd\less\rating.less" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\A\olton-Metro-UI-CSS\olton-Metro-UI-CSS-1f49dcd\less\reset.less" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\A\olton-Metro-UI-CSS\olton-Metro-UI-CSS-1f49dcd\less\scroll.less" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\A\olton-Metro-UI-CSS\olton-Metro-UI-CSS-1f49dcd\less\sidebar.less" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\A\olton-Metro-UI-CSS\olton-Metro-UI-CSS-1f49dcd\less\slider.less" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\A\olton-Metro-UI-CSS\olton-Metro-UI-CSS-1f49dcd\less\stepper.less" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\A\olton-Metro-UI-CSS\olton-Metro-UI-CSS-1f49dcd\less\streamer.less" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\A\olton-Metro-UI-CSS\olton-Metro-UI-CSS-1f49dcd\less\tab-control.less" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\A\olton-Metro-UI-CSS\olton-Metro-UI-CSS-1f49dcd\less\tables.less" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\A\olton-Metro-UI-CSS\olton-Metro-UI-CSS-1f49dcd\less\tiles.less" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\A\olton-Metro-UI-CSS\olton-Metro-UI-CSS-1f49dcd\less\transform.less" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\A\olton-Metro-UI-CSS\olton-Metro-UI-CSS-1f49dcd\less\treeview.less" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\A\olton-Metro-UI-CSS\olton-Metro-UI-CSS-1f49dcd\less\typography.less" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\A\olton-Metro-UI-CSS\olton-Metro-UI-CSS-1f49dcd\less\utils.less" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\A\olton-Metro-UI-CSS\olton-Metro-UI-CSS-1f49dcd\less\variables.less" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\A\olton-Metro-UI-CSS\olton-Metro-UI-CSS-1f49dcd\less\window.less" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\A\olton-Metro-UI-CSS\olton-Metro-UI-CSS-1f49dcd\less\wizard.less" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\A\olton-Metro-UI-CSS\olton-Metro-UI-CSS-1f49dcd\merge.cmd" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\A\olton-Metro-UI-CSS\olton-Metro-UI-CSS-1f49dcd\metro-ui-css-2.0.32.nuspec" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\A\olton-Metro-UI-CSS\olton-Metro-UI-CSS-1f49dcd\min\iconFont.min.css" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\A\olton-Metro-UI-CSS\olton-Metro-UI-CSS-1f49dcd\min\metro-bootstrap-responsive.min.css" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\A\olton-Metro-UI-CSS\olton-Metro-UI-CSS-1f49dcd\min\metro-bootstrap.min.css" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\A\olton-Metro-UI-CSS\olton-Metro-UI-CSS-1f49dcd\min\metro.min.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\A\olton-Metro-UI-CSS\olton-Metro-UI-CSS-1f49dcd\push.cmd" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\A\olton-Metro-UI-CSS\olton-Metro-UI-CSS-1f49dcd\switch.cmd" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\lib\olton-Metro-UI-CSS-2.0.23-131-g1f49dcd\olton-Metro-UI-CSS-1f49dcd\.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\lib\olton-Metro-UI-CSS-2.0.23-131-g1f49dcd\olton-Metro-UI-CSS-1f49dcd\CHANGELOG.md" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\lib\olton-Metro-UI-CSS-2.0.23-131-g1f49dcd\olton-Metro-UI-CSS-1f49dcd\LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\lib\olton-Metro-UI-CSS-2.0.23-131-g1f49dcd\olton-Metro-UI-CSS-1f49dcd\PULL-REQUESTS.md" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\lib\olton-Metro-UI-CSS-2.0.23-131-g1f49dcd\olton-Metro-UI-CSS-1f49dcd\README.md" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\lib\olton-Metro-UI-CSS-2.0.23-131-g1f49dcd\olton-Metro-UI-CSS-1f49dcd\bower.json" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\lib\olton-Metro-UI-CSS-2.0.23-131-g1f49dcd\olton-Metro-UI-CSS-1f49dcd\branch.cmd" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\lib\olton-Metro-UI-CSS-2.0.23-131-g1f49dcd\olton-Metro-UI-CSS-1f49dcd\commit.cmd" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\lib\olton-Metro-UI-CSS-2.0.23-131-g1f49dcd\olton-Metro-UI-CSS-1f49dcd\compile.cmd" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\lib\olton-Metro-UI-CSS-2.0.23-131-g1f49dcd\olton-Metro-UI-CSS-1f49dcd\compress\compressor.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\lib\olton-Metro-UI-CSS-2.0.23-131-g1f49dcd\olton-Metro-UI-CSS-1f49dcd\css\metro-bootstrap-responsive.css" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\lib\olton-Metro-UI-CSS-2.0.23-131-g1f49dcd\olton-Metro-UI-CSS-1f49dcd\css\metro-bootstrap.css" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\lib\olton-Metro-UI-CSS-2.0.23-131-g1f49dcd\olton-Metro-UI-CSS-1f49dcd\docs\.htaccess" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\lib\olton-Metro-UI-CSS-2.0.23-131-g1f49dcd\olton-Metro-UI-CSS-1f49dcd\docs\accordion.html" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\lib\olton-Metro-UI-CSS-2.0.23-131-g1f49dcd\olton-Metro-UI-CSS-1f49dcd\docs\balloon.html" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\lib\olton-Metro-UI-CSS-2.0.23-131-g1f49dcd\olton-Metro-UI-CSS-1f49dcd\docs\buttons.html" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\lib\olton-Metro-UI-CSS-2.0.23-131-g1f49dcd\olton-Metro-UI-CSS-1f49dcd\docs\calendar.html" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\lib\olton-Metro-UI-CSS-2.0.23-131-g1f49dcd\olton-Metro-UI-CSS-1f49dcd\docs\carousel.html" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\lib\olton-Metro-UI-CSS-2.0.23-131-g1f49dcd\olton-Metro-UI-CSS-1f49dcd\docs\css\docs.css" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\lib\olton-Metro-UI-CSS-2.0.23-131-g1f49dcd\olton-Metro-UI-CSS-1f49dcd\docs\css\iconFont.css" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\lib\olton-Metro-UI-CSS-2.0.23-131-g1f49dcd\olton-Metro-UI-CSS-1f49dcd\docs\css\less\docs.less" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\lib\olton-Metro-UI-CSS-2.0.23-131-g1f49dcd\olton-Metro-UI-CSS-1f49dcd\docs\css\metro-bootstrap-responsive.css" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\lib\olton-Metro-UI-CSS-2.0.23-131-g1f49dcd\olton-Metro-UI-CSS-1f49dcd\docs\css\metro-bootstrap.css" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\lib\olton-Metro-UI-CSS-2.0.23-131-g1f49dcd\olton-Metro-UI-CSS-1f49dcd\docs\dataTables.html" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\lib\olton-Metro-UI-CSS-2.0.23-131-g1f49dcd\olton-Metro-UI-CSS-1f49dcd\docs\data\dataTables-objects.txt" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\lib\olton-Metro-UI-CSS-2.0.23-131-g1f49dcd\olton-Metro-UI-CSS-1f49dcd\docs\datepicker.html" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\lib\olton-Metro-UI-CSS-2.0.23-131-g1f49dcd\olton-Metro-UI-CSS-1f49dcd\docs\dialog.html" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\lib\olton-Metro-UI-CSS-2.0.23-131-g1f49dcd\olton-Metro-UI-CSS-1f49dcd\docs\examples.html" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\lib\olton-Metro-UI-CSS-2.0.23-131-g1f49dcd\olton-Metro-UI-CSS-1f49dcd\docs\fluent-menu.html" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\lib\olton-Metro-UI-CSS-2.0.23-131-g1f49dcd\olton-Metro-UI-CSS-1f49dcd\docs\fonts\OpenSans-Bold.woff" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\lib\olton-Metro-UI-CSS-2.0.23-131-g1f49dcd\olton-Metro-UI-CSS-1f49dcd\docs\fonts\OpenSans-Light.woff" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\lib\olton-Metro-UI-CSS-2.0.23-131-g1f49dcd\olton-Metro-UI-CSS-1f49dcd\docs\fonts\OpenSans.woff" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\lib\olton-Metro-UI-CSS-2.0.23-131-g1f49dcd\olton-Metro-UI-CSS-1f49dcd\docs\fonts\PTSerif-Caption.woff" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\lib\olton-Metro-UI-CSS-2.0.23-131-g1f49dcd\olton-Metro-UI-CSS-1f49dcd\docs\fonts\iconFont.dev.svg" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\lib\olton-Metro-UI-CSS-2.0.23-131-g1f49dcd\olton-Metro-UI-CSS-1f49dcd\docs\fonts\iconFont.eot" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\lib\olton-Metro-UI-CSS-2.0.23-131-g1f49dcd\olton-Metro-UI-CSS-1f49dcd\docs\fonts\iconFont.json" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\lib\olton-Metro-UI-CSS-2.0.23-131-g1f49dcd\olton-Metro-UI-CSS-1f49dcd\docs\fonts\iconFont.svg" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\lib\olton-Metro-UI-CSS-2.0.23-131-g1f49dcd\olton-Metro-UI-CSS-1f49dcd\docs\fonts\iconFont.ttf" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\lib\olton-Metro-UI-CSS-2.0.23-131-g1f49dcd\olton-Metro-UI-CSS-1f49dcd\docs\fonts\iconFont.woff" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\lib\olton-Metro-UI-CSS-2.0.23-131-g1f49dcd\olton-Metro-UI-CSS-1f49dcd\docs\fonts\metroSysIcons.svg" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\lib\olton-Metro-UI-CSS-2.0.23-131-g1f49dcd\olton-Metro-UI-CSS-1f49dcd\docs\fonts\metroSysIcons.ttf" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\lib\olton-Metro-UI-CSS-2.0.23-131-g1f49dcd\olton-Metro-UI-CSS-1f49dcd\docs\fonts\metroSysIcons.woff" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\lib\olton-Metro-UI-CSS-2.0.23-131-g1f49dcd\olton-Metro-UI-CSS-1f49dcd\docs\footer.html" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\lib\olton-Metro-UI-CSS-2.0.23-131-g1f49dcd\olton-Metro-UI-CSS-1f49dcd\docs\forms.html" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\lib\olton-Metro-UI-CSS-2.0.23-131-g1f49dcd\olton-Metro-UI-CSS-1f49dcd\docs\global.html" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\lib\olton-Metro-UI-CSS-2.0.23-131-g1f49dcd\olton-Metro-UI-CSS-1f49dcd\docs\grid.html" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\lib\olton-Metro-UI-CSS-2.0.23-131-g1f49dcd\olton-Metro-UI-CSS-1f49dcd\docs\header.html" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\lib\olton-Metro-UI-CSS-2.0.23-131-g1f49dcd\olton-Metro-UI-CSS-1f49dcd\docs\hint.html" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\lib\olton-Metro-UI-CSS-2.0.23-131-g1f49dcd\olton-Metro-UI-CSS-1f49dcd\docs\icons.html" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\lib\olton-Metro-UI-CSS-2.0.23-131-g1f49dcd\olton-Metro-UI-CSS-1f49dcd\docs\images.html" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\lib\olton-Metro-UI-CSS-2.0.23-131-g1f49dcd\olton-Metro-UI-CSS-1f49dcd\docs\images\1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\lib\olton-Metro-UI-CSS-2.0.23-131-g1f49dcd\olton-Metro-UI-CSS-1f49dcd\docs\images\2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\lib\olton-Metro-UI-CSS-2.0.23-131-g1f49dcd\olton-Metro-UI-CSS-1f49dcd\docs\images\3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\lib\olton-Metro-UI-CSS-2.0.23-131-g1f49dcd\olton-Metro-UI-CSS-1f49dcd\docs\images\4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\lib\olton-Metro-UI-CSS-2.0.23-131-g1f49dcd\olton-Metro-UI-CSS-1f49dcd\docs\images\5.jpg" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\lib\olton-Metro-UI-CSS-2.0.23-131-g1f49dcd\olton-Metro-UI-CSS-1f49dcd\docs\images\Battlefield_4_Icon.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\lib\olton-Metro-UI-CSS-2.0.23-131-g1f49dcd\olton-Metro-UI-CSS-1f49dcd\docs\images\BizSparkTile.jpg" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\lib\olton-Metro-UI-CSS-2.0.23-131-g1f49dcd\olton-Metro-UI-CSS-1f49dcd\docs\images\Calendar-Next.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\lib\olton-Metro-UI-CSS-2.0.23-131-g1f49dcd\olton-Metro-UI-CSS-1f49dcd\docs\images\Crysis-2-icon.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\lib\olton-Metro-UI-CSS-2.0.23-131-g1f49dcd\olton-Metro-UI-CSS-1f49dcd\docs\images\D3.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\lib\olton-Metro-UI-CSS-2.0.23-131-g1f49dcd\olton-Metro-UI-CSS-1f49dcd\docs\images\Folder-Rename.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\lib\olton-Metro-UI-CSS-2.0.23-131-g1f49dcd\olton-Metro-UI-CSS-1f49dcd\docs\images\Metro-UI-CSS.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\lib\olton-Metro-UI-CSS-2.0.23-131-g1f49dcd\olton-Metro-UI-CSS-1f49dcd\docs\images\Notebook-Save.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\lib\olton-Metro-UI-CSS-2.0.23-131-g1f49dcd\olton-Metro-UI-CSS-1f49dcd\docs\images\Office365.jpg" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\lib\olton-Metro-UI-CSS-2.0.23-131-g1f49dcd\olton-Metro-UI-CSS-1f49dcd\docs\images\Open_Source_Iniative.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\lib\olton-Metro-UI-CSS-2.0.23-131-g1f49dcd\olton-Metro-UI-CSS-1f49dcd\docs\images\Print-Quick.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\lib\olton-Metro-UI-CSS-2.0.23-131-g1f49dcd\olton-Metro-UI-CSS-1f49dcd\docs\images\Window-Refresh.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\lib\olton-Metro-UI-CSS-2.0.23-131-g1f49dcd\olton-Metro-UI-CSS-1f49dcd\docs\images\Windows-8-Logo.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\lib\olton-Metro-UI-CSS-2.0.23-131-g1f49dcd\olton-Metro-UI-CSS-1f49dcd\docs\images\access.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\lib\olton-Metro-UI-CSS-2.0.23-131-g1f49dcd\olton-Metro-UI-CSS-1f49dcd\docs\images\author.jpg" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\lib\olton-Metro-UI-CSS-2.0.23-131-g1f49dcd\olton-Metro-UI-CSS-1f49dcd\docs\images\b1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\lib\olton-Metro-UI-CSS-2.0.23-131-g1f49dcd\olton-Metro-UI-CSS-1f49dcd\docs\images\beer.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\lib\olton-Metro-UI-CSS-2.0.23-131-g1f49dcd\olton-Metro-UI-CSS-1f49dcd\docs\images\bizspark_b.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\lib\olton-Metro-UI-CSS-2.0.23-131-g1f49dcd\olton-Metro-UI-CSS-1f49dcd\docs\images\bizspark_b_2.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\lib\olton-Metro-UI-CSS-2.0.23-131-g1f49dcd\olton-Metro-UI-CSS-1f49dcd\docs\images\clouds.jpg" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\lib\olton-Metro-UI-CSS-2.0.23-131-g1f49dcd\olton-Metro-UI-CSS-1f49dcd\docs\images\clouds2.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\lib\olton-Metro-UI-CSS-2.0.23-131-g1f49dcd\olton-Metro-UI-CSS-1f49dcd\docs\images\css-logo.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\lib\olton-Metro-UI-CSS-2.0.23-131-g1f49dcd\olton-Metro-UI-CSS-1f49dcd\docs\images\download-32.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\lib\olton-Metro-UI-CSS-2.0.23-131-g1f49dcd\olton-Metro-UI-CSS-1f49dcd\docs\images\excel.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\lib\olton-Metro-UI-CSS-2.0.23-131-g1f49dcd\olton-Metro-UI-CSS-1f49dcd\docs\images\excel2013icon.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\lib\olton-Metro-UI-CSS-2.0.23-131-g1f49dcd\olton-Metro-UI-CSS-1f49dcd\docs\images\fluent-menu.jpg" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\lib\olton-Metro-UI-CSS-2.0.23-131-g1f49dcd\olton-Metro-UI-CSS-1f49dcd\docs\images\fork-32.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\lib\olton-Metro-UI-CSS-2.0.23-131-g1f49dcd\olton-Metro-UI-CSS-1f49dcd\docs\images\grid2.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\lib\olton-Metro-UI-CSS-2.0.23-131-g1f49dcd\olton-Metro-UI-CSS-1f49dcd\docs\images\jek_vorobey.jpg" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\lib\olton-Metro-UI-CSS-2.0.23-131-g1f49dcd\olton-Metro-UI-CSS-1f49dcd\docs\images\jeki_chan.jpg" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\lib\olton-Metro-UI-CSS-2.0.23-131-g1f49dcd\olton-Metro-UI-CSS-1f49dcd\docs\images\jetbrains.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\lib\olton-Metro-UI-CSS-2.0.23-131-g1f49dcd\olton-Metro-UI-CSS-1f49dcd\docs\images\jolie.jpg" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\lib\olton-Metro-UI-CSS-2.0.23-131-g1f49dcd\olton-Metro-UI-CSS-1f49dcd\docs\images\live1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\lib\olton-Metro-UI-CSS-2.0.23-131-g1f49dcd\olton-Metro-UI-CSS-1f49dcd\docs\images\live2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\lib\olton-Metro-UI-CSS-2.0.23-131-g1f49dcd\olton-Metro-UI-CSS-1f49dcd\docs\images\me.jpg" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\lib\olton-Metro-UI-CSS-2.0.23-131-g1f49dcd\olton-Metro-UI-CSS-1f49dcd\docs\images\meter-210.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\lib\olton-Metro-UI-CSS-2.0.23-131-g1f49dcd\olton-Metro-UI-CSS-1f49dcd\docs\images\myface.jpg" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\lib\olton-Metro-UI-CSS-2.0.23-131-g1f49dcd\olton-Metro-UI-CSS-1f49dcd\docs\images\nuget-logo.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\lib\olton-Metro-UI-CSS-2.0.23-131-g1f49dcd\olton-Metro-UI-CSS-1f49dcd\docs\images\obama.jpg" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\lib\olton-Metro-UI-CSS-2.0.23-131-g1f49dcd\olton-Metro-UI-CSS-1f49dcd\docs\images\onenote.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\lib\olton-Metro-UI-CSS-2.0.23-131-g1f49dcd\olton-Metro-UI-CSS-1f49dcd\docs\images\onenote2013icon.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\lib\olton-Metro-UI-CSS-2.0.23-131-g1f49dcd\olton-Metro-UI-CSS-1f49dcd\docs\images\org-01.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\lib\olton-Metro-UI-CSS-2.0.23-131-g1f49dcd\olton-Metro-UI-CSS-1f49dcd\docs\images\outlook.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\lib\olton-Metro-UI-CSS-2.0.23-131-g1f49dcd\olton-Metro-UI-CSS-1f49dcd\docs\images\phpstorm_7_eap.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\lib\olton-Metro-UI-CSS-2.0.23-131-g1f49dcd\olton-Metro-UI-CSS-1f49dcd\docs\images\phpstorm_tn.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\lib\olton-Metro-UI-CSS-2.0.23-131-g1f49dcd\olton-Metro-UI-CSS-1f49dcd\docs\images\phpstorm_tn_2.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\lib\olton-Metro-UI-CSS-2.0.23-131-g1f49dcd\olton-Metro-UI-CSS-1f49dcd\docs\images\powerpoint.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\lib\olton-Metro-UI-CSS-2.0.23-131-g1f49dcd\olton-Metro-UI-CSS-1f49dcd\docs\images\shvarcenegger.jpg" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\lib\olton-Metro-UI-CSS-2.0.23-131-g1f49dcd\olton-Metro-UI-CSS-1f49dcd\docs\images\spface.jpg" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\lib\olton-Metro-UI-CSS-2.0.23-131-g1f49dcd\olton-Metro-UI-CSS-1f49dcd\docs\images\tiles-bg-2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\lib\olton-Metro-UI-CSS-2.0.23-131-g1f49dcd\olton-Metro-UI-CSS-1f49dcd\docs\images\tiles-bg.jpg" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\lib\olton-Metro-UI-CSS-2.0.23-131-g1f49dcd\olton-Metro-UI-CSS-1f49dcd\docs\images\windows_8_default_13_wallpaper.jpg" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\lib\olton-Metro-UI-CSS-2.0.23-131-g1f49dcd\olton-Metro-UI-CSS-1f49dcd\docs\images\windows_modern_logo.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\lib\olton-Metro-UI-CSS-2.0.23-131-g1f49dcd\olton-Metro-UI-CSS-1f49dcd\docs\images\word.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\lib\olton-Metro-UI-CSS-2.0.23-131-g1f49dcd\olton-Metro-UI-CSS-1f49dcd\docs\images\word2013icon.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\lib\olton-Metro-UI-CSS-2.0.23-131-g1f49dcd\olton-Metro-UI-CSS-1f49dcd\docs\images\x.jpg" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\lib\olton-Metro-UI-CSS-2.0.23-131-g1f49dcd\olton-Metro-UI-CSS-1f49dcd\docs\index.html" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\lib\olton-Metro-UI-CSS-2.0.23-131-g1f49dcd\olton-Metro-UI-CSS-1f49dcd\docs\js\docs.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\lib\olton-Metro-UI-CSS-2.0.23-131-g1f49dcd\olton-Metro-UI-CSS-1f49dcd\docs\js\github.info.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\lib\olton-Metro-UI-CSS-2.0.23-131-g1f49dcd\olton-Metro-UI-CSS-1f49dcd\docs\js\hitua.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\lib\olton-Metro-UI-CSS-2.0.23-131-g1f49dcd\olton-Metro-UI-CSS-1f49dcd\docs\js\holder\holder.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\lib\olton-Metro-UI-CSS-2.0.23-131-g1f49dcd\olton-Metro-UI-CSS-1f49dcd\docs\js\jquery\jquery.dataTables.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\lib\olton-Metro-UI-CSS-2.0.23-131-g1f49dcd\olton-Metro-UI-CSS-1f49dcd\docs\js\jquery\jquery.easing.1.3.min.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\lib\olton-Metro-UI-CSS-2.0.23-131-g1f49dcd\olton-Metro-UI-CSS-1f49dcd\docs\js\jquery\jquery.min.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\lib\olton-Metro-UI-CSS-2.0.23-131-g1f49dcd\olton-Metro-UI-CSS-1f49dcd\docs\js\jquery\jquery.mousewheel.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\lib\olton-Metro-UI-CSS-2.0.23-131-g1f49dcd\olton-Metro-UI-CSS-1f49dcd\docs\js\jquery\jquery.widget.min.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\lib\olton-Metro-UI-CSS-2.0.23-131-g1f49dcd\olton-Metro-UI-CSS-1f49dcd\docs\js\load-metro.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\lib\olton-Metro-UI-CSS-2.0.23-131-g1f49dcd\olton-Metro-UI-CSS-1f49dcd\docs\js\metro.min.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\lib\olton-Metro-UI-CSS-2.0.23-131-g1f49dcd\olton-Metro-UI-CSS-1f49dcd\docs\js\metro\README.md" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\lib\olton-Metro-UI-CSS-2.0.23-131-g1f49dcd\olton-Metro-UI-CSS-1f49dcd\docs\js\metro\metro-accordion.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\lib\olton-Metro-UI-CSS-2.0.23-131-g1f49dcd\olton-Metro-UI-CSS-1f49dcd\docs\js\metro\metro-button-set.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\lib\olton-Metro-UI-CSS-2.0.23-131-g1f49dcd\olton-Metro-UI-CSS-1f49dcd\docs\js\metro\metro-calendar.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\lib\olton-Metro-UI-CSS-2.0.23-131-g1f49dcd\olton-Metro-UI-CSS-1f49dcd\docs\js\metro\metro-carousel.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\lib\olton-Metro-UI-CSS-2.0.23-131-g1f49dcd\olton-Metro-UI-CSS-1f49dcd\docs\js\metro\metro-core.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\lib\olton-Metro-UI-CSS-2.0.23-131-g1f49dcd\olton-Metro-UI-CSS-1f49dcd\docs\js\metro\metro-countdown.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\lib\olton-Metro-UI-CSS-2.0.23-131-g1f49dcd\olton-Metro-UI-CSS-1f49dcd\docs\js\metro\metro-date-format.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\lib\olton-Metro-UI-CSS-2.0.23-131-g1f49dcd\olton-Metro-UI-CSS-1f49dcd\docs\js\metro\metro-datepicker.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\lib\olton-Metro-UI-CSS-2.0.23-131-g1f49dcd\olton-Metro-UI-CSS-1f49dcd\docs\js\metro\metro-dialog.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\lib\olton-Metro-UI-CSS-2.0.23-131-g1f49dcd\olton-Metro-UI-CSS-1f49dcd\docs\js\metro\metro-drag-tile.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\lib\olton-Metro-UI-CSS-2.0.23-131-g1f49dcd\olton-Metro-UI-CSS-1f49dcd\docs\js\metro\metro-dropdown.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\lib\olton-Metro-UI-CSS-2.0.23-131-g1f49dcd\olton-Metro-UI-CSS-1f49dcd\docs\js\metro\metro-fluentmenu.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\lib\olton-Metro-UI-CSS-2.0.23-131-g1f49dcd\olton-Metro-UI-CSS-1f49dcd\docs\js\metro\metro-global.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\lib\olton-Metro-UI-CSS-2.0.23-131-g1f49dcd\olton-Metro-UI-CSS-1f49dcd\docs\js\metro\metro-hint.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\lib\olton-Metro-UI-CSS-2.0.23-131-g1f49dcd\olton-Metro-UI-CSS-1f49dcd\docs\js\metro\metro-initiator.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\lib\olton-Metro-UI-CSS-2.0.23-131-g1f49dcd\olton-Metro-UI-CSS-1f49dcd\docs\js\metro\metro-input-control.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\lib\olton-Metro-UI-CSS-2.0.23-131-g1f49dcd\olton-Metro-UI-CSS-1f49dcd\docs\js\metro\metro-listview.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\lib\olton-Metro-UI-CSS-2.0.23-131-g1f49dcd\olton-Metro-UI-CSS-1f49dcd\docs\js\metro\metro-live-tile.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\lib\olton-Metro-UI-CSS-2.0.23-131-g1f49dcd\olton-Metro-UI-CSS-1f49dcd\docs\js\metro\metro-loader.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\lib\olton-Metro-UI-CSS-2.0.23-131-g1f49dcd\olton-Metro-UI-CSS-1f49dcd\docs\js\metro\metro-locale.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\lib\olton-Metro-UI-CSS-2.0.23-131-g1f49dcd\olton-Metro-UI-CSS-1f49dcd\docs\js\metro\metro-notify.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\lib\olton-Metro-UI-CSS-2.0.23-131-g1f49dcd\olton-Metro-UI-CSS-1f49dcd\docs\js\metro\metro-panel.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\lib\olton-Metro-UI-CSS-2.0.23-131-g1f49dcd\olton-Metro-UI-CSS-1f49dcd\docs\js\metro\metro-plugin-template.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\lib\olton-Metro-UI-CSS-2.0.23-131-g1f49dcd\olton-Metro-UI-CSS-1f49dcd\docs\js\metro\metro-popover.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\lib\olton-Metro-UI-CSS-2.0.23-131-g1f49dcd\olton-Metro-UI-CSS-1f49dcd\docs\js\metro\metro-progressbar.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\lib\olton-Metro-UI-CSS-2.0.23-131-g1f49dcd\olton-Metro-UI-CSS-1f49dcd\docs\js\metro\metro-pull.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\lib\olton-Metro-UI-CSS-2.0.23-131-g1f49dcd\olton-Metro-UI-CSS-1f49dcd\docs\js\metro\metro-rating.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\lib\olton-Metro-UI-CSS-2.0.23-131-g1f49dcd\olton-Metro-UI-CSS-1f49dcd\docs\js\metro\metro-scroll.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\lib\olton-Metro-UI-CSS-2.0.23-131-g1f49dcd\olton-Metro-UI-CSS-1f49dcd\docs\js\metro\metro-slider.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\lib\olton-Metro-UI-CSS-2.0.23-131-g1f49dcd\olton-Metro-UI-CSS-1f49dcd\docs\js\metro\metro-stepper.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\lib\olton-Metro-UI-CSS-2.0.23-131-g1f49dcd\olton-Metro-UI-CSS-1f49dcd\docs\js\metro\metro-streamer.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\lib\olton-Metro-UI-CSS-2.0.23-131-g1f49dcd\olton-Metro-UI-CSS-1f49dcd\docs\js\metro\metro-tab-control.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\lib\olton-Metro-UI-CSS-2.0.23-131-g1f49dcd\olton-Metro-UI-CSS-1f49dcd\docs\js\metro\metro-table.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\lib\olton-Metro-UI-CSS-2.0.23-131-g1f49dcd\olton-Metro-UI-CSS-1f49dcd\docs\js\metro\metro-tile-transform.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\lib\olton-Metro-UI-CSS-2.0.23-131-g1f49dcd\olton-Metro-UI-CSS-1f49dcd\docs\js\metro\metro-times.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\lib\olton-Metro-UI-CSS-2.0.23-131-g1f49dcd\olton-Metro-UI-CSS-1f49dcd\docs\js\metro\metro-touch-handler.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\lib\olton-Metro-UI-CSS-2.0.23-131-g1f49dcd\olton-Metro-UI-CSS-1f49dcd\docs\js\metro\metro-treeview.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\lib\olton-Metro-UI-CSS-2.0.23-131-g1f49dcd\olton-Metro-UI-CSS-1f49dcd\docs\js\metro\metro-wizard.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\lib\olton-Metro-UI-CSS-2.0.23-131-g1f49dcd\olton-Metro-UI-CSS-1f49dcd\docs\js\prettify\lang-apollo.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\lib\olton-Metro-UI-CSS-2.0.23-131-g1f49dcd\olton-Metro-UI-CSS-1f49dcd\docs\js\prettify\lang-basic.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\lib\olton-Metro-UI-CSS-2.0.23-131-g1f49dcd\olton-Metro-UI-CSS-1f49dcd\docs\js\prettify\lang-clj.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\lib\olton-Metro-UI-CSS-2.0.23-131-g1f49dcd\olton-Metro-UI-CSS-1f49dcd\docs\js\prettify\lang-css.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\lib\olton-Metro-UI-CSS-2.0.23-131-g1f49dcd\olton-Metro-UI-CSS-1f49dcd\docs\js\prettify\lang-dart.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\lib\olton-Metro-UI-CSS-2.0.23-131-g1f49dcd\olton-Metro-UI-CSS-1f49dcd\docs\js\prettify\lang-erlang.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\lib\olton-Metro-UI-CSS-2.0.23-131-g1f49dcd\olton-Metro-UI-CSS-1f49dcd\docs\js\prettify\lang-go.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\lib\olton-Metro-UI-CSS-2.0.23-131-g1f49dcd\olton-Metro-UI-CSS-1f49dcd\docs\js\prettify\lang-hs.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\lib\olton-Metro-UI-CSS-2.0.23-131-g1f49dcd\olton-Metro-UI-CSS-1f49dcd\docs\js\prettify\lang-lisp.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\lib\olton-Metro-UI-CSS-2.0.23-131-g1f49dcd\olton-Metro-UI-CSS-1f49dcd\docs\js\prettify\lang-llvm.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\lib\olton-Metro-UI-CSS-2.0.23-131-g1f49dcd\olton-Metro-UI-CSS-1f49dcd\docs\js\prettify\lang-lua.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\lib\olton-Metro-UI-CSS-2.0.23-131-g1f49dcd\olton-Metro-UI-CSS-1f49dcd\docs\js\prettify\lang-matlab.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\lib\olton-Metro-UI-CSS-2.0.23-131-g1f49dcd\olton-Metro-UI-CSS-1f49dcd\docs\js\prettify\lang-ml.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\lib\olton-Metro-UI-CSS-2.0.23-131-g1f49dcd\olton-Metro-UI-CSS-1f49dcd\docs\js\prettify\lang-mumps.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\lib\olton-Metro-UI-CSS-2.0.23-131-g1f49dcd\olton-Metro-UI-CSS-1f49dcd\docs\js\prettify\lang-n.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\lib\olton-Metro-UI-CSS-2.0.23-131-g1f49dcd\olton-Metro-UI-CSS-1f49dcd\docs\js\prettify\lang-pascal.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\lib\olton-Metro-UI-CSS-2.0.23-131-g1f49dcd\olton-Metro-UI-CSS-1f49dcd\docs\js\prettify\lang-proto.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\lib\olton-Metro-UI-CSS-2.0.23-131-g1f49dcd\olton-Metro-UI-CSS-1f49dcd\docs\js\prettify\lang-r.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\lib\olton-Metro-UI-CSS-2.0.23-131-g1f49dcd\olton-Metro-UI-CSS-1f49dcd\docs\js\prettify\lang-rd.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\lib\olton-Metro-UI-CSS-2.0.23-131-g1f49dcd\olton-Metro-UI-CSS-1f49dcd\docs\js\prettify\lang-scala.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\lib\olton-Metro-UI-CSS-2.0.23-131-g1f49dcd\olton-Metro-UI-CSS-1f49dcd\docs\js\prettify\lang-sql.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\lib\olton-Metro-UI-CSS-2.0.23-131-g1f49dcd\olton-Metro-UI-CSS-1f49dcd\docs\js\prettify\lang-tcl.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\lib\olton-Metro-UI-CSS-2.0.23-131-g1f49dcd\olton-Metro-UI-CSS-1f49dcd\docs\js\prettify\lang-tex.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\lib\olton-Metro-UI-CSS-2.0.23-131-g1f49dcd\olton-Metro-UI-CSS-1f49dcd\docs\js\prettify\lang-vb.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\lib\olton-Metro-UI-CSS-2.0.23-131-g1f49dcd\olton-Metro-UI-CSS-1f49dcd\docs\js\prettify\lang-vhdl.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\lib\olton-Metro-UI-CSS-2.0.23-131-g1f49dcd\olton-Metro-UI-CSS-1f49dcd\docs\js\prettify\lang-wiki.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\lib\olton-Metro-UI-CSS-2.0.23-131-g1f49dcd\olton-Metro-UI-CSS-1f49dcd\docs\js\prettify\lang-xq.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\lib\olton-Metro-UI-CSS-2.0.23-131-g1f49dcd\olton-Metro-UI-CSS-1f49dcd\docs\js\prettify\lang-yaml.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\lib\olton-Metro-UI-CSS-2.0.23-131-g1f49dcd\olton-Metro-UI-CSS-1f49dcd\docs\js\prettify\prettify.css" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\lib\olton-Metro-UI-CSS-2.0.23-131-g1f49dcd\olton-Metro-UI-CSS-1f49dcd\docs\js\prettify\prettify.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\lib\olton-Metro-UI-CSS-2.0.23-131-g1f49dcd\olton-Metro-UI-CSS-1f49dcd\docs\js\prettify\run_prettify.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\lib\olton-Metro-UI-CSS-2.0.23-131-g1f49dcd\olton-Metro-UI-CSS-1f49dcd\docs\js\start-screen.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\lib\olton-Metro-UI-CSS-2.0.23-131-g1f49dcd\olton-Metro-UI-CSS-1f49dcd\docs\layouts.html" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\lib\olton-Metro-UI-CSS-2.0.23-131-g1f49dcd\olton-Metro-UI-CSS-1f49dcd\docs\lists.html" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\lib\olton-Metro-UI-CSS-2.0.23-131-g1f49dcd\olton-Metro-UI-CSS-1f49dcd\docs\menus.html" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\lib\olton-Metro-UI-CSS-2.0.23-131-g1f49dcd\olton-Metro-UI-CSS-1f49dcd\docs\navbar.html" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\lib\olton-Metro-UI-CSS-2.0.23-131-g1f49dcd\olton-Metro-UI-CSS-1f49dcd\docs\notices.html" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\lib\olton-Metro-UI-CSS-2.0.23-131-g1f49dcd\olton-Metro-UI-CSS-1f49dcd\docs\notify.html" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\lib\olton-Metro-UI-CSS-2.0.23-131-g1f49dcd\olton-Metro-UI-CSS-1f49dcd\docs\page-template.html" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\lib\olton-Metro-UI-CSS-2.0.23-131-g1f49dcd\olton-Metro-UI-CSS-1f49dcd\docs\panels.html" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\lib\olton-Metro-UI-CSS-2.0.23-131-g1f49dcd\olton-Metro-UI-CSS-1f49dcd\docs\progress-bar.html" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\lib\olton-Metro-UI-CSS-2.0.23-131-g1f49dcd\olton-Metro-UI-CSS-1f49dcd\docs\rating.html" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\lib\olton-Metro-UI-CSS-2.0.23-131-g1f49dcd\olton-Metro-UI-CSS-1f49dcd\docs\requirements.html" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\lib\olton-Metro-UI-CSS-2.0.23-131-g1f49dcd\olton-Metro-UI-CSS-1f49dcd\docs\responsive.html" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\lib\olton-Metro-UI-CSS-2.0.23-131-g1f49dcd\olton-Metro-UI-CSS-1f49dcd\docs\scroll.html" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\lib\olton-Metro-UI-CSS-2.0.23-131-g1f49dcd\olton-Metro-UI-CSS-1f49dcd\docs\sidebar.html" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\lib\olton-Metro-UI-CSS-2.0.23-131-g1f49dcd\olton-Metro-UI-CSS-1f49dcd\docs\slider.html" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\lib\olton-Metro-UI-CSS-2.0.23-131-g1f49dcd\olton-Metro-UI-CSS-1f49dcd\docs\start-screen.html" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\lib\olton-Metro-UI-CSS-2.0.23-131-g1f49dcd\olton-Metro-UI-CSS-1f49dcd\docs\stepper.html" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\lib\olton-Metro-UI-CSS-2.0.23-131-g1f49dcd\olton-Metro-UI-CSS-1f49dcd\docs\streamer.html" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\lib\olton-Metro-UI-CSS-2.0.23-131-g1f49dcd\olton-Metro-UI-CSS-1f49dcd\docs\tab-control.html" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\lib\olton-Metro-UI-CSS-2.0.23-131-g1f49dcd\olton-Metro-UI-CSS-1f49dcd\docs\tables.html" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\lib\olton-Metro-UI-CSS-2.0.23-131-g1f49dcd\olton-Metro-UI-CSS-1f49dcd\docs\template-any.html" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\lib\olton-Metro-UI-CSS-2.0.23-131-g1f49dcd\olton-Metro-UI-CSS-1f49dcd\docs\template-news-portal.html" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\lib\olton-Metro-UI-CSS-2.0.23-131-g1f49dcd\olton-Metro-UI-CSS-1f49dcd\docs\test-page.html" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\lib\olton-Metro-UI-CSS-2.0.23-131-g1f49dcd\olton-Metro-UI-CSS-1f49dcd\docs\tiles.html" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\lib\olton-Metro-UI-CSS-2.0.23-131-g1f49dcd\olton-Metro-UI-CSS-1f49dcd\docs\times.html" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\lib\olton-Metro-UI-CSS-2.0.23-131-g1f49dcd\olton-Metro-UI-CSS-1f49dcd\docs\treeview.html" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\lib\olton-Metro-UI-CSS-2.0.23-131-g1f49dcd\olton-Metro-UI-CSS-1f49dcd\docs\typography.html" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\lib\olton-Metro-UI-CSS-2.0.23-131-g1f49dcd\olton-Metro-UI-CSS-1f49dcd\docs\window.html" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\lib\olton-Metro-UI-CSS-2.0.23-131-g1f49dcd\olton-Metro-UI-CSS-1f49dcd\docs\wizard.html" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\lib\olton-Metro-UI-CSS-2.0.23-131-g1f49dcd\olton-Metro-UI-CSS-1f49dcd\fonts\OpenSans-Bold.woff" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\lib\olton-Metro-UI-CSS-2.0.23-131-g1f49dcd\olton-Metro-UI-CSS-1f49dcd\fonts\OpenSans-Light.woff" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\lib\olton-Metro-UI-CSS-2.0.23-131-g1f49dcd\olton-Metro-UI-CSS-1f49dcd\fonts\OpenSans.woff" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\lib\olton-Metro-UI-CSS-2.0.23-131-g1f49dcd\olton-Metro-UI-CSS-1f49dcd\fonts\PTSerif-Caption.woff" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\lib\olton-Metro-UI-CSS-2.0.23-131-g1f49dcd\olton-Metro-UI-CSS-1f49dcd\fonts\iconFont.dev.svg" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\lib\olton-Metro-UI-CSS-2.0.23-131-g1f49dcd\olton-Metro-UI-CSS-1f49dcd\fonts\iconFont.eot" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\lib\olton-Metro-UI-CSS-2.0.23-131-g1f49dcd\olton-Metro-UI-CSS-1f49dcd\fonts\iconFont.json" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\lib\olton-Metro-UI-CSS-2.0.23-131-g1f49dcd\olton-Metro-UI-CSS-1f49dcd\fonts\iconFont.svg" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\lib\olton-Metro-UI-CSS-2.0.23-131-g1f49dcd\olton-Metro-UI-CSS-1f49dcd\fonts\iconFont.ttf" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\lib\olton-Metro-UI-CSS-2.0.23-131-g1f49dcd\olton-Metro-UI-CSS-1f49dcd\fonts\iconFont.woff" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\lib\olton-Metro-UI-CSS-2.0.23-131-g1f49dcd\olton-Metro-UI-CSS-1f49dcd\fonts\metroSysIcons.svg" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\lib\olton-Metro-UI-CSS-2.0.23-131-g1f49dcd\olton-Metro-UI-CSS-1f49dcd\fonts\metroSysIcons.ttf" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\lib\olton-Metro-UI-CSS-2.0.23-131-g1f49dcd\olton-Metro-UI-CSS-1f49dcd\fonts\metroSysIcons.woff" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\lib\olton-Metro-UI-CSS-2.0.23-131-g1f49dcd\olton-Metro-UI-CSS-1f49dcd\js\README.md" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\lib\olton-Metro-UI-CSS-2.0.23-131-g1f49dcd\olton-Metro-UI-CSS-1f49dcd\js\metro-accordion.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\lib\olton-Metro-UI-CSS-2.0.23-131-g1f49dcd\olton-Metro-UI-CSS-1f49dcd\js\metro-button-set.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\lib\olton-Metro-UI-CSS-2.0.23-131-g1f49dcd\olton-Metro-UI-CSS-1f49dcd\js\metro-calendar.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\lib\olton-Metro-UI-CSS-2.0.23-131-g1f49dcd\olton-Metro-UI-CSS-1f49dcd\js\metro-carousel.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\lib\olton-Metro-UI-CSS-2.0.23-131-g1f49dcd\olton-Metro-UI-CSS-1f49dcd\js\metro-core.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\lib\olton-Metro-UI-CSS-2.0.23-131-g1f49dcd\olton-Metro-UI-CSS-1f49dcd\js\metro-countdown.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\lib\olton-Metro-UI-CSS-2.0.23-131-g1f49dcd\olton-Metro-UI-CSS-1f49dcd\js\metro-date-format.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\lib\olton-Metro-UI-CSS-2.0.23-131-g1f49dcd\olton-Metro-UI-CSS-1f49dcd\js\metro-datepicker.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\lib\olton-Metro-UI-CSS-2.0.23-131-g1f49dcd\olton-Metro-UI-CSS-1f49dcd\js\metro-dialog.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\lib\olton-Metro-UI-CSS-2.0.23-131-g1f49dcd\olton-Metro-UI-CSS-1f49dcd\js\metro-drag-tile.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\lib\olton-Metro-UI-CSS-2.0.23-131-g1f49dcd\olton-Metro-UI-CSS-1f49dcd\js\metro-dropdown.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\lib\olton-Metro-UI-CSS-2.0.23-131-g1f49dcd\olton-Metro-UI-CSS-1f49dcd\js\metro-fluentmenu.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\lib\olton-Metro-UI-CSS-2.0.23-131-g1f49dcd\olton-Metro-UI-CSS-1f49dcd\js\metro-global.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\lib\olton-Metro-UI-CSS-2.0.23-131-g1f49dcd\olton-Metro-UI-CSS-1f49dcd\js\metro-hint.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\lib\olton-Metro-UI-CSS-2.0.23-131-g1f49dcd\olton-Metro-UI-CSS-1f49dcd\js\metro-initiator.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\lib\olton-Metro-UI-CSS-2.0.23-131-g1f49dcd\olton-Metro-UI-CSS-1f49dcd\js\metro-input-control.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\lib\olton-Metro-UI-CSS-2.0.23-131-g1f49dcd\olton-Metro-UI-CSS-1f49dcd\js\metro-listview.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\lib\olton-Metro-UI-CSS-2.0.23-131-g1f49dcd\olton-Metro-UI-CSS-1f49dcd\js\metro-live-tile.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\lib\olton-Metro-UI-CSS-2.0.23-131-g1f49dcd\olton-Metro-UI-CSS-1f49dcd\js\metro-loader.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\lib\olton-Metro-UI-CSS-2.0.23-131-g1f49dcd\olton-Metro-UI-CSS-1f49dcd\js\metro-locale.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\lib\olton-Metro-UI-CSS-2.0.23-131-g1f49dcd\olton-Metro-UI-CSS-1f49dcd\js\metro-notify.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\lib\olton-Metro-UI-CSS-2.0.23-131-g1f49dcd\olton-Metro-UI-CSS-1f49dcd\js\metro-panel.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\lib\olton-Metro-UI-CSS-2.0.23-131-g1f49dcd\olton-Metro-UI-CSS-1f49dcd\js\metro-plugin-template.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\lib\olton-Metro-UI-CSS-2.0.23-131-g1f49dcd\olton-Metro-UI-CSS-1f49dcd\js\metro-popover.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\lib\olton-Metro-UI-CSS-2.0.23-131-g1f49dcd\olton-Metro-UI-CSS-1f49dcd\js\metro-progressbar.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\lib\olton-Metro-UI-CSS-2.0.23-131-g1f49dcd\olton-Metro-UI-CSS-1f49dcd\js\metro-pull.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\lib\olton-Metro-UI-CSS-2.0.23-131-g1f49dcd\olton-Metro-UI-CSS-1f49dcd\js\metro-rating.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\lib\olton-Metro-UI-CSS-2.0.23-131-g1f49dcd\olton-Metro-UI-CSS-1f49dcd\js\metro-scroll.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\lib\olton-Metro-UI-CSS-2.0.23-131-g1f49dcd\olton-Metro-UI-CSS-1f49dcd\js\metro-slider.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\lib\olton-Metro-UI-CSS-2.0.23-131-g1f49dcd\olton-Metro-UI-CSS-1f49dcd\js\metro-stepper.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\lib\olton-Metro-UI-CSS-2.0.23-131-g1f49dcd\olton-Metro-UI-CSS-1f49dcd\js\metro-streamer.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\lib\olton-Metro-UI-CSS-2.0.23-131-g1f49dcd\olton-Metro-UI-CSS-1f49dcd\js\metro-tab-control.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\lib\olton-Metro-UI-CSS-2.0.23-131-g1f49dcd\olton-Metro-UI-CSS-1f49dcd\js\metro-table.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\lib\olton-Metro-UI-CSS-2.0.23-131-g1f49dcd\olton-Metro-UI-CSS-1f49dcd\js\metro-tile-transform.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\lib\olton-Metro-UI-CSS-2.0.23-131-g1f49dcd\olton-Metro-UI-CSS-1f49dcd\js\metro-times.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\lib\olton-Metro-UI-CSS-2.0.23-131-g1f49dcd\olton-Metro-UI-CSS-1f49dcd\js\metro-touch-handler.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\lib\olton-Metro-UI-CSS-2.0.23-131-g1f49dcd\olton-Metro-UI-CSS-1f49dcd\js\metro-treeview.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\lib\olton-Metro-UI-CSS-2.0.23-131-g1f49dcd\olton-Metro-UI-CSS-1f49dcd\js\metro-wizard.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\lib\olton-Metro-UI-CSS-2.0.23-131-g1f49dcd\olton-Metro-UI-CSS-1f49dcd\less\accordion.less" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\lib\olton-Metro-UI-CSS-2.0.23-131-g1f49dcd\olton-Metro-UI-CSS-1f49dcd\less\balloon.less" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\lib\olton-Metro-UI-CSS-2.0.23-131-g1f49dcd\olton-Metro-UI-CSS-1f49dcd\less\breadcrumbs.less" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\lib\olton-Metro-UI-CSS-2.0.23-131-g1f49dcd\olton-Metro-UI-CSS-1f49dcd\less\buttons.less" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\lib\olton-Metro-UI-CSS-2.0.23-131-g1f49dcd\olton-Metro-UI-CSS-1f49dcd\less\calendar.less" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\lib\olton-Metro-UI-CSS-2.0.23-131-g1f49dcd\olton-Metro-UI-CSS-1f49dcd\less\carousel.less" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\lib\olton-Metro-UI-CSS-2.0.23-131-g1f49dcd\olton-Metro-UI-CSS-1f49dcd\less\colors.less" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\lib\olton-Metro-UI-CSS-2.0.23-131-g1f49dcd\olton-Metro-UI-CSS-1f49dcd\less\countdown.less" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\lib\olton-Metro-UI-CSS-2.0.23-131-g1f49dcd\olton-Metro-UI-CSS-1f49dcd\less\dataTables.less" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\lib\olton-Metro-UI-CSS-2.0.23-131-g1f49dcd\olton-Metro-UI-CSS-1f49dcd\less\fluent-menu.less" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\lib\olton-Metro-UI-CSS-2.0.23-131-g1f49dcd\olton-Metro-UI-CSS-1f49dcd\less\forms.less" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\lib\olton-Metro-UI-CSS-2.0.23-131-g1f49dcd\olton-Metro-UI-CSS-1f49dcd\less\funcs.less" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\lib\olton-Metro-UI-CSS-2.0.23-131-g1f49dcd\olton-Metro-UI-CSS-1f49dcd\less\grid.less" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\lib\olton-Metro-UI-CSS-2.0.23-131-g1f49dcd\olton-Metro-UI-CSS-1f49dcd\less\hint.less" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\lib\olton-Metro-UI-CSS-2.0.23-131-g1f49dcd\olton-Metro-UI-CSS-1f49dcd\less\iconFont-content.less" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\lib\olton-Metro-UI-CSS-2.0.23-131-g1f49dcd\olton-Metro-UI-CSS-1f49dcd\less\iconFont.less" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\lib\olton-Metro-UI-CSS-2.0.23-131-g1f49dcd\olton-Metro-UI-CSS-1f49dcd\less\icons.less" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\lib\olton-Metro-UI-CSS-2.0.23-131-g1f49dcd\olton-Metro-UI-CSS-1f49dcd\less\images.less" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\lib\olton-Metro-UI-CSS-2.0.23-131-g1f49dcd\olton-Metro-UI-CSS-1f49dcd\less\layout.less" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\lib\olton-Metro-UI-CSS-2.0.23-131-g1f49dcd\olton-Metro-UI-CSS-1f49dcd\less\lists.less" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\lib\olton-Metro-UI-CSS-2.0.23-131-g1f49dcd\olton-Metro-UI-CSS-1f49dcd\less\menus.less" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\lib\olton-Metro-UI-CSS-2.0.23-131-g1f49dcd\olton-Metro-UI-CSS-1f49dcd\less\metro-bootstrap-responsive.less" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\lib\olton-Metro-UI-CSS-2.0.23-131-g1f49dcd\olton-Metro-UI-CSS-1f49dcd\less\metro-bootstrap.less" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\lib\olton-Metro-UI-CSS-2.0.23-131-g1f49dcd\olton-Metro-UI-CSS-1f49dcd\less\misc.less" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\lib\olton-Metro-UI-CSS-2.0.23-131-g1f49dcd\olton-Metro-UI-CSS-1f49dcd\less\navigation-bar.less" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\lib\olton-Metro-UI-CSS-2.0.23-131-g1f49dcd\olton-Metro-UI-CSS-1f49dcd\less\notice.less" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\lib\olton-Metro-UI-CSS-2.0.23-131-g1f49dcd\olton-Metro-UI-CSS-1f49dcd\less\notify.less" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\lib\olton-Metro-UI-CSS-2.0.23-131-g1f49dcd\olton-Metro-UI-CSS-1f49dcd\less\pagination.less" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\lib\olton-Metro-UI-CSS-2.0.23-131-g1f49dcd\olton-Metro-UI-CSS-1f49dcd\less\panels.less" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\lib\olton-Metro-UI-CSS-2.0.23-131-g1f49dcd\olton-Metro-UI-CSS-1f49dcd\less\progress-bar.less" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\lib\olton-Metro-UI-CSS-2.0.23-131-g1f49dcd\olton-Metro-UI-CSS-1f49dcd\less\rating.less" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\lib\olton-Metro-UI-CSS-2.0.23-131-g1f49dcd\olton-Metro-UI-CSS-1f49dcd\less\reset.less" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\lib\olton-Metro-UI-CSS-2.0.23-131-g1f49dcd\olton-Metro-UI-CSS-1f49dcd\less\scroll.less" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\lib\olton-Metro-UI-CSS-2.0.23-131-g1f49dcd\olton-Metro-UI-CSS-1f49dcd\less\sidebar.less" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\lib\olton-Metro-UI-CSS-2.0.23-131-g1f49dcd\olton-Metro-UI-CSS-1f49dcd\less\slider.less" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\lib\olton-Metro-UI-CSS-2.0.23-131-g1f49dcd\olton-Metro-UI-CSS-1f49dcd\less\stepper.less" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\lib\olton-Metro-UI-CSS-2.0.23-131-g1f49dcd\olton-Metro-UI-CSS-1f49dcd\less\streamer.less" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\lib\olton-Metro-UI-CSS-2.0.23-131-g1f49dcd\olton-Metro-UI-CSS-1f49dcd\less\tab-control.less" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\lib\olton-Metro-UI-CSS-2.0.23-131-g1f49dcd\olton-Metro-UI-CSS-1f49dcd\less\tables.less" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\lib\olton-Metro-UI-CSS-2.0.23-131-g1f49dcd\olton-Metro-UI-CSS-1f49dcd\less\tiles.less" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\lib\olton-Metro-UI-CSS-2.0.23-131-g1f49dcd\olton-Metro-UI-CSS-1f49dcd\less\transform.less" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\lib\olton-Metro-UI-CSS-2.0.23-131-g1f49dcd\olton-Metro-UI-CSS-1f49dcd\less\treeview.less" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\lib\olton-Metro-UI-CSS-2.0.23-131-g1f49dcd\olton-Metro-UI-CSS-1f49dcd\less\typography.less" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\lib\olton-Metro-UI-CSS-2.0.23-131-g1f49dcd\olton-Metro-UI-CSS-1f49dcd\less\utils.less" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\lib\olton-Metro-UI-CSS-2.0.23-131-g1f49dcd\olton-Metro-UI-CSS-1f49dcd\less\variables.less" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\lib\olton-Metro-UI-CSS-2.0.23-131-g1f49dcd\olton-Metro-UI-CSS-1f49dcd\less\window.less" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\lib\olton-Metro-UI-CSS-2.0.23-131-g1f49dcd\olton-Metro-UI-CSS-1f49dcd\less\wizard.less" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\lib\olton-Metro-UI-CSS-2.0.23-131-g1f49dcd\olton-Metro-UI-CSS-1f49dcd\merge.cmd" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\lib\olton-Metro-UI-CSS-2.0.23-131-g1f49dcd\olton-Metro-UI-CSS-1f49dcd\metro-ui-css-2.0.32.nuspec" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\lib\olton-Metro-UI-CSS-2.0.23-131-g1f49dcd\olton-Metro-UI-CSS-1f49dcd\min\iconFont.min.css" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\lib\olton-Metro-UI-CSS-2.0.23-131-g1f49dcd\olton-Metro-UI-CSS-1f49dcd\min\metro-bootstrap-responsive.min.css" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\lib\olton-Metro-UI-CSS-2.0.23-131-g1f49dcd\olton-Metro-UI-CSS-1f49dcd\min\metro-bootstrap.min.css" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\lib\olton-Metro-UI-CSS-2.0.23-131-g1f49dcd\olton-Metro-UI-CSS-1f49dcd\min\metro.min.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\lib\olton-Metro-UI-CSS-2.0.23-131-g1f49dcd\olton-Metro-UI-CSS-1f49dcd\push.cmd" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\lib\olton-Metro-UI-CSS-2.0.23-131-g1f49dcd\olton-Metro-UI-CSS-1f49dcd\switch.cmd" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public_html/Mib/v1/libraries/EasyCache/query_caches/sqlcache_config_file_1e9f4807034b5e56eb2db5c9a2c7b243.php" afterPath="$PROJECT_DIR$/public_html/Mib/v1/libraries/EasyCache/query_caches/sqlcache_config_file_1e9f4807034b5e56eb2db5c9a2c7b243.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -129,6 +1275,70 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="slim-API" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="slim-API" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="slim-API" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public_html" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="slim-API" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="slim-API" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public_html" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="A" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="slim-API" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="slim-API" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public_html" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="A" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Metro" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
       <pane id="Scope">
         <subPane subId="Problems" />
         <subPane subId="Tests" />
@@ -177,48 +1387,6 @@
           </PATH>
         </subPane>
         <subPane subId="Changed Files" />
-      </pane>
-      <pane id="ProjectPane">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="slim-API" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="slim-API" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="slim-API" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public_html" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="slim-API" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="slim-API" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public_html" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lib" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
       </pane>
     </panes>
   </component>
@@ -288,15 +1456,15 @@
     <configuration default="true" type="AppEnginePhpConfigurationType" factoryName="App Engine for PHP">
       <method />
     </configuration>
+    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
+      <method />
+    </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
       <node-options />
       <gulpfile />
       <tasks />
       <pass-parent-envs>true</pass-parent-envs>
       <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
       <method />
     </configuration>
     <list size="1">
@@ -439,7 +1607,13 @@
       <option name="project" value="LOCAL" />
       <updated>1424072395303</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="Rejected commit: Default">
+      <created>1424072975571</created>
+      <option name="number" value="00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1424072975571</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TodoView" selected-index="4">
@@ -466,26 +1640,26 @@
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.77691454" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32890365" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32963374" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32963374" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25346112" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.27795526" sideWeight="0.49944505" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.28061768" sideWeight="0.49944505" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2630458" sideWeight="0.5005549" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32963374" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.28792912" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32963374" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.77691454" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -518,13 +1692,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-9.419354" vertical-offset="522" max-vertical-offset="1540">
           <caret line="37" column="20" selection-start-line="37" selection-start-column="20" selection-end-line="37" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public_html/newtest/assets/M/controllers/lib/Tree.class - 副本.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.18934911" vertical-offset="3228" max-vertical-offset="5126">
-          <caret line="154" column="20" selection-start-line="154" selection-start-column="20" selection-end-line="154" selection-end-column="20" />
         </state>
       </provider>
     </entry>
@@ -595,7 +1762,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.5480427" vertical-offset="0" max-vertical-offset="4444">
           <caret line="21" column="36" selection-start-line="21" selection-start-column="36" selection-end-line="21" selection-end-column="36" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -624,7 +1790,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.5537757" vertical-offset="0" max-vertical-offset="874">
           <caret line="22" column="36" selection-start-line="22" selection-start-column="36" selection-end-line="22" selection-end-column="36" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -639,7 +1804,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="1.3783133" vertical-offset="0" max-vertical-offset="12936">
           <caret line="78" column="59" selection-start-line="78" selection-start-column="59" selection-end-line="78" selection-end-column="59" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -654,7 +1818,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.8351127" vertical-offset="0" max-vertical-offset="4466">
           <caret line="32" column="25" selection-start-line="32" selection-start-column="25" selection-end-line="32" selection-end-column="25" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -700,7 +1863,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.5480427" vertical-offset="0" max-vertical-offset="843">
           <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -718,9 +1880,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="2.0084338" vertical-offset="2161" max-vertical-offset="12980">
           <caret line="200" column="41" selection-start-line="200" selection-start-column="41" selection-end-line="200" selection-end-column="41" />
-          <folding>
-            <element signature="e#6#684#0#PHP" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -728,7 +1887,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.5036145" vertical-offset="1452" max-vertical-offset="13222">
           <caret line="85" column="5" selection-start-line="85" selection-start-column="5" selection-end-line="85" selection-end-column="5" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -736,7 +1894,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1408">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -744,7 +1901,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.3653618" vertical-offset="858" max-vertical-offset="1826">
           <caret line="53" column="0" selection-start-line="53" selection-start-column="0" selection-end-line="57" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -752,7 +1908,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.39145908" vertical-offset="0" max-vertical-offset="5390">
           <caret line="15" column="49" selection-start-line="15" selection-start-column="49" selection-end-line="15" selection-end-column="49" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -767,7 +1922,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.31316727" vertical-offset="0" max-vertical-offset="843">
           <caret line="12" column="33" selection-start-line="12" selection-start-column="33" selection-end-line="12" selection-end-column="33" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -775,7 +1929,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.38678092" vertical-offset="2236" max-vertical-offset="3740">
           <caret line="116" column="51" selection-start-line="116" selection-start-column="51" selection-end-line="116" selection-end-column="51" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -783,7 +1936,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.5041518" vertical-offset="1137" max-vertical-offset="5742">
           <caret line="71" column="55" selection-start-line="71" selection-start-column="55" selection-end-line="71" selection-end-column="55" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -791,7 +1943,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.60023725" vertical-offset="0" max-vertical-offset="3740">
           <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
