@@ -5,21 +5,15 @@ class Doc extends CI_Controller
 
 	function __construct()
 	{
+
+		//$pn = $this->input->post('pageNum', TRUE);
+
+		//[FCPATH] => E:\www\slim-API\public_html\
+		//[APPPATH] => Mib/Te/
 		//BASEPATH //:// E:/www/slim-API/public_html/C/
 
 		parent::__construct();
-		//连接数据库================================================
-		define('MBASE', dirname(__FILE__)."\\".'lib');	//v31 EASY的绝对路径
-		include(MBASE.'\Mysql.class.php');
-		$this->db = Mysql::getInstance();
-		//连接数据库================================================
-
-//		print_r(get_defined_constants());
-
-		include(MBASE.'\Tree.class.php');
-
-
-
+		$this->load->library('Db');			//数据库
 	}
 
 	//可编辑的首页,在适当的位置会有个edit标签		首页 是一个封面
@@ -30,15 +24,13 @@ class Doc extends CI_Controller
 		$sql	= "select id,preid,title,titleonly from doc_document where enable = 0 order by sort desc ,id";
 		$_rc	= $this->db->getall($sql,'id');		//所有的数据
 
-//		$this->load->library('tree',$_rc);
-//echo 123;
-//		exit;
-		$Tree = new Tree($_rc);
-		$leaf = $Tree->leaf($listid);
+
+		$this->load->library('tree',$_rc);
+		$leaf = $this->tree->leaf($listid);
 
 		$data['leaf'] = $leaf;
-		$level = $Tree->leaf_level($listid);
-		$nav = $Tree->navi($listid);
+		$level = $this->tree->leaf_level($listid);
+		$nav = $this->tree->navi($listid);
 
 		$data['nav'] = $nav;
 
@@ -54,6 +46,7 @@ class Doc extends CI_Controller
 
 		$this->load->helper('cookie');
 		$this->load->view('index',$data);
+
 	}
 
 	//=============================================================
@@ -63,12 +56,13 @@ class Doc extends CI_Controller
 		$listid = intval($listid);
 		$sql	= "select id,preid,title,titleonly from doc_document where enable = 0 order by sort desc ,id";
 		$_rc	= $this->db->getall($sql,'id');		//所有的数据
-		//$this->load->library('Tree');
-		$Tree = new Tree($_rc);
-		$leaf = $Tree->leaf($listid);
+
+		$this->load->library('tree',$_rc);
+
+		$leaf = $this->tree->leaf($listid);
 		$data['leaf'] = $leaf;
 //		$level = $Tree->leaf_level($listid);
-		$nav = $Tree->navi($listid);
+		$nav = $this->tree->navi($listid);
 		$data['nav'] = $nav;
 
 		//=============================================================
@@ -127,10 +121,12 @@ class Doc extends CI_Controller
 		$sql	= "select id,preid,title,titleonly from doc_document where enable = 0 order by sort desc ,id";
 		$_rc	= $this->db->getall($sql);		//所有的数据
 		//=============================================================
-		$Tree 	= new Tree($_rc);
-		$leaf 	= $Tree->leaf(0);
-		$level 	= $Tree->leaf_level(0);
-		$list 	= $Tree->getlist();
+		$this->load->library('tree',$_rc);
+
+
+		$leaf 	= $this->tree->leaf(0);
+		$level 	= $this->tree->leaf_level(0);
+		$list 	= $this->tree->getlist();
 		//=============================================================
 		$_rc['id'] = 0;
 		$_rc['title'] = '根';

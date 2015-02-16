@@ -42,6 +42,9 @@ class Te extends CI_Controller
 
 	public function index()
 	{
+
+		print_r(get_defined_constants());				//所有常量
+
 		echo 1;
 		//模块加载演示
 //		$params = array('a'=>'1');

@@ -11,10 +11,21 @@ RewriteEngine On
 
 
 RewriteEngine on
-RewriteRule ^Doc$ Doc.php [L]
-RewriteRule ^Te$ Te.php [L]
 
+RewriteRule ^v1$ v1.php [L]
+RewriteRule ^v1/(.*)$ v1.php/$1 [L]
+
+RewriteRule ^v3$ v3.php [L]
+RewriteRule ^v3/(.*)$ v3.php/$1 [L]
+
+
+RewriteRule ^Doc$ Doc.php [L]
 RewriteRule ^Doc/(.*)$ Doc.php/$1 [L]
+
+RewriteRule ^Man$ Man.php [L]
+RewriteRule ^Man/(.*)$ Man.php/$1 [L]
+
+RewriteRule ^Te$ Te.php [L]
 RewriteRule ^Te/(.*)$ Te.php/$1 [L]
 
 RewriteCond %{REQUEST_FILENAME} !-f

@@ -29,6 +29,7 @@ class  Tree{
         $this->tmp = array();           //分段标记
         $this->fields = $fields;        //$this->fields[1]
         //$this->root = 0;
+
         $this->handler();
     }
 
