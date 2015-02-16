@@ -2,82 +2,170 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8fdaf63a-f73f-4dde-aabf-fdc3c5cc9f28" name="Default" comment="">
-      <change type="DELETED" beforePath="E:\www\slim-API\public_html\M\.htaccess" afterPath="" />
-      <change type="DELETED" beforePath="E:\www\slim-API\public_html\M\cache\.htaccess" afterPath="" />
-      <change type="DELETED" beforePath="E:\www\slim-API\public_html\M\cache\index.html" afterPath="" />
-      <change type="DELETED" beforePath="E:\www\slim-API\public_html\M\config\autoload.php" afterPath="" />
-      <change type="DELETED" beforePath="E:\www\slim-API\public_html\M\config\config.php" afterPath="" />
-      <change type="DELETED" beforePath="E:\www\slim-API\public_html\M\config\constants.php" afterPath="" />
-      <change type="DELETED" beforePath="E:\www\slim-API\public_html\M\config\database.php" afterPath="" />
-      <change type="DELETED" beforePath="E:\www\slim-API\public_html\M\config\doctypes.php" afterPath="" />
-      <change type="DELETED" beforePath="E:\www\slim-API\public_html\M\config\foreign_chars.php" afterPath="" />
-      <change type="DELETED" beforePath="E:\www\slim-API\public_html\M\config\hooks.php" afterPath="" />
-      <change type="DELETED" beforePath="E:\www\slim-API\public_html\M\config\index.html" afterPath="" />
-      <change type="DELETED" beforePath="E:\www\slim-API\public_html\M\config\migration.php" afterPath="" />
-      <change type="DELETED" beforePath="E:\www\slim-API\public_html\M\config\mimes.php" afterPath="" />
-      <change type="DELETED" beforePath="E:\www\slim-API\public_html\M\config\profiler.php" afterPath="" />
-      <change type="DELETED" beforePath="E:\www\slim-API\public_html\M\config\routes.php" afterPath="" />
-      <change type="DELETED" beforePath="E:\www\slim-API\public_html\M\config\smileys.php" afterPath="" />
-      <change type="DELETED" beforePath="E:\www\slim-API\public_html\M\config\user_agents.php" afterPath="" />
-      <change type="DELETED" beforePath="E:\www\slim-API\public_html\M\controllers\Doc.php" afterPath="" />
-      <change type="DELETED" beforePath="E:\www\slim-API\public_html\M\controllers\Man.php" afterPath="" />
-      <change type="DELETED" beforePath="E:\www\slim-API\public_html\M\controllers\index.html" afterPath="" />
-      <change type="DELETED" beforePath="E:\www\slim-API\public_html\M\controllers\lib\EasyCache\errlog\slowquery.php" afterPath="" />
-      <change type="DELETED" beforePath="E:\www\slim-API\public_html\M\controllers\lib\EasyCache\query_caches\sqlcache_config_file_8e8a972141bd9bb698b38e7bd9289cba.php" afterPath="" />
-      <change type="DELETED" beforePath="E:\www\slim-API\public_html\M\controllers\lib\Mem.class.php" afterPath="" />
-      <change type="DELETED" beforePath="E:\www\slim-API\public_html\M\controllers\lib\Mysql.class.php" afterPath="" />
-      <change type="DELETED" beforePath="E:\www\slim-API\public_html\M\controllers\lib\Tree.class.php" afterPath="" />
-      <change type="DELETED" beforePath="E:\www\slim-API\public_html\M\controllers\v1.php" afterPath="" />
-      <change type="DELETED" beforePath="E:\www\slim-API\public_html\M\controllers\v3.php" afterPath="" />
-      <change type="DELETED" beforePath="E:\www\slim-API\public_html\M\controllers\welcome.php" afterPath="" />
-      <change type="DELETED" beforePath="E:\www\slim-API\public_html\M\core\index.html" afterPath="" />
-      <change type="DELETED" beforePath="E:\www\slim-API\public_html\M\errors\error_404.php" afterPath="" />
-      <change type="DELETED" beforePath="E:\www\slim-API\public_html\M\errors\error_db.php" afterPath="" />
-      <change type="DELETED" beforePath="E:\www\slim-API\public_html\M\errors\error_general.php" afterPath="" />
-      <change type="DELETED" beforePath="E:\www\slim-API\public_html\M\errors\error_php.php" afterPath="" />
-      <change type="DELETED" beforePath="E:\www\slim-API\public_html\M\errors\index.html" afterPath="" />
-      <change type="DELETED" beforePath="E:\www\slim-API\public_html\M\helpers\index.html" afterPath="" />
-      <change type="DELETED" beforePath="E:\www\slim-API\public_html\M\hooks\index.html" afterPath="" />
-      <change type="DELETED" beforePath="E:\www\slim-API\public_html\M\index.html" afterPath="" />
-      <change type="DELETED" beforePath="E:\www\slim-API\public_html\M\language\english\index.html" afterPath="" />
-      <change type="DELETED" beforePath="E:\www\slim-API\public_html\M\language\index.html" afterPath="" />
-      <change type="DELETED" beforePath="E:\www\slim-API\public_html\M\libraries\M\Caroute.php" afterPath="" />
-      <change type="DELETED" beforePath="E:\www\slim-API\public_html\M\libraries\M\R.php" afterPath="" />
-      <change type="DELETED" beforePath="E:\www\slim-API\public_html\M\libraries\M\Rr.php" afterPath="" />
-      <change type="DELETED" beforePath="E:\www\slim-API\public_html\M\libraries\M\User.php" afterPath="" />
-      <change type="DELETED" beforePath="E:\www\slim-API\public_html\M\libraries\Te.php" afterPath="" />
-      <change type="DELETED" beforePath="E:\www\slim-API\public_html\M\libraries\index.html" afterPath="" />
-      <change type="DELETED" beforePath="E:\www\slim-API\public_html\M\logs\index.html" afterPath="" />
-      <change type="DELETED" beforePath="E:\www\slim-API\public_html\M\models\index.html" afterPath="" />
-      <change type="DELETED" beforePath="E:\www\slim-API\public_html\M\third_party\index.html" afterPath="" />
-      <change type="DELETED" beforePath="E:\www\slim-API\public_html\M\views\Doc\index.php" afterPath="" />
-      <change type="DELETED" beforePath="E:\www\slim-API\public_html\M\views\Doc\nrview.php" afterPath="" />
-      <change type="DELETED" beforePath="E:\www\slim-API\public_html\M\views\Doc\vset.php" afterPath="" />
-      <change type="DELETED" beforePath="E:\www\slim-API\public_html\M\views\Doc\vset_addnew.php" afterPath="" />
-      <change type="DELETED" beforePath="E:\www\slim-API\public_html\M\views\Doc\vset_edit.php" afterPath="" />
-      <change type="DELETED" beforePath="E:\www\slim-API\public_html\M\views\Doc\vset_select.php" afterPath="" />
-      <change type="DELETED" beforePath="E:\www\slim-API\public_html\M\views\Doc\vset_sort.php" afterPath="" />
-      <change type="DELETED" beforePath="E:\www\slim-API\public_html\M\views\Man\Man_addnew.php" afterPath="" />
-      <change type="DELETED" beforePath="E:\www\slim-API\public_html\M\views\Man\Man_doc.php" afterPath="" />
-      <change type="DELETED" beforePath="E:\www\slim-API\public_html\M\views\Man\Man_docview.php" afterPath="" />
-      <change type="DELETED" beforePath="E:\www\slim-API\public_html\M\views\Man\Man_edit.php" afterPath="" />
-      <change type="DELETED" beforePath="E:\www\slim-API\public_html\M\views\Man\Man_index.php" afterPath="" />
-      <change type="DELETED" beforePath="E:\www\slim-API\public_html\M\views\Man\Man_model.php" afterPath="" />
-      <change type="DELETED" beforePath="E:\www\slim-API\public_html\M\views\Man\Man_model_add.php" afterPath="" />
-      <change type="DELETED" beforePath="E:\www\slim-API\public_html\M\views\_____code404.php" afterPath="" />
-      <change type="DELETED" beforePath="E:\www\slim-API\public_html\M\views\index.html" afterPath="" />
-      <change type="DELETED" beforePath="E:\www\slim-API\public_html\M\views\json_out.php" afterPath="" />
-      <change type="DELETED" beforePath="E:\www\slim-API\public_html\M\views\v1_msg.php" afterPath="" />
-      <change type="DELETED" beforePath="E:\www\slim-API\public_html\Mib\Doc\libraries\EasyCache\query_caches\sqlcache_config_file_5a5365ad9c75ee32b7dab0aec919a9f2.php" afterPath="" />
-      <change type="DELETED" beforePath="E:\www\slim-API\public_html\Mib\Doc\libraries\EasyCache\query_caches\sqlcache_config_file_8e8a972141bd9bb698b38e7bd9289cba.php" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public_html/.htaccess" afterPath="$PROJECT_DIR$/public_html/.htaccess" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public_html/Doc.php" afterPath="$PROJECT_DIR$/public_html/Doc.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public_html/Mib/Doc/controllers/Doc.php" afterPath="$PROJECT_DIR$/public_html/Mib/Doc/controllers/Doc.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public_html/Man.php" afterPath="$PROJECT_DIR$/public_html/Man.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public_html/Mib/Te/controllers/Te.php" afterPath="$PROJECT_DIR$/public_html/Mib/Te/controllers/Te.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public_html/Mib/Doc/libraries/Tree.php" afterPath="$PROJECT_DIR$/public_html/Mib/Doc/libraries/Tree.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MOVED" beforePath="E:\www\slim-API\public_html\Mib\Doc\controllers\lib\EasyCache\errlog\slowquery.php" afterPath="$PROJECT_DIR$/public_html/Mib/Doc/libraries/EasyCache/errlog/slowquery.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/Mib/Man/.htaccess" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/Mib/Man/cache/.htaccess" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/Mib/v1/.htaccess" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/Mib/v1/cache/.htaccess" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/Mib/v3/.htaccess" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/Mib/v3/cache/.htaccess" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/Mib/v1/libraries/M/Caroute.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/Mib/v3/libraries/M/Caroute.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/Mib/Man/libraries/Db.php.bak" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/Mib/Man/libraries/Db.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/Mib/v1/libraries/Db.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/Mib/v3/libraries/Db.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/Mib/Man/controllers/Man.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/Mib/Man/views/Man/Man_addnew.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/Mib/Man/views/Man/Man_doc.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/Mib/Man/views/Man/Man_docview.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/Mib/Man/views/Man/Man_edit.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/Mib/Man/views/Man/Man_index.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/Mib/Man/views/Man/Man_model.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/Mib/Man/views/Man/Man_model_add.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/Mib/v1/libraries/Myte.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/Mib/v3/libraries/Myte.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/Mib/v1/libraries/M/R.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/Mib/v3/libraries/M/R.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/Mib/v1/libraries/M/Rr.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/Mib/v3/libraries/M/Rr.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/Mib/v1/libraries/M/User.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/Mib/v3/libraries/M/User.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/Mib/Man/views/_____code404.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/Mib/v1/views/_____code404.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/Mib/v3/views/_____code404.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/Mib/Man/config/autoload.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/Mib/v1/config/autoload.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/Mib/v3/config/autoload.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/Mib/Man/config/config.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/Mib/v1/config/config.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/Mib/v3/config/config.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/Mib/Man/config/constants.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/Mib/v1/config/constants.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/Mib/v3/config/constants.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/Mib/Man/config/database.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/Mib/v1/config/database.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/Mib/v3/config/database.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/Mib/Man/config/doctypes.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/Mib/v1/config/doctypes.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/Mib/v3/config/doctypes.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/Mib/Man/errors/error_404.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/Mib/v1/errors/error_404.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/Mib/v3/errors/error_404.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/Mib/Man/errors/error_db.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/Mib/v1/errors/error_db.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/Mib/v3/errors/error_db.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/Mib/Man/errors/error_general.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/Mib/v1/errors/error_general.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/Mib/v3/errors/error_general.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/Mib/Man/errors/error_php.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/Mib/v1/errors/error_php.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/Mib/v3/errors/error_php.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/Mib/Man/config/foreign_chars.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/Mib/v1/config/foreign_chars.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/Mib/v3/config/foreign_chars.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/Mib/Man/config/hooks.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/Mib/v1/config/hooks.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/Mib/v3/config/hooks.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/Mib/Man/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/Mib/Man/cache/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/Mib/Man/config/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/Mib/Man/controllers/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/Mib/Man/core/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/Mib/Man/errors/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/Mib/Man/helpers/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/Mib/Man/hooks/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/Mib/Man/language/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/Mib/Man/language/english/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/Mib/Man/libraries/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/Mib/Man/logs/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/Mib/Man/models/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/Mib/Man/third_party/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/Mib/Man/views/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/Mib/v1/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/Mib/v1/cache/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/Mib/v1/config/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/Mib/v1/controllers/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/Mib/v1/core/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/Mib/v1/errors/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/Mib/v1/helpers/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/Mib/v1/hooks/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/Mib/v1/language/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/Mib/v1/language/english/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/Mib/v1/libraries/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/Mib/v1/logs/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/Mib/v1/models/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/Mib/v1/third_party/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/Mib/v1/views/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/Mib/v3/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/Mib/v3/cache/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/Mib/v3/config/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/Mib/v3/controllers/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/Mib/v3/core/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/Mib/v3/errors/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/Mib/v3/helpers/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/Mib/v3/hooks/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/Mib/v3/language/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/Mib/v3/language/english/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/Mib/v3/libraries/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/Mib/v3/logs/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/Mib/v3/models/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/Mib/v3/third_party/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/Mib/v3/views/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/Mib/Man/views/json_out.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/Mib/v1/views/json_out.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/Mib/v3/views/json_out.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/Mib/Man/config/migration.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/Mib/v1/config/migration.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/Mib/v3/config/migration.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/Mib/Man/config/mimes.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/Mib/v1/config/mimes.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/Mib/v3/config/mimes.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/Mib/Man/config/mysql.php.bak" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/Mib/Man/config/mysql.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/Mib/v1/config/mysql.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/Mib/v3/config/mysql.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/Mib/Man/config/profiler.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/Mib/v1/config/profiler.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/Mib/v3/config/profiler.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/Mib/Man/config/routes.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/Mib/v1/config/routes.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/Mib/v3/config/routes.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/Mib/Man/libraries/EasyCache/errlog/slowquery.php.bak" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/Mib/v1/libraries/EasyCache/errlog/slowquery.php.bak" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/Mib/v3/libraries/EasyCache/errlog/slowquery.php.bak" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/Mib/Man/libraries/EasyCache/errlog/slowquery.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/Mib/v1/libraries/EasyCache/errlog/slowquery.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/Mib/v3/libraries/EasyCache/errlog/slowquery.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/Mib/Man/config/smileys.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/Mib/v1/config/smileys.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/Mib/v3/config/smileys.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/Mib/v1/libraries/EasyCache/query_caches/sqlcache_config_file_1e9f4807034b5e56eb2db5c9a2c7b243.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/Mib/v3/libraries/EasyCache/query_caches/sqlcache_config_file_1e9f4807034b5e56eb2db5c9a2c7b243.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/Mib/v1/libraries/EasyCache/query_caches/sqlcache_config_file_56d6f2808fb532bf2805a05ed61360cf.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/Mib/v3/libraries/EasyCache/query_caches/sqlcache_config_file_56d6f2808fb532bf2805a05ed61360cf.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/Mib/v1/libraries/EasyCache/query_caches/sqlcache_config_file_663bb0cc72959520385033670b8df59e.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/Mib/v3/libraries/EasyCache/query_caches/sqlcache_config_file_663bb0cc72959520385033670b8df59e.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/Mib/v3/libraries/EasyCache/query_caches/sqlcache_config_file_a88f6b2ed762e0d58851785da11a911e.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/Mib/Man/libraries/EasyCache/query_caches/sqlcache_config_file_aff75ec61dbd111277d1f56ed79f9837.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/Mib/v1/libraries/EasyCache/query_caches/sqlcache_config_file_b1d24d818881be58d1bcc8501a6b3028.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/Mib/v3/libraries/EasyCache/query_caches/sqlcache_config_file_b1d24d818881be58d1bcc8501a6b3028.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/Mib/v1/libraries/EasyCache/query_caches/sqlcache_config_file_e80cf5b1e49d746ff73dfc48b0d66e5a.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/Mib/v3/libraries/EasyCache/query_caches/sqlcache_config_file_e80cf5b1e49d746ff73dfc48b0d66e5a.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/Mib/Man/config/user_agents.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/Mib/v1/config/user_agents.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/Mib/v3/config/user_agents.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/v1.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/Mib/v1/controllers/v1.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/Mib/Man/views/v1_msg.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/Mib/v1/views/v1_msg.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/Mib/v3/views/v1_msg.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/v3.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/Mib/v3/controllers/v3.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/Mib/Man/controllers/welcome.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/Mib/v1/controllers/welcome.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/Mib/v3/controllers/welcome.php" />
+      <change type="MOVED" beforePath="E:\www\slim-API\public_html\Mib\Doc\controllers\lib\EasyCache\query_caches\sqlcache_config_file_5a5365ad9c75ee32b7dab0aec919a9f2.php" afterPath="$PROJECT_DIR$/public_html/Mib/Man/libraries/EasyCache/query_caches/sqlcache_config_file_663bb0cc72959520385033670b8df59e.php" />
+      <change type="MOVED" beforePath="E:\www\slim-API\public_html\Mib\Doc\controllers\lib\EasyCache\query_caches\sqlcache_config_file_8e8a972141bd9bb698b38e7bd9289cba.php" afterPath="$PROJECT_DIR$/public_html/Mib/Man/libraries/EasyCache/query_caches/sqlcache_config_file_2108ff97da8c05c2f558db65c753a7e7.php" />
     </list>
     <ignored path="slim-API.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -274,154 +362,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="slim-API" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="slim-API" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public_html" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Mib" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="v3" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="slim-API" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="slim-API" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public_html" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Mib" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="v3" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="slim-API" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="slim-API" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public_html" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Mib" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="v3" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="libraries" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="slim-API" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="slim-API" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public_html" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Mib" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="v3" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="libraries" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="M" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="slim-API" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="slim-API" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public_html" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Mib" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="v3" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="controllers" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="slim-API" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="slim-API" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public_html" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Mib" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
     </panes>
@@ -607,13 +547,20 @@
       <option name="project" value="LOCAL" />
       <updated>1423999516022</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Rejected commit: Default">
+      <created>1424070643667</created>
+      <option name="number" value="00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1424070643667</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="false" />
     <layout>
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.77691454" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32890365" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -629,7 +576,6 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32963374" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.77691454" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -743,6 +689,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.5480427" vertical-offset="0" max-vertical-offset="4444">
           <caret line="21" column="36" selection-start-line="21" selection-start-column="36" selection-end-line="21" selection-end-column="36" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -771,6 +718,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.5537757" vertical-offset="0" max-vertical-offset="874">
           <caret line="22" column="36" selection-start-line="22" selection-start-column="36" selection-end-line="22" selection-end-column="36" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -799,6 +747,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.8351127" vertical-offset="0" max-vertical-offset="4466">
           <caret line="32" column="25" selection-start-line="32" selection-start-column="25" selection-end-line="32" selection-end-column="25" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -834,6 +783,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.46975088" vertical-offset="396" max-vertical-offset="4708">
           <caret line="36" column="24" selection-start-line="0" selection-start-column="0" selection-end-line="208" selection-end-column="27" />
+          <folding>
+            <element signature="e#6#534#0#PHP" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -848,6 +800,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.49584815" vertical-offset="1254" max-vertical-offset="4620">
           <caret line="76" column="2" selection-start-line="76" selection-start-column="2" selection-end-line="76" selection-end-column="2" />
+          <folding>
+            <element signature="e#7#535#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -876,6 +831,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.3653618" vertical-offset="858" max-vertical-offset="1826">
           <caret line="53" column="0" selection-start-line="53" selection-start-column="0" selection-end-line="57" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -883,6 +839,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.39145908" vertical-offset="0" max-vertical-offset="5390">
           <caret line="15" column="49" selection-start-line="15" selection-start-column="49" selection-end-line="15" selection-end-column="49" />
+          <folding />
         </state>
       </provider>
     </entry>
