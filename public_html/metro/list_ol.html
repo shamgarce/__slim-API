@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="product" content="Metro UI CSS Framework">
+
+    <link href="/A/Metro/css/metro-bootstrap.css" rel="stylesheet">
+    <link href="/A/Metro/css/metro-bootstrap-responsive.css" rel="stylesheet">
+    <link href="/A/Metro/css/iconFont.css" rel="stylesheet">
+    <link href="/A/Metro/css/docs.css" rel="stylesheet">
+    <link href="/A/Metro/js/prettify/prettify.css" rel="stylesheet">
+
+    <link href="/A/CSS/color.css" rel="stylesheet">
+
+    <!-- Load JavaScript Libraries -->
+    <script src="/A/Metro/js/jquery/jquery.min.js"></script>
+    <script src="/A/Metro/js/jquery/jquery.widget.min.js"></script>
+    <script src="/A/Metro/js/jquery/jquery.mousewheel.js"></script>
+    <script src="/A/Metro/js/prettify/prettify.js"></script>
+
+    <!-- Metro UI CSS JavaScript plugins -->
+    <script src="/A/Metro/js/load-metro.js"></script>
+
+    <!-- Local JavaScript -->
+    <script src="/A/Metro/js/docs.js"></script>
+    <!-- script src="/A/Metro/js/github.info.js"></script -->
+   
+
+
+<script>
+
+
+$(function() {
+    if ($('.menu').length > 0) {
+        var side_menu = $('.menu');
+        var fixblock_pos = side_menu.position().top;
+        $(window).scroll(function(){
+            if ($(window).scrollTop() > fixblock_pos){
+                side_menu.css({'position': 'fixed','width':'300' ,'top':'0px', 'z-index':'1000'});
+            } else {
+                side_menu.css({'position': 'static'});
+            }
+        })
+    }
+});
+
+</script>
+    <title>Metro UI CSS : Metro Bootstrap CSS Library</title>
+
+<style type="text/css"> 
+.wrapper {width: 100%; } 
+.left {width:300px;  position:absolute; left:0 ;z-index:1 } 
+.right {width:100%;; background:#000;position:absolute; left:0} 
+.content {margin-left:300px; background:#ffc; left:0;top:0px;width:auto;;} 
+</style> 
+
+</head>
+<body class="metro">
+ 
+<div class="wrapper"> 
+   
+    <div class="left bg-darkRed" style="height:100%">
+    <div class="menu ">
+      
+      
+<button class="primary">首页</button>
+<button class="info">添加</button>
+<button class="success">排序</button>
+<button class="warning">设置</button>
+
+
+        
+   <h1 class="fg-white  text-right">设置</h1>
+   <hr>
+  <p class="fg-white" style="padding:3px;">
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean luctus lectus sit amet odio ullamcorper malesuada dignissim justo gravida. Pellentesque sagittis, tellus id sagittis accumsan, augue velit pretium urna, ac interdum dui nibh et orci. Quisque dapibus elit ut metus varius ac bibendum sem luctus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis sagittis lorem. Praesent ac eros quam.
+
+Praesent molestie bibendum consequat. Suspendisse a felis eu augue venenatis egestas nec ac lectus. Nam nec felis lorem. Maecenas luctus est et nulla cursus vestibulum. Curabitur suscipit adipiscing dui eget sollicitudin. Sed accumsan tincidunt enim, in feugiat ligula ornare et.
+
+Nullam libero odio, lacinia vel dignissim sed, consequat ac nisi. Ut at mauris sit amet sem dapibus pretium sit amet sed orci. Quisque tincidunt sodales sollicitudin. Ut purus odio, imperdiet ut laoreet ac, placerat vel ante. Nulla tincidunt sapien in metus tincidunt imperdiet. Vestibulum a dui nisi. Morbi vestibulum nulla lacinia enim tempus ullamcorper.
+</p>  
+    </div>
+    </div> 
+    <div class="right bg-darkRed"> 
+        <div class="content">
+            <div class="right-head" style="padding-left:5pt;">
+                <h1>
+                <a href="/" class="fg-hover-darkOrange"><i class="icon-arrow-left-3 fg-darker smaller"></i></a> Notify<small class="on-right">plugin</small>
+                </h1>
+            </div> 
+            <hr>
+             <div class="right-body" style="padding-left:10pt;padding-right:10pt;height:auto;">
+   <h2 class="fg-darkCobalt fg-hover-lightBlue" style="padding-top:10px;padding-bottom:5px;border-bottom: 1px solid #777777;">结构框架</h2>            
+<p>
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean luctus lectus sit amet odio ullamcorper malesuada dignissim justo gravida. Pellentesque sagittis, tellus id sagittis accumsan, augue velit pretium urna, ac interdum dui nibh et orci. Quisque dapibus elit ut metus varius ac bibendum sem luctus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis sagittis lorem. Praesent ac eros quam.
+
+Praesent molestie bibendum consequat. Suspendisse a felis eu augue venenatis egestas nec ac lectus. Nam nec felis lorem. Maecenas luctus est et nulla cursus vestibulum. Curabitur suscipit adipiscing dui eget sollicitudin. Sed accumsan tincidunt enim, in feugiat ligula ornare et.
+
+Nullam libero odio, lacinia vel dignissim sed, consequat ac nisi. Ut at mauris sit amet sem dapibus pretium sit amet sed orci. Quisque tincidunt sodales sollicitudin. Ut purus odio, imperdiet ut laoreet ac, placerat vel ante. Nulla tincidunt sapien in metus tincidunt imperdiet. Vestibulum a dui nisi. Morbi vestibulum nulla lacinia enim tempus ullamcorper.
+</p>  
+   <h2 class="fg-darkCobalt fg-hover-lightBlue" style="padding-top:10px;padding-bottom:5px;border-bottom: 1px solid #777777;">结构框架</h2>            
+<p>
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean luctus lectus sit amet odio ullamcorper malesuada dignissim justo gravida. Pellentesque sagittis, tellus id sagittis accumsan, augue velit pretium urna, ac interdum dui nibh et orci. Quisque dapibus elit ut metus varius ac bibendum sem luctus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis sagittis lorem. Praesent ac eros quam.
+
+Praesent molestie bibendum consequat. Suspendisse a felis eu augue venenatis egestas nec ac lectus. Nam nec felis lorem. Maecenas luctus est et nulla cursus vestibulum. Curabitur suscipit adipiscing dui eget sollicitudin. Sed accumsan tincidunt enim, in feugiat ligula ornare et.
+
+Nullam libero odio, lacinia vel dignissim sed, consequat ac nisi. Ut at mauris sit amet sem dapibus pretium sit amet sed orci. Quisque tincidunt sodales sollicitudin. Ut purus odio, imperdiet ut laoreet ac, placerat vel ante. Nulla tincidunt sapien in metus tincidunt imperdiet. Vestibulum a dui nisi. Morbi vestibulum nulla lacinia enim tempus ullamcorper.
+</p>  
+   <h2 class="fg-darkCobalt fg-hover-lightBlue" style="padding-top:10px;padding-bottom:5px;border-bottom: 1px solid #777777;">结构框架</h2>            
+<p>
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean luctus lectus sit amet odio ullamcorper malesuada dignissim justo gravida. Pellentesque sagittis, tellus id sagittis accumsan, augue velit pretium urna, ac interdum dui nibh et orci. Quisque dapibus elit ut metus varius ac bibendum sem luctus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis sagittis lorem. Praesent ac eros quam.
+
+Praesent molestie bibendum consequat. Suspendisse a felis eu augue venenatis egestas nec ac lectus. Nam nec felis lorem. Maecenas luctus est et nulla cursus vestibulum. Curabitur suscipit adipiscing dui eget sollicitudin. Sed accumsan tincidunt enim, in feugiat ligula ornare et.
+
+Nullam libero odio, lacinia vel dignissim sed, consequat ac nisi. Ut at mauris sit amet sem dapibus pretium sit amet sed orci. Quisque tincidunt sodales sollicitudin. Ut purus odio, imperdiet ut laoreet ac, placerat vel ante. Nulla tincidunt sapien in metus tincidunt imperdiet. Vestibulum a dui nisi. Morbi vestibulum nulla lacinia enim tempus ullamcorper.
+</p>  
+
+
+
+
+            </div> 
+             
+        </div>  
+    </div> 
+</div>     
+    
+    
+    
+    
+    
+ 
+    
+
+</body>
+</html>
