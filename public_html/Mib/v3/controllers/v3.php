@@ -78,6 +78,11 @@ class v3 extends CI_Controller
 		//=============================================================
 		//数据库id 有了//能够获取到映射
 		$tid = $this->map[$this->sign['mothod']][$this->sign['mothod_action']][0];
+
+
+//print_r($this->sign);
+//print_r($this->map);
+
 		$this->sign['dbid'] = $tid;
 		if($tid){
 			//找到了数据
