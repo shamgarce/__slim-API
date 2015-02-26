@@ -2,34 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8fdaf63a-f73f-4dde-aabf-fdc3c5cc9f28" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/Mib/Doc/libraries/Db.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/Mib/Te/libraries/Db.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/Mib/Doc/libraries/Myte.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/_.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/_static/basic.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/CSS/color.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/_static/default.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/Metro/js/docs - 拷贝.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/metro/ini_2.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/Mib/Doc/config/mysql.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/Mib/Te/config/mysql.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/_static/pygments.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/metro/se.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/metro/setup.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/Mib/Doc/libraries/EasyCache/errlog/slowquery.php.bak" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/Mib/Te/libraries/EasyCache/errlog/slowquery.php.bak" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/Mib/Te/libraries/EasyCache/errlog/slowquery.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/Mib/Doc/libraries/EasyCache/query_caches/sqlcache_config_file_663bb0cc72959520385033670b8df59e.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/Mib/Te/libraries/EasyCache/query_caches/sqlcache_config_file_663bb0cc72959520385033670b8df59e.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/Mib/Doc/libraries/EasyCache/query_caches/sqlcache_config_file_8fe2e84b63ad295048e9432a9b03fad9.php" />
-      <change type="DELETED" beforePath="E:\www\slim-API\public_html\lib\_static\basic.css" afterPath="" />
-      <change type="DELETED" beforePath="E:\www\slim-API\public_html\lib\_static\default.css" afterPath="" />
-      <change type="DELETED" beforePath="E:\www\slim-API\public_html\lib\_static\pygments.css" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\metro\ini_2.html" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\metro\list_ol.html" afterPath="" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\metro\se.html" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public_html/metro/ini.html" afterPath="$PROJECT_DIR$/public_html/metro/ini.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public_html/metro/setup.html" afterPath="$PROJECT_DIR$/public_html/metro/setup.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public_html/Mib/v1/libraries/EasyCache/query_caches/sqlcache_config_file_1e9f4807034b5e56eb2db5c9a2c7b243.php" afterPath="$PROJECT_DIR$/public_html/Mib/v1/libraries/EasyCache/query_caches/sqlcache_config_file_1e9f4807034b5e56eb2db5c9a2c7b243.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public_html/Mib/Doc/libraries/EasyCache/query_caches/sqlcache_config_file_8fe2e84b63ad295048e9432a9b03fad9.php" afterPath="$PROJECT_DIR$/public_html/Mib/Doc/libraries/EasyCache/query_caches/sqlcache_config_file_8fe2e84b63ad295048e9432a9b03fad9.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public_html/Mib/v3/libraries/EasyCache/query_caches/sqlcache_config_file_a88f6b2ed762e0d58851785da11a911e.php" afterPath="$PROJECT_DIR$/public_html/Mib/v3/libraries/EasyCache/query_caches/sqlcache_config_file_a88f6b2ed762e0d58851785da11a911e.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public_html/Mib/Man/libraries/EasyCache/query_caches/sqlcache_config_file_aff75ec61dbd111277d1f56ed79f9837.php" afterPath="$PROJECT_DIR$/public_html/Mib/Man/libraries/EasyCache/query_caches/sqlcache_config_file_aff75ec61dbd111277d1f56ed79f9837.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public_html/Mib/v3/controllers/v3.php" afterPath="$PROJECT_DIR$/public_html/Mib/v3/controllers/v3.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public_html/metro/temp.html" afterPath="$PROJECT_DIR$/public_html/metro/temp.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="slim-API.iws" />
@@ -58,7 +40,7 @@
       <file leaf-file-name="ini.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public_html/metro/ini.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-10.645162" vertical-offset="0" max-vertical-offset="7568">
+            <state vertical-scroll-proportion="0.0" vertical-offset="330" max-vertical-offset="7568">
               <caret line="15" column="29" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="29" />
               <folding />
             </state>
@@ -68,8 +50,8 @@
       <file leaf-file-name="v3.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/public_html/Mib/v3/controllers/v3.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.41656804" vertical-offset="1452" max-vertical-offset="3850">
-              <caret line="82" column="23" selection-start-line="82" selection-start-column="23" selection-end-line="82" selection-end-column="23" />
+            <state vertical-scroll-proportion="0.6370107" vertical-offset="629" max-vertical-offset="3850">
+              <caret line="53" column="0" selection-start-line="53" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
               <folding>
                 <marker date="1424844847694" expanded="true" signature="1500:1552" placeholder="select * fro..userapi..." />
                 <marker date="1424844847694" expanded="true" signature="2769:2802" placeholder="select * fro..userapi..." />
@@ -180,55 +162,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope">
-        <subPane subId="Problems" />
-        <subPane subId="Tests" />
-        <subPane subId="Project Files">
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="slim-API">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="slim-API">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="public_html">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="slim-API">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="public_html">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="Slim">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-        <subPane subId="Changed Files" />
-      </pane>
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -325,6 +258,55 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope">
+        <subPane subId="Problems" />
+        <subPane subId="Tests" />
+        <subPane subId="Project Files">
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="slim-API">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="slim-API">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="public_html">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="slim-API">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="public_html">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="Slim">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+        <subPane subId="Changed Files" />
+      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -369,6 +351,123 @@
       <recent name="E:\www\slim-API\public_html\M\libraries" />
     </key>
   </component>
+  <component name="RestoreUpdateTree">
+    <UpdateInfo date="Moments ago" ActionInfo="_Update">
+      <UpdatedFiles>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Updated from server" />
+          <option name="myStatusName" value="Changed on server" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="CHANGED_ON_SERVER" />
+          <FILE-GROUP>
+            <option name="myUpdateName" value="Updated" />
+            <option name="myStatusName" value="Changed" />
+            <option name="mySupportsDeletion" value="false" />
+            <option name="myCanBeAbsent" value="false" />
+            <option name="myId" value="UPDATED" />
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/public_html/metro/se.html</PATH>
+          </FILE-GROUP>
+          <FILE-GROUP>
+            <option name="myUpdateName" value="Created" />
+            <option name="myStatusName" value="Created" />
+            <option name="mySupportsDeletion" value="false" />
+            <option name="myCanBeAbsent" value="false" />
+            <option name="myId" value="CREATED" />
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/public_html/A/Metro/js/metro/metro-dropdown.js.bak</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/public_html/Mib/Doc/libraries/EasyCache/query_caches/sqlcache_config_file_06543ce77417dd52e470dd36f3cce619.php</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/public_html/Mib/Man/libraries/EasyCache/query_caches/sqlcache_config_file_530c2fadb1a1bbc5f810713195ef0853.php</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/public_html/metro/list_ol.html</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/public_html/metro/temp.html</PATH>
+          </FILE-GROUP>
+          <FILE-GROUP>
+            <option name="myUpdateName" value="Deleted" />
+            <option name="myStatusName" value="Deleted" />
+            <option name="mySupportsDeletion" value="false" />
+            <option name="myCanBeAbsent" value="true" />
+            <option name="myId" value="REMOVED_FROM_REPOSITORY" />
+          </FILE-GROUP>
+          <FILE-GROUP>
+            <option name="myUpdateName" value="Restored" />
+            <option name="myStatusName" value="Will be restored" />
+            <option name="mySupportsDeletion" value="false" />
+            <option name="myCanBeAbsent" value="false" />
+            <option name="myId" value="RESTORED" />
+          </FILE-GROUP>
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Modified" />
+          <option name="myStatusName" value="Modified" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="MODIFIED" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Skipped" />
+          <option name="myStatusName" value="Skipped" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="SKIPPED" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Merged with conflicts" />
+          <option name="myStatusName" value="Will be merged with conflicts" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="MERGED_WITH_CONFLICTS" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Merged with tree conflicts" />
+          <option name="myStatusName" value="Merged with tree conflicts" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="MERGED_WITH_TREE_CONFLICT" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Merged with property conflicts" />
+          <option name="myStatusName" value="Will be merged with property conflicts" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="MERGED_WITH_PROPERTY_CONFLICT" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Merged" />
+          <option name="myStatusName" value="Will be merged" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="MERGED" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Not in repository" />
+          <option name="myStatusName" value="Not in repository" />
+          <option name="mySupportsDeletion" value="true" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="UNKNOWN" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Locally added" />
+          <option name="myStatusName" value="Locally added" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="LOCALLY_ADDED" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Locally removed" />
+          <option name="myStatusName" value="Locally removed" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="LOCALLY_REMOVED" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Switched" />
+          <option name="myStatusName" value="Switched" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="SWITCHED" />
+        </FILE-GROUP>
+      </UpdatedFiles>
+    </UpdateInfo>
+  </component>
   <component name="RunManager" selected="PHPUnit.slim-API">
     <configuration default="false" name="slim-API" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
       <TestRunner directory="$PROJECT_DIR$" />
@@ -393,15 +492,15 @@
     <configuration default="true" type="AppEnginePhpConfigurationType" factoryName="App Engine for PHP">
       <method />
     </configuration>
-    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
-      <method />
-    </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
       <node-options />
       <gulpfile />
       <tasks />
       <pass-parent-envs>true</pass-parent-envs>
       <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
       <method />
     </configuration>
     <list size="1">
@@ -574,7 +673,13 @@
       <option name="project" value="LOCAL" />
       <updated>1424080396555</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="Rejected commit: Default">
+      <created>1424858887161</created>
+      <option name="number" value="00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1424858887161</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TodoView" selected-index="4">
@@ -599,7 +704,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32890365" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
@@ -607,20 +712,20 @@
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25346112" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2859425" sideWeight="0.49944505" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2891374" sideWeight="0.49944505" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2630458" sideWeight="0.5005549" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32963374" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.28792912" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2874584" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32963374" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32963374" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.77691454" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -649,6 +754,25 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/public_html/metro/ini.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="330" max-vertical-offset="7568">
+          <caret line="15" column="29" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public_html/Mib/v3/controllers/v3.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3850">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1424844847694" expanded="true" signature="1500:1552" placeholder="select * fro..userapi..." />
+            <marker date="1424844847694" expanded="true" signature="2769:2802" placeholder="select * fro..userapi..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/public_html/C/core/Controller.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-9.419354" vertical-offset="522" max-vertical-offset="1540">
@@ -896,7 +1020,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/public_html/metro/ini.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-10.645162" vertical-offset="0" max-vertical-offset="7568">
+        <state vertical-scroll-proportion="0.0" vertical-offset="330" max-vertical-offset="7568">
           <caret line="15" column="29" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="29" />
           <folding />
         </state>
@@ -904,8 +1028,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/public_html/Mib/v3/controllers/v3.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.41656804" vertical-offset="1452" max-vertical-offset="3850">
-          <caret line="82" column="23" selection-start-line="82" selection-start-column="23" selection-end-line="82" selection-end-column="23" />
+        <state vertical-scroll-proportion="0.6370107" vertical-offset="629" max-vertical-offset="3850">
+          <caret line="53" column="0" selection-start-line="53" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
           <folding>
             <marker date="1424844847694" expanded="true" signature="1500:1552" placeholder="select * fro..userapi..." />
             <marker date="1424844847694" expanded="true" signature="2769:2802" placeholder="select * fro..userapi..." />
