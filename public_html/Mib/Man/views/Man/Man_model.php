@@ -100,11 +100,7 @@ foreach($rc as $key=>$value) {
                 });
         });
 
-
-
         $('.Model_del').click(function(){
-
-					
 					
 			var res = $.ajax({
 				url : '/Man/Model_del_exc',
@@ -125,37 +121,10 @@ foreach($rc as $key=>$value) {
 				return true;
 			}				
 				
-				
-				
-				
-				
-				
-				
-				
-				
         });
-
-
     
     });
     </script>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
   </body>
 </html>

@@ -74,7 +74,7 @@
         <div class="content">
             <div class="right-head bg-darker  fg-white" style="padding-left:5pt;">
                 <h1 class="fg-white">
-                    <a href="/" class="fg-hover-darkOrange"><i class="icon-arrow-left-3 smaller fg-white"></i></a> Notify<small class="on-right">plugin
+                    <a href="/" class="fg-hover-darkOrange"><i class="icon-arrow-left-3 smaller fg-white"></i></a> 返回<small class="on-right">首页
                     <a href="#" class="fg-hover-darkOrange vpath_show"><i class="icon-arrow-down-5 smaller fg-white"></i></a>
                     <a href="#" class="fg-hover-darkOrange vpath_hide" style="display:none;"><i class="icon-arrow-up-5 smaller fg-white"></i></a>
                     </small>
@@ -111,95 +111,7 @@
              <div class="right-body" style="padding-left:10pt;padding-right:10pt;height:auto;">
 
 
-<!-- 图片 -->
-<div class="example">
-    
-    <div class="tile bg-cyan">
-    <div class="tile-status">
-    <div class="badge bg-red">99</div>
-    </div>
-    </div>
-    <div class="tile bg-cyan">
-    <div class="tile-status">
-    <div class="badge activity"></div>
-    </div>
-    </div>
-    <div class="tile bg-cyan">
-    <div class="brand">
-    <div class="badge alert"></div>
-    </div>
-    </div>
-    <div class="tile bg-cyan">
-    <div class="brand">
-    <div class="badge available"></div>
-    </div>
-    </div>
-    <div class="tile bg-cyan">
-    <div class="brand">
-    <div class="badge away"></div>
-    </div>
-    </div>
-    <div class="tile bg-cyan">
-    <div class="brand">
-    <div class="badge busy"></div>
-    </div>
-    </div>
-    <div class="tile bg-cyan">
-    <div class="brand">
-    <div class="badge newMessage"></div>
-    </div>
-    </div>
-    <div class="tile bg-cyan">
-    <div class="brand">
-    <div class="badge paused"></div>
-    </div>
-    </div>
-    <div class="tile bg-cyan">
-    <div class="brand">
-    <div class="badge playing"></div>
-    </div>
-    </div>
-    <div class="tile bg-cyan">
-    <div class="brand">
-    <div class="badge unavailable"></div>
-    </div>
-    </div>
-    <div class="tile bg-cyan">
-    <div class="brand">
-    <div class="badge error"></div>
-    </div>
-    </div>
-    
-    
-    <div class="tile bg-cyan">
-    <div class="brand">
-    <div class="badge attention"></div>
-    </div>
-    </div>
-    
-    
-    <div class="tile bg-cyan">
-    <div class="brand">
-    <div class="badge attention"></div>
-    </div>
-    </div>
-    
-    
-    <div class="tile bg-cyan">
-    <div class="brand">
-    <div class="badge attention"></div>
-    </div>
-    </div>
-    
-    
-    <div class="tile bg-cyan">
-    <div class="brand">
-    <div class="badge attention"></div>
-    </div>
-    </div>
 
-</div> 
-<!-- /图片 -->
 
 
 
@@ -207,14 +119,14 @@
 <div class="example">
     <ul class="treeview" data-role="treeview">
     <li class="node collapsed">
-        <a href="#"><span class="node-toggle"></span>sergey@pimenov.com.ua</a>
+        <a href="/"><span class="node-toggle"></span>sergey@pimenov.com.ua</a>
         <ul>
-            <li><a href="#">Inbox</a></li>
+            <li><a href="/">Inbox</a></li>
             <li><a href="#">Outbox</a></li>
             <li><a href="#">Drafts</a></li>
             <li><a href="#">Rss-channels</a></li>
             <li><a href="#">Trash <span class="value">[5]</span></a></li>
-            <li class="node">
+            <li class="node collapsed">
             <a href="#"><span class="node-toggle"></span>subnode</a>
                 <ul>
                 <li><a href="#">Inbox</a></li>
@@ -237,7 +149,7 @@
         </ul>
     </li>
     </ul>
-    <a id="vtr">test</a>
+  
 
     </div> 
 
@@ -275,6 +187,12 @@ $(document).ready(function(e) {
 		$(".vpath_show").show();
 		$(".vpath_hide").hide();
 	});
+	
+	$(".treeview a").click(function(){
+		window.location.href=$(this).attr('href');
+	});
+
+	
 	
 });
 </script>

@@ -25,6 +25,9 @@ RewriteRule ^Doc/(.*)$ Doc.php/$1 [L]
 RewriteRule ^Man$ Man.php [L]
 RewriteRule ^Man/(.*)$ Man.php/$1 [L]
 
+RewriteRule ^M$ M.php [L]
+RewriteRule ^M/(.*)$ M.php/$1 [L]
+
 RewriteRule ^Te$ Te.php [L]
 RewriteRule ^Te/(.*)$ Te.php/$1 [L]
 

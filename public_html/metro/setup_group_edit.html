@@ -1,12 +1,21 @@
 <table class="table striped hovered">
 
   <tr>
-    <td width="120">tile title</td>
-    <td width="300">&nbsp;</td>
+    <td width="120" align="right">分组 : </td>
+    <td width="300" align="left"><span class="input-control text info-state">
+      <input type="text" placeholder="type text" class="" />
+    </span></td>
     <td>选择</td>
   </tr>
   <tr>
-    <td>外观[S H W]</td>
+    <td align="right">title : </td>
+    <td><span class="input-control text info-state"> 
+        <input type="text" placeholder="type text" class="1" />
+    </span></td>
+    <td>&nbsp;</td>
+  </tr>
+  <tr>
+    <td align="right">外观[S H W] : </td>
     <td>
     
 <span class="input-control text info-state">
@@ -32,7 +41,7 @@
      </p></td>
   </tr>
   <tr>
-    <td>颜色</td>
+    <td align="right">颜色 : </td>
     <td>
     
 <span class="input-control text info-state">
@@ -44,7 +53,7 @@
     <td></td>
   </tr>
   <tr>
-    <td>图标</td>
+    <td align="right">图标 : </td>
     <td>
 <span class="input-control text info-state">
 <input type="text" placeholder="type text" class="selecticon">
@@ -52,32 +61,66 @@
 
     
     </td>
-    <td>&nbsp;</td>
+    <td><code>资源引用</code></td>
   </tr>
   <tr>
-    <td>图片</td>
+    <td align="right">图片 : </td>
     <td>
     
-    <span class="input-control text info-state">
-      <input type="text" placeholder="type text" class="">
-    </span>
+<!-- 
+//=======================================================
+//无刷新上传
+-->
+<style>
+.fileInputContainer{
+background:url('/A/upload/CR-2I7H5Fy2Py.jpg');
+height:150px;
+position:relative;
+width: 200px;
+}
+.fileInput{
+height:150px;
+overflow: hidden;
+font-size: 10px;
+position:absolute;
+right:0;
+top:0;
+left:0;
+opacity: 0;
+filter:alpha(opacity=0);
+cursor:pointer;
+}
+</style>
+<div class="fileInputContainer">
+<form  id="bootImg1" action="/metro/do_file_upload.php" method="post"  enctype="multipart/form-data"  target="form-target"> 
+<input class="fileInput" type="file" name="file" id="editpic" relvalue="/A/upload/CR-2I7H5Fy2Py.jpg" />
+</form>
+</div> 
+<!-- 
+//=======================================================
+//无刷新上传
+-->
+    
     
     </td>
-    <td>&nbsp;</td>
+    <td><code>资源引用</code></td>
+  </tr>
+
+  <tr>
+    <td align="right">brand : </td>
+    <td>
+    <div class="input-control textarea">
+    <textarea name="textarea"></textarea>
+    </div>
+    </td>
+    <td><a class="showbrand">brand 参考</a></td>
   </tr>
   <tr>
-    <td>brand</td>
-    <td><span class="input-control text info-state">
-      <input type="text" placeholder="type text" class="">
-    </span></td>
-    <td>&nbsp;</td>
-  </tr>
-  <tr>
-    <td>content</td>
-    <td><span class="input-control text info-state">
-      <input type="text" placeholder="type text" class="">
-    </span></td>
-    <td>&nbsp;</td>
+    <td align="right">content : </td>
+    <td><div class="input-control textarea">
+      <textarea name="textarea"></textarea>
+    </div></td>
+    <td><a class="showcontent">content 参考</a></td>
   </tr>
   </table>
   
@@ -126,11 +169,55 @@ this.opt = {				//确定按钮的点击
 			rel:'.selecticon',
 			url:'/metro/selecticon.html',
 			_this:$(this),
+
+			buttonok	: true,
+			buttoncancel: true,
+			});
+	});
+	$('.showbrand').click(function(){
+		$.CK({
+			rel:'.showbrand',
+			url:'/metro/showbrand.html',
+			_this:$(this),
+
+			buttonok	: true,
+			buttoncancel: true,
+			});
+	});
+
+	$('.showcontent').click(function(){
+		$.CK({
+			rel:'.showcontent',
+			url:'/metro/showcontent.html',
+			_this:$(this),
+
 			buttonok	: true,
 			buttoncancel: true,
 			});
 	});
 
 
+
+
+
+//=======================================================
+//无刷新上传
+stopUpload = function (res){
+	if(res.code<0){
+		alert(res.msg);
+	}else{
+		$('.fileInput').attr("relvalue",res.img),
+		$(".fileInputContainer").css("background","url("+res.img+")"); 	
+		//预览图片
+		//console.log(res.img);
+	}	
+}
+
+$('#editpic').change(function(){
+	$('iframe[name=form-target]').remove();
+	$("body").append("<iframe style='width:0; height:0; border:0;' name='form-target'></iframe>");
+	$('#bootImg1').submit();
+});
+//=======================================================
 
 </script>
