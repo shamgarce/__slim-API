@@ -12,8 +12,6 @@
 
     <link href="/A/CSS/color.css" rel="stylesheet">
 
-    <script src="/A/CommonIni.js"></script>
-
     <!-- Load JavaScript Libraries -->
     <script src="/A/Metro/js/jquery/jquery.min.js"></script>
     <script src="/A/Metro/js/jquery/jquery.widget.min.js"></script>
@@ -58,12 +56,12 @@
    <h1 class="fg-white  text-right">设置</h1>
    <hr>
   <p class="fg-white" style="padding:3px;">
-系统信息设置 : 显示界面等
+
+编辑瓷片
 </p>  
 
 
 <a class="button success " href="/M/" style="width: 100%; margin-bottom: 5px">首页</a>
-
 
     </div>
     </div> 
@@ -71,7 +69,7 @@
         <div class="content">
             <div class="right-head bg-darker  fg-white" style="padding-left:5pt;">
                 <h1 class="fg-white">
-                    <a href="/M/" class="fg-hover-darkOrange"><i class="icon-arrow-left-3 smaller fg-white"></i></a> 返回<small class="on-right">首页
+                    <a href="/M/setup" class="fg-hover-darkOrange"><i class="icon-arrow-left-3 smaller fg-white"></i></a> 返回<small class="on-right">设置
                     <a href="#" class="fg-hover-darkOrange vpath_show"><i class="icon-arrow-down-5 smaller fg-white"></i></a>
                     <a href="#" class="fg-hover-darkOrange vpath_hide" style="display:none;"><i class="icon-arrow-up-5 smaller fg-white"></i></a>
                     </small>
@@ -80,16 +78,20 @@
 <!-- 隐藏的路径 -->                
 <div class="notice bg-orange fg-white notice_path" style="padding:10px;display:none;">
     <nav class="breadcrumbs small">
-    <ul>
-    <li>
-    <a href="/M/">
-    <i class="icon-home"></i>
-    </a>
-    </li>
-    <li class="active">
-    <a>设置</a>
-    </li>
-    </ul>
+        <ul>
+            <li>
+                <a href="/M/">
+                    <i class= "icon-home" style="line-height:20px"></i>
+                </a>
+            </li>
+            
+            <li>
+            	<a href="/M/setup">设置</a>
+            </li>
+            <li class="active">
+            	<a>设置分组</a>
+            </li>
+        </ul>
     </nav>
     
 </div>            
@@ -107,161 +109,101 @@
  
 <h2 id="_switch">
 <i class="icon-accessibility on-left"></i>
-功能设置
+分组参数 
 </h2>
 <div class="example">
-  <table class="table">
-<thead>
+  <table class="table striped hovered">
+
   <tr>
-    <th width="70">&nbsp;</th>
-    <th width="150">&nbsp;</th>
-    <th>&nbsp;</th>
-  </tr></thead>
-  <tr>
-    <td><label>路径 :</label> </td>
-    <td>    <div class="input-control switch" data-role="input-control" style="margin-bottom::0px">
-        <label>
-        <input type="checkbox" <?php if(get_cookie('_mpath') ==1) : ?>checked<?php endif;?> onclick="setc('_mpath')">
-        <span class="check"></span>
-        </label>
-    </div></td>
-    <td><li>选中则默认显示路径</td>
+    <td width="60">编号</td>
+    <td width="500"><?=$row['groupid']?></td>
+    <td>&nbsp;</td>
   </tr>
-
   <tr>
-    <td><label>添加 :</label> </td>
-    <td>
-    <div class="input-control switch" data-role="input-control" style="margin-bottom::0px">
-        <label>
-        <input type="checkbox" <?php if(get_cookie('_madd') ==1) : ?>checked<?php endif;?> onclick="setc('_madd')">
-        <span class="check"></span>
-        </label>
-    </div>
-    </td>
-    <td><li>是否显示添加按钮</td>
+    <td>名称</td>
+    <td><?=$row['group_title']?></td>
+    <td>&nbsp;</td>
   </tr>
-
-
   <tr>
-    <td><label>排序 : </label></td>
-    <td>
-    <div class="input-control switch" data-role="input-control" style="margin-bottom::0px">
-        <label>
-        <input type="checkbox" <?php if(get_cookie('_msort') ==1) : ?>checked<?php endif;?> onclick="setc('_msort')">
-        <span class="check"></span>
-        </label>
-    </div>
-    </td>
-    <td><li>是否显示排序按钮</td>
+    <td>Num</td>
+    <td><?=$row['group_num']?></td>
+    <td>&nbsp;</td>
   </tr>
-  
-  
   <tr>
-  <td><label>编辑 : </label></td>
-  <td>
-    <div class="input-control switch" data-role="input-control" style="margin-bottom::0px">
-        <label>
-        <input type="checkbox" <?php if(get_cookie('_medit') ==1) : ?>checked<?php endif;?> onclick="setc('_medit')">
-        <span class="check"></span>
-        </label>
-    </div>
-  
-  </td>
-  <td><li>是否显示编辑按钮</td>
+    <td>说明</td>
+    <td><?=$row['group_dis']?></td>
+    <td>&nbsp;</td>
   </tr>
-
-
   </table>
 </div>
-
-
+<br>
 
 
 <h2 id="_switch">
 <i class="icon-accessibility on-left"></i>
-开始页设置
+内容设置
 </h2>
 <div class="example">
-<table class="table">
 <form id="__sort">
-<thead>
-    <tr>
-      <td width="45">编号</td>
-      <td width="200">分组名称</td>
-      <td width="120">Group Number</td>
-      <td>说明</td>
-      <td>操作</td>
-    </tr>
-</thead>
 
-<?php foreach($rc as $key=>$value){ ?>
+<table class="table striped hovered">
+    <thead>
     <tr>
-      <td><?=$value['groupid']?></td>
-      <td><span class="input-control text info-state">
-        <input name="groupvar[<?=$value['groupid']?>][group_title]" type="text" placeholder="type text" value="<?php echo $value['group_title'] ?>">
-      </span>
+      <td width="60">&nbsp;</td>
+      <td width="100">排序</td>
+      <td>名称(tile)</td>
+      <td width="150">操作[band/content]</td>
+      <td width="450">&nbsp;</td>
+    </tr>
+    </thead>
+    
+    
+    
+<?php foreach($rc as $key=>$value):?>    
+    <tr>
+        <td><?=$value['groupid']?> : <?=$value['id']?></td>
+        <td>
+        <span class="input-control text info-state">
+        <input type="text" placeholder="type text" name="setgroup_sort[<?=$value['id']?>][sort]" value="<?=$value['sort']?>">
+        </span>
         </td>
-      <td><span class="input-control text info-state">
-        <input name="groupvar[<?=$value['groupid']?>][group_num]" type="text" placeholder="type text" class="a" value="<?php echo $value['group_num'] ?>">
-      </span></td>
-      <td><span class="input-control text info-state">
-        <input name="groupvar[<?=$value['groupid']?>][group_dis]" type="text" placeholder="type text" class="c" value="<?php echo $value['group_dis'] ?>">
-      </span></td>
-      <td><a href="/M/setup_group/<?=$value['groupid']?>" class="primary">设置</a></td>
+        <td><?=$value['title']?></td>
+        <td><a class="editstart" relid="<?=$value['id']?>">编辑</a></td>
+        <td>
+        <?=$value['cpcode']?>     
+        </td>
     </tr>
-<?php }?>
-
-
+<?php endforeach;?>    
+    
     <tr>
-      <td colspan="5">
-<a class="button bg-darkRed fg-white _groupset">提交</a></td>
-      </tr>
-    <tr>
-      <td colspan="5">数量填写
-      
-      <code> one  </code>
-      <code> double    </code>
-      <code> three   </code>
-      <code> four  </code>
-      <code> five </code>
-      <code> six</code> 19默认 20其他
-      </td>
-      </tr>
-
-</form>
+        <td colspan="5">
+        <hr class="bg-darkBlue">
+        <a class="button bg-darkBlue fg-white _sortsubmit">排序提交</a></td>
+    </tr>    
 </table>
+</form>
 </div>
 
-    
-
+<br>
 
 
 
 <h2 id="_switch">
 <i class="icon-accessibility on-left"></i>
-开始页分组数量
+内容图示
 </h2>
-<div class="example">
-<table class="table">
-    <tr>
-      <td width="70"><label>分组</label>
-        </td>
-      <td width="300">
-        
-        <div class="input-control text warning-state" data-role="input-control">
-          <input class="groupnumsubmit_var"" type="text" placeholder="type text" class="" value="<?=$num?>">
-          <button class="btn-clear" tabindex="-1" type="button"></button>
-          </div>      
-        
-        </td>
-      <td><a class="button bg-darkRed fg-white groupnumsubmit">提交</a></td>
-    </tr>
-</table>
+<div class="example bg-black">
+
+
+
+
+<div class="tile-group <?=$row['group_num']?>">
+<div class="tile-group-title"><?=$row['group_title']?></div>
+<?php foreach($rc as $key=>$value):?> 
+<?=$value['cpcode']?>
+<?php endforeach;?>
+</div> <!-- End group -->
 </div>
-    
-
-
-
 
 
 
@@ -296,6 +238,7 @@ $(document).ready(function(e) {
     }
 	
 	$(".vpath_show").click(function(){
+
 		$(".notice_path").show();
 		$(".vpath_hide").show();
 		$(".vpath_show").hide();
@@ -326,33 +269,21 @@ $(document).ready(function(e) {
 			buttoncancel: true,
 			});
 	});
-
-    $('.groupnumsubmit').click(function(){
-        var res = $.ajax({
-            url : '/M/setup_setgroupnum/'+$('.groupnumsubmit_var').val(),
-            type: 'post',
-            data: {
-                groupnumsubmit_var : $('.groupnumsubmit_var').val()
-            },
-            dataType: "json",
-            async:false,
-            cache:false
-        }).responseJSON;
-        //console.log(res);
-        //==========================1
-        if(res.code<0){
-            alert(res.msg);
-            //return false;
-        }else{
-            //alert(res.msg);
-            location.reload();
-            // return true;
-        }
-    });
-
-	$('._groupset').click(function(){
+	
+	//edit start
+	$('.editstart').click(function(){
+		$.CK({
+			rel:'编辑瓷片',
+			url:'/M/setup_group_edit/'+$(this).attr('relid'),
+			_this:$(this),
+			buttonok	: true,
+			buttoncancel: true,
+			});
+	});
+	
+	$('._sortsubmit').click(function(){
 		var res = $.ajax({
-            url : '/M/setup_groupinfo_exc',
+            url : '/M/setup_group_sort_exc',
             type: 'post',
             data : $('#__sort').serialize(),			//重要偷懒的方法
             dataType: "json",
@@ -369,21 +300,17 @@ $(document).ready(function(e) {
             location.reload();
             // return true;
         }
-        
-        
-        
-        
-        
 	});
-
-
-
+	
+	
+	
+	
 <?php if(get_cookie('_mpath') ==1) : ?>
 	$(".notice_path").show();
 	$(".vpath_hide").show();
 	$(".vpath_show").hide();
 <?php endif;?>
-
+	
 });
 </script>
     
