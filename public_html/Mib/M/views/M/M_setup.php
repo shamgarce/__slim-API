@@ -303,15 +303,7 @@ $(document).ready(function(e) {
 		$(".vpath_hide").hide();
 	});
 	
-	$('.listsort').click(function(){
-		$.CK({
-			rel:'节点排序',
-			url:'',
-			_this:$(this),
-			buttonok	: true,
-			buttoncancel: true,
-			});
-	});
+
 
 	$('.listadd').click(function(){
 		$.CK({

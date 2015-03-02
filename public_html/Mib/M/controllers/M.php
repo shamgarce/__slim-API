@@ -63,7 +63,7 @@ class M extends CI_Controller
 
         $data['row'] = $row;
         $data['rc'] = $rc;
-
+//print_r($rc);
         $this->load->view('M/M_setup_group',$data);
     }
 
@@ -224,6 +224,61 @@ class M extends CI_Controller
 </li>"."\r\n";
             return $html;
         }
+    }
+
+    public function add_exc()
+    {
+//doc_document add
+        $rc['preid'] 	= $_POST['bguishu'];
+        $rc['title'] 	= trim($_POST['btiaoti']);
+        $rc['titleonly'] = empty($_POST['titleonly'])?0:1;
+        if(!$rc['titleonly'])$rc['content'] 	= $_POST['bnr'];
+        $rc['url'] 		= $_POST['burl'];
+        if(empty($rc['title']))	{
+            echo json_encode(array("code"=>"-200","msg"=>'标题必须填写'));
+            exit;
+        }
+        //$rc = saddslashes($rc);
+        $this->db->autoExecute("doc_document",$rc,'INSERT');
+        echo json_encode(array("code"=>"200","msg"=>'完成'));
+        exit;
+    }
+    public function add($listid=0)
+    {
+
+        $this->load->view('M/M_add',$data);
+    }
+
+
+    public function sort_exc($listid = 0)
+    {
+        $hsort = $_POST['hsort'];
+        foreach($hsort as $key=>$value){
+            //--------------------------------------------
+            $v = intval($value);
+            $i = intval($key);
+            $sql = "update doc_document set sort= $v where id = $i";
+            $this->db->query($sql);
+            //--------------------------------------------
+        }
+
+        echo json_encode(array("code"=>"200","msg"=>'完成'));
+        exit;
+    }
+
+    public function sort($listid = 0)
+    {
+        //功能 :设置是否显示编辑和排序,还有是否展示地址
+        $sql	= " select id,preid,title,titleonly from doc_document
+					where preid =$listid  and enable = 0
+					order by sort desc ,id";
+        $rc	= $this->db->getall($sql);		//所有的数据
+
+
+
+        $data['rc'] = $rc;
+        $data['listid'] = $listid;
+        $this->load->view('M/M_sort',$data);
     }
 
     public function tree(){

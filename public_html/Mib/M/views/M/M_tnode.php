@@ -46,10 +46,10 @@
       
       
 <a href="/M/" class="button primary">首页</a>
-<?php if(get_cookie('_madd') ==1) : ?><a class="button info listadd">添加</a><?php endif;?> 
-<?php if(get_cookie('_msort') ==1) : ?><a class="button success listsort">排序</a><?php endif;?> 
-<a href="/M/setup" class="button warning">设置</a>
-<a href="/M/tree" class="button warning">TREE</a>
+ <?php if(get_cookie('_madd') ==1) : ?><a class="button info listadd" relid="<?=$leaf['id']?>">添加</a><?php endif;?>
+ <?php if(get_cookie('_msort') ==1) : ?><a class="button success listsort" relid="<?=$leaf['id']?>">排序</a><?php endif;?>
+ <a href="/M/setup" class="button warning">设置</a>
+        <a href="/M/tree" class="button warning">TREE</a>
 
 
 
@@ -283,7 +283,27 @@ $(document).ready(function(e) {
 		$(".vpath_show").show();
 		$(".vpath_hide").hide();
 	});
-	
+
+    $('.listsort').click(function(){
+        $.CK({
+            rel:'节点排序',
+            url:'/M/sort/'+ $(this).attr('relid'),
+            _this:$(this),
+            buttonok	: true,
+            buttoncancel: true,
+        });
+    });
+
+    $('.listadd').click(function(){
+        $.CK({
+            rel:'节点添加',
+            url:'/M/add/'+ $(this).attr('relid'),
+            _this:$(this),
+            buttonok	: true,
+            buttoncancel: true,
+        });
+    });
+
 <?php if(get_cookie('_mpath') ==1) : ?>
 	$(".notice_path").show();
 	$(".vpath_hide").show();

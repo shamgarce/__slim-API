@@ -48,7 +48,7 @@
       
 <a href="/M/" class="button primary">首页</a>
 <?php if(get_cookie('_madd') ==1) : ?><a class="button info listadd">添加</a><?php endif;?> 
-<?php if(get_cookie('_msort') ==1) : ?><a class="button success listsort">排序</a><?php endif;?> 
+<?php if(get_cookie('_msort') ==1) : ?><a class="button success listsort" relid="<?=$mcmain['id']?>>排序</a><?php endif;?>
 <a href="/M/setup" class="button warning">设置</a>
 <a href="/M/tree" class="button warning">TREE</a>
 
@@ -141,7 +141,27 @@ $(document).ready(function(e) {
 		$(".vpath_show").show();
 		$(".vpath_hide").hide();
 	});
-	
+
+    $('.listsort').click(function(){
+        $.CK({
+            rel:'节点排序',
+            url:'/M/sort/0',
+            _this:$(this),
+            buttonok	: true,
+            buttoncancel: true,
+        });
+    });
+
+    $('.listadd').click(function(){
+        $.CK({
+        rel:'节点添加',
+        url:'/M/add/0',
+        _this:$(this),
+        buttonok	: true,
+        buttoncancel: true,
+    });
+});
+
 	$(".treeview a").click(function(){
 		window.location.href=$(this).attr('href');
 	});
