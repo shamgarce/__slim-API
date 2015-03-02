@@ -47,7 +47,7 @@
       
 <a href="/M/" class="button primary">首页</a>
 <?php if(get_cookie('_madd') ==1) : ?><a class="button info listadd">添加</a><?php endif;?> 
-<?php if(get_cookie('_msort') ==1) : ?><a class="button success listsort">排序</a><?php endif;?> 
+
 <a href="/M/setup" class="button warning">设置</a>
 <a href="/M/tree" class="button warning">TREE</a>
 
@@ -249,7 +249,7 @@
       <td width="300">
         
         <div class="input-control text warning-state" data-role="input-control">
-          <input class="groupnumsubmit_var"" type="text" placeholder="type text" class="" value="<?=$num?>">
+          <input class="groupnumsubmit_var"" type="text" placeholder="type text" value="<?=$num?>">
           <button class="btn-clear" tabindex="-1" type="button"></button>
           </div>      
         
