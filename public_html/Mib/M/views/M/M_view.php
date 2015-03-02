@@ -56,8 +56,6 @@
 <a href="/M/setup" class="button warning">设置</a>
 <a href="/M/tree" class="button warning">TREE</a>
 
-<a href="/M/tnode/" class="button warning">list</a>
-        <a href="/M/view/" class="button warning">view</a>
 
         
    <h2 class="fg-white  text-right"><?=$mcmain['title']?></h2>
@@ -73,7 +71,7 @@
             </li>
         </ul>
 
-<a class="button success " href="/M/" style="width: 100%; margin-bottom: 5px">首页</a>
+
 
     </div>
     </div> 

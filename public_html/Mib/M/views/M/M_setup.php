@@ -51,8 +51,6 @@
 <a href="/M/setup" class="button warning">设置</a>
 <a href="/M/tree" class="button warning">TREE</a>
 
-<a href="/M/tnode/" class="button warning">list</a>
-<a href="/M/view/" class="button warning">view</a>
 
         
    <h1 class="fg-white  text-right">设置</h1>
@@ -61,8 +59,6 @@
 系统信息设置 : 显示界面等
 </p>  
 
-
-<a class="button success " href="/M/" style="width: 100%; margin-bottom: 5px">首页</a>
 
 
     </div>

@@ -51,8 +51,7 @@
 <a href="/M/setup" class="button warning">设置</a>
 <a href="/M/tree" class="button warning">TREE</a>
 
-<a href="/M/tnode/" class="button warning">list</a>
-        <a href="/M/view/" class="button warning">view</a>
+
 
 
         
@@ -105,7 +104,7 @@
 <?php endforeach;?>
 </ul>  
 
-<a class="button success " href="/M/" style="width: 100%; margin-bottom: 5px">首页</a>
+
 
 
 
