@@ -52,7 +52,7 @@
 <a href="/M/tree" class="button warning">TREE</a>
 
 <a href="/M/tnode/" class="button warning">list</a>
-<a href="/M/show/" class="button warning">show</a>
+<a href="/M/view/" class="button warning">view</a>
 
         
    <h1 class="fg-white  text-right">设置</h1>
@@ -71,7 +71,7 @@
         <div class="content">
             <div class="right-head bg-darker  fg-white" style="padding-left:5pt;">
                 <h1 class="fg-white">
-                    <a href="/M/" class="fg-hover-darkOrange"><i class="icon-arrow-left-3 smaller fg-white"></i></a> 返回<small class="on-right">首页
+                    <a href="/M/tnode/0" class="fg-hover-darkOrange"><i class="icon-arrow-left-3 smaller fg-white"></i></a> 返回<small class="on-right">首页
                     <a href="#" class="fg-hover-darkOrange vpath_show"><i class="icon-arrow-down-5 smaller fg-white"></i></a>
                     <a href="#" class="fg-hover-darkOrange vpath_hide" style="display:none;"><i class="icon-arrow-up-5 smaller fg-white"></i></a>
                     </small>
@@ -82,7 +82,7 @@
     <nav class="breadcrumbs small">
     <ul>
     <li>
-    <a href="/M/">
+    <a href="/M/tnode/0">
     <i class="icon-home"></i>
     </a>
     </li>

@@ -52,7 +52,7 @@
 <a href="/M/tree" class="button warning">TREE</a>
 
 <a href="/M/tnode/" class="button warning">list</a>
-<a href="/M/show/" class="button warning">show</a>
+        <a href="/M/view/" class="button warning">view</a>
 
 
         
@@ -61,9 +61,7 @@
 
 <ul class="unstyled fg-white">
 <?php foreach($leaf['child'] as $key=>$value):?>
-	
-
-	<?php 
+	<?php
 	if($value['_leaf']==1 || $value['_pure']==1){
 		$__color="fg-lightGreen";
 	}else{
@@ -77,37 +75,28 @@
 		$__url = "/M/tnode/".$value['id'];
 	}
 	?>
-		
-
-	
-    <li><i class="icon-record on-right <?=$__color?>"></i> 
+    <li><i class="icon-record on-right <?=$__color?>"></i>
     <a href="<?=$__url?>" class="fg-white fg-hover-cyan"><?=$value['title']?></a>
-
-
     <?php if(!empty($value['child'])):?>
     <ul class="fg-white">
 		<?php foreach($value['child'] as $key2=>$value2):?>
             <li>
-            
-	<?php 
-	if($value2['_leaf']==1 || $value2['_pure']==1){
-		$__color2="fg-lightGreen";
-	}else{
-		$__color2="fg-white";
-	}
-	if($value2['_leaf']==1){
-		$__url2 = "/M/view/".$value2['preid'].'#'.$value2['id'];
-	}elseif($value2['_pure']==1){
-		$__url2 = "/M/view/".$value2['id'];
-	}else{
-		$__url2 = "/M/tnode/".$value2['id'];
-	}
-	?>
-            
-
-                <i class="icon-arrow-right on-right <?=$__color2?>"></i> 
+                <?php
+                if($value2['_leaf']==1 || $value2['_pure']==1){
+                    $__color2="fg-lightGreen";
+                }else{
+                    $__color2="fg-white";
+                }
+                if($value2['_leaf']==1){
+                    $__url2 = "/M/view/".$value2['preid'].'#'.$value2['id'];
+                }elseif($value2['_pure']==1){
+                    $__url2 = "/M/view/".$value2['id'];
+                }else{
+                    $__url2 = "/M/tnode/".$value2['id'];
+                }
+                ?>
+                <i class="icon-arrow-right on-right <?=$__color2?>"></i>
                 <a href="<?=$__url2?>" class="fg-white fg-hover-cyan"><?=$value2['title']?></a>
-
             </li>
         <?php endforeach;?>
 	</ul>
@@ -117,8 +106,6 @@
 </ul>  
 
 <a class="button success " href="/M/" style="width: 100%; margin-bottom: 5px">首页</a>
-<a class="button info " href="/" style="width: 100%; margin-bottom: 6px">上一页</a>
-<a class="button warning " href="/" style="width: 100%; margin-bottom: 5px;">下一页</a>
 
 
 
@@ -132,7 +119,7 @@
             <div class="right-head bg-darker  fg-white" style="padding-left:5pt;">
                 <h1 class="fg-white">
                     <?php if($leaf['preid']==0):?>
-                    <a href="/M/" class="fg-hover-darkOrange"><i class="icon-arrow-left-3 smaller fg-white"></i></a> 
+                    <a href="/M/tnode/0" class="fg-hover-darkOrange"><i class="icon-arrow-left-3 smaller fg-white"></i></a> 
                     <?php else:?>
                     <a href="<?=$leaf['preid']?>" class="fg-hover-darkOrange"><i class="icon-arrow-left-3 smaller fg-white"></i></a> 
                     <?php endif;?>
@@ -146,29 +133,37 @@
 <!-- 隐藏的路径 -->                
 <div class="notice bg-orange fg-white notice_path" style="padding:10px;display:none;">
     <nav class="breadcrumbs small">
-    <ul>
-    <li>
-    <a href="/M/">
-    <i class="icon-home"></i>
-    </a>
-    </li>
-
-<?php foreach($nav as $key=>$value):?>
-    <li>
-    <a href="/M/tnode/<?=$value['id']?>"><?=$value['title']?></a>
-    </li>
-<?php endforeach;?>
-
-    </ul>
+        <ul>
+            <li>
+            <a href="/M/tnode/0">
+            <i class="icon-home"></i>
+            </a>
+            </li>
+            <?php foreach($nav as $key=>$value):?>
+            <li>
+            <a href="/M/tnode/<?=$value['id']?>"><?=$value['title']?></a>
+            </li>
+            <?php endforeach;?>
+        </ul>
     </nav>
-    
-</div>            
+</div>
 <!-- /隐藏的路径 -->              
             
             </div> 
 
             
-<H2 class="padding15"><strong><?=$leaf['title']?></strong> <button class="button info small">编辑</button></H2>
+<H2 class="padding15"><strong><?=$leaf['title']?></strong> <button class="button info small _editcontent" relid="<?=$leaf['id']?>">编辑</button>
+<?php if($mcmain['startscreen']):?>
+<a href="javascript:void(0);" class="editsc" relid="<?=$leaf['id']?>"><small>
+<i class="icon-tag"
+style="background: red;
+color: white;
+padding: 5px;
+border-radius: 50%"></i>
+</small></a>
+<?php endif;?>
+
+</H2>
          
            <div class="right-body" style="padding-left:10pt;padding-right:10pt;height:auto;">
 
@@ -205,7 +200,15 @@
                 </div>
             </div>
             <div class="tile-status">
+
+
+            <?php if($value['_pure']==1):?>
+            <div class="badge bg-darkGreen"><?=count($value['child'])?></div>
+            <?php else:?>
             <div class="badge bg-red"><?=count($value['child'])?></div>
+            <?php endif;?>
+
+
             </div>
         </a>
         <!-- 列表的 end -->
@@ -214,15 +217,11 @@
         <a href="<?=$__url?>" class="tile bg-cyan double double-vertical" data-click="transform">
             <div class="tile-content">
                 <div class="padding10">
-                
                     <h2 class="fg-white no-margin"><?=$value['title']?></h2>
                     <p class="fg-white padding5">
-                    
                     </p>
-                
                 </div>
             </div>
-    
             <div class="brand">
             <div class="badge newMessage"></div>
             </div>
@@ -291,6 +290,28 @@ $(document).ready(function(e) {
 	$(".vpath_hide").show();
 	$(".vpath_show").hide();
 <?php endif;?>	
+	
+	
+	$('._editcontent').click(function(){
+		$.CK({
+			rel:'修改数据',
+			url:'/M/vedit/'+$(this).attr('relid'),
+			_this:$(this),
+			buttonok	: true,
+			buttoncancel: true,
+			});
+	});
+	
+	$('.editsc').click(function(){
+		$.CK({
+			rel:'修改瓷片',
+			url:'/M/setup_group_edit_docid/'+$(this).attr('relid'),
+			_this:$(this),
+			buttonok	: true,
+			buttoncancel: true,
+			});
+	});
+			
 	
 });
 </script>

@@ -18,9 +18,20 @@ class M extends CI_Controller
     //主要的管理界面
     public function index()
     {
+        $sql= "select * from doc_metro_group where enable = 1 ORDER by sort desc";
+        $group = $this->db->getall($sql);
+
+        $sql= "SELECT * FROM `doc_metro` where enable=1 ORDER by sort desc";
+        $_rc = $this->db->getall($sql);
+        foreach($_rc as $key=>$value){
+            $rc[$value['groupid']][] = $value;
+        }
+        $data['rc']     = $rc;
+        $data['group'] = $group;
 
         $this->load->view('M/M_index',$data);
     }
+
     public function setup_group_sort_exc(){
         $setgroup_sort = $_POST['setgroup_sort'];
 
@@ -55,6 +66,79 @@ class M extends CI_Controller
 
         $this->load->view('M/M_setup_group',$data);
     }
+
+    public function vedit_exc()
+    {
+        $id = $_POST['id'];
+        $rc['preid'] 	= $_POST['bguishu'];
+        $rc['titleonly'] = empty($_POST['titleonly'])?0:1;
+        $rc['startscreen'] = empty($_POST['startscreen'])?0:1;
+
+        $rc['title'] 	= trim($_POST['btiaoti']);
+        if($rc['titleonly'] !=1) $rc['content'] 	= $_POST['bnr'];
+        if($rc['titleonly'] !=1) $rc['url'] 		= $_POST['burl'];
+
+        if(empty($rc['title']))	{
+            echo json_encode(array("code"=>"-200","msg"=>'标题必须填写'));
+            exit;
+        }
+        //$rc = saddslashes($rc);
+        $this->db->autoExecute("doc_document",$rc,'UPDATE',"id=$id");
+
+        //===========================================================
+        //startscreen 处理
+
+        //首先update
+        $sql= "update doc_metro set enable = {$rc['startscreen']} where docid = $id";
+        $this->db->query($sql);
+        //查找
+        if($rc['startscreen']==1){
+            $sql = "select count(*) from doc_metro where docid = $id";
+            $count = $this->db->getone($sql);
+            if($count<1){   //没有找到
+                $md['groupid'] = 20;
+                $md['docid'] = $id;
+                $md['title'] = $rc['title'];
+                $md['sort'] = 0;
+                $md['enable'] = 1;
+                $md['wg'] = 'double double-vertical';
+                $md['color'] = 'bg-cobalt';
+                $md['icon'] = 'icon-tree-view';
+                $md['brand'] = '<div class="tile-status"><span class="name">Store</span></div>';
+                $md['content'] = '<div class="tile-content icon"><i class="{icon}"></i></div>';
+                //拼接瓷片
+                $md['cpcode']  = '<a href=/M/tnode/$id class="tile double double-vertical bg-cobalt" data-click="transform">
+<div class="tile-content icon"><i class="icon-tree-view"></i></div>
+<div class="tile-status"><span class="name">Store</span></div>
+</a>';
+
+                $this->db->autoExecute("doc_metro",$md,'INSERT');
+            }
+        }
+
+        //===========================================================
+
+        echo json_encode(array("code"=>"200","msg"=>'完成'));
+        exit;
+    }
+
+
+    public function vedit($id)
+    {
+        $id = intval($id);
+        $sql	= "select * from doc_document where id=$id";
+        $rc	= $this->db->getrow($sql);
+        $data['rc']=$rc;
+
+        //功能 :设置是否显示编辑和排序,还有是否展示地址
+        $sql	= "select id,preid,title from doc_document where enable = 0 order by sort desc ,id";
+        $_rc	= $this->db->getall($sql,'id');		//所有的数据
+        $data['_rc'] = $_rc;
+
+
+        $this->load->view('M/M_vedit',$data);
+    }
+
     public function view($nodeid)
     {
 
@@ -108,7 +192,11 @@ class M extends CI_Controller
         $level = $this->tree->leaf_level($nodeid);
         $nav = $this->tree->navi($nodeid);
         $data['nav'] = $nav;
+//print_r($leaf);
 
+        $sql	= "select * from doc_document where (id = $nodeid)";
+        $mcmain	= $this->db->getRow($sql);		//所有的数据
+        $data['mcmain'] = $mcmain;
 
         $this->load->helper('cookie');
         $this->load->view('M/M_tnode',$data);
@@ -117,10 +205,10 @@ class M extends CI_Controller
     public function tree_ext($leaf)
     {
         if(empty($leaf['child'])){
-            return "<li><a href=\"/M/show/{$leaf['id']}\">{$leaf['title']}</a></li>\r\n";
+            return "<li><a href=\"/M/view/{$leaf['preid']}#{$leaf['id']}\">{$leaf['title']}</a></li>\r\n";
         }else{
             if($leaf[_pure]==1){
-                $html = "<li class=\"node collapsed\"><a href=\"/M/show/{$leaf['id']}\"><span class=\"node-toggle padding10\"></span>".$leaf['title']."</a>
+                $html = "<li class=\"node collapsed\"><a href=\"/M/view/{$leaf['id']}\"><span class=\"node-toggle padding10\"></span>".$leaf['title']."</a>
     <ul>"."\n\r";
             }else{
                 $html = "<li class=\"node collapsed\"><a href=\"/M/tnode/{$leaf['id']}\"><span class=\"node-toggle padding10\"></span>".$leaf['title']."</a>
@@ -223,7 +311,7 @@ class M extends CI_Controller
         if(empty($rc['url'])){
             $nodeid = $this->db->getone("select docid from doc_metro where id = $id");
             if(!empty($nodeid)){
-                $rc['url'] = '/M/treeview/'.$nodeid;
+                $rc['url'] = '/M/tnode/'.$nodeid;
             }
         }
 
@@ -234,6 +322,7 @@ class M extends CI_Controller
         </a>';
         $url = !empty($rc['url'])?"href=\"{$rc['url']}\"":'';
         $rc['cpcode'] = str_replace('{url}',    $url,       $rc['cpcode']);
+        $rc['cpcode'] = str_replace('{title}',  $rc['title'],$rc['cpcode']);
         $rc['cpcode'] = str_replace('{brand}',  $rc['brand'],$rc['cpcode']);
         $rc['cpcode'] = str_replace('{content}',$rc['content'],$rc['cpcode']);
         $rc['cpcode'] = str_replace('{wg}',     $rc['wg'],$rc['cpcode']);
@@ -246,6 +335,16 @@ class M extends CI_Controller
         $rs['code'] = 200;
         $rs['msg'] = '提交成功';
         echo json_encode($rs);
+    }
+
+    public function setup_group_edit_docid($id)
+    {
+        $id = intval($id);
+        $sql = "select * from doc_metro where docid = $id";
+        $rc = $this->db->getrow($sql);
+//print_r($rc);
+        $data['rc'] = $rc;
+        $this->load->view('M/M_setup_group_edit',$data);
     }
 
     public function setup_group_edit($id)

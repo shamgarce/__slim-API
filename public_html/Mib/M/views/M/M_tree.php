@@ -53,7 +53,7 @@
 <a href="/M/tree" class="button warning">TREE</a>
 
 <a href="/M/tnode/" class="button warning">list</a>
-<a href="/M/show/" class="button warning">show</a>
+<a href="/M/view/" class="button warning">view</a>
 
 
         
