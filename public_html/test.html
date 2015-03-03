@@ -1,0 +1,51 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<script src="/A/jquery-2.0.3.min.js"></script>
+<style type="text/css">
+#leftDiv {
+	width:180px;
+	height:200px;
+	border:#0CC solid 1px;
+	position:fixed;
+	top:80px;
+	right:-190px;
+	padding:10px;	
+}
+</style>
+</head>
+<body>
+<div id="pageWidth"></div>
+  <div id="mouse"></div>
+  <P id="showRsult"></P>
+  
+  
+  
+  
+
+<style type="text/css">
+#leftDiv {
+	width:180px;
+	height:200px;
+	border:#0CC solid 1px;
+	position:fixed;
+	top:80px;
+	right:-190px;
+	padding:10px;	
+}
+</style>
+<div id="leftDiv">
+  Email:nzl5423@gmail.com
+</div>
+
+<script>
+    $(document).bind('mousemove',function(e){ 
+		if(( $(window).width() - e.pageX ) < 200 ){
+			$("#leftDiv").animate({"right" : "4px"}, 20);
+		}else{
+			$("#leftDiv").animate({"right" : "-190px"}, 20);
+		} ;
+    }); 
+</script>
+</body>
+</html>
