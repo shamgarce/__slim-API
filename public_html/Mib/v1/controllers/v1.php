@@ -57,11 +57,10 @@ class v1 extends CI_Controller
 	public function _remap($method, $params = array())
 	{
 		if($method == 'index') $this->jout(405);		//不可以调用的方法名
-
 		$this->sign['mothod'] 			= $method;
 		$this->sign['mothod_action']	= empty($params[0])?'index':$params[0];
 		if(!empty($this->map[$this->sign['mothod']]['index']))	$this->sign['mothod_action'] = 'index';
-
+		if($this->sign['mothod_action']!='index') array_shift($params);
 		$this->sign['params'] 			= $params;
 		//========================================================
 
@@ -95,6 +94,7 @@ class v1 extends CI_Controller
 				exit;
 			}else{
 				$sp 	= explode('/',$rs['ys']);
+				//print_r($sp);
 				$this->load->library('M/'.ucwords($sp[0]),$params);
 				$this->$sp[0]->$sp[1]($this->sign);							//把头部签名文件传递进去
 			}
@@ -105,6 +105,20 @@ class v1 extends CI_Controller
 
 		//===============================================================
 	}
+
+
+	//复用函数
+	public static function T(){
+		list($usec, $sec) = explode(" ",microtime());
+		$num = ((float)$usec + (float)$sec);
+		return $num;
+	}
+
+
+
+
+
+
 
 	//=========================================================
 	//数据完整性 和安全签名

@@ -47,7 +47,31 @@ class M extends CI_Controller
 
     }
 
+    public function vselect($nodeid = 0)
+    {
+        $this->load->helper('cookie');
 
+        //检索所有的信息,选择归属
+        //功能 :设置是否显示编辑和排序,还有是否展示地址
+        //=============================================================
+        $sql	= "select id,preid,title,titleonly from doc_document where enable = 0 order by sort desc ,id";
+        $_rc	= $this->db->getall($sql);		//所有的数据
+        //=============================================================
+        $this->load->library('tree',$_rc);
+
+
+        $leaf 	= $this->tree->leaf(0);
+        $level 	= $this->tree->leaf_level(0);
+        $list 	= $this->tree->getlist();
+        //=============================================================
+        $_rc['id'] = 0;
+        $_rc['title'] = '根';
+        $data['list'] = $list;
+        $data['_rc'] = $_rc;
+        //=============================================================
+        $this->sor = $_rc;
+        $this->load->view('M/M_select',$data);
+    }
     public function setup_group($groupid){
         $this->load->helper('cookie');
 
@@ -104,12 +128,12 @@ class M extends CI_Controller
                 $md['wg'] = 'double double-vertical';
                 $md['color'] = 'bg-cobalt';
                 $md['icon'] = 'icon-tree-view';
-                $md['brand'] = '<div class="tile-status"><span class="name">Store</span></div>';
+                $md['brand'] = '<div class="tile-status"><span class="name">{title}</span></div>';
                 $md['content'] = '<div class="tile-content icon"><i class="{icon}"></i></div>';
                 //拼接瓷片
                 $md['cpcode']  = '<a href=/M/tnode/$id class="tile double double-vertical bg-cobalt" data-click="transform">
 <div class="tile-content icon"><i class="icon-tree-view"></i></div>
-<div class="tile-status"><span class="name">Store</span></div>
+<div class="tile-status"><span class="name">'.$rc['title'].'</span></div>
 </a>';
 
                 $this->db->autoExecute("doc_metro",$md,'INSERT');
@@ -376,10 +400,10 @@ class M extends CI_Controller
             {brand}
         </a>';
         $url = !empty($rc['url'])?"href=\"{$rc['url']}\"":'';
-        $rc['cpcode'] = str_replace('{url}',    $url,       $rc['cpcode']);
-        $rc['cpcode'] = str_replace('{title}',  $rc['title'],$rc['cpcode']);
         $rc['cpcode'] = str_replace('{brand}',  $rc['brand'],$rc['cpcode']);
         $rc['cpcode'] = str_replace('{content}',$rc['content'],$rc['cpcode']);
+        $rc['cpcode'] = str_replace('{url}',    $url,       $rc['cpcode']);
+        $rc['cpcode'] = str_replace('{title}',  $rc['title'],$rc['cpcode']);
         $rc['cpcode'] = str_replace('{wg}',     $rc['wg'],$rc['cpcode']);
         $rc['cpcode'] = str_replace('{color}',  $rc['color'],$rc['cpcode']);
         $rc['cpcode'] = str_replace('{img}',  $rc['img'],$rc['cpcode']);
