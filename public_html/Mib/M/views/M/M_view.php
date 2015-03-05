@@ -25,12 +25,13 @@
     <script src="/A/Metro/js/docs.js"></script>
     <!-- script src="/A/Metro/js/github.info.js"></script -->
    
-<!-- script type="text/javascript" src="/A/syntaxhighlighter_3.0.83/scripts/shCore.js"></script>
+<script type="text/javascript" src="/A/syntaxhighlighter_3.0.83/scripts/shCore.js"></script>
 <script type="text/javascript" src="/A/syntaxhighlighter_3.0.83/scripts/shBrushJScript.js"></script>
 <script type="text/javascript" src="/A/syntaxhighlighter_3.0.83/scripts/shBrushPhp.js"></script>
 <link type="text/css" rel="stylesheet" href="/A/syntaxhighlighter_3.0.83/styles/shCoreDefault.css"/>
-<script type="text/javascript">SyntaxHighlighter.all();</script -->   
-   
+<script type="text/javascript">SyntaxHighlighter.all();</script>   
+
+
    
     <title>Metro UI CSS : Metro Bootstrap CSS Library</title>
 

@@ -9,48 +9,35 @@ class v1 extends CI_Controller
 	 */
 	private	$code = 0;
 	private	$msg = '';
-
 	private 	$salt	= 'ccab8f440ff0825e';
-
 	private 	$sign	= array();			//所有的输入数据存储
 	private 	$map	= array();			//数据库解析到的所有匹配
-
 	private 	$debug = false;
-
-
 	private	$mothod = '';
 	private	$params = array();
 	public 		$db 	= NULL;
-
+	public 		$S 	= NULL;
 
 	function __construct()
 	{
 		parent::__construct();
+		$this->S = new Set();
+		$this->S->singleton('Db', function ($c) {
+			return new Db();
+		});
+		$this->S->singleton('Mdb', function ($c) {
+
+			return new Mdb();
+		});
 
 		//=========================================================
-		$this->sign['salt'] 		= $this->salt;				//
-		$this->sign['timestamp'] 	= $this->input->get('timestamp',true);	//$_GET['timestamp'];	//时间
-		$this->sign['deviceid'] 	= $this->input->get('deviceid',true);	//$_GET['deviceid'];	//设备id
-		$this->sign['openid'] 		= $this->input->get('openid',true);		//$_GET['openid'];		//设备id
-		//$this->sign['actionid'] 	= $this->input->get('actionid',true);	//$_GET['actionid'];	//动作id用来验证是否重复提交	//暂时不处理
-		$this->sign['signature'] 	= $this->input->get('signature',true);	//$_GET['signature'];	//计算出来的签名比对 2014087451d28443c11e84107dfaae1f
-		$this->sign['user'] 		= $this->input->get('user',true);		//$_GET['ush'];			//ush //获取得到 再次获取则会更换
-		$this->sign['sign'] 		= false;
-		//=========================================================
-		$this->load->library('Db');
+		$this->load->library('Db');					//原始的数据对象 以后弃用
 
-		//=========================================================
-		//匹配模式 ->$this->map
-		$sql = "select * from userapi where enable = 1 AND  v = 'V1'";
-		$rc = $this->db->getall($sql);
-		foreach($rc as $key=>$value){
-			$ar 	= explode('/',$value['api']);
-			$___m 	= array_shift($ar);
-			$___aj	= array_shift($ar);
-			$___a 	= (substr($___aj, 0, 1) != ':')? empty($___aj)?'index':$___aj:'index';
-			$map[$___m][$___a] = array($value['id'],$value['ys']);
-		}
-		$this->map = $map;
+
+
+
+		$this->getsign();			//获取资源$this->sign
+		$this->getmap();			//获取资源$this->map
 
 	}
 
@@ -113,6 +100,40 @@ class v1 extends CI_Controller
 		$num = ((float)$usec + (float)$sec);
 		return $num;
 	}
+
+	public function getmap(){
+		$sql = "select * from userapi where enable = 1 AND  v = 'V1'";
+		$rc = $this->S->Db->getall($sql);
+		foreach($rc as $key=>$value){
+			$ar 	= explode('/',$value['api']);
+			$___m 	= array_shift($ar);
+			$___aj	= array_shift($ar);
+			$___a 	= (substr($___aj, 0, 1) != ':')? empty($___aj)?'index':$___aj:'index';
+			$map[$___m][$___a] = array($value['id'],$value['ys']);
+		}
+
+		$this->map = $map;
+	}
+
+	public function getsign(){
+		//=========================================================
+		$this->sign['salt'] 		= $this->salt;				//
+		$this->sign['timestamp'] 	= $this->input->get('timestamp',true);	//$_GET['timestamp'];	//时间
+		$this->sign['deviceid'] 	= $this->input->get('deviceid',true);	//$_GET['deviceid'];	//设备id
+		$this->sign['openid'] 		= $this->input->get('openid',true);		//$_GET['openid'];		//设备id
+		//$this->sign['actionid'] 	= $this->input->get('actionid',true);	//$_GET['actionid'];	//动作id用来验证是否重复提交	//暂时不处理
+		$this->sign['signature'] 	= $this->input->get('signature',true);	//$_GET['signature'];	//计算出来的签名比对 2014087451d28443c11e84107dfaae1f
+		$this->sign['user'] 		= $this->input->get('user',true);		//$_GET['ush'];			//ush //获取得到 再次获取则会更换
+		$this->sign['sign'] 		= false;
+		$this->sign['openid'] 		= 'sd568';
+	}
+
+
+
+
+
+
+
 
 
 

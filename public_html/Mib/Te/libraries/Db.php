@@ -59,15 +59,10 @@ class Db{
     public static $instance;
 
     public function __construct($chr = 'default'){
-        $file_path = APPPATH.'config/mysql.php';
-        if ( ! file_exists($file_path))
-        {
-            show_error('The configuration file mysql.php does not exist.');
-        }
+        $file_path = FCPATH.APPPATH.'config/mysql.php';
         include($file_path);
 
         $this->base = dirname(__FILE__)."\\";
-
         $this->root_path = $this->base.'/'.$this->root_path;
 //        $this->cls_mysql($config['dbhost'], $config['dbuser'], $config['dbpw'], $config['dbname'], $config['charset'], $config['pconnect'], $config['quiet']);
         $this->cls_mysql(
@@ -203,6 +198,7 @@ class Db{
             $this->connect($this->settings['dbhost'], $this->settings['dbuser'], $this->settings['dbpw'], $this->settings['dbname'], $this->settings['charset'], $this->settings['pconnect']);
             // $this->settings = array();
         }
+
         if ($this->queryCount++ <= 999){            $this->queryLog[] = $sql;        }
         if ($this->queryTime == 0){
             $this->queryTime = microtime(true);     //版本5.3是环境必须
@@ -228,6 +224,9 @@ class Db{
             $cachefile = $this->root_path . $this->err_path . 'slowquery.php';
             @file_put_contents($cachefile, $str, FILE_APPEND);
         }
+
+
+
         return $query;
     }
 
@@ -264,9 +263,18 @@ class Db{
     }
 
     public function getAll($sql,$str=''){
+
+
+
         $res = $this->query($sql);
+
+
+
         if ($res !== false){
             $arr = array();
+
+
+
             while ($row = mysql_fetch_assoc($res)){
                 if(empty($str)){
                     $arr[] = $row;
@@ -274,6 +282,11 @@ class Db{
                     $arr[$row[$str]] = $row;
                 }
             }
+
+
+
+
+
             return $arr;
         }else{
             return false;

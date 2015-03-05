@@ -2,18 +2,43 @@
 
 class Te extends CI_Controller
 {
-	private $salt = 'ccab8f440ff0825e';
-	private $db = NULL;
 
 	function __construct()
 	{
 		parent::__construct();
-//		//连接数据库================================================
-//		!defined('MBASE') && define('MBASE', dirname(__FILE__) . "\\" . 'lib');    //v31 EASY的绝对路径
-//		include(MBASE . '\Mysql.class.php');
-//		$this->db = Mysql::getInstance();
-		//连接数据库================================================
+		$this->S = new Set();
+		$this->S->singleton('Db', function ($c) {
+			return new Db();
+		});
 	}
+
+
+//	public function getInstance($class){
+//		!($this->$class) && $this->$class = new $class();
+//	}
+
+	public function index()
+	{
+		$sql = "select * from dy_user";
+		$rc = $this->S->Db->getall($sql);
+		$rc = $this->S->Db->getall($sql);
+		$rc = $this->S->Db->getall($sql);
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 	//=============================================================
 	//参数接收
@@ -40,23 +65,6 @@ class Te extends CI_Controller
  * application/config/routes.php
  * */
 
-	public function index()
-	{
-
-		print_r(get_defined_constants());				//所有常量
-
-		echo 1;
-		//模块加载演示
-//		$params = array('a'=>'1');
-//		$this->load->library('Myte', $params);
-//		$this->myte->run();
-
-//		$CI =& get_instance();
-//		$CI->load->helper('url');
-//		$CI->load->library('encrypt');			//http://codeigniter.org.cn/user_guide/libraries/encryption.html
-		//$CI->config->item('base_url');
-//		echo 1;
-	}
 
 
 	//=============================================================
@@ -74,4 +82,21 @@ class Te extends CI_Controller
 
 
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 

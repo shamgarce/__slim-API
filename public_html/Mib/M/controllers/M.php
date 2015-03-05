@@ -99,7 +99,7 @@ class M extends CI_Controller
         $rc['startscreen'] = empty($_POST['startscreen'])?0:1;
 
         $rc['title'] 	= trim($_POST['btiaoti']);
-        if($rc['titleonly'] !=1) $rc['content'] 	= $_POST['bnr'];
+        if($rc['titleonly'] !=1) $rc['content'] 	= addslashes($_POST['bnr']);
         if($rc['titleonly'] !=1) $rc['url'] 		= $_POST['burl'];
 
         if(empty($rc['title']))	{
@@ -256,7 +256,7 @@ class M extends CI_Controller
         $rc['preid'] 	= $_POST['bguishu'];
         $rc['title'] 	= trim($_POST['btiaoti']);
         $rc['titleonly'] = empty($_POST['titleonly'])?0:1;
-        if(!$rc['titleonly'])$rc['content'] 	= $_POST['bnr'];
+        if(!$rc['titleonly'])$rc['content'] 	= addslashes($_POST['bnr']);
         $rc['url'] 		= $_POST['burl'];
         if(empty($rc['title']))	{
             echo json_encode(array("code"=>"-200","msg"=>'标题必须填写'));
@@ -267,6 +267,7 @@ class M extends CI_Controller
         echo json_encode(array("code"=>"200","msg"=>'完成'));
         exit;
     }
+
     public function add($listid=0)
     {
 
