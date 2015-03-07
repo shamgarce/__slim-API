@@ -2,78 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8fdaf63a-f73f-4dde-aabf-fdc3c5cc9f28" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/Mib/v1/libraries/Sample.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public_html/Mib/v1/libraries/M/Enter.php" afterPath="$PROJECT_DIR$/public_html/Mib/v1/libraries/M/Enter.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public_html/Mib/v1/libraries/Set.php" afterPath="$PROJECT_DIR$/public_html/Mib/v1/libraries/Set.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public_html/Te.php" afterPath="$PROJECT_DIR$/public_html/Te.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public_html/Mib/Te/controllers/Te.php" afterPath="$PROJECT_DIR$/public_html/Mib/Te/controllers/Te.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public_html/A/Highcharts-3.0.10/examples/area-basic/index.htm" afterPath="$PROJECT_DIR$/public_html/A/Highcharts-3.0.10/examples/area-basic/index.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public_html/A/Highcharts-3.0.10/examples/area-inverted/index.htm" afterPath="$PROJECT_DIR$/public_html/A/Highcharts-3.0.10/examples/area-inverted/index.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public_html/A/Highcharts-3.0.10/examples/area-missing/index.htm" afterPath="$PROJECT_DIR$/public_html/A/Highcharts-3.0.10/examples/area-missing/index.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public_html/A/Highcharts-3.0.10/examples/area-negative/index.htm" afterPath="$PROJECT_DIR$/public_html/A/Highcharts-3.0.10/examples/area-negative/index.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public_html/A/Highcharts-3.0.10/examples/area-stacked/index.htm" afterPath="$PROJECT_DIR$/public_html/A/Highcharts-3.0.10/examples/area-stacked/index.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public_html/A/Highcharts-3.0.10/examples/area-stacked-percent/index.htm" afterPath="$PROJECT_DIR$/public_html/A/Highcharts-3.0.10/examples/area-stacked-percent/index.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public_html/A/Highcharts-3.0.10/examples/arearange/index.htm" afterPath="$PROJECT_DIR$/public_html/A/Highcharts-3.0.10/examples/arearange/index.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public_html/A/Highcharts-3.0.10/examples/arearange-line/index.htm" afterPath="$PROJECT_DIR$/public_html/A/Highcharts-3.0.10/examples/arearange-line/index.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public_html/A/Highcharts-3.0.10/examples/areaspline/index.htm" afterPath="$PROJECT_DIR$/public_html/A/Highcharts-3.0.10/examples/areaspline/index.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public_html/A/Highcharts-3.0.10/examples/bar-basic/index.htm" afterPath="$PROJECT_DIR$/public_html/A/Highcharts-3.0.10/examples/bar-basic/index.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public_html/A/Highcharts-3.0.10/examples/bar-negative-stack/index.htm" afterPath="$PROJECT_DIR$/public_html/A/Highcharts-3.0.10/examples/bar-negative-stack/index.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public_html/A/Highcharts-3.0.10/examples/bar-stacked/index.htm" afterPath="$PROJECT_DIR$/public_html/A/Highcharts-3.0.10/examples/bar-stacked/index.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public_html/A/Highcharts-3.0.10/examples/box-plot/index.htm" afterPath="$PROJECT_DIR$/public_html/A/Highcharts-3.0.10/examples/box-plot/index.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public_html/A/Highcharts-3.0.10/examples/bubble/index.htm" afterPath="$PROJECT_DIR$/public_html/A/Highcharts-3.0.10/examples/bubble/index.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public_html/A/Highcharts-3.0.10/examples/bubble-3d/index.htm" afterPath="$PROJECT_DIR$/public_html/A/Highcharts-3.0.10/examples/bubble-3d/index.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public_html/A/Highcharts-3.0.10/examples/column-basic/index.htm" afterPath="$PROJECT_DIR$/public_html/A/Highcharts-3.0.10/examples/column-basic/index.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public_html/A/Highcharts-3.0.10/examples/column-drilldown/index.htm" afterPath="$PROJECT_DIR$/public_html/A/Highcharts-3.0.10/examples/column-drilldown/index.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public_html/A/Highcharts-3.0.10/examples/column-negative/index.htm" afterPath="$PROJECT_DIR$/public_html/A/Highcharts-3.0.10/examples/column-negative/index.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public_html/A/Highcharts-3.0.10/examples/column-parsed/index.htm" afterPath="$PROJECT_DIR$/public_html/A/Highcharts-3.0.10/examples/column-parsed/index.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public_html/A/Highcharts-3.0.10/examples/column-rotated-labels/index.htm" afterPath="$PROJECT_DIR$/public_html/A/Highcharts-3.0.10/examples/column-rotated-labels/index.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public_html/A/Highcharts-3.0.10/examples/column-stacked/index.htm" afterPath="$PROJECT_DIR$/public_html/A/Highcharts-3.0.10/examples/column-stacked/index.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public_html/A/Highcharts-3.0.10/examples/column-stacked-and-grouped/index.htm" afterPath="$PROJECT_DIR$/public_html/A/Highcharts-3.0.10/examples/column-stacked-and-grouped/index.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public_html/A/Highcharts-3.0.10/examples/column-stacked-percent/index.htm" afterPath="$PROJECT_DIR$/public_html/A/Highcharts-3.0.10/examples/column-stacked-percent/index.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public_html/A/Highcharts-3.0.10/examples/columnrange/index.htm" afterPath="$PROJECT_DIR$/public_html/A/Highcharts-3.0.10/examples/columnrange/index.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public_html/A/Highcharts-3.0.10/examples/combo/index.htm" afterPath="$PROJECT_DIR$/public_html/A/Highcharts-3.0.10/examples/combo/index.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public_html/A/Highcharts-3.0.10/examples/combo-dual-axes/index.htm" afterPath="$PROJECT_DIR$/public_html/A/Highcharts-3.0.10/examples/combo-dual-axes/index.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public_html/A/Highcharts-3.0.10/examples/combo-multi-axes/index.htm" afterPath="$PROJECT_DIR$/public_html/A/Highcharts-3.0.10/examples/combo-multi-axes/index.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public_html/A/Highcharts-3.0.10/examples/combo-regression/index.htm" afterPath="$PROJECT_DIR$/public_html/A/Highcharts-3.0.10/examples/combo-regression/index.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public_html/A/Highcharts-3.0.10/examples/dynamic-click-to-add/index.htm" afterPath="$PROJECT_DIR$/public_html/A/Highcharts-3.0.10/examples/dynamic-click-to-add/index.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public_html/A/Highcharts-3.0.10/examples/dynamic-master-detail/index.htm" afterPath="$PROJECT_DIR$/public_html/A/Highcharts-3.0.10/examples/dynamic-master-detail/index.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public_html/A/Highcharts-3.0.10/examples/dynamic-update/index.htm" afterPath="$PROJECT_DIR$/public_html/A/Highcharts-3.0.10/examples/dynamic-update/index.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public_html/A/Highcharts-3.0.10/examples/error-bar/index.htm" afterPath="$PROJECT_DIR$/public_html/A/Highcharts-3.0.10/examples/error-bar/index.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public_html/A/Highcharts-3.0.10/examples/funnel/index.htm" afterPath="$PROJECT_DIR$/public_html/A/Highcharts-3.0.10/examples/funnel/index.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public_html/A/Highcharts-3.0.10/examples/gauge-clock/index.htm" afterPath="$PROJECT_DIR$/public_html/A/Highcharts-3.0.10/examples/gauge-clock/index.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public_html/A/Highcharts-3.0.10/examples/gauge-dual/index.htm" afterPath="$PROJECT_DIR$/public_html/A/Highcharts-3.0.10/examples/gauge-dual/index.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public_html/A/Highcharts-3.0.10/examples/gauge-speedometer/index.htm" afterPath="$PROJECT_DIR$/public_html/A/Highcharts-3.0.10/examples/gauge-speedometer/index.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public_html/A/Highcharts-3.0.10/examples/gauge-vu-meter/index.htm" afterPath="$PROJECT_DIR$/public_html/A/Highcharts-3.0.10/examples/gauge-vu-meter/index.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public_html/A/Highcharts-3.0.10/examples/line-ajax/index.htm" afterPath="$PROJECT_DIR$/public_html/A/Highcharts-3.0.10/examples/line-ajax/index.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public_html/A/Highcharts-3.0.10/examples/line-basic/index.htm" afterPath="$PROJECT_DIR$/public_html/A/Highcharts-3.0.10/examples/line-basic/index.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public_html/A/Highcharts-3.0.10/examples/line-labels/index.htm" afterPath="$PROJECT_DIR$/public_html/A/Highcharts-3.0.10/examples/line-labels/index.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public_html/A/Highcharts-3.0.10/examples/line-log-axis/index.htm" afterPath="$PROJECT_DIR$/public_html/A/Highcharts-3.0.10/examples/line-log-axis/index.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public_html/A/Highcharts-3.0.10/examples/line-time-series/index.htm" afterPath="$PROJECT_DIR$/public_html/A/Highcharts-3.0.10/examples/line-time-series/index.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public_html/A/Highcharts-3.0.10/examples/pie-basic/index.htm" afterPath="$PROJECT_DIR$/public_html/A/Highcharts-3.0.10/examples/pie-basic/index.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public_html/A/Highcharts-3.0.10/examples/pie-donut/index.htm" afterPath="$PROJECT_DIR$/public_html/A/Highcharts-3.0.10/examples/pie-donut/index.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public_html/A/Highcharts-3.0.10/examples/pie-drilldown/index.htm" afterPath="$PROJECT_DIR$/public_html/A/Highcharts-3.0.10/examples/pie-drilldown/index.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public_html/A/Highcharts-3.0.10/examples/pie-gradient/index.htm" afterPath="$PROJECT_DIR$/public_html/A/Highcharts-3.0.10/examples/pie-gradient/index.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public_html/A/Highcharts-3.0.10/examples/pie-legend/index.htm" afterPath="$PROJECT_DIR$/public_html/A/Highcharts-3.0.10/examples/pie-legend/index.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public_html/A/Highcharts-3.0.10/examples/pie-semi-circle/index.htm" afterPath="$PROJECT_DIR$/public_html/A/Highcharts-3.0.10/examples/pie-semi-circle/index.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public_html/A/Highcharts-3.0.10/examples/polar/index.htm" afterPath="$PROJECT_DIR$/public_html/A/Highcharts-3.0.10/examples/polar/index.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public_html/A/Highcharts-3.0.10/examples/polar-spider/index.htm" afterPath="$PROJECT_DIR$/public_html/A/Highcharts-3.0.10/examples/polar-spider/index.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public_html/A/Highcharts-3.0.10/examples/polar-wind-rose/index.htm" afterPath="$PROJECT_DIR$/public_html/A/Highcharts-3.0.10/examples/polar-wind-rose/index.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public_html/A/Highcharts-3.0.10/examples/pyramid/index.htm" afterPath="$PROJECT_DIR$/public_html/A/Highcharts-3.0.10/examples/pyramid/index.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public_html/A/Highcharts-3.0.10/examples/renderer/index.htm" afterPath="$PROJECT_DIR$/public_html/A/Highcharts-3.0.10/examples/renderer/index.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public_html/A/Highcharts-3.0.10/examples/scatter/index.htm" afterPath="$PROJECT_DIR$/public_html/A/Highcharts-3.0.10/examples/scatter/index.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public_html/A/Highcharts-3.0.10/examples/sparkline/index.htm" afterPath="$PROJECT_DIR$/public_html/A/Highcharts-3.0.10/examples/sparkline/index.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public_html/A/Highcharts-3.0.10/examples/spline-inverted/index.htm" afterPath="$PROJECT_DIR$/public_html/A/Highcharts-3.0.10/examples/spline-inverted/index.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public_html/A/Highcharts-3.0.10/examples/spline-irregular-time/index.htm" afterPath="$PROJECT_DIR$/public_html/A/Highcharts-3.0.10/examples/spline-irregular-time/index.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public_html/A/Highcharts-3.0.10/examples/spline-plot-bands/index.htm" afterPath="$PROJECT_DIR$/public_html/A/Highcharts-3.0.10/examples/spline-plot-bands/index.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public_html/A/Highcharts-3.0.10/examples/spline-symbols/index.htm" afterPath="$PROJECT_DIR$/public_html/A/Highcharts-3.0.10/examples/spline-symbols/index.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public_html/A/Highcharts-3.0.10/examples/waterfall/index.htm" afterPath="$PROJECT_DIR$/public_html/A/Highcharts-3.0.10/examples/waterfall/index.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public_html/Mib/v1/libraries/EasyCache/query_caches/sqlcache_config_file_1e9f4807034b5e56eb2db5c9a2c7b243.php" afterPath="$PROJECT_DIR$/public_html/Mib/v1/libraries/EasyCache/query_caches/sqlcache_config_file_1e9f4807034b5e56eb2db5c9a2c7b243.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public_html/Mib/M/libraries/EasyCache/query_caches/sqlcache_config_file_8a2b23b85ffbfb5009f5cec06aa6066d.php" afterPath="$PROJECT_DIR$/public_html/Mib/M/libraries/EasyCache/query_caches/sqlcache_config_file_8a2b23b85ffbfb5009f5cec06aa6066d.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public_html/Mib/Doc/libraries/EasyCache/query_caches/sqlcache_config_file_8fe2e84b63ad295048e9432a9b03fad9.php" afterPath="$PROJECT_DIR$/public_html/Mib/Doc/libraries/EasyCache/query_caches/sqlcache_config_file_8fe2e84b63ad295048e9432a9b03fad9.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public_html/Mib/v3/libraries/EasyCache/query_caches/sqlcache_config_file_a88f6b2ed762e0d58851785da11a911e.php" afterPath="$PROJECT_DIR$/public_html/Mib/v3/libraries/EasyCache/query_caches/sqlcache_config_file_a88f6b2ed762e0d58851785da11a911e.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public_html/Mib/Man/libraries/EasyCache/query_caches/sqlcache_config_file_aff75ec61dbd111277d1f56ed79f9837.php" afterPath="$PROJECT_DIR$/public_html/Mib/Man/libraries/EasyCache/query_caches/sqlcache_config_file_aff75ec61dbd111277d1f56ed79f9837.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public_html/Mib/Te/libraries/EasyCache/query_caches/sqlcache_config_file_e88054fef1ea4fe635ae3eac03b9cbfd.php" afterPath="$PROJECT_DIR$/public_html/Mib/Te/libraries/EasyCache/query_caches/sqlcache_config_file_e88054fef1ea4fe635ae3eac03b9cbfd.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public_html/Mib/v1/controllers/v1.php" afterPath="$PROJECT_DIR$/public_html/Mib/v1/controllers/v1.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/i.php.bak" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/Book1.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/Mib/Te/libraries/Mdb.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/Mib/Te/libraries/Sample.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/dt - 拷贝 [2].html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/dt - 拷贝.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/dt.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/dt2.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/i.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/Mib/Te/config/mongodb.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/sample.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="slim-API.iws" />
@@ -122,7 +61,7 @@
       <file leaf-file-name="Te.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/public_html/Mib/Te/controllers/Te.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.27100593" vertical-offset="1905" max-vertical-offset="6666">
+            <state vertical-scroll-proportion="0.27164888" vertical-offset="1905" max-vertical-offset="6666">
               <caret line="97" column="32" selection-start-line="97" selection-start-column="32" selection-end-line="97" selection-end-column="32" />
               <folding>
                 <marker date="1425719723652" expanded="true" signature="472:493" placeholder="select * fro..dy_user..." />
@@ -802,7 +741,13 @@
       <option name="project" value="LOCAL" />
       <updated>1425557601967</updated>
     </task>
-    <option name="localTasksCounter" value="42" />
+    <task id="LOCAL-00042" summary="Rejected commit: Default">
+      <created>1425720849812</created>
+      <option name="number" value="00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1425720849812</updated>
+    </task>
+    <option name="localTasksCounter" value="43" />
     <servers />
   </component>
   <component name="TodoView" selected-index="4">
@@ -827,15 +772,16 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.77691454" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32890365" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32963374" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25985092" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.31735888" sideWeight="0.49944505" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.31735888" sideWeight="0.49944505" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2630458" sideWeight="0.5005549" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32963374" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2874584" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
@@ -844,7 +790,6 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32963374" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.77691454" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -1248,7 +1193,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/public_html/Mib/Te/controllers/Te.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.27100593" vertical-offset="1905" max-vertical-offset="6666">
+        <state vertical-scroll-proportion="0.27164888" vertical-offset="1905" max-vertical-offset="6666">
           <caret line="97" column="32" selection-start-line="97" selection-start-column="32" selection-end-line="97" selection-end-column="32" />
           <folding>
             <marker date="1425719723652" expanded="true" signature="472:493" placeholder="select * fro..dy_user..." />

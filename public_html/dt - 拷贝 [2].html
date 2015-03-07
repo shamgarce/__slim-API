@@ -1,0 +1,183 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<title>Highcharts Example</title>
+
+		<script type="text/javascript" src="/A/jquery-1.8.2.min.js"></script>
+		<script type="text/javascript">
+        var chart;
+$(document).ready(function() {
+        Highcharts.setOptions({
+            global: {
+                useUTC: false
+            },
+			plotOptions: {  
+			spline: {  
+				lineWidth: 1.5,  
+				fillOpacity: 0.1,  
+				 marker: {  
+					enabled: false,  
+					states: {  
+						hover: {  
+							enabled: true,  
+							radius: 2  
+						}  
+					}  
+				},  
+				shadow: false  
+			}  
+		}, 
+        });
+		
+		var options = {
+            chart: {
+				renderTo: 'container',
+				
+                type: 'spline',
+                //type: 'line',
+                animation: Highcharts.svg, // don't animate in old IE
+                marginRight: 10,
+                events: {
+                  //  load: function() {
+    
+                  //      // set up the updating of the chart each second
+                   //     var series = this.series[0];
+                  //      setInterval(function() {
+                  //          var x = (new Date()).getTime(), // current time
+                  //              y = Math.random();
+                  //          series.addPoint([x, y], true, true);
+							//console.log(x);
+							//console.log(y);
+							
+                  //      }, 1000);
+                  //  }
+                }
+            },
+            title: {
+                text: '名称'
+            },
+            xAxis: {
+                type: 'datetime',
+                tickPixelInterval: 150
+            },
+            yAxis: {
+                title: {
+                    text: 'Value'
+                },
+                plotLines: [{
+                    value: 0,
+                    width: 1,
+                    color: '#808080'
+                }]
+            },
+            tooltip: {
+                formatter: function() {
+//返回标签
+//					console.log(9);
+                        return '<b>'+ this.series.name +'</b><br/>'+
+                        Highcharts.dateFormat('%Y-%m-%d %H:%M:%S', this.x) +'<br/>'+
+                        Highcharts.numberFormat(this.y, 2);
+                }
+            },
+            legend: {
+                enabled: false
+            },
+            exporting: {
+                enabled: false
+            },
+            series: [{
+                name: '采样时间',
+				//初始赋值
+                data: (function() {
+                    // generate an array of random data
+                    var data = [],
+                        time = (new Date()).getTime(),
+                        i;
+    
+                    for (i = -300; i <= 0; i++) {
+                        data.push({
+                            x: time + i * 1000,
+                            y: Math.random()
+                        });
+                    }
+                    return data;
+                })()
+            }]
+        }
+		
+		chart = new Highcharts.Chart(options);
+		
+		
+		
+		
+		
+		
+		
+	//	
+    //    $('#container').highcharts(option);
+		
+	//	console.log($('#container'));
+	
+	
+	
+function requestData() {
+     $.ajax({
+         url: '/Te/getdata',
+		 dataType: "json",  
+         success: function(point) {
+             var series = chart.series[0],
+                 shift = series.data.length > 20; // shift if the series is longer than 20
+				 // add the point
+				 chart.series[0].addPoint(point, true, shift);
+				 // call it again after one second
+				 setTimeout(requestData, 1000);    
+         },
+         cache: false
+     });
+}		
+		
+$('.dtkl').click(function(){
+//chart.series[0].addPoint([x,yy], true, true);
+//chart.series[0].addPoint(point, true, shift);
+	requestData();
+})
+		
+$('.mark').click(function(){
+	var x = (new Date()).getTime(); // current time
+	var yy = Math.random();
+
+console.log(x);		
+console.log('|');		
+console.log(yy);		
+chart.series[0].addPoint([x,yy], true, true);
+	
+})
+		
+
+		
+    });
+    
+
+
+
+
+
+
+		</script>
+	</head>
+	<body>
+<script src="/A/Highcharts-3.0.10/js/highcharts.js"></script>
+<script src="/A/Highcharts-3.0.10/js/modules/exporting.js"></script>
+
+<script>
+
+</script>
+                 
+                    
+<div id="container" style="min-width: 310px; height: 400px; margin: 0 auto"></div>
+<a class="dtkl">111111</a>
+<a class="mark">mark</a>
+
+	</body>
+</html>
