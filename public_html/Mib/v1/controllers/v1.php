@@ -26,7 +26,6 @@ class v1 extends CI_Controller
 			return new Db();
 		});
 		$this->S->singleton('Mdb', function ($c) {
-
 			return new Mdb();
 		});
 
@@ -91,14 +90,6 @@ class v1 extends CI_Controller
 		}
 
 		//===============================================================
-	}
-
-
-	//复用函数
-	public static function T(){
-		list($usec, $sec) = explode(" ",microtime());
-		$num = ((float)$usec + (float)$sec);
-		return $num;
 	}
 
 	public function getmap(){

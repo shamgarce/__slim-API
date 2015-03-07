@@ -3,11 +3,9 @@
 class Enter
 {
     private $tmp = array();
-    private $route = array();
-    private $db = null;
     private $params = array();
-    private $data = array();
     private $CI = null;
+    private $de = array();
 
     public function __construct($params)    //$params 是路由参数
     {
@@ -15,7 +13,7 @@ class Enter
         //$this->S = $this->CI->S;        //S引用   ['用起来更方便']
 
         $this->params = $params;
-        $this->tmp['timestamp_'] = $this->CI->T();
+        $this->tmp['timestamp_'] = $this->CI->S->T();
         //$sign //参数是签名
     }
 
@@ -157,143 +155,55 @@ class Enter
     public function uploading($sign = array())
     {
         $phaForm = $_POST['phaForm'];
-        $odd_id = $phaForm[0]['SampleFormNumber'];
-        //$mc['odd_id']               = $phaForm[0]['SampleFormNumber'];                  //抽样单号
-        $mc['checkDepartment']      = $phaForm[0]['checkDepartment'];                   //报验单位 d
-        $mc['labelCheck']           = $phaForm[0]['labelCheck'];                        //标签核对 b
-        $mc['packageCondition']     = $phaForm[0]['packageCondition'];                  //包装情况 h
-        $mc['pharmaceuticalInforamation'] =$phaForm[0]['pharmaceuticalInforamation'];   //药品信息 r
-        $mc['sampleCondition']      = $phaForm[0]['sampleCondition'];                   //抽样情况 c - []descr
-        $mc['sampleCondition']['simpleConditionList'] = $phaForm[0]['sampleCondition']['simpleConditionList'];        //[]descr list
-        $mc['sampleSpot']           = $phaForm[0]['sampleSpot'];                        //抽样现场 t
-        $mc['simpleDepartment']     = $phaForm[0]['simpleDepartment'];                  //抽样单位 e
-        $mc['simpleDepartment']['simpleDepartmentList'] = $phaForm[0]['simpleDepartment']['simpleDepartmentList'];        //[]descr list
-
-//========================================================
+        $phaForm = $phaForm[0];
+        $phaForm['SampleFormNumber'] = intval($phaForm['SampleFormNumber']);
+        $odd_id = $phaForm['SampleFormNumber'];
 
         //首先检查抽样id的合法性
         //============================================================
-        $mc['odd_id'] = intval($mc['odd_id']);
-        $sql = "select * from dy_typeoddid where odd_id = {$mc['odd_id']} and enable = 1";
-        $row = $this->CI->db->getrow($sql);
+        $cond['odd_id'] = $odd_id;
+
+        $row = $this->Mdb->findOne("dy_typeoddid",$cond);
 //        if(empty($row)){
 //            $this->J(-200, '无效的预定单号');
 //        }
 //        if($row['used'] ==1){
 //            $this->J(-200, '过期的单号');
 //        }
+
         //============================================================
+        $simpleConditionList    =$phaForm['sampleCondition']['simpleConditionList'];
+        $simpleDepartmentList   =$phaForm['simpleDepartment']['simpleDepartmentList'];
 
+        unset($phaForm['sampleCondition']['simpleConditionList']);
+        unset($phaForm['simpleDepartment']['simpleDepartmentList']);
 
-//print_r($mc['labelCheck']);       //标签核对
-        $rb['odd_id']                   = $odd_id;
-        $rb['b_Productname']            = $mc['labelCheck']['pharmaceuticalName'];
-        $rb['b_Specifications']         = $mc['labelCheck']['specification'];
-        $rb['b_Packagingspecifications']= $mc['labelCheck']['packageGuiGe'];
-        $rb['b_Theperiodofvalidity']    = $mc['labelCheck']['validityPeriod'];
-        $rb['b_Manufacturers']          = $mc['labelCheck']['productDepartment'];
-        $rb['b_Theregistrationcertificatenumber'] = $mc['labelCheck']['registerNumber'];
-        $rb['b_Thebatchnumber']         = $mc['labelCheck']['lotNumber'];
-        $rb['b_Number']                 = $mc['labelCheck']['number'];
-        $rb['b_Num']                    = $mc['labelCheck']['unitsNumber'];
-        $rb['b_Other']                  = $mc['labelCheck']['others'];
+        //print_r($simpleConditionList);        //list1
+        $phaForm['labelCheck']['lotNumber'] = ($phaForm['labelCheck']['lotNumber'] == 'true')?1:0;
+        $phaForm['labelCheck']['number'] = ($phaForm['labelCheck']['number'] == 'true')?1:0;
+        $phaForm['labelCheck']['packageGuiGe'] = ($phaForm['labelCheck']['packageGuiGe'] == 'true')?1:0;
+        $phaForm['labelCheck']['pharmaceuticalName'] = ($phaForm['labelCheck']['pharmaceuticalName'] == 'true')?1:0;
+        $phaForm['labelCheck']['productDepartment'] = ($phaForm['labelCheck']['productDepartment'] == 'true')?1:0;
+        $phaForm['labelCheck']['registerNumber'] = ($phaForm['labelCheck']['registerNumber'] == 'true')?1:0;
+        $phaForm['labelCheck']['specification'] = ($phaForm['labelCheck']['specification'] == 'true')?1:0;
+        $phaForm['labelCheck']['unitsNumber'] = ($phaForm['labelCheck']['unitsNumber'] == 'true')?1:0;
+        $phaForm['labelCheck']['validityPeriod'] = ($phaForm['labelCheck']['validityPeriod'] == 'true')?1:0;
+        $this->Mdb->insert('dy_SampleForm',$phaForm);        //主记录
 
-//print_r($mc['sampleSpot']);       //抽样现场  t
-        $rthcd['odd_id']  = $odd_id;
-        $rthcd['t_Inventorylocation']      = $mc['sampleSpot']['storePlace'];
-        $rthcd['t_Thelocationofsampling']  = $mc['sampleSpot']['simplePlace'];
-        $rthcd['t_Storagetemperature']     = $mc['sampleSpot']['storeTemperature'];
-        $rthcd['t_Storagehumidity']        = $mc['sampleSpot']['storeHnmidity'];
+        //
+        foreach($simpleConditionList as $key=>$value){
+            unset($me);
+            $me['odd_id'] = $odd_id;
+            $me = array_merge($me,$value);
+            $this->Mdb->insert('dy_simpleCondition',$me);
+        }
 
-
-//print_r($mc['packageCondition']); //包装情况
-        $rthcd['h_Theouterpacking']            = $mc['packageCondition']['outPackage'];
-        $rthcd['h_Sealing']                    = $mc['packageCondition']['sealing'];
-        $rthcd['h_Outsourcingmaterial']        = $mc['packageCondition']['outPackageMaterial'];
-        $rthcd['h_Theinnercladdingmaterial']   = $mc['packageCondition']['inPackageMaterial'];
-
-
-
-//print_r($mc['sampleCondition']);       //抽样情况 c - []descr
-        /*
-                //simpleConditionList;//存储表格数据的集合
-                //xuhao;//序号
-                //xianghao;//箱号
-                //one;//第1份
-                //two;//第2份
-                //three;//第3份
-        */
-        $rthcd['c_Quantitydeclared']       = $mc['sampleCondition']['checkNumber'];
-        $rthcd['c_Samplingnumber']         = $mc['sampleCondition']['simpleUnitsNumber'];
-        $rthcd['c_Thesamplingnumber']      = $mc['sampleCondition']['simpleNumber'];
-        $rthcd['c_Sampleunit']             = $mc['sampleCondition']['simpleUnit'];
-        $rthcd['c_samplepackagematerial']  = $mc['sampleCondition']['simpleIncludeMaterial'];
-
-//print_r($mc['checkDepartment']);  //报验单位
-        $rthcd['d_Inspectionunit']         = $mc['checkDepartment']['checkDepartment'];
-        $rthcd['d_Inspectionunithandling'] = $mc['checkDepartment']['checkDepartmentHandler'];
-        $rthcd['d_Inspectionunittelephone'] = $mc['checkDepartment']['checkDepartmentPhone'];
-
-
-//print_r($mc['pharmaceuticalInforamation']);       //药品信息
-        $rre['r_Registrationnumber']     = $mc['pharmaceuticalInforamation']['registerNumber'];
-        $rre['r_Contractnumber']         = $mc['pharmaceuticalInforamation']['compactNumber'];
-        $rre['r_Inspectionnoticeno']     = $mc['pharmaceuticalInforamation']['checkInformNumber'];
-        $rre['r_Chinesename']            = $mc['pharmaceuticalInforamation']['chineseName'];
-        $rre['r_Englishname']            = $mc['pharmaceuticalInforamation']['englishName'];
-
-        $rre['r_Nameofcommodity']        = $mc['pharmaceuticalInforamation']['pharmaceuticalName'];
-        $rre['r_Dosageforms']            = $mc['pharmaceuticalInforamation']['doseModel'];
-        $rre['r_Specifications']         = $mc['pharmaceuticalInforamation']['specification'];
-        $rre['r_Periodofvalidity']       = $mc['pharmaceuticalInforamation']['validityPeriod'];
-        $rre['r_Thebatchnumber']         = $mc['pharmaceuticalInforamation']['lotNumber'];
-
-        $rre['r_Storageconditions']      = $mc['pharmaceuticalInforamation']['storeConditionl'];
-        $rre['r_Placeoforigin']          = $mc['pharmaceuticalInforamation']['productRegion'];
-        $rre['r_Theproductionunit']      = $mc['pharmaceuticalInforamation']['productDepartment'];
-
-
-
-
-//print_r($mc['simpleDepartment']);       //抽样单位 e
-/*
-    simpleDepartmentList;//存储表格数据的集合
-        xuhao;//序号
-        jingshouren;//经手人
-        mima;//密码
-* */
-        $rre['odd_id']  = $odd_id;
-        //$rre['puuid']   = '1233';
-        $rre['putime']  = time();
-        //$rre['st']      = 1;
-        $rre['enable']  = 1;
-        //-----------------------------------------
-        $rre['e_Samplingunit']           = $mc['simpleDepartment']['simpleDepartment'];
-        $rre['e_Samplingunittelephone']  = $mc['simpleDepartment']['simpleDepartmentPhone'];
-        $rre['e_Samplingdate']           = $mc['simpleDepartment']['simpleDepartmentHandler'];
-        $rre['e_Samplingunithandling']   = $mc['simpleDepartment']['simpleDate'];
-
-$rrelist    = $mc['simpleDepartment']['simpleDepartmentList'];
-$rthcdlist  = $mc['sampleCondition']['simpleConditionList'];
-
-        //添加数据
-        /*
-        dy_inspectionunit [报验单位]    [字典]
-        dy_samplingunit  [抽样单位]     [字典]
-        */
-        //dy_typeoddid              - 状态变更
-        //print_r($rre);            dy_registration
-        //print_r($rthcd);          dy_registration_more
-        //print_r($rb)              dy_lablecheck
-
-        //print_r($rrelist)         ===>>>dy_registration_descr     //抽样情况扩展
-        //print_r($rthcdlist)       ==>>> 缺少                      //抽样单位扩展
-
-
-
-
-
-
+        foreach($simpleDepartmentList as $key=>$value){
+            unset($me);
+            $me['odd_id'] = $odd_id;
+            $me = array_merge($me,$value);
+            $this->Mdb->insert('dy_simpleDepartment',$me);
+        }
 
         $res['nam1e'] = 'nam2e';
         $this->data($res);
@@ -806,16 +716,6 @@ $rthcdlist  = $mc['sampleCondition']['simpleConditionList'];
 
     /**********************************************************************
     /**********************************************************************
-    /**********************************************************************
-    /**********************************************************************
-    /**********************************************************************
-    /**********************************************************************
-    /**********************************************************************
-    /**********************************************************************
-    /**********************************************************************
-    /**********************************************************************
-    /**********************************************************************
-    /**********************************************************************
      *
      * */
     private function data($data)
@@ -831,20 +731,18 @@ $rthcdlist  = $mc['sampleCondition']['simpleConditionList'];
     {
         $this->data['msg'] = $msg;
     }
-
     private function code($code = '')
     {
         $code = intval($code);
         $this->data['code'] = $code;
     }
-
     public function D($code = 0, $data)
     {
         $code = intval($code);
         if (!empty($code)) $this->data['code'] = $code;
         $this->data['data'] = $data;
         $this->data['timestamp_'] = $this->tmp['timestamp_'];
-        $this->data['timestamp'] = $this->CI->T();
+        $this->data['timestamp'] = $this->S->T();
         $this->data['debugpath'] = 'Enter';
         echo json_encode($this->data);
         exit;
@@ -853,12 +751,14 @@ $rthcdlist  = $mc['sampleCondition']['simpleConditionList'];
     public function J($code=0,$msg='')
     {
         $code = intval($code);
-        if(!empty($code))  $this->data['code'] = $code;
-        if(!empty($msg))   $this->data['msg']  = $msg;
-        $this->data['timestamp_'] = $this->tmp['timestamp_'];
-        $this->data['timestamp']  = $this->CI->T();
-        $this->data['debugpath']  = 'Enter';
-        echo json_encode($this->data);
+        if(!empty($code))  $this->de['code'] = $code;
+        if(!empty($msg))   $this->de['msg']  = $msg;
+        $this->de['timestamp_'] = $this->tmp['timestamp_'];
+        $this->de['timestamp']  = $this->CI->S->T();
+        $this->de['debugpath']  = 'Enter';
+        //print_r($this->de);
+
+        echo json_encode($this->de);
         exit;
     }
 
