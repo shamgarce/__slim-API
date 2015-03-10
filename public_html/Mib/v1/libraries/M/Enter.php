@@ -110,7 +110,6 @@ class Enter
         $se['user_login'] = $username;
         $row= $this->Mdb->findOne("dy_user", $se);
 
-
         if(empty($row)){
             $this->J(-200, '该用户不存在');
         }
@@ -414,9 +413,11 @@ class Enter
         $code = intval($code);
         if (!empty($code)) $this->de['code'] = $code;
         $this->de['data'] = $data;
-        $this->de['timestamp_'] = $this->tmp['timestamp_'];
-        $this->de['timestamp'] = Set::T();
-        $this->de['debugpath'] = 'Enter';
+
+        //$this->de['timestamp_'] = $this->tmp['timestamp_'];
+        //$this->de['timestamp'] = Set::T();
+        $this->de['ExecuteTime'] = Set::T() - $this->tmp['timestamp_'];
+        $this->de['ExecuteModel'] = 'Enter';
         echo json_encode($this->de);
         exit;
     }
@@ -426,9 +427,11 @@ class Enter
         $code = intval($code);
         if(!empty($code))  $this->de['code'] = $code;
         if(!empty($msg))   $this->de['msg']  = $msg;
-        $this->de['timestamp_'] = $this->tmp['timestamp_'];
-        $this->de['timestamp']  = Set::T();
-        $this->de['debugpath']  = 'Enter';
+
+        //$this->de['timestamp_'] = $this->tmp['timestamp_'];
+        //$this->de['timestamp']  = Set::T();
+        $this->de['ExecuteTime'] = Set::T() - $this->tmp['timestamp_'];
+        $this->de['ExecuteModel']  = 'Enter';
         //print_r($this->de);
         echo json_encode($this->de);
         exit;
