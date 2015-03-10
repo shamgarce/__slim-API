@@ -54,7 +54,7 @@ class Mdb {
         {
             show_error('The configuration file mongodb.php does not exist.');
         }
-        include($file_path);
+        include_once($file_path);
         //==================================================
 //      $mongodb_set['default']['host']		= '127.0.0.1';
 //      $mongodb_set['default']['port']		= '27017';

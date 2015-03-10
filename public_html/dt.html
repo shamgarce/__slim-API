@@ -9,12 +9,7 @@
         var chart;
 $(document).ready(function() {
 	
-var libd = $.ajax({
-	url : "/Te/getdata/300",
-	dataType: "json",  
-	async:false,
-	cache:false
-}).responseJSON;	
+
 	
 	
         Highcharts.setOptions({
@@ -64,7 +59,7 @@ var libd = $.ajax({
                 }
             },
             title: {
-                text: '名称'
+                text: '颈动脉采样信号'
             },
             xAxis: {
                 type: 'datetime',
@@ -72,7 +67,7 @@ var libd = $.ajax({
             },
             yAxis: {
                 title: {
-                    text: 'Value'
+                    text: '波形'
                 },
                 plotLines: [{
                     value: 0,
@@ -101,14 +96,9 @@ var libd = $.ajax({
                 data: (function() {
                     // generate an array of random data
 					//console.log($.ajax(options).responseJSON);
-					
-
-		
                    var data = [],
                         time = (new Date()).getTime(),
                         i;
-    				
-					
                     for (i = -300; i <= 0; i++) {
 						//var yyy = libd.pop();
 						//console.log(yyy)	;
@@ -123,15 +113,10 @@ var libd = $.ajax({
                 })()
             }]
         }
-		
 		chart = new Highcharts.Chart(options);
-		
-	//	
-    //    $('#container').highcharts(option);
-		
-	//	console.log($('#container'));
-	
-	
+
+//$('#container').highcharts(option);
+//console.log($('#container'));
 	
 function requestData() {
      $.ajax({
@@ -149,32 +134,25 @@ function requestData() {
      });
 }		
 		
-$('.dtkl').click(function(){
+
+
 //chart.series[0].addPoint([x,yy], true, true);
 //chart.series[0].addPoint(point, true, shift);
+$('.dtkl').click(function(){
 	requestData();
 })
 		
+
 $('.mark').click(function(){
 	var x = (new Date()).getTime(); // current time
 	var yy = Math.random();
-
-console.log(x);		
-console.log('|');		
-console.log(yy);		
-chart.series[0].addPoint([x,yy], true, true);
-	
+	//console.log(x);		
+	//console.log('|');		
+	//console.log(yy);		
+	//chart.series[0].addPoint([x,yy], true, true);
 })
 		
-
-		
     });
-    
-
-
-
-
-
 
 		</script>
 	</head>
@@ -188,8 +166,9 @@ chart.series[0].addPoint([x,yy], true, true);
                  
                     
 <div id="container" style="min-width: 310px; height: 400px; margin: 0 auto"></div>
-<a class="dtkl">111111</a>
+<a class="dtkl">sample1</a>
 <a class="mark">mark</a>
+<a class="clear">clear</a>
 
 	</body>
 </html>

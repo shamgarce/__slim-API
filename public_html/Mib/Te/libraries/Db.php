@@ -60,7 +60,7 @@ class Db{
 
     public function __construct($chr = 'default'){
         $file_path = FCPATH.APPPATH.'config/mysql.php';
-        include($file_path);
+        include_once($file_path);
 
         $this->base = dirname(__FILE__)."\\";
         $this->root_path = $this->base.'/'.$this->root_path;

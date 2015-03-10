@@ -10,21 +10,6 @@ class Sample{
         $this->CI =& get_instance();
     }
 
-
-
-//return array(
-//"user_login"    => "",          //用户名
-//"user_password" => "",          //密码
-//"user_name"     => "",
-//"user_tel"      => "",
-//"device_id"     => "",
-//"open_id"       => "",
-//"f_logintime"   => "",
-//"f_loginip"     => "",
-//"f_regtime"     => 0,          //注册时间
-//"enable"        => 1            //是否有效
-//);
-
     //user add
     public function user_add($mc){
         if(empty($mc['user_login']) || empty($mc['user_password'])) return false;

@@ -1,5 +1,7 @@
 <?php
 /**
+ *
+ * $S = new Set();      //集成众多的单例模式
  */
 class Set implements ArrayAccess, Countable, IteratorAggregate
 {
@@ -7,7 +9,7 @@ class Set implements ArrayAccess, Countable, IteratorAggregate
      * Key-value array of arbitrary data
      * @var array
      */
-    private $data = array();
+    public $data = array();
 
     /**
      * Constructor
@@ -16,13 +18,24 @@ class Set implements ArrayAccess, Countable, IteratorAggregate
     public function __construct($items = array())
     {
         $this->replace($items);
-    }
+        $this->singleton('db', function ($c) {
+            return new Db();
+        });
+        $this->singleton('mdb', function ($c) {
+            return new Mdb();
+        });
+        $this->singleton('apc', function ($c) {
+            return new Apc();
+        });
+        $this->singleton('mcache', function ($c) {
+            define('MEMCACHE_HOST', '127.0.0.1');
+            define('MEMCACHE_PORT', 11211);
+            define('MEMCACHE_EXPIRATION', 0);
+            define('MEMCACHE_PREFIX', 'licai');
+            define('MEMCACHE_COMPRESSION', FALSE);
+            return new Mcache();
+        });
 
-    //复用函数
-    public function T(){
-        list($usec, $sec) = explode(" ",microtime());
-        $num = ((float)$usec + (float)$sec);
-        return $num;
     }
 
     /**
@@ -218,4 +231,220 @@ class Set implements ArrayAccess, Countable, IteratorAggregate
             return $callable;
         };
     }
+
+    //--------------------------------------------------------------------------------
+
+
+    //函数群
+
+    /*
+    +----------------------------------------------------------
+    * 获得时间戳
+    +----------------------------------------------------------
+    * 参数:无
+    +----------------------------------------------------------
+    */
+    public static function T(){
+        list($usec, $sec) = explode(" ",microtime());
+        $num = ((float)$usec + (float)$sec);
+        return $num;
+    }
+
+    public static function U($str){
+        if (empty($str)) return array();
+        $arr = unserialize($str);
+        $arr = !empty($arr)?$arr:array();
+        return $arr;
+    }
+
+    /*
+    +----------------------------------------------------------
+    * 字符转化为数组
+    +----------------------------------------------------------
+    * 参数:$str 需要转化的字符串 $flit 是否排重 $bl 分割字符
+    +----------------------------------------------------------
+    */
+    public static function getarr($str,$flit='0',$bl = "\r\n"){
+        $arr = array();
+        if(empty($str)) return $arr;
+        //================================================
+        $arr_ = explode($bl,$str);
+        if($flit) $arr_ = array_unique($arr_);
+        foreach($arr_ as $key=>$value){
+            if(!empty($value)) $arr[] = trim($value);
+        }
+        return $arr;
+    }
+
+    /*
+    +----------------------------------------------------------
+    * 数组转化为数组
+    +----------------------------------------------------------
+    * 参数:$arr 需要转化的数组 $flit 是否排重 $bl 分割字符
+    +----------------------------------------------------------
+    */
+    public static function getstr($arr,$flit='0',$bl = "\r\n"){
+        if(empty($arr)) return '';
+        //================================================
+        foreach($arr as $key=>$value){
+            if(!empty($value)) $arr_[] = trim($value);
+        }
+        if(!empty($arr_)){
+            if($flit) $arr_ = array_unique($arr_);
+            $str = implode($bl,$arr_);
+        }else{
+            $str = '';
+        }
+        return $str;
+    }
+
+    /**
+    +----------------------------------------------------------
+     * // 保存文件
+    +----------------------------------------------------------
+     * 参数:filename 路径文件名 / text:内容
+    +----------------------------------------------------------
+     */
+    public static function Fs($fileName, $text) {
+        if( ! $fileName ) return false;
+        if( $fp = @fopen( $fileName, "wb" ) ) {
+            if( @fwrite( $fp, $text ) ) {
+                fclose($fp);
+                return true;
+            }else {
+                fclose($fp);
+                return false;
+            }
+        }
+        return false;
+    }
+
+    /**
+    +----------------------------------------------------------
+     * // 读取文件
+    +----------------------------------------------------------
+     * 参数:filename 路径文件名
+    +----------------------------------------------------------
+     */
+    public static function Fr($filename){
+        if( is_file( $filename ) ){
+            $cn = file_get_contents( $filename );
+            return $cn;
+        }
+    }
+
+
+    /**
+    +----------------------------------------------------------
+     * // 魔术转义
+    +----------------------------------------------------------
+     * 参数:string 需要转义的内容   反函数 stripslashes
+    +----------------------------------------------------------
+     */
+    public static function saddslashes($string) {
+        if (is_array($string)) {
+            foreach ($string as $key => $val) {
+                $string[$key] = saddslashes($val);
+            }
+        } else {
+            $string = addslashes($string);
+        }
+        return $string;
+    }
+
+    /**
+    +----------------------------------------------------------
+     * // html实体转义
+    +----------------------------------------------------------
+     * 参数:string 需要转义的内容   反函数 htmldecode
+    +----------------------------------------------------------
+     */
+    public static function shtmlspecialchars($string) {
+        if (is_array($string)) {
+            foreach ($string as $key => $val) {
+                $string[$key] = shtmlspecialchars($val);
+            }
+        } else {
+            $string = htmlspecialchars(strip_sql($string), ENT_QUOTES);
+        }
+        return $string;
+    }
+
+
+    /**
+    +----------------------------------------------------------
+     * // 内容截取
+    +----------------------------------------------------------
+     * 参数
+    +----------------------------------------------------------
+     */
+    public static function cut($startstr="",$endstr="",$str){
+        if(empty($startstr) || empty($endstr))return false;
+        $outstr="";
+        if(!empty($str) && strpos($str,$startstr)!==false && strpos($str,$endstr)!==false){
+            $startpos	= strpos($str,$startstr);
+            $str		= substr($str,($startpos+strlen($startstr)),strlen($str));
+            $endpos		= strpos($str,$endstr);
+            $outstr		= substr($str,0,$endpos);
+        }
+        return trim($outstr);
+    }
+
+
+
+    /**
+    +----------------------------------------------------------
+     * //判断字符串是否存在
+    +----------------------------------------------------------
+     */
+    public static function strexists($haystack, $needle) {
+        return !(strpos($haystack, $needle) === FALSE);
+    }
+    //--------------------------------------------------------------------------------
+
+
+
+    //函数缓存写入和读取,先不要用
+//    //=============================================================
+//    //读取缓存
+//    function Cr($file, $dir = '') {
+//        $cachefile = SET_CACHE_PATH . 'data/' . ($dir ? $dir . '/' : '') . $file . '.ca';
+//        if (!is_file($cachefile)) {
+//            return array();
+//        }
+//        return include $cachefile;
+//    }
+//
+//    //写入缓存
+//    function Cw($file, $array, $dir = '') {
+//        //------------------------------------------
+//        //不存在->创建
+//        $_path = SET_CACHE_PATH .'data/'.($dir ? $dir . '/' : '');
+//        !is_dir($_path) && mkdir($_path, 0777);
+//        //------------------------------------------
+//        $cachefile = $_path . $file . '.ca';
+//        $array = "<?php\nreturn " . var_export($array, true) . ";\n? >";
+//        $strlen = @file_put_contents($cachefile, $array);
+//        @chmod($cachefile, 0777);
+//        return $strlen;
+//    }
+//
+//    //删除缓存
+//    function Cd($file, $dir = '') {
+//        $cachefile = RHCACHE .'data/'. ($dir ? $dir . '/' : '') . $file;
+//        return @unlink($cachefile);
+//    }
+
+
+
+
+
+
+
+
+
+
+
+
+
 }
