@@ -49,7 +49,10 @@ class Logmon{
         !empty($_GET) && $loginfo['_GET']   = $_GET;            //log
         $loginfo['_POST'] = $_POST;        //log
         $loginfo['time']['timeen']  = Set::T();      //log
+        //改变数据库
+        $this->CI->S->mdb->selectDb("v1");
         $this->CI->S->mdb->insert('dy_log',$loginfo);
+        $this->CI->S->mdb->selectDb("v3");
         return true;
     }
 

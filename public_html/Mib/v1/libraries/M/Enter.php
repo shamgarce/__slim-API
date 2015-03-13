@@ -172,22 +172,20 @@ class Enter
         !empty($sign) && $this->log['sign']    = $sign;        //方法中截取
         $this->log['mothod']    = __METHOD__;        //方法中截取
 
-        $phaForm = $_POST['phaForm']['pharmaceuticalForm'];
-        $phaForm = json_decode($phaForm);
+        $phaForm = $_POST['phaForm'];
+        $phaForm = json_decode($phaForm,true);
+//        $phaForm = Set::ob2ar($phaForm);
+        $phaForm = $phaForm['pharmaceuticalForm'];
 
         $phaForm['SampleFormNumber'] = (int)($phaForm['SampleFormNumber']);
-
-       // print_r($phaForm);
-
         $odd_id = $phaForm['SampleFormNumber'];
-
         //首先检查抽样id的合法性
         //============================================================
         $cond['odd_id'] = $odd_id;
         $this->get($phaForm);
         $row = $this->mdb->findOne("dy_typeoddid",$cond);
         if(empty($row)){
-            $this->J(-201, '无效的预定单号');
+            $this->J(-201, '无效的预定单号'.$odd_id);
         }
 
         if($row['used'] ==0){

@@ -21,6 +21,10 @@ class Set implements ArrayAccess, Countable, IteratorAggregate
         $this->singleton('db', function ($c) {
             return new Db();
         });
+        $this->singleton('dbv3', function ($c) {
+            return new Dbv3();
+        });
+
         $this->singleton('mdb', function ($c) {
             return new Mdb();
         });

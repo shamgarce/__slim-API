@@ -9,7 +9,7 @@
 
 $mongodb_set['default']['host']		= '127.0.0.1';
 $mongodb_set['default']['port']		= '27017';
-$mongodb_set['default']['database']	= 'v1';
+$mongodb_set['default']['database']	= 'v3';
 
 //$mysql_set['default']['charset']    = 'utf8';
 //$mysql_set['default']['pconnect']   = '0';

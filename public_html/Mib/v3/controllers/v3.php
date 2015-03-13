@@ -63,20 +63,19 @@ class v3 extends CI_Controller
 				echo json_encode($r);
 				exit;
 			}else{
+
 				$sp 	= explode('/',$rs['ys']);
 				$this->load->library('M/'.ucwords($sp[0]),$params);
-				$this->$sp[0]->$sp[1]($this->sign);							//把头部签名文件传递进去
+				//var_dump($this);
+				$model = strtolower($sp[0]);
+				$this->$model->$sp[1]($this->sign);							//把头部签名文件传递进去
 			}
 		}else{
 			//没找到数据记录//关闭
 			$this->jout(200,'designing.....');
 		}
-
 		//===============================================================
 	}
-
-
-
 
 	public function getmap(){
 		$sql = "select * from userapi where enable = 1 AND  v = 'V3'";
@@ -105,17 +104,10 @@ class v3 extends CI_Controller
 		$this->sign['openid'] 		= 'sd568';
 	}
 
-
-
-
-
-
-
 	//=========================================================
 	//数据完整性 和安全签名
 	public function safe_sign()	//安全签名
 	{
-
 //		//=========================================================
 //		//数据验证计算	http://m.so/v1/adduser/?timestamp=1422963025&deviceid=10052424&signature=2014087451d28443c11e84107dfaae1f
 //		(md5("{$sign['salt']}_{$sign['timestamp']}_{$sign['deviceid']}") == $_GET['signature']) && $sign['sign'] = true;
@@ -130,26 +122,8 @@ class v3 extends CI_Controller
 	//匹配是否正确
 	public function uricheck()
 	{
-
-
-		//uri 到 数据库
-
 		//检查是否调试模式,调试模式直接转r/s
 		//是否关闭,关闭直接输出关闭
-		$this->code = 300;
-		return true;
-
-
-		//uri 到数据库 能否找到正确的映射
-		$this->code = 300;
-		return true;
-
-		//映射 到文件
-		//映射 到文件,能否找到正确匹配
-		$this->code = 300;
-		return true;
-
-
 		$this->code = 300;
 		return true;
 	}

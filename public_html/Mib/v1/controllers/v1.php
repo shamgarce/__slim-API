@@ -69,7 +69,8 @@ class v1 extends CI_Controller
 				$sp 	= explode('/',$rs['ys']);
 				//print_r($sp);
 				$this->load->library('M/'.ucwords($sp[0]),$params);
-				$this->$sp[0]->$sp[1]($this->sign);							//把头部签名文件传递进去
+				$model = strtolower($sp[0]);
+				$this->$model->$sp[1]($this->sign);							//把头部签名文件传递进去
 			}
 		}else{
 			//没找到数据记录//关闭
@@ -106,19 +107,6 @@ class v1 extends CI_Controller
 		$this->sign['openid'] 		= 'sd568';
 	}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 	//=========================================================
 	//数据完整性 和安全签名
 	public function safe_sign()	//安全签名
@@ -138,26 +126,8 @@ class v1 extends CI_Controller
 	//匹配是否正确
 	public function uricheck()
 	{
-
-
-		//uri 到 数据库
-
 		//检查是否调试模式,调试模式直接转r/s
 		//是否关闭,关闭直接输出关闭
-		$this->code = 300;
-		return true;
-
-
-		//uri 到数据库 能否找到正确的映射
-		$this->code = 300;
-		return true;
-
-		//映射 到文件
-		//映射 到文件,能否找到正确匹配
-		$this->code = 300;
-		return true;
-
-
 		$this->code = 300;
 		return true;
 	}

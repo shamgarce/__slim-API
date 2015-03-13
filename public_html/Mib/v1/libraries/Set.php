@@ -405,6 +405,17 @@ class Set implements ArrayAccess, Countable, IteratorAggregate
     }
     //--------------------------------------------------------------------------------
 
+    public static function ob2ar($obj) {
+        if(is_object($obj)) {
+            $obj = (array)$obj;
+            $obj = self::ob2ar($obj);
+        } elseif(is_array($obj)) {
+            foreach($obj as $key => $value) {
+                $obj[$key] = self::ob2ar($value);
+            }
+        }
+        return $obj;
+    }
 
 
     //函数缓存写入和读取,先不要用
