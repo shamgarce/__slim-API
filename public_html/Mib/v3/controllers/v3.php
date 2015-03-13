@@ -97,11 +97,9 @@ class v3 extends CI_Controller
 		$this->sign['timestamp'] 	= $this->input->get('timestamp',true);	//$_GET['timestamp'];	//时间
 		$this->sign['deviceid'] 	= $this->input->get('deviceid',true);	//$_GET['deviceid'];	//设备id
 		$this->sign['openid'] 		= $this->input->get('openid',true);		//$_GET['openid'];		//设备id
-		//$this->sign['actionid'] 	= $this->input->get('actionid',true);	//$_GET['actionid'];	//动作id用来验证是否重复提交	//暂时不处理
 		$this->sign['signature'] 	= $this->input->get('signature',true);	//$_GET['signature'];	//计算出来的签名比对 2014087451d28443c11e84107dfaae1f
 		$this->sign['user'] 		= $this->input->get('user',true);		//$_GET['ush'];			//ush //获取得到 再次获取则会更换
 		$this->sign['sign'] 		= false;
-		$this->sign['openid'] 		= 'sd568';
 	}
 
 	//=========================================================
@@ -113,7 +111,6 @@ class v3 extends CI_Controller
 //		(md5("{$sign['salt']}_{$sign['timestamp']}_{$sign['deviceid']}") == $_GET['signature']) && $sign['sign'] = true;
 //		($sign['timestamp']>time()+100*60 || $sign['timestamp'] < time()-100*60) 				&& $sign['sign'] = false;			//时间判断
 //		$sign['sign'] = false;
-
 		return true;
 	}
 
