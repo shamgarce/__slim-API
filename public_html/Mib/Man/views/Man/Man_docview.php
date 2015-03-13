@@ -2,7 +2,7 @@
 <tr>
   <td>接口名称：<?php echo $row['name']?>
     <input class="rowv" type="hidden" id="textfield" value="<?php echo $row['name']?>" />
-    </td>
+    &lt;<a rel="<?php echo $row['ys']?>" class="_getlog">日志</a>&gt;</td>
 </tr>
 <tr>
 	<td>接口地址：
@@ -39,6 +39,17 @@
 
 
 <script type="text/dialog">
+
+	$('._getlog').click(function(){
+		 $.CK({
+                rel:'viewdoc',
+                url:'/Man/Docviewlog/?re='+$(this).attr('rel'),
+                _this:$(this),
+                buttonok	: false,
+                buttoncancel: true,
+                });
+	});
+
 	$('.submitviewtest').click(function(){
 
 		var co = $('.rowrequest').val();

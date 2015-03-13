@@ -1,7 +1,7 @@
 $(document).ready(function(e) {	 
 	var debugget = function(url){
 		options = {
-			url: '/a/debug/LB/'+url+'.htm',
+			url: '/A/debug/LB/'+url+'.htm',
 			dataType: "html",
 			async:false,
 			cache:true

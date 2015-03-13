@@ -9,62 +9,33 @@ class v3 extends CI_Controller
 	 */
 	private	$code = 0;
 	private	$msg = '';
-
 	private 	$salt	= 'ccab8f440ff0825e';
-
 	private 	$sign	= array();			//所有的输入数据存储
 	private 	$map	= array();			//数据库解析到的所有匹配
-
 	private 	$debug = false;
-
-
 	private	$mothod = '';
 	private	$params = array();
 	public 		$db 	= NULL;
-
+	public 		$S 	= NULL;
 
 	function __construct()
 	{
 		parent::__construct();
-
+		$this->S = new Set();		//里面包含系列的单例对象
 		//=========================================================
-		$this->sign['salt'] 		= $this->salt;				//
-		$this->sign['timestamp'] 	= $this->input->get('timestamp',true);	//$_GET['timestamp'];	//时间
-		$this->sign['deviceid'] 	= $this->input->get('deviceid',true);	//$_GET['deviceid'];	//设备id
-		$this->sign['openid'] 		= $this->input->get('openid',true);		//$_GET['openid'];		//设备id
-		//$this->sign['actionid'] 	= $this->input->get('actionid',true);	//$_GET['actionid'];	//动作id用来验证是否重复提交	//暂时不处理
-		$this->sign['signature'] 	= $this->input->get('signature',true);	//$_GET['signature'];	//计算出来的签名比对 2014087451d28443c11e84107dfaae1f
-		$this->sign['user'] 		= $this->input->get('user',true);		//$_GET['ush'];			//ush //获取得到 再次获取则会更换
-		$this->sign['sign'] 		= false;
-		//=========================================================
-		$this->load->library('Db');
-
-		//=========================================================
-		//匹配模式 ->$this->map
-		$sql = "select * from userapi where enable = 1 AND  v = 'v3'";
-		$rc = $this->db->getall($sql);
-		foreach($rc as $key=>$value){
-			$ar 	= explode('/',$value['api']);
-			$___m 	= array_shift($ar);
-			$___aj	= array_shift($ar);
-			$___a 	= (substr($___aj, 0, 1) != ':')? empty($___aj)?'index':$___aj:'index';
-			$map[$___m][$___a] = array($value['id'],$value['ys']);
-		}
-		$this->map = $map;
-
+		$this->getsign();			//获取资源$this->sign
+		$this->getmap();			//获取资源$this->map
 	}
 
 	public function _remap($method, $params = array())
 	{
 		if($method == 'index') $this->jout(405);		//不可以调用的方法名
-
 		$this->sign['mothod'] 			= $method;
 		$this->sign['mothod_action']	= empty($params[0])?'index':$params[0];
 		if(!empty($this->map[$this->sign['mothod']]['index']))	$this->sign['mothod_action'] = 'index';
-
+		if($this->sign['mothod_action']!='index') array_shift($params);
 		$this->sign['params'] 			= $params;
 		//========================================================
-
 		/*
 		 * 有这么几种情况
 		 * 1 安全检查没有通过
@@ -72,25 +43,18 @@ class v3 extends CI_Controller
 		 * 3
 		//根据输入的数据,和sign中的数据,来判断是否有false
 		*/
-
 		if(!$this->safe_sign()) $this->jout($this->code,'未通过签名监测');
-
 		//=============================================================
 		//数据库id 有了//能够获取到映射
 		$tid = $this->map[$this->sign['mothod']][$this->sign['mothod_action']][0];
-
-
-//print_r($this->sign);
-//print_r($this->map);
-
 		$this->sign['dbid'] = $tid;
+		//pecho $tid;
 		if($tid){
 			//找到了数据
 			//是否debug
 			//是否调试
 			$sql = "select * from userapi where id = $tid";
-			$rs = $this->db->getRow($sql);
-
+			$rs = $this->S->db->getRow($sql);
 			if($rs['debug'] == 1){		//调试模式
 				if(empty($rs['response'])) 	$rs['response'] = '{"code":200,"msg":"操作完成"}';
 				$r = json_decode($rs['response']);
@@ -110,6 +74,42 @@ class v3 extends CI_Controller
 
 		//===============================================================
 	}
+
+
+
+
+	public function getmap(){
+		$sql = "select * from userapi where enable = 1 AND  v = 'V3'";
+		$rc = $this->S->db->getall($sql);
+		foreach($rc as $key=>$value){
+			$ar 	= explode('/',$value['api']);
+			$___m 	= array_shift($ar);
+			$___aj	= array_shift($ar);
+			$___a 	= (substr($___aj, 0, 1) != ':')? empty($___aj)?'index':$___aj:'index';
+			$map[$___m][$___a] = array($value['id'],$value['ys']);
+		}
+
+		$this->map = $map;
+	}
+
+	public function getsign(){
+		//=========================================================
+		$this->sign['salt'] 		= $this->salt;				//
+		$this->sign['timestamp'] 	= $this->input->get('timestamp',true);	//$_GET['timestamp'];	//时间
+		$this->sign['deviceid'] 	= $this->input->get('deviceid',true);	//$_GET['deviceid'];	//设备id
+		$this->sign['openid'] 		= $this->input->get('openid',true);		//$_GET['openid'];		//设备id
+		//$this->sign['actionid'] 	= $this->input->get('actionid',true);	//$_GET['actionid'];	//动作id用来验证是否重复提交	//暂时不处理
+		$this->sign['signature'] 	= $this->input->get('signature',true);	//$_GET['signature'];	//计算出来的签名比对 2014087451d28443c11e84107dfaae1f
+		$this->sign['user'] 		= $this->input->get('user',true);		//$_GET['ush'];			//ush //获取得到 再次获取则会更换
+		$this->sign['sign'] 		= false;
+		$this->sign['openid'] 		= 'sd568';
+	}
+
+
+
+
+
+
 
 	//=========================================================
 	//数据完整性 和安全签名

@@ -21,23 +21,10 @@ class v1 extends CI_Controller
 	function __construct()
 	{
 		parent::__construct();
-		$this->S = new Set();
-		$this->S->singleton('Db', function ($c) {
-			return new Db();
-		});
-		$this->S->singleton('Mdb', function ($c) {
-			return new Mdb();
-		});
-
+		$this->S = new Set();		//里面包含系列的单例对象
 		//=========================================================
-		$this->load->library('Db');					//原始的数据对象 以后弃用
-
-
-
-
 		$this->getsign();			//获取资源$this->sign
 		$this->getmap();			//获取资源$this->map
-
 	}
 
 	public function _remap($method, $params = array())
@@ -69,13 +56,13 @@ class v1 extends CI_Controller
 			//是否debug
 			//是否调试
 			$sql = "select * from userapi where id = $tid";
-			$rs = $this->db->getRow($sql);
+			$rs = $this->S->db->getRow($sql);
 
 			if($rs['debug'] == 1){		//调试模式
 				if(empty($rs['response'])) 	$rs['response'] = '{"code":200,"msg":"操作完成"}';
 				$r = json_decode($rs['response']);
 				$r->timestamp = time();
-				$r->debugpath = 'v1';
+				$r->debugpath = 'v11';
 				echo json_encode($r);
 				exit;
 			}else{
@@ -94,7 +81,7 @@ class v1 extends CI_Controller
 
 	public function getmap(){
 		$sql = "select * from userapi where enable = 1 AND  v = 'V1'";
-		$rc = $this->S->Db->getall($sql);
+		$rc = $this->S->db->getall($sql);
 		foreach($rc as $key=>$value){
 			$ar 	= explode('/',$value['api']);
 			$___m 	= array_shift($ar);

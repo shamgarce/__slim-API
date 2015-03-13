@@ -15,7 +15,13 @@ class Rr
 		$this->db = Mysql::getInstance();
 		$sql = "select id,NAME from userapi";
 		$rc = $this->db->getcol($sql,'id');
+
+
+
 print_r($rc);
+
+
+
 
 
 
@@ -33,5 +39,4 @@ print_r($rc);
 
 
 //--
-
 }

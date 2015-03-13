@@ -1,15 +1,5 @@
 <?php
 
-function saddslashes($string) {
-	if (is_array($string)) {
-		foreach ($string as $key => $val) {
-			$string[$key] = saddslashes($val);
-		}
-	} else {
-		$string = addslashes($string);
-	}
-	return $string;
-}
 
 //$magic_quote = get_magic_quotes_gpc(); //$magic_quote = 0
 //if (empty($magic_quote)) {

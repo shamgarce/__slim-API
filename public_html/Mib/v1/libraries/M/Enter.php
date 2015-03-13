@@ -6,13 +6,31 @@ class Enter
     private $params = array();
     private $CI = null;
     private $de = array();
-
+    private $log = array();
+//log格式
+//==================================================================
+//class
+//aa
+//code
+//msg
+//time [cutime / timebeg / endtime]
+//get
+//post
+//sign
+//params
     public function __construct($params)    //$params 是路由参数
     {
         $this->CI =& get_instance();
         $this->vdb = new V1db();                    //数据逻辑层
         $this->params = $params;                    //路由参数
         $this->tmp['timestamp_'] = Set::T();        //$sign //参数是签名
+        //======================================================================
+        !empty($params) && $this->log['params']    = $params;              //log
+        $this->log['time']['timecu'] = time();;        //log
+        $this->log['time']['timebe'] = $this->tmp['timestamp_'];        //log
+        $this->log['class']     = __class__;        //log
+        //======================================================================
+        //print_r($this->log);
     }
 
     /*
@@ -30,6 +48,9 @@ class Enter
     */
     public function adduser($sign = array())
     {
+        !empty($sign) && $this->log['sign']    = $sign;        //方法中截取
+        $this->log['mothod']    = __METHOD__;        //方法中截取
+
         /*
          * 1 : 用户名是否已经存在
          * 2 : 长度
@@ -54,7 +75,7 @@ class Enter
         }
 
         $se['user_login'] = $username;
-        $row= $this->Mdb->findOne("dy_user", $se);
+        $row= $this->mdb->findOne("dy_user", $se);
 
 
         if($row){
@@ -70,7 +91,7 @@ class Enter
         $mc['enable']       = 1;
         $mc['f_regtime']    = time();
 
-        $this->Mdb->insert('dy_user',array_merge(V1db::table_dy_user(), $mc));               //添加数据
+        $this->mdb->insert('dy_user',array_merge(V1db::table_dy_user(), $mc));               //添加数据
         $this->J(200, 'succeed');
     }
 
@@ -95,6 +116,9 @@ class Enter
     * */
     public function login($sign = array())
     {
+        !empty($sign) && $this->log['sign']    = $sign;        //方法中截取
+        $this->log['mothod']    = __METHOD__;        //方法中截取
+
         $username = $this->CI->input->post('username');
         $password = $this->CI->input->post('password');
 
@@ -108,7 +132,7 @@ class Enter
         //$row = $this->CI->db->getrow($sql);
 
         $se['user_login'] = $username;
-        $row= $this->Mdb->findOne("dy_user", $se);
+        $row= $this->mdb->findOne("dy_user", $se);
 
         if(empty($row)){
             $this->J(-200, '该用户不存在');
@@ -130,7 +154,7 @@ class Enter
         $row['f_loginip'] = '123';
 
         //变更数据
-       $this->Mdb->update("dy_user", $se,$row);
+       $this->mdb->update("dy_user", $se,$row);
 
         $this->J(200, 'succeed');
     }
@@ -145,28 +169,32 @@ class Enter
      * */
     public function uploading($sign = array())
     {
+        !empty($sign) && $this->log['sign']    = $sign;        //方法中截取
+        $this->log['mothod']    = __METHOD__;        //方法中截取
+
         $phaForm = $_POST['phaForm']['pharmaceuticalForm'];
+        $phaForm = json_decode($phaForm);
+
         $phaForm['SampleFormNumber'] = (int)($phaForm['SampleFormNumber']);
 
        // print_r($phaForm);
-
 
         $odd_id = $phaForm['SampleFormNumber'];
 
         //首先检查抽样id的合法性
         //============================================================
         $cond['odd_id'] = $odd_id;
-
-        $row = $this->Mdb->findOne("dy_typeoddid",$cond);
+        $this->get($phaForm);
+        $row = $this->mdb->findOne("dy_typeoddid",$cond);
         if(empty($row)){
-            $this->J(-200, '无效的预定单号');
+            $this->J(-201, '无效的预定单号');
         }
 
         if($row['used'] ==0){
-            $this->J(-200, '非有效');
+            $this->J(-202, '非有效');
         }
         if($row['up'] ==1){
-            $this->J(-200, '过期的单号');
+            $this->J(-203, '过期的单号');
         }
 
         //============================================================
@@ -176,27 +204,27 @@ class Enter
         unset($phaForm['sampleCondition']['sampleConditionList']);
         unset($phaForm['sampleDepartment']['sampleDepartmentList']);
 
-        $this->Mdb->insert('dy_SampleForm',$phaForm);        //主记录
+        $this->mdb->insert('dy_SampleForm',$phaForm);        //主记录
 
         foreach($simpleConditionList as $key=>$value){
             unset($me);
             $me['odd_id'] = $odd_id;
             $me = array_merge($me,$value);
-            $this->Mdb->insert('dy_SampleCondition',$me);
+            $this->mdb->insert('dy_SampleCondition',$me);
         }
 
         foreach($simpleDepartmentList as $key=>$value){
             unset($me);
             $me['odd_id'] = $odd_id;
             $me = array_merge($me,$value);
-            $this->Mdb->insert('dy_SampleDepartment',$me);
+            $this->mdb->insert('dy_SampleDepartment',$me);
         }
 
         //上传完毕,更改状态
        // print_r($row);
-//        $this->Mdb->update("test_table", array("id"=>1),array("id"=>1,"title"=>"bbb"));
+//        $this->mdb->update("test_table", array("id"=>1),array("id"=>1,"title"=>"bbb"));
         $row['up'] =1;
-        $this->Mdb->update("dy_typeoddid", array("odd_id"=>$row['odd_id']),$row);
+        $this->mdb->update("dy_typeoddid", array("odd_id"=>$row['odd_id']),$row);
 
         $this->J(200, 'succeed');
     }
@@ -223,15 +251,18 @@ class Enter
      */
     public function book($sign = array())
     {
+        !empty($sign) && $this->log['sign']    = $sign;        //方法中截取
+        $this->log['mothod']    = __METHOD__;        //方法中截取
+
         $count = intval($_POST['count']);
         $mc= array();
 
-        $rc = $this->Mdb->find("dy_typeoddid", array(),array("sort"=>array("odd_id"=>-1),"limit"=>1));
+        $rc = $this->mdb->find("dy_typeoddid", array(),array("sort"=>array("odd_id"=>-1),"limit"=>1));
         $max = $rc[0]['odd_id'];
         //最大的
 
         // ========================================================
-        $nd = $this->Mdb->find("dy_typeoddid", array("enable"=>1,"up"=>0,"used"=>0),array("sort"=>array("odd_id"=>1),"limit"=>$count));
+        $nd = $this->mdb->find("dy_typeoddid", array("enable"=>1,"up"=>0,"used"=>0),array("sort"=>array("odd_id"=>1),"limit"=>$count));
         $j = 0;
         $nw = array();
         foreach($nd as $key=>$value){
@@ -241,7 +272,7 @@ class Enter
                 $me['openid']   = $sign['openid'];
                 $me['used']     = 1;
                 $me['up']       = 0;
-                $this->Mdb->update("dy_typeoddid", array("odd_id"=>$value['odd_id']),$me);
+                $this->mdb->update("dy_typeoddid", array("odd_id"=>$value['odd_id']),$me);
             }
             $j++;
         }
@@ -256,7 +287,7 @@ class Enter
             $md['up']       = 0;
             $md['enable']   = 1 ;
 //            $this->CI->db->autoexecute('dy_typeoddid',$md,'INSERT');
-            $this->Mdb->insert('dy_typeoddid',array_merge(V1db::table_dy_typeoddid(), $md));
+            $this->mdb->insert('dy_typeoddid',array_merge(V1db::table_dy_typeoddid(), $md));
         }
 
 //        //占用,而且没上传的单号
@@ -264,7 +295,7 @@ class Enter
 //        $dt = $this->CI->db->getcol($sql);
         //echo $sign['openid'];
 
-        $rc = $this->Mdb->find("dy_typeoddid", array("enable"=>1,"up"=>0,"used"=>1,"openid"=>"{$sign['openid']}"));
+        $rc = $this->mdb->find("dy_typeoddid", array("enable"=>1,"up"=>0,"used"=>1,"openid"=>"{$sign['openid']}"));
         foreach($rc as $key=>$value){
             $dt[] = $value["odd_id"];
         }
@@ -300,12 +331,18 @@ class Enter
      */
     public function chexiao($sign = array())
     {
+        !empty($sign) && $this->log['sign']    = $sign;        //方法中截取
+        $this->log['mothod']    = __METHOD__;        //方法中截取
+
         $SimpleNumber = $_POST['SimpleNumber'];
+        $SimpleNumber = json_decode($SimpleNumber);
+        $this->get($SimpleNumber);
+        //============================================================
         if(empty($SimpleNumber))$SimpleNumber = array();
         foreach($SimpleNumber as $value){
-            $row = $this->Mdb->findone("dy_typeoddid", array("odd_id"=>intval($value)));
+            $row = $this->mdb->findone("dy_typeoddid", array("odd_id"=>intval($value)));
             $row['used'] = 0;
-            $this->Mdb->update("dy_typeoddid", array("odd_id"=>intval($value)),$row);
+            $this->mdb->update("dy_typeoddid", array("odd_id"=>intval($value)),$row);
         }
         $this->J(200, 'succeed');
     }
@@ -326,13 +363,15 @@ class Enter
     */
     public function simplenumber($sign = array())
     {
+        !empty($sign) && $this->log['sign']    = $sign;        //方法中截取
+        $this->log['mothod']    = __METHOD__;        //方法中截取
+
         $oddid =  intval($_POST['phaSimpleNumber']);
 
-        $row = $this->Mdb->findone("dy_SampleForm", array("SampleFormNumber"=>$oddid));
-
-        $row['sampleCondition']['sampleConditionList']     = $this->Mdb->find("dy_SampleCondition", array("odd_id"=>$oddid));
-        $row['sampleDepartment']['sampleDepartmentList']   = $this->Mdb->find("dy_SampleDepartment", array("odd_id"=>$oddid));
-
+        $row = $this->mdb->findone("dy_SampleForm", array("SampleFormNumber"=>$oddid));
+if(empty($row)) $this->J(508, 'error');
+        $row['sampleCondition']['sampleConditionList']     = $this->mdb->find("dy_SampleCondition", array("odd_id"=>$oddid));
+        $row['sampleDepartment']['sampleDepartmentList']   = $this->mdb->find("dy_SampleDepartment", array("odd_id"=>$oddid));
         $this->data($row);
         $this->J(200, 'succeed');
     }
@@ -355,6 +394,9 @@ class Enter
     */
     public function todaysearch($sign = array())
     {
+        !empty($sign) && $this->log['sign']    = $sign;        //方法中截取
+        $this->log['mothod']    = __METHOD__;        //方法中截取
+
 
     }
 
@@ -398,10 +440,13 @@ class Enter
     {
         $this->de['data2'] = $data;
     }
-
     private function msg($msg = '')
     {
         $this->de['msg'] = $msg;
+    }
+    private function get($msg = '')
+    {
+        $this->de['get'] = $msg;
     }
     private function code($code = '')
     {
@@ -418,6 +463,7 @@ class Enter
         //$this->de['timestamp'] = Set::T();
         $this->de['ExecuteTime'] = Set::T() - $this->tmp['timestamp_'];
         $this->de['ExecuteModel'] = 'Enter';
+        $this->logmon->L($code,$this->de['msg'],$this->log);
         echo json_encode($this->de);
         exit;
     }
@@ -433,12 +479,19 @@ class Enter
         $this->de['ExecuteTime'] = Set::T() - $this->tmp['timestamp_'];
         $this->de['ExecuteModel']  = 'Enter';
         //print_r($this->de);
+        $this->logmon->L($code,$msg,$this->log);
         echo json_encode($this->de);
         exit;
     }
 
     public function test($sign=array())
     {
+        $this->log['sign']    = $sign;        //方法中截取
+
+        $m["12"] = "[\"1\",\"2\"]";
+
+        echo json_encode($m);
+exit;
         //该用户已经存在
        //// $sql = "select count(*) from dy_user where user_login = '$username'";
        //// $count = $this->CI->S->Db->getone($sql);
@@ -462,6 +515,7 @@ class Enter
     public function __call($name,$arguments) {
         echo $name;
         print_r($arguments);
+        echo 'miss';
         exit;
     }
 

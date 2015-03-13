@@ -200,6 +200,20 @@ else
  * And away we go...
  *
  */
+/**  addby sham 3.5 **/
+function __Sham__loader($class)
+{
+    $file = FCPATH.APPPATH.'libraries/'.$class.'.php';
+    if (is_file($file)) {
+        require_once($file);
+    }
+}
+spl_autoload_register('__Sham__loader');
+/**  /addby sham 3.5 **/
+
+
+
+
 require_once BASEPATH.'core/CodeIgniter.php';
 
 /* End of file index.php */

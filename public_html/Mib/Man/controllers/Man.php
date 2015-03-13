@@ -25,6 +25,8 @@ class Man extends CI_Controller
 //		include(FCPATH.APPPATH.'libraries\Db.php');
 //		$this->db = Db::getInstance();
 		//连接数据库================================================
+		$this->S = new Set();
+
 		$this->load->library('Db');			//数据库
 	}
 
@@ -65,7 +67,29 @@ class Man extends CI_Controller
 
 
 
+	public function Docviewlog()
+	{
+		$rout = Set::getarr($_GET['re'],0,"/");
+		$rout[0] 	= (substr($rout[0], 0, 1) != ':')? empty($rout[0])?'index':$rout[0]:'index';
 
+		$rout[0] 	= ucfirst($rout[0]);
+		$rout[1] 	= (substr($rout[1], 0, 1) != ':')? empty($rout[1])?'index':$rout[1]:'index';
+		$ar['mothod'] = "{$rout[0]}::{$rout[1]}";
+		$ar['mothod'] = str_replace('R::s','R::__call',$ar['mothod']);
+
+
+		$log = $this->S->mdb->find("dy_log",$ar,array("sort"=>array("time.timecu"=>-1),"limit"=>5));
+		foreach($log as $key=>$value){
+			$log[$key]['time']['timecu'] = date('Y-m-d H:i:s', $log[$key]['time']['timecu']);
+			!empty($log[$key]['_GET']) && $log[$key]['_GET'] = json_encode($log[$key]['_GET']);
+			!empty($log[$key]['_POST']) && $log[$key]['_POST'] = json_encode($log[$key]['_POST']);
+			!empty($log[$key]['sign']) && $log[$key]['sign'] = json_encode($log[$key]['sign']);
+		}
+
+		//检索日志并且显示
+		$data['log'] = $log;
+		$this->load->view('Man/Man_Docviewlog',$data);
+	}
 	//单个查看接口详细
 	public function Docview($num = 0)
 	{
@@ -85,7 +109,7 @@ class Man extends CI_Controller
 		$sql .= !empty($mm)?" and (`api` like '$mm%')":"";
 		$sql = "select * from userapi where $sql";
 
-		$rc = $this->db->getall($sql);
+		$rc = $this->S->db->getall($sql);
 
 		foreach($rc as $key=>$value){
 			$apis = explode('/',$value['api']);
