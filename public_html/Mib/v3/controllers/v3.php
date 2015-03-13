@@ -43,7 +43,7 @@ class v3 extends CI_Controller
 		 * 3
 		//根据输入的数据,和sign中的数据,来判断是否有false
 		*/
-		if(!$this->safe_sign()) $this->jout($this->code,'未通过签名监测');
+		//if(!$this->safe_sign()) $this->jout($this->code,'未通过签名监测');
 		//=============================================================
 		//数据库id 有了//能够获取到映射
 		$tid = $this->map[$this->sign['mothod']][$this->sign['mothod_action']][0];
@@ -100,17 +100,16 @@ class v3 extends CI_Controller
 		$this->sign['signature'] 	= $this->input->get('signature',true);	//$_GET['signature'];	//计算出来的签名比对 2014087451d28443c11e84107dfaae1f
 		$this->sign['user'] 		= $this->input->get('user',true);		//$_GET['ush'];			//ush //获取得到 再次获取则会更换
 		$this->sign['sign'] 		= false;
+
+		$signature = md5($this->sign['openid'].$this->sign['timestamp'].$this->sign['salt']);
+		if($signature == $this->sign['signature'])$this->sign['sign'] 		= true;
+
 	}
 
 	//=========================================================
 	//数据完整性 和安全签名
 	public function safe_sign()	//安全签名
-	{
-//		//=========================================================
-//		//数据验证计算	http://m.so/v1/adduser/?timestamp=1422963025&deviceid=10052424&signature=2014087451d28443c11e84107dfaae1f
-//		(md5("{$sign['salt']}_{$sign['timestamp']}_{$sign['deviceid']}") == $_GET['signature']) && $sign['sign'] = true;
-//		($sign['timestamp']>time()+100*60 || $sign['timestamp'] < time()-100*60) 				&& $sign['sign'] = false;			//时间判断
-//		$sign['sign'] = false;
+	{	//md5 (openid,timestamp,salt)
 		return true;
 	}
 

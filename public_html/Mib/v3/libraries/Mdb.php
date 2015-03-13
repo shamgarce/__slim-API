@@ -385,8 +385,9 @@ public function selectDb($dbname)
 /*
 $mongo = new HMongodb("127.0.0.1:11223");
 * $mongo->selectDb("test_db");
-
+//  db.Indexing.ensureIndex({name: 1});
 * 创建索引
+* $mongo->ensureIndex("test_table", array("id"=>1), array('unique'=>true));
 * $mongo->ensureIndex("test_table", array("id"=>1), array('unique'=>true));
 * 获取表的记录
 * $mongo->count("test_table");
