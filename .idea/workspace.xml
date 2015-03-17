@@ -2,6 +2,69 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8fdaf63a-f73f-4dde-aabf-fdc3c5cc9f28" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/Mib/D/.htaccess" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/Mib/D/cache/.htaccess" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/D.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/Mib/D/controllers/D.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/Mib/D/views/D/D_index.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/Mib/D/libraries/Db.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/Mib/D/libraries/Fun.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/Mib/D/libraries/Tree.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/Mib/D/views/_____code404.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/Mib/D/config/autoload.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/Mib/D/config/config.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/Mib/D/config/constants.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/Mib/D/config/database.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/Mib/D/config/doctypes.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/Mib/D/errors/error_404.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/Mib/D/errors/error_db.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/Mib/D/errors/error_general.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/Mib/D/errors/error_php.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/Mib/D/config/foreign_chars.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/Mib/D/config/hooks.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/Mib/D/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/Mib/D/cache/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/Mib/D/config/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/Mib/D/controllers/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/Mib/D/core/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/Mib/D/errors/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/Mib/D/helpers/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/Mib/D/hooks/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/Mib/D/language/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/Mib/D/language/english/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/Mib/D/libraries/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/Mib/D/logs/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/Mib/D/models/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/Mib/D/third_party/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/Mib/D/views/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/Mib/D/views/json_out.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/Mib/D/config/migration.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/Mib/D/config/mimes.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/Mib/D/config/mongodb.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/Mib/D/config/mysql.php.bak" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/Mib/D/config/mysql.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/Mib/D/config/profiler.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/Mib/D/config/routes.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/Mib/D/libraries/EasyCache/errlog/slowquery.php.bak" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/Mib/D/libraries/EasyCache/errlog/slowquery.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/Mib/D/config/smileys.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/Mib/D/libraries/EasyCache/query_caches/sqlcache_config_file_2108ff97da8c05c2f558db65c753a7e7.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/Mib/D/libraries/EasyCache/query_caches/sqlcache_config_file_530c2fadb1a1bbc5f810713195ef0853.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/Mib/D/libraries/EasyCache/query_caches/sqlcache_config_file_663bb0cc72959520385033670b8df59e.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/Mib/D/libraries/EasyCache/query_caches/sqlcache_config_file_6d89c25032e422f9f3176bf4fa9b5a9e.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/Mib/D/libraries/EasyCache/query_caches/sqlcache_config_file_8a2b23b85ffbfb5009f5cec06aa6066d.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/Mib/D/libraries/EasyCache/query_caches/sqlcache_config_file_aff75ec61dbd111277d1f56ed79f9837.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/Mib/D/libraries/EasyCache/query_caches/sqlcache_config_file_d8fc0108ca33c80dcef79b29cbb8f9fd.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/Mib/D/config/user_agents.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/Mib/D/views/v1_msg.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/Mib/D/controllers/welcome.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public_html/.htaccess" afterPath="$PROJECT_DIR$/public_html/.htaccess" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public_html/Mib/v3/libraries/EasyCache/errlog/slowquery.php" afterPath="$PROJECT_DIR$/public_html/Mib/v3/libraries/EasyCache/errlog/slowquery.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public_html/Mib/v3/libraries/EasyCache/query_caches/sqlcache_config_file_1a9ff34e620810f4b2158361627eb1d4.php" afterPath="$PROJECT_DIR$/public_html/Mib/v3/libraries/EasyCache/query_caches/sqlcache_config_file_1a9ff34e620810f4b2158361627eb1d4.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public_html/Mib/v1/libraries/EasyCache/query_caches/sqlcache_config_file_1e9f4807034b5e56eb2db5c9a2c7b243.php" afterPath="$PROJECT_DIR$/public_html/Mib/v1/libraries/EasyCache/query_caches/sqlcache_config_file_1e9f4807034b5e56eb2db5c9a2c7b243.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public_html/Mib/M/libraries/EasyCache/query_caches/sqlcache_config_file_8a2b23b85ffbfb5009f5cec06aa6066d.php" afterPath="$PROJECT_DIR$/public_html/Mib/M/libraries/EasyCache/query_caches/sqlcache_config_file_8a2b23b85ffbfb5009f5cec06aa6066d.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public_html/Mib/v3/libraries/EasyCache/query_caches/sqlcache_config_file_a88f6b2ed762e0d58851785da11a911e.php" afterPath="$PROJECT_DIR$/public_html/Mib/v3/libraries/EasyCache/query_caches/sqlcache_config_file_a88f6b2ed762e0d58851785da11a911e.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public_html/Mib/Man/libraries/EasyCache/query_caches/sqlcache_config_file_aff75ec61dbd111277d1f56ed79f9837.php" afterPath="$PROJECT_DIR$/public_html/Mib/Man/libraries/EasyCache/query_caches/sqlcache_config_file_aff75ec61dbd111277d1f56ed79f9837.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="slim-API.iws" />
@@ -27,21 +90,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Enter.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/public_html/Mib/v1/libraries/M/Enter.php">
+      <file leaf-file-name="D.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/public_html/Mib/D/controllers/D.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5302491" vertical-offset="8639" max-vertical-offset="13354">
-              <caret line="413" column="27" selection-start-line="413" selection-start-column="27" selection-end-line="413" selection-end-column="27" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Mdb.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public_html/Mib/v3/libraries/Mdb.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="7504" max-vertical-offset="8734">
-              <caret line="409" column="17" selection-start-line="409" selection-start-column="17" selection-end-line="409" selection-end-column="17" />
+            <state vertical-scroll-proportion="0.052071005" vertical-offset="0" max-vertical-offset="845">
+              <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
               <folding />
             </state>
           </provider>
@@ -63,8 +116,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/public_html/Mib/Doc/libraries/Dmysql.php" />
-        <option value="$PROJECT_DIR$/public_html/Mib/Doc/controllers/Doc.php" />
         <option value="$PROJECT_DIR$/public_html/Man.php" />
         <option value="$PROJECT_DIR$/public_html/Mib/Man/config/mysql.php" />
         <option value="$PROJECT_DIR$/public_html/Mib/V1/libraries/Db.php" />
@@ -113,6 +164,8 @@
         <option value="$PROJECT_DIR$/public_html/Mib/v3/libraries/M/Sse.php" />
         <option value="$PROJECT_DIR$/public_html/Mib/v3/libraries/Set.php" />
         <option value="$PROJECT_DIR$/public_html/Mib/v3/libraries/Mdb.php" />
+        <option value="$PROJECT_DIR$/public_html/D.php" />
+        <option value="$PROJECT_DIR$/public_html/Mib/D/controllers/D.php" />
         <option value="$PROJECT_DIR$/public_html/Mib/v1/libraries/M/Enter.php" />
       </list>
     </option>
@@ -150,6 +203,70 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="slim-API" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="slim-API" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="slim-API" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public_html" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="slim-API" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="slim-API" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public_html" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Mib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="slim-API" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="slim-API" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public_html" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Mib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="D" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
       <pane id="Scope">
         <subPane subId="Problems" />
         <subPane subId="Tests" />
@@ -198,96 +315,6 @@
           </PATH>
         </subPane>
         <subPane subId="Changed Files" />
-      </pane>
-      <pane id="ProjectPane">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="slim-API" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="slim-API" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="slim-API" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public_html" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="slim-API" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="slim-API" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public_html" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Mib" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="v3" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="slim-API" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="slim-API" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public_html" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Mib" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="v3" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="libraries" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="slim-API" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="slim-API" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public_html" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Mib" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
       </pane>
     </panes>
   </component>
@@ -394,12 +421,6 @@
       <created>1422269068506</created>
       <option name="number" value="Default" />
       <updated>1422269068506</updated>
-    </task>
-    <task id="LOCAL-00002" summary="Rejected commit: Default">
-      <created>1423473494204</created>
-      <option name="number" value="00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1423473494204</updated>
     </task>
     <task id="LOCAL-00003" summary="Rejected commit: Default">
       <created>1423569910379</created>
@@ -689,7 +710,13 @@
       <option name="project" value="LOCAL" />
       <updated>1426248217696</updated>
     </task>
-    <option name="localTasksCounter" value="51" />
+    <task id="LOCAL-00051" summary="Rejected commit: Default">
+      <created>1426248223542</created>
+      <option name="number" value="00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1426248223542</updated>
+    </task>
+    <option name="localTasksCounter" value="52" />
     <servers />
   </component>
   <component name="TodoView" selected-index="4">
@@ -714,16 +741,15 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.77691454" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32890365" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32963374" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25803053" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2571885" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.33013844" sideWeight="0.49944505" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32960597" sideWeight="0.49944505" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2630458" sideWeight="0.5005549" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32963374" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2874584" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
@@ -732,6 +758,7 @@
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32963374" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39977852" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.77691454" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -759,25 +786,11 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="2" />
+      <option name="time" value="4" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/public_html/Config/Set.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.07810651" vertical-offset="0" max-vertical-offset="845">
-          <caret line="3" column="2" selection-start-line="3" selection-start-column="2" selection-end-line="3" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public_html/Config/Enter_Mima.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.45325443" vertical-offset="299" max-vertical-offset="1144">
-          <caret line="31" column="17" selection-start-line="31" selection-start-column="17" selection-end-line="31" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public_html/C/database/DB.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.7029586" vertical-offset="1518" max-vertical-offset="3696">
@@ -901,13 +914,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-23.258064" vertical-offset="2271" max-vertical-offset="5390">
           <caret line="136" column="47" selection-start-line="117" selection-start-column="0" selection-end-line="136" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public_html/Mib/Man/controllers/Man.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="5742">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -1076,7 +1082,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.5214198" vertical-offset="696" max-vertical-offset="3190">
           <caret line="51" column="17" selection-start-line="51" selection-start-column="17" selection-end-line="51" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1084,7 +1089,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.46975088" vertical-offset="0" max-vertical-offset="843">
           <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1092,7 +1096,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.6986951" vertical-offset="2601" max-vertical-offset="6820">
           <caret line="145" column="43" selection-start-line="145" selection-start-column="43" selection-end-line="145" selection-end-column="43" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1100,7 +1103,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-6.612903" vertical-offset="9013" max-vertical-offset="10692">
           <caret line="419" column="1" selection-start-line="419" selection-start-column="1" selection-end-line="433" selection-end-column="5" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1108,22 +1110,45 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-17.032259" vertical-offset="8646" max-vertical-offset="10494">
           <caret line="417" column="9" selection-start-line="417" selection-start-column="9" selection-end-line="417" selection-end-column="9" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public_html/Mib/v3/libraries/Mdb.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="7504" max-vertical-offset="8734">
+        <state vertical-scroll-proportion="1.1692308" vertical-offset="7504" max-vertical-offset="8734">
           <caret line="409" column="17" selection-start-line="409" selection-start-column="17" selection-end-line="409" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public_html/Mib/Man/controllers/Man.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="6270">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public_html/Mib/v1/libraries/M/Enter.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5302491" vertical-offset="8639" max-vertical-offset="13354">
-          <caret line="413" column="27" selection-start-line="413" selection-start-column="27" selection-end-line="413" selection-end-column="27" />
+        <state vertical-scroll-proportion="0.41065088" vertical-offset="3503" max-vertical-offset="13354">
+          <caret line="175" column="46" selection-start-line="175" selection-start-column="46" selection-end-line="175" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public_html/D.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-21.580645" vertical-offset="3093" max-vertical-offset="4268">
+          <caret line="188" column="76" selection-start-line="188" selection-start-column="76" selection-end-line="188" selection-end-column="76" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public_html/Mib/D/controllers/D.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.052071005" vertical-offset="0" max-vertical-offset="845">
+          <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
           <folding />
         </state>
       </provider>
