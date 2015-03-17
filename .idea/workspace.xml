@@ -1,69 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8fdaf63a-f73f-4dde-aabf-fdc3c5cc9f28" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/Mib/D/.htaccess" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/Mib/D/cache/.htaccess" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/D.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/Mib/D/controllers/D.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/Mib/D/views/D/D_index.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/Mib/D/libraries/Db.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/Mib/D/libraries/Fun.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/Mib/D/libraries/Tree.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/Mib/D/views/_____code404.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/Mib/D/config/autoload.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/Mib/D/config/config.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/Mib/D/config/constants.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/Mib/D/config/database.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/Mib/D/config/doctypes.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/Mib/D/errors/error_404.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/Mib/D/errors/error_db.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/Mib/D/errors/error_general.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/Mib/D/errors/error_php.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/Mib/D/config/foreign_chars.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/Mib/D/config/hooks.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/Mib/D/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/Mib/D/cache/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/Mib/D/config/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/Mib/D/controllers/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/Mib/D/core/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/Mib/D/errors/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/Mib/D/helpers/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/Mib/D/hooks/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/Mib/D/language/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/Mib/D/language/english/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/Mib/D/libraries/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/Mib/D/logs/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/Mib/D/models/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/Mib/D/third_party/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/Mib/D/views/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/Mib/D/views/json_out.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/Mib/D/config/migration.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/Mib/D/config/mimes.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/Mib/D/config/mongodb.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/Mib/D/config/mysql.php.bak" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/Mib/D/config/mysql.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/Mib/D/config/profiler.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/Mib/D/config/routes.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/Mib/D/libraries/EasyCache/errlog/slowquery.php.bak" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/Mib/D/libraries/EasyCache/errlog/slowquery.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/Mib/D/config/smileys.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/Mib/D/libraries/EasyCache/query_caches/sqlcache_config_file_2108ff97da8c05c2f558db65c753a7e7.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/Mib/D/libraries/EasyCache/query_caches/sqlcache_config_file_530c2fadb1a1bbc5f810713195ef0853.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/Mib/D/libraries/EasyCache/query_caches/sqlcache_config_file_663bb0cc72959520385033670b8df59e.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/Mib/D/libraries/EasyCache/query_caches/sqlcache_config_file_6d89c25032e422f9f3176bf4fa9b5a9e.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/Mib/D/libraries/EasyCache/query_caches/sqlcache_config_file_8a2b23b85ffbfb5009f5cec06aa6066d.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/Mib/D/libraries/EasyCache/query_caches/sqlcache_config_file_aff75ec61dbd111277d1f56ed79f9837.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/Mib/D/libraries/EasyCache/query_caches/sqlcache_config_file_d8fc0108ca33c80dcef79b29cbb8f9fd.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/Mib/D/config/user_agents.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/Mib/D/views/v1_msg.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/Mib/D/controllers/welcome.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public_html/.htaccess" afterPath="$PROJECT_DIR$/public_html/.htaccess" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public_html/Mib/v3/libraries/EasyCache/errlog/slowquery.php" afterPath="$PROJECT_DIR$/public_html/Mib/v3/libraries/EasyCache/errlog/slowquery.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public_html/Mib/v3/libraries/EasyCache/query_caches/sqlcache_config_file_1a9ff34e620810f4b2158361627eb1d4.php" afterPath="$PROJECT_DIR$/public_html/Mib/v3/libraries/EasyCache/query_caches/sqlcache_config_file_1a9ff34e620810f4b2158361627eb1d4.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public_html/Mib/v1/libraries/EasyCache/query_caches/sqlcache_config_file_1e9f4807034b5e56eb2db5c9a2c7b243.php" afterPath="$PROJECT_DIR$/public_html/Mib/v1/libraries/EasyCache/query_caches/sqlcache_config_file_1e9f4807034b5e56eb2db5c9a2c7b243.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public_html/Mib/M/libraries/EasyCache/query_caches/sqlcache_config_file_8a2b23b85ffbfb5009f5cec06aa6066d.php" afterPath="$PROJECT_DIR$/public_html/Mib/M/libraries/EasyCache/query_caches/sqlcache_config_file_8a2b23b85ffbfb5009f5cec06aa6066d.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public_html/Mib/v3/libraries/EasyCache/query_caches/sqlcache_config_file_a88f6b2ed762e0d58851785da11a911e.php" afterPath="$PROJECT_DIR$/public_html/Mib/v3/libraries/EasyCache/query_caches/sqlcache_config_file_a88f6b2ed762e0d58851785da11a911e.php" />
+    <list default="true" id="8fdaf63a-f73f-4dde-aabf-fdc3c5cc9f28" name="Default" comment="Rejected commit: Default">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public_html/Mib/D/controllers/D.php" afterPath="$PROJECT_DIR$/public_html/Mib/D/controllers/D.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public_html/Mib/Man/libraries/EasyCache/query_caches/sqlcache_config_file_aff75ec61dbd111277d1f56ed79f9837.php" afterPath="$PROJECT_DIR$/public_html/Mib/Man/libraries/EasyCache/query_caches/sqlcache_config_file_aff75ec61dbd111277d1f56ed79f9837.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -89,18 +28,7 @@
     <favorites_list name="slim-API" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="D.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/public_html/Mib/D/controllers/D.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.052071005" vertical-offset="0" max-vertical-offset="845">
-              <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="Git.Settings">
     <option name="UPDATE_TYPE" value="MERGE" />
@@ -165,8 +93,8 @@
         <option value="$PROJECT_DIR$/public_html/Mib/v3/libraries/Set.php" />
         <option value="$PROJECT_DIR$/public_html/Mib/v3/libraries/Mdb.php" />
         <option value="$PROJECT_DIR$/public_html/D.php" />
-        <option value="$PROJECT_DIR$/public_html/Mib/D/controllers/D.php" />
         <option value="$PROJECT_DIR$/public_html/Mib/v1/libraries/M/Enter.php" />
+        <option value="$PROJECT_DIR$/public_html/Mib/D/controllers/D.php" />
       </list>
     </option>
   </component>
@@ -239,7 +167,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Mib" />
+              <option name="myItemId" value="T" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -257,11 +185,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Mib" />
+              <option name="myItemId" value="T" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="D" />
+              <option name="myItemId" value="mem" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -421,12 +349,6 @@
       <created>1422269068506</created>
       <option name="number" value="Default" />
       <updated>1422269068506</updated>
-    </task>
-    <task id="LOCAL-00003" summary="Rejected commit: Default">
-      <created>1423569910379</created>
-      <option name="number" value="00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1423569910380</updated>
     </task>
     <task id="LOCAL-00004" summary="Rejected commit: Default">
       <created>1423569982623</created>
@@ -716,7 +638,13 @@
       <option name="project" value="LOCAL" />
       <updated>1426248223542</updated>
     </task>
-    <option name="localTasksCounter" value="52" />
+    <task id="LOCAL-00052" summary="Rejected commit: Default">
+      <created>1426555084248</created>
+      <option name="number" value="00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1426555084249</updated>
+    </task>
+    <option name="localTasksCounter" value="53" />
     <servers />
   </component>
   <component name="TodoView" selected-index="4">
@@ -743,6 +671,7 @@
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="false" />
     <layout>
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.77691454" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32890365" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32963374" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -758,7 +687,6 @@
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32963374" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39977852" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.77691454" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -791,13 +719,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/public_html/C/database/DB.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.7029586" vertical-offset="1518" max-vertical-offset="3696">
-          <caret line="42" column="0" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public_html/C/database/DB_active_rec.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="45122">
@@ -914,13 +835,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-23.258064" vertical-offset="2271" max-vertical-offset="5390">
           <caret line="136" column="47" selection-start-line="117" selection-start-column="0" selection-end-line="136" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public_html/C/core/CodeIgniter.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.46863905" vertical-offset="682" max-vertical-offset="8976">
-          <caret line="49" column="52" selection-start-line="49" selection-start-column="52" selection-end-line="49" selection-end-column="52" />
         </state>
       </provider>
     </entry>
@@ -1145,10 +1059,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/public_html/C/core/CodeIgniter.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-11.580646" vertical-offset="8133" max-vertical-offset="8976">
+          <caret line="386" column="57" selection-start-line="386" selection-start-column="57" selection-end-line="386" selection-end-column="57" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public_html/C/core/Controller.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6868327" vertical-offset="565" max-vertical-offset="1540">
+          <caret line="52" column="8" selection-start-line="52" selection-start-column="8" selection-end-line="52" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/public_html/Mib/D/controllers/D.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.052071005" vertical-offset="0" max-vertical-offset="845">
-          <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
+        <state vertical-scroll-proportion="0.052194543" vertical-offset="0" max-vertical-offset="843">
+          <caret line="2" column="24" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="29" />
           <folding />
         </state>
       </provider>

@@ -8,9 +8,6 @@ class D extends CI_Controller
 	{
 		parent::__construct();
 		//连接数据库================================================两种方式都可以
-//		include(FCPATH.APPPATH.'libraries\Db.php');
-//		$this->db = Db::getInstance();
-		//连接数据库================================================
 		$this->load->library('Db');			//数据库
 	}
 
