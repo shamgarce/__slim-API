@@ -364,8 +364,8 @@ class Enter
         !empty($sign) && $this->log['sign']    = $sign;        //方法中截取
         $this->log['mothod']    = __METHOD__;        //方法中截取
 
-        $oddid =  intval($_POST['phaSimpleNumber']);
-
+        $oddid =  intval($_POST['SampleFormNumber']);
+//echo $oddid;
         $row = $this->mdb->findone("dy_SampleForm", array("SampleFormNumber"=>$oddid));
 if(empty($row)) $this->J(508, 'error');
         $row['sampleCondition']['sampleConditionList']     = $this->mdb->find("dy_SampleCondition", array("odd_id"=>$oddid));
@@ -385,7 +385,7 @@ if(empty($row)) $this->J(508, 'error');
 //        "startDate":"2015-01-11",
 //        "endDate":"2015-02-28",
 
-//        isset($_POST['phaSampleNumber'])    && $phaSampleNumber = $_POST['phaSampleNumber'];      //抽样单号
+        isset($_POST['SampleFormNumber'])    && $se['SampleFormNumber'] = intval($_POST['SampleFormNumber']);      //抽样单号
 //        isset($_POST['sampledate'])         && $sampledate     = $_POST['sampledate'];            //抽样日期
 //        isset($_POST['startDate'])          && $startDate      = $_POST['startDate'];             //开始日期
 //        isset($_POST['endDate'])            && $endDate        = $_POST['endDate'];               //终止日期
@@ -395,18 +395,21 @@ if(empty($row)) $this->J(508, 'error');
         isset($_POST['pageSize'])           && $pageSize       = $_POST['pageSize'];               //每次访问能够返回的最大数据量
         isset($_POST['page'])               && $page           = $_POST['page'];
 
-        $se = array();
+       // $se = array();
 //        isset($_POST['SampleFormNumber'])   && $se["SampleFormNumber"] = (int)$_POST['SampleFormNumber'];     //条件一 : 检验单号
-//        isset($_POST['sampleName'])         && $se['pharmaceuticalInforamation.pharmaceuticalName'] = $_POST['sampleName'];                 //条件二 : 药品名称
-//        isset($_POST['sampleDepartment'])   && $se['sampleDepartment.sampleDepartment'] = $_POST['sampleDepartment'];         //条件三 : 抽样单位
+       isset($_POST['sampleName'])         && $se['pharmaceuticalInforamation.pharmaceuticalName'] = $_POST['sampleName'];                 //条件二 : 药品名称
+
+        isset($_POST['sampleDepartment'])   && $se['sampleDepartment.sampleDepartment'] = $_POST['sampleDepartment'];         //条件三 : 抽样单位
 
         $md["\$gte"] = $_POST['startDate'];
         $md["\$lte"] = $_POST['endDate'];
         ( isset($_POST['startDate']) && isset($_POST['endDate']) )  && $se["sampleDepartment.sampleDate"] = $md;      //"\$gt '{$_POST['startDate']}'";
         isset($_POST['sampledate'])    && $se["sampleDepartment.sampleDate"] = $_POST['sampledate'];
 
+      // print_r($se);
+        $start= ($page-1)*$pageSize;
 
-        $fi["start"] =($page-1)*$pageSize;
+        $fi["start"] =$start;
         $fi["limit"] =$pageSize;
         $fi["sort"] = array("sampleDepartment.sampleDate"=>-1);
 
@@ -415,7 +418,7 @@ if(empty($row)) $this->J(508, 'error');
        // print_r($rc);
 
         foreach($rc as $key=>$value){
-            $ou['SampleFormNumber'] = $value['SampleFormNumber'];
+            $ou['SampleFormNumber'] = (string)$value['SampleFormNumber'];
             $ou['pharmaceuticalName'] = $value['pharmaceuticalInforamation']['pharmaceuticalName'];
             $ou['OnLine'] = (int)$value['OnLine'];
             $nrc[] = $ou;
