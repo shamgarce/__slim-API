@@ -1,6 +1,23 @@
 <?php
 //支持函数
+$com['mysql'] = array(
+	'hostname' => '127.0.0.1',
+	'username' => 'root',
+	'password' => '123',
+	'database' => 'test',
+	'charset'  => 'utf8'
+);
 
+$com['mongodb'] = array(
+	'host' => '127.0.0.1',
+	'port' => '27017',
+	'database' => 'test'
+);
+
+$com['memcache'] = array(
+	'host' => '127.0.0.1',
+	'port' => '11211'
+);
 
 function memory_usage()
 {

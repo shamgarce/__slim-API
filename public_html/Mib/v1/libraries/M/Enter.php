@@ -378,7 +378,7 @@ if(empty($row)) $this->J(508, 'error');
     {
         !empty($sign) && $this->log['sign']    = $sign;        //方法中截取
         $this->log['mothod']    = __METHOD__;        //方法中截取
-
+        $se = array();
         //接收参数
 //        "phaSampleNumber":"5",
 //        "sampledate":"2015-02-12",
@@ -416,7 +416,7 @@ if(empty($row)) $this->J(508, 'error');
 
         $rc = $this->mdb->find("dy_SampleForm", $se,$fi);
        // print_r($rc);
-
+        $nrc  = array();
         foreach($rc as $key=>$value){
             $ou['SampleFormNumber'] = (string)$value['SampleFormNumber'];
             $ou['pharmaceuticalName'] = $value['pharmaceuticalInforamation']['pharmaceuticalName'];

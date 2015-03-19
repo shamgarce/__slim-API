@@ -28,9 +28,27 @@ switch(PHP_OS)
 		break;
 }
 
+//测试mysql数据库是否连接
+$conntest = @mysql_connect($com['mysql']['hostname'], $com['mysql']['username'], $com['mysql']['password']);
+if($conntest) { 
+	$res=mysql_query("select VERSION()");
+	$row=mysql_fetch_row($res);
+	$Version['mysql']  = $row[0];				//获取版本
+}else{
+	echo "连接失败";
+}
 
-//echo $sysReShow;
+//测试memcache是否连接
+$memcache = new Memcache;
+$memcache->connect($com['memcache']['host'],  $com['memcache']['port']);
+$Version['memcache'] =  $memcache->getVersion();
+$memcache->close();
 
+//mongodb
+//$mongo = new Mongo("127.0.0.1:27017",array('connect'=>1));
+//$conn= new Mongo("mongodb://user:password@127.0.0.1:27017");
+//$mongo->selectDb("v1");
+//var_dump($mongo);
 
 ?>
 	<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
@@ -130,55 +148,34 @@ switch(PHP_OS)
 
 			<tr>
 			  <th colspan="4">版本</th></tr>
-
 			<tr>
-
 				<td width="13%">PHP</td>
-
 				<td width="37%"><?php echo PHP_VERSION;?></td>
-
 				<td width="13%">Apc</td>
-
 				<td width="37%"><?php if((phpversion('APC'))!=''){echo phpversion('APC');}else{ echo "<font color=red>×</font>";} ?></td>
-
 			</tr>
-
 			<tr>
-
 				<td>Mysql</td>
-
-				<td>&nbsp;</td>
-
+				<td><?php echo $Version['mysql']?></td>
 				<td>Zend</td>
-
 				<td><?php $zend_version = zend_version();if(empty($zend_version)){echo '<font color=red>×</font>';}else{echo $zend_version;}?></td>
-
 			</tr>
+	
 
 			<tr>
-
-				<td>MongoDb</td>
-
-				<td>&nbsp;</td>
-
-				<td>&nbsp;</td>
-
-				<td>&nbsp;</td>
-
-			</tr>
-
-			<tr>
-
 				<td>MemCache</td>
-
-				<td>&nbsp;</td>
-
+				<td><?php echo $Version['memcache']?></td>
 				<td>Apache</td>
-
 				<td><?php echo $_SERVER['SERVER_SOFTWARE'];?></td>
-
 			</tr>
 
+            <!-- tr>
+                <td>MongoDb</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+            </tr -->
+            
 		</table>
 
 
@@ -206,6 +203,36 @@ switch(PHP_OS)
 
 			</tr>
 
+			<tr>
+			  <td>&nbsp;</td>
+			  <td>&nbsp;</td>
+			  <td>&nbsp;</td>
+			  <td>&nbsp;</td>
+		  </tr>
+			<tr>
+			  <td>&nbsp;</td>
+			  <td>&nbsp;</td>
+			  <td>&nbsp;</td>
+			  <td>&nbsp;</td>
+		  </tr>
+			<tr>
+			  <td>&nbsp;</td>
+			  <td>&nbsp;</td>
+			  <td>&nbsp;</td>
+			  <td>&nbsp;</td>
+		  </tr>
+			<tr>
+			  <td>&nbsp;</td>
+			  <td>&nbsp;</td>
+			  <td>&nbsp;</td>
+			  <td>&nbsp;</td>
+		  </tr>
+			<tr>
+			  <td>&nbsp;</td>
+			  <td>&nbsp;</td>
+			  <td>&nbsp;</td>
+			  <td>&nbsp;</td>
+		  </tr>
 			<tr>
 
 				<td width="13%">服务器操作系统</td>
