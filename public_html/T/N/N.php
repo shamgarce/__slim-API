@@ -65,7 +65,21 @@ $memcache->close();
 
 		<script type="text/javascript">
 			<!--
+function g(id){
+	return document.getElementById(id);	
+}
+
+function show_form(vd){
+	
+	
+	return (g(vd).style.display == '') ? g(vd).style.display = 'none' : g(vd).style.display = '';
+}				
+
+
 			$(document).ready(function(){
+				
+				
+				
 				function displayData(dataJSON){
 				}
 				$(".mysqlcheck").click(function(){
@@ -116,7 +130,7 @@ $memcache->close();
 
 <div style="width:100px;float:left;"><a href="N.php?act=phpinfo" target="_blank">PHPINFO</a></div>
 
-<div style="width:100px;float:left;"><a href="N.php?act=Function" target="_blank">函数</a></div>
+<div style="width:100px;float:left;"><a href="N_Function.php" target="_blank">函数</a></div>
 
 <div style="width:100px;float:left;"><a href="N.php?act=disable_functions" target="_blank">被禁用的函数</a></div>
 
@@ -137,7 +151,154 @@ $memcache->close();
 
 
 
+<table>
 
+			<tr>
+			  <th colspan="4">必须</th></tr>
+			<tr>
+			  <td width="17%"> <a onclick="show_form('php_dis');" href="javascript:void(0);">
+PHP版本
+</a></td>
+			  <td width="33%"><?php echo PHP_VERSION;?></td>
+			  <td width="13%"></td>
+			  <td width="37%">PHP 5.1.0或更高版本是必须的。 </td>
+    </tr>
+<tr id="php_dis" style="display:none">
+<td colspan="4" style="background:#DFDFDF;color:blue;">
+官网地址 : <a href="http://php.net/" target="_blank">http://php.net/</a><br />
+百度百科 : <a href="http://baike.baidu.com/subview/99/5828265.htm" target="_blank">http://baike.baidu.com/subview/99/5828265.htm</a><br />
+  下载地址 : <a target="_blank" href="http://windows.php.net/downloads/releases/archives/">http://windows.php.net/downloads/releases/archives/</a> [WIN]<br />
+  资料参考 : <br />
+  调试版本 :  PHP/5.4.36<br />
+  发布版本 :
+</td>
+</tr>
+			<tr>
+			  <td><a onclick="show_form('apache_dis');" href="javascript:void(0);">Apache</a></td>
+			  <td><?php echo $_SERVER['SERVER_SOFTWARE'];?></td>
+			  <td>&nbsp;</td>
+			  <td>&nbsp;</td>
+    </tr>
+			<tr id="apache_dis" style="display:none">
+			  <td colspan="4" style="background:#DFDFDF;color:blue;"><p>官网地址 :<a href="http://apache.org/" target="_blank"> http://apache.org/</a><br />
+			    下载地址 : <a href="http://archive.apache.org/dist/httpd/binaries/win32/" target="_blank">http://archive.apache.org/dist/httpd/binaries/win32/</a> [MSI版]<br />
+			    windows安装资料参考 : <br />
+		      调试版本 : Apache/2.2.22 (Win32) <br />
+		      发布版本 : </p></td>
+    </tr>
+			<!-- tr>
+			  <td>$_SERVER变量 </td>
+			  <td></td>
+			  <td>&nbsp;</td>
+			  <td>&nbsp;</td>
+    </tr -->
+			<tr>
+			  <td><a onclick="show_form('memcache_dis');" href="javascript:void(0);">Memcache扩展模块</a> </td>
+			  <td><?php echo $Version['memcache']?></td>
+			  <td>&nbsp;</td>
+			  <td>&nbsp;</td>
+    </tr>
+			<tr id="memcache_dis" style="display:none">
+			  <td colspan="4" style="background:#DFDFDF;color:blue;">
+              
+              百度百科 : <a href="http://baike.baidu.com/view/1193094.htm" target="_blank">http://baike.baidu.com/view/1193094.htm</a>
+              
+              </ul>
+              <br />
+              官网地址 :<br />              <a target="_blank" href="http://pecl.php.net/package/memcache">http://pecl.php.net/package/memcache</a><br />
+			    【memcache.dll】 [微云]<br />
+			    下载地址 :<br />
+			    windows安装资料参考 :
+                <br />
+                调试版本 : Apache/2.2.22 (Win32)
+                <br />
+                发布版本 :</td>
+    </tr>
+			<tr>
+			  <td><a onclick="show_form('APC_dis');" href="javascript:void(0);">APC扩展模块</a> </td>
+			  <td><?php if((phpversion('APC'))!=''){echo phpversion('APC');}else{ echo "<font color=red>×</font>";} ?></td>
+			  <td>&nbsp;</td>
+			  <td>&nbsp;</td>
+    </tr>
+			<tr id="APC_dis" style="display:none">
+			  <td colspan="4" style="background:#DFDFDF;color:blue;"><p>官网地址 : <a href="http://php.net/manual/zh/book.apc.php" target="_blank">http://php.net/manual/zh/book.apc.php</a><br />
+			  百度百科 : </p>
+		      <p><a target="_blank" href="http://pecl.php.net/package/apc">http://pecl.php.net/package/apc</a> 【apc】</p>
+		      <p><br />
+	          <a target="_blank"  href="http://pear.php.net/manual/en/installation.php">http://pear.php.net/manual/en/installation.php</a> 【pear】</p></td>
+    </tr>
+			<tr>
+			  <td><a onclick="show_form('Mysql_dis');" href="javascript:void(0);">Mysql</a></td>
+			  <td><?php echo $Version['mysql']?></td>
+			  <td>&nbsp;</td>
+			  <td>&nbsp;</td>
+    </tr>
+			<tr id="Mysql_dis" style="display:none">
+			  <td colspan="4" style="background:#DFDFDF;color:blue;"><p>官网地址 :<a href="http://apache.org/" target="_blank"> http://apache.org/</a>Mysql-------------------<br />
+			    百度百科 :			  </p>
+		      <p><a href="http://www.mysql.com/downloads/" target="_blank">http://www.mysql.com/downloads/</a></p></td>
+    </tr>
+			<tr>
+			  <td><a onclick="show_form('MongoDb_dis');" href="javascript:void(0);">MongoDb</a></td>
+			  <td>&nbsp;</td>
+			  <td>&nbsp;</td>
+			  <td>&nbsp;</td>
+    </tr>
+			<tr id="MongoDb_dis" style="display:none">
+			  <td colspan="4" style="background:#DFDFDF;color:blue;"><p>官网地址 :<a href="http://apache.org/" target="_blank"> http://apache.org/</a><br />
+			    百度百科 :			  </p>
+			    <p><a target="_blank" href="http://pecl.php.net/package/mongo">http://pecl.php.net/package/mongo</a> 【mongodb.dll】<br />
+		        <a target="_blank" href="https://s3.amazonaws.com/drivers.mongodb.org/php/index.html">https://s3.amazonaws.com/drivers.mongodb.org/php/index.html</a> 【mongodb——】</p>
+		      <p>&nbsp;</p></td>
+    </tr>
+			<tr>
+			  <td>压缩文件支持(Zlib)</td>
+			  <td><?php echo is_func("gzclose");?></td>
+			  <td>&nbsp;</td>
+			  <td>&nbsp;</td>
+    </tr>
+			<tr>
+			  <td>正则表达式函数库</td>
+			  <td><?php echo is_func("preg_match");?></td>
+			  <td>&nbsp;</td>
+			  <td>&nbsp;</td>
+    </tr>
+			<tr>
+			  <td>Iconv编码转换</td>
+			  <td><?php echo is_func("iconv");?></td>
+			  <td>&nbsp;</td>
+			  <td>&nbsp;</td>
+    </tr>
+			<tr>
+			  <td>mbstring</td>
+			  <td><?php echo is_func("mb_eregi");?></td>
+			  <td>&nbsp;</td>
+			  <td>&nbsp;</td>
+    </tr>
+			<tr>
+			  <td>GD库支持</td>
+			  <td><?php
+
+					if(function_exists(gd_info)) {
+
+						$gd_info = @gd_info();
+
+						echo $gd_info["GD Version"];
+
+					}else{echo '<font color="red">×</font>';}
+
+					?></td>
+			  <td>&nbsp;</td>
+			  <td>&nbsp;</td>
+    </tr>
+			<!-- tr>
+                <td>MongoDb</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+            </tr -->
+            
+		</table>
 
 
 <!-- 版本 -->
@@ -178,10 +339,147 @@ $memcache->close();
             
 		</table>
 
+<!-- 服务器配置 -->
 
+<table align="center" width="98%" cellpadding="4" cellspacing="1" border="0" class="td_style">
+	<tr>
+		<th colspan="2" class="tit">PHP环境配置：</th>
+	</tr>
+	<tr>
+		<td width="30%">MySQL数据库</td>
+		<td>&nbsp;</td>
+	</tr>
+	<tbody id="mysql_form" style="display:none">
+	<form action="<?php echo $phpself?>#a2" method="post" onsubmit="dosubmit(this);">
+	<input type="hidden" name="action" value="mysql_test" />
+	<tr>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+	</tr>
+	</form>
+	</tbody>
+	<tr>
+		<td>图形处理库 GD Library</td>
+		<td><?php echo is_func('gd_info')?> (<?php echo get_gd_info()?>)</td>
+	</tr>
+		<tr>
+		<td>用户访问文件的活动范围限制 open_basedir</td>
+		<td><?php echo ini_get("open_basedir") ? ini_get("open_basedir") : '无'?></td>
+	</tr>	
+	<tr>
+		<td>字符转换函数支持</td>
+		<td>iconv <?php echo is_func('iconv')?> 或 mbstring <?php echo is_func('mb_convert_encoding')?> <span class="txtgray">(针对中文字符编码进行转换，没有安装文字将会出现乱码。)</span></td>
+	</tr>
+	<tr>
+		<td>&lt;?=?&gt;短标签支持(short_open_tag)：</td>
+		<td><?php echo ini_get("short_open_tag") ? YES : NO ?></td>
+	</tr>
+	<tr>
+		<td>PHP安全模式运行</td>
+		<td><?php echo ini_get("safe_mode") ? YES : NO ?>&nbsp;&nbsp;<span class="red">(为了服务器安全，建议关闭)</span></td>
+	</tr>
+	<tr>
+		<td>压缩文件支持(Zlib)</td>
+		<td><?php echo is_func("gzopen")?></td>
+	</tr>
+	<tr>
+		<td>fsockopen函数支持</td>
+		<td><?php echo is_func("fsockopen")?>&nbsp;&nbsp;<span class="red">(若不支持，发送邮件功能将不能使用)</span></td>
+	</tr>
+	<tr>
+		<td>FTP函数支持</td>
+		<td><?php echo is_func("ftp_connect")?></td>
+	</tr>
+	<tr>
+		<td>OpenSSL支持</td>
+		<td><?php echo is_func("openssl_open")?></td>
+	</tr>
+	<tr>
+		<td>CURL函数支持</td>
+		<td><?php echo is_func("curl_init")?></td>
+	</tr>
+	<tr>
+		<td>is_dir函数支持</td>
+		<td><?php echo is_func("is_dir")?></td>
+	</tr>
+	<tr>
+		<td>目录搜索scandir函数支持</td>
+		<td><?php echo is_func("scandir")?></td>
+	</tr>
+	<tr>
+		<td>文件遍历glob函数支持</td>
+		<td><?php echo is_func("glob")?></td>
+	</tr>
+	<tr>
+		<td>允许使用URL打开文件 allow_url_fopen</td>
+		<td><?php echo get_cfg("allow_url_fopen")?>&nbsp;&nbsp;<span class="red">(为了服务器安全，建议关闭)</span></td>
+	</tr>
+	<tr>
+		<td>程序最多允许使用内存量 memory_limit</td>
+		<td><?php echo ini_get("memory_limit")?>&nbsp;&nbsp;<span class="txtgray">(如果出现文件上传后没有显示的问题，请适当将此值改大。)</span></td>
+	</tr>
+	<tr>
+		<td>POST表单最大字节数 post_max_size</td>
+		<td><?php echo ini_get("post_max_size")?>
+		<?php if(!@ini_get("post_max_size") || get_byte_value('999M')<get_byte_value(@ini_get("post_max_size"))){?>
+		<span class="red">(理论上，php.ini 只允许设置最大值为 999M ，设置过大时会产生运行异常！！！)</span>
+		<?php }?>
+		</td>
+	</tr>
+	<tr>
+		<td>允许最大上传文件 upload_max_filesize</td>
+		<td><?php echo ini_get("upload_max_filesize")?>
+		<?php if(!@ini_get("upload_max_filesize") || get_byte_value('999M')<get_byte_value(@ini_get("upload_max_filesize"))){?>
+		<span class="red">(理论上，php.ini 只允许设置最大值为 999M ，设置过大时会产生运行异常！！！)</span>
+		<?php }?><br />
+		<span class="blue">(当前环境PHPDISK可上传单个文件的最大值为<u class="red"><?php echo $phpdisk_max_filesize?></u>，推荐单个文件的大小在50MB以内)</span></td>
+	</tr>
+	<tr>
+		<td colspan="2" style="background:#555555;border:1px solid #FFE3A0">&nbsp;</td>
+	</tr>	
+	<tr>
+		<td>程序运行超时时间 max_execution_time</td>
+		<td><?php echo ini_get("max_execution_time")?> 秒</td>
+	</tr>
+	<tr>
+		<td>上传临时目录 upload_tmp_dir</td>
+		<td><?php echo ini_get("upload_tmp_dir") ? ini_get("upload_tmp_dir") : '默认(建议手动指定目录)'?>&nbsp;&nbsp;<span class="txtgray">(请确认此目录拥有读写权限。)</span></td>
+	</tr>
+	<tr>
+		<td>Session支持</td>
+		<td><?php echo is_func('session_start')?></td>
+	</tr>
+	<tr>
+		<td>Session临时目录 session.save_path</td>
+		<td><?php echo ini_get('session.save_path') ? ini_get('session.save_path') : '默认(建议手动指定目录)'?>&nbsp;&nbsp;<span class="txtgray">(请确认此目录拥有读写权限。)</span></td>
+	</tr>
+	<tr>
+		<td>自定义全局变量 register_globals</td>
+		<td><?php echo get_cfg("register_globals")?>&nbsp;&nbsp;<span class="txtgray">(PHP5 以上默认关闭。)</span></td>
+	</tr>
+	<tr>
+		<td>显示错误信息 display_errors</td>
+		<td><?php echo get_cfg("display_errors")?></td>
+	</tr>
+	<tr>
+		<td>PHP错误信息 error_reporting</td>
+		<td><?php echo ini_get("error_reporting")?></td>
+	</tr>
+	<tr>
+		<td>禁用的函数 disable_functions</td>
+		<td style="word-break:break-all"><?php echo ini_get("disable_functions") ? ini_get("disable_functions") : '无'?>&nbsp;&nbsp;<br><span class="txtgray">(如果禁用了scandir目录遍历函数，请修改php.ini开启。)</span></td>
+	</tr>
+	<tr>
+		<td>输出缓冲 output_buffering</td>
+		<td><?php echo ini_get("output_buffering") ? ini_get("output_buffering") : '无'?></td>
+	</tr>
+	<tr>
+		<td>服务PHP内存占用</td>
+		<td><?php echo get_size(memory_get_usage())?></td>
+	</tr>
+	</table>
 
-
-		<!--服务器相关参数-->
+<!--服务器相关参数-->
 
 		<table>
 
@@ -204,32 +502,12 @@ $memcache->close();
 			</tr>
 
 			<tr>
-			  <td>&nbsp;</td>
-			  <td>&nbsp;</td>
-			  <td>&nbsp;</td>
-			  <td>&nbsp;</td>
+			  <td>服务器时区/时间</td>
+			  <td colspan="3"><?php echo @date_default_timezone_get()?> / <?php echo date("Y年n月j日 H:i:s")?> <span class="txtgray">(北京时间: <?php echo gmdate("Y年n月j日 H:i:s",time()+8*3600)?>)</td>
 		  </tr>
 			<tr>
-			  <td>&nbsp;</td>
-			  <td>&nbsp;</td>
-			  <td>&nbsp;</td>
-			  <td>&nbsp;</td>
-		  </tr>
-			<tr>
-			  <td>&nbsp;</td>
-			  <td>&nbsp;</td>
-			  <td>&nbsp;</td>
-			  <td>&nbsp;</td>
-		  </tr>
-			<tr>
-			  <td>&nbsp;</td>
-			  <td>&nbsp;</td>
-			  <td>&nbsp;</td>
-			  <td>&nbsp;</td>
-		  </tr>
-			<tr>
-			  <td>&nbsp;</td>
-			  <td>&nbsp;</td>
+			  <td><span class="red">php.ini 位置</span></td>
+			  <td><?php echo function_exists('php_ini_loaded_file') ? php_ini_loaded_file() : '请查看 phpinfo';?></td>
 			  <td>&nbsp;</td>
 			  <td>&nbsp;</td>
 		  </tr>
@@ -482,7 +760,7 @@ foreach ($able as $key=>$value) {
 			</tr>
 			<tr>
 				<td>Cookie 支持：</td>
-				<td><?php echo isset($_COOKIE)?'<font color="green">√</font>' : '<font color="red">×</font>';?></td>
+				<td><?php echo isset($_COOKIE)?'<font color="blue"><b>√</b></font>' : '<font color="red"><b>×</b></font>';?></td>
 				<td>拼写检查（ASpell Library）：</td>
 				<td><?php echo isfun("aspell_check_raw");?></td>
 			</tr>
@@ -505,7 +783,7 @@ foreach ($able as $key=>$value) {
 			</tr>
 			<tr>
 				<td>SMTP支持：</td>
-				<td><?php echo get_cfg_var("SMTP")?'<font color="green">√</font>' : '<font color="red">×</font>';?></td>
+				<td><?php echo get_cfg_var("SMTP")?'<font color="blue"><b>√</b></font>' : '<font color="red"><b>×</b></font>';?></td>
 				<td>SMTP地址：</td>
 				<td><?php echo get_cfg_var("SMTP")?get_cfg_var("SMTP"):'<font color="red">×</font>';?></td>
 			</tr>

@@ -1,4 +1,5 @@
 <?php
+
 //支持函数
 $com['mysql'] = array(
 	'hostname' => '127.0.0.1',
@@ -19,10 +20,41 @@ $com['memcache'] = array(
 	'port' => '11211'
 );
 
+define('YES','<span class="f12 blue">支持</span>');
+define('NO','<span class="f12 red">不支持</span>');
+
+function is_func($func){
+	return function_exists($func) ? YES : NO;
+}
+
 function memory_usage()
 {
 	$memory	 = ( ! function_exists('memory_get_usage')) ? '0' : round(memory_get_usage()/1024/1024, 2).'MB';
 	return $memory;
+}
+
+function get_cfg($val){
+	return ini_get($val) ? YES : NO;
+}
+
+function get_byte_value($v){
+	$v = trim($v);
+	$l = strtolower($v[strlen($v) - 1]);
+	switch($l){
+	  case 'g':
+		$v *= 1024;
+	
+	  case 'm':
+		$v *= 1024;
+	
+	  case 'k':
+		$v *= 1024;
+	}
+	return $v;
+}
+function get_size($s,$u='B',$p=1){
+	$us = array('B'=>'K','K'=>'M','M'=>'G','G'=>'T');
+	return (($u!=='B')&&(!isset($us[$u]))||($s<1024))?(number_format($s,$p)." $u"):(get_size($s/1024,$us[$u],$p));
 }
 
 // 计时
@@ -33,19 +65,25 @@ function microtime_float()
 	return $mtime[1] + $mtime[0];
 }
 
-
+function get_gd_info(){
+	if(function_exists('gd_info')){
+		$gd_info_arr = gd_info();
+		return $gd_info_arr['GD Version'];
+	}else{
+		return '<span class="txtred">请开启PHP GD库支持</span>';
+	}
+}
 
 //检测PHP设置参数
-
 function show($varName)
 {
 	switch($result = get_cfg_var($varName))
 	{
 		case 0:
-			return '<font color="red">×</font>';
+			return '<font color="red"><b>×</b></font>';
 			break;
 		case 1:
-			return '<font color="green">√</font>';
+			return '<font color="blue"><b>√</b></font>';
 			break;
 		default:
 			return $result;
@@ -57,13 +95,13 @@ function show($varName)
 function isfun($funName = '')
 {
 	if (!$funName || trim($funName) == '' || preg_match('~[^a-z0-9\_]+~i', $funName, $tmp)) return '错误';
-	return (false !== function_exists($funName)) ? '<font color="green">√</font>' : '<font color="red">×</font>';
+	return (false !== function_exists($funName)) ? '<font color="blue"><b>√</b></font>' : '<font color="red"><b>×</b></font>';
 }
 
 function isfun1($funName = '')
 {
 	if (!$funName || trim($funName) == '' || preg_match('~[^a-z0-9\_]+~i', $funName, $tmp)) return '错误';
-	return (false !== function_exists($funName)) ? '√' : '×';
+	return (false !== function_exists($funName)) ? '<b>√</b>' : '<b>×</b>';
 }
 
 
