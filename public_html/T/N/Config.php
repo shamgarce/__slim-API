@@ -80,10 +80,10 @@ function show($varName)
 	switch($result = get_cfg_var($varName))
 	{
 		case 0:
-			return '<font color="red"><b>×</b></font>';
+			return NO;
 			break;
 		case 1:
-			return '<font color="blue"><b>√</b></font>';
+			return YES;
 			break;
 		default:
 			return $result;
@@ -91,18 +91,6 @@ function show($varName)
 	}
 }
 
-// 检测函数支持
-function isfun($funName = '')
-{
-	if (!$funName || trim($funName) == '' || preg_match('~[^a-z0-9\_]+~i', $funName, $tmp)) return '错误';
-	return (false !== function_exists($funName)) ? '<font color="blue"><b>√</b></font>' : '<font color="red"><b>×</b></font>';
-}
-
-function isfun1($funName = '')
-{
-	if (!$funName || trim($funName) == '' || preg_match('~[^a-z0-9\_]+~i', $funName, $tmp)) return '错误';
-	return (false !== function_exists($funName)) ? '<b>√</b>' : '<b>×</b>';
-}
 
 
 

@@ -164,14 +164,15 @@ PHP版本
 			  <td width="37%">PHP 5.1.0或更高版本是必须的。 </td>
     </tr>
 <tr id="php_dis" style="display:none">
-<td colspan="4" style="background:#DFDFDF;color:blue;">
+<td colspan="4" style="background:#DFDFDF;color:blue;"><P>
 官网地址 : <a href="http://php.net/" target="_blank">http://php.net/</a><br />
 百度百科 : <a href="http://baike.baidu.com/subview/99/5828265.htm" target="_blank">http://baike.baidu.com/subview/99/5828265.htm</a><br />
   下载地址 : <a target="_blank" href="http://windows.php.net/downloads/releases/archives/">http://windows.php.net/downloads/releases/archives/</a> [WIN]<br />
   资料参考 : <br />
   调试版本 :  PHP/5.4.36<br />
   发布版本 :
-</td>
+  <br />
+  详细参数 : <a href="N.php?act=phpinfo" target="_blank">N.php?act=phpinfo</a></P></td>
 </tr>
 			<tr>
 			  <td><a onclick="show_form('apache_dis');" href="javascript:void(0);">Apache</a></td>
@@ -181,8 +182,9 @@ PHP版本
     </tr>
 			<tr id="apache_dis" style="display:none">
 			  <td colspan="4" style="background:#DFDFDF;color:blue;"><p>官网地址 :<a href="http://apache.org/" target="_blank"> http://apache.org/</a><br />
+			    百度百科 : <a href="http://baike.baidu.com/subview/28283/5418752.htm" target="_blank">http://baike.baidu.com/subview/28283/5418752.htm</a><br />
 			    下载地址 : <a href="http://archive.apache.org/dist/httpd/binaries/win32/" target="_blank">http://archive.apache.org/dist/httpd/binaries/win32/</a> [MSI版]<br />
-			    windows安装资料参考 : <br />
+			    资料参考 : <br />
 		      调试版本 : Apache/2.2.22 (Win32) <br />
 		      发布版本 : </p></td>
     </tr>
@@ -192,6 +194,30 @@ PHP版本
 			  <td>&nbsp;</td>
 			  <td>&nbsp;</td>
     </tr -->
+    
+	<tr>
+			  <td><a onclick="show_form('pear_dis');" href="javascript:void(0);">pear扩展模块</a> </td>
+			  <td></td>
+			  <td>&nbsp;</td>
+			  <td>&nbsp;</td>
+    </tr>
+	<tr id="pear_dis" style="display:none">
+			  <td colspan="4" style="background:#DFDFDF;color:blue;">
+              
+                <p>官网地址 : http://pear.php.net/<br />
+                百度百科 : http://baike.baidu.com/subview/20453/16587839.htm<br />
+			    下载地址 : http://pear.php.net/manual/en/installation.php<br />
+			    http://pear.php.net/manual/en/installation.getting.php			    <br />
+                <a href="http://pear.php.net/go-pear.phar" target="_blank"> http://pear.php.net/go-pear.phar</a><br />
+			    资料参考 :
+                 <br />
+                调试版本 :  <br />
+        发布版本 : </p></td>
+    </tr>    
+    
+    
+    
+    
 			<tr>
 			  <td><a onclick="show_form('memcache_dis');" href="javascript:void(0);">Memcache扩展模块</a> </td>
 			  <td><?php echo $Version['memcache']?></td>
@@ -201,31 +227,28 @@ PHP版本
 			<tr id="memcache_dis" style="display:none">
 			  <td colspan="4" style="background:#DFDFDF;color:blue;">
               
-              百度百科 : <a href="http://baike.baidu.com/view/1193094.htm" target="_blank">http://baike.baidu.com/view/1193094.htm</a>
+                <p>官网地址 : <a href="http://memcached.org/" target="_blank">http://memcached.org/</a><br />百度百科 : <a href="http://baike.baidu.com/view/1193094.htm" target="_blank">http://baike.baidu.com/view/1193094.htm</a>
               
               </ul>
               <br />
-              官网地址 :<br />              <a target="_blank" href="http://pecl.php.net/package/memcache">http://pecl.php.net/package/memcache</a><br />
-			    【memcache.dll】 [微云]<br />
-			    下载地址 :<br />
-			    windows安装资料参考 :
-                <br />
-                调试版本 : Apache/2.2.22 (Win32)
-                <br />
-                发布版本 :</td>
+			    下载地址 :<a target="_blank" href="http://pecl.php.net/package/memcache"> http://pecl.php.net/package/memcache</a><br />
+			    DLL 下载 : 【memcache.dll】 [微云]<br />
+			    资料参考 :
+                 <br />
+                调试版本 :  <br />
+                发布版本 : </p></td>
     </tr>
 			<tr>
 			  <td><a onclick="show_form('APC_dis');" href="javascript:void(0);">APC扩展模块</a> </td>
-			  <td><?php if((phpversion('APC'))!=''){echo phpversion('APC');}else{ echo "<font color=red>×</font>";} ?></td>
+			  <td><?php if((phpversion('APC'))!=''){echo phpversion('APC');}else{ echo NO;} ?></td>
 			  <td>&nbsp;</td>
 			  <td>&nbsp;</td>
     </tr>
 			<tr id="APC_dis" style="display:none">
 			  <td colspan="4" style="background:#DFDFDF;color:blue;"><p>官网地址 : <a href="http://php.net/manual/zh/book.apc.php" target="_blank">http://php.net/manual/zh/book.apc.php</a><br />
-			  百度百科 : </p>
-		      <p><a target="_blank" href="http://pecl.php.net/package/apc">http://pecl.php.net/package/apc</a> 【apc】</p>
-		      <p><br />
-	          <a target="_blank"  href="http://pear.php.net/manual/en/installation.php">http://pear.php.net/manual/en/installation.php</a> 【pear】</p></td>
+			  百度百科 : <a href="http://baike.baidu.com/subview/281295/5341407.htm" target="_blank">http://baike.baidu.com/subview/281295/5341407.htm</a><br />
+			  DLL 下载 :              http://pecl.php.net/package/apc<br />
+			  资料参考 :			  </p></td>
     </tr>
 			<tr>
 			  <td><a onclick="show_form('Mysql_dis');" href="javascript:void(0);">Mysql</a></td>
@@ -234,9 +257,13 @@ PHP版本
 			  <td>&nbsp;</td>
     </tr>
 			<tr id="Mysql_dis" style="display:none">
-			  <td colspan="4" style="background:#DFDFDF;color:blue;"><p>官网地址 :<a href="http://apache.org/" target="_blank"> http://apache.org/</a>Mysql-------------------<br />
-			    百度百科 :			  </p>
-		      <p><a href="http://www.mysql.com/downloads/" target="_blank">http://www.mysql.com/downloads/</a></p></td>
+			  <td colspan="4" style="background:#DFDFDF;color:blue;"><p>官网地址 : <a href="http://www.mysql.com/" target="_blank">http://www.mysql.com/</a><br />
+			    百度百科 :			  <a href="http://baike.baidu.com/subview/24816/15308361.htm" target="_blank">http://baike.baidu.com/subview/24816/15308361.htm</a><br />
+			    下载地址			  : <a href="http://www.mysql.com/downloads/" target="_blank">http://www.mysql.com/downloads/</a><br />
+			    资料参考 : <br />
+调试版本 : 5.1.62-community<br />
+发布版本 : <br />
+详细参数 :</p></td>
     </tr>
 			<tr>
 			  <td><a onclick="show_form('MongoDb_dis');" href="javascript:void(0);">MongoDb</a></td>
@@ -245,11 +272,14 @@ PHP版本
 			  <td>&nbsp;</td>
     </tr>
 			<tr id="MongoDb_dis" style="display:none">
-			  <td colspan="4" style="background:#DFDFDF;color:blue;"><p>官网地址 :<a href="http://apache.org/" target="_blank"> http://apache.org/</a><br />
-			    百度百科 :			  </p>
-			    <p><a target="_blank" href="http://pecl.php.net/package/mongo">http://pecl.php.net/package/mongo</a> 【mongodb.dll】<br />
-		        <a target="_blank" href="https://s3.amazonaws.com/drivers.mongodb.org/php/index.html">https://s3.amazonaws.com/drivers.mongodb.org/php/index.html</a> 【mongodb——】</p>
-		      <p>&nbsp;</p></td>
+			  <td colspan="4" style="background:#DFDFDF;color:blue;"><p>官网地址 : <a href="http://www.mongodb.org/" target="_blank">http://www.mongodb.org/</a><br />
+			    百度百科 :			  <a href="http://baike.baidu.com/subview/3385614/9338179.htm" target="_blank">http://baike.baidu.com/subview/3385614/9338179.htm</a><br />
+			    下载地址 : <a target="_blank" href="https://s3.amazonaws.com/drivers.mongodb.org/php/index.html">https://s3.amazonaws.com/drivers.mongodb.org/php/index.html</a> 【mongodb】<br />
+			    DLL 下载 :			    <a target="_blank" href="http://pecl.php.net/package/mongo">http://pecl.php.net/package/mongo</a> 【mongodb.dll】<br />
+			    资料参考 : <br />
+调试版本 : Ver 1.5.3.0 <br />
+发布版本 : <br />
+详细参数 :</p></td>
     </tr>
 			<tr>
 			  <td>压缩文件支持(Zlib)</td>
@@ -285,7 +315,7 @@ PHP版本
 
 						echo $gd_info["GD Version"];
 
-					}else{echo '<font color="red">×</font>';}
+					}else{echo NO;}
 
 					?></td>
 			  <td>&nbsp;</td>
@@ -313,13 +343,13 @@ PHP版本
 				<td width="13%">PHP</td>
 				<td width="37%"><?php echo PHP_VERSION;?></td>
 				<td width="13%">Apc</td>
-				<td width="37%"><?php if((phpversion('APC'))!=''){echo phpversion('APC');}else{ echo "<font color=red>×</font>";} ?></td>
+				<td width="37%"><?php if((phpversion('APC'))!=''){echo phpversion('APC');}else{ echo NO;} ?></td>
 			</tr>
 			<tr>
 				<td>Mysql</td>
 				<td><?php echo $Version['mysql']?></td>
 				<td>Zend</td>
-				<td><?php $zend_version = zend_version();if(empty($zend_version)){echo '<font color=red>×</font>';}else{echo $zend_version;}?></td>
+				<td><?php $zend_version = zend_version();if(empty($zend_version)){echo NO;}else{echo $zend_version;}?></td>
 			</tr>
 	
 
@@ -604,8 +634,8 @@ foreach ($able as $key=>$value) {
 					$disFuns=get_cfg_var("disable_functions");
 					?>
 
-					<?php //echo (false!==eregi("phpinfo",$disFuns))? '<font color="red">×</font>' :"<a href='$phpSelf?act=phpinfo' target='_blank'>PHPINFO</a>";?>
-                    <?php echo (false!==eregi("phpinfo",$disFuns))? '<font color="red">×</font>' :"PHPINFO";?>
+					<?php //echo (false!==eregi("phpinfo",$disFuns))? NO :"<a href='$phpSelf?act=phpinfo' target='_blank'>PHPINFO</a>";?>
+                    <?php echo (false!==eregi("phpinfo",$disFuns))? NO :"PHPINFO";?>
 
 			  </td>
 
@@ -760,32 +790,32 @@ foreach ($able as $key=>$value) {
 			</tr>
 			<tr>
 				<td>Cookie 支持：</td>
-				<td><?php echo isset($_COOKIE)?'<font color="blue"><b>√</b></font>' : '<font color="red"><b>×</b></font>';?></td>
+				<td><?php echo isset($_COOKIE)?YES : NO;?></td>
 				<td>拼写检查（ASpell Library）：</td>
-				<td><?php echo isfun("aspell_check_raw");?></td>
+				<td><?php echo is_func("aspell_check_raw");?></td>
 			</tr>
 			<tr>
 				<td>高精度数学运算（BCMath）：</td>
-				<td><?php echo isfun("bcadd");?></td>
+				<td><?php echo is_func("bcadd");?></td>
 				<td>PREL相容语法（PCRE）：</td>
-				<td><?php echo isfun("preg_match");?></td>
+				<td><?php echo is_func("preg_match");?></td>
 			<tr>
 				<td>PDF文档支持：</td>
-				<td><?php echo isfun("pdf_close");?></td>
+				<td><?php echo is_func("pdf_close");?></td>
 				<td>SNMP网络管理协议：</td>
-				<td><?php echo isfun("snmpget");?></td>
+				<td><?php echo is_func("snmpget");?></td>
 			</tr>
 			<tr>
 				<td>VMailMgr邮件处理：</td>
-				<td><?php echo isfun("vm_adduser");?></td>
+				<td><?php echo is_func("vm_adduser");?></td>
 				<td>Curl支持：</td>
-				<td><?php echo isfun("curl_init");?></td>
+				<td><?php echo is_func("curl_init");?></td>
 			</tr>
 			<tr>
 				<td>SMTP支持：</td>
-				<td><?php echo get_cfg_var("SMTP")?'<font color="blue"><b>√</b></font>' : '<font color="red"><b>×</b></font>';?></td>
+				<td><?php echo get_cfg_var("SMTP")?YES : NO;?></td>
 				<td>SMTP地址：</td>
-				<td><?php echo get_cfg_var("SMTP")?get_cfg_var("SMTP"):'<font color="red">×</font>';?></td>
+				<td><?php echo get_cfg_var("SMTP")?get_cfg_var("SMTP"):NO;?></td>
 			</tr>
 
 			<tr>
@@ -799,7 +829,7 @@ foreach ($able as $key=>$value) {
 					$disFuns=get_cfg_var("disable_functions");
 					if(empty($disFuns))
 					{
-						echo '<font color=red>×</font>';
+						echo NO;
 					}
 					else
 					{
@@ -832,11 +862,11 @@ foreach ($able as $key=>$value) {
 
 				<td width="32%">FTP支持：</td>
 
-				<td width="18%"><?php echo isfun("ftp_login");?></td>
+				<td width="18%"><?php echo is_func("ftp_login");?></td>
 
 				<td width="32%">XML解析支持：</td>
 
-				<td width="18%"><?php echo isfun("xml_set_object");?></td>
+				<td width="18%"><?php echo is_func("xml_set_object");?></td>
 
 			</tr>
 
@@ -844,11 +874,11 @@ foreach ($able as $key=>$value) {
 
 				<td>Session支持：</td>
 
-				<td><?php echo isfun("session_start");?></td>
+				<td><?php echo is_func("session_start");?></td>
 
 				<td>Socket支持：</td>
 
-				<td><?php echo isfun("socket_accept");?></td>
+				<td><?php echo is_func("socket_accept");?></td>
 
 			</tr>
 
@@ -856,7 +886,7 @@ foreach ($able as $key=>$value) {
 
 				<td>Calendar支持</td>
 
-				<td><?php echo isfun('cal_days_in_month');?>
+				<td><?php echo is_func('cal_days_in_month');?>
 				</td>
 
 				<td>允许URL打开文件：</td>
@@ -879,13 +909,13 @@ foreach ($able as $key=>$value) {
 
 						echo $gd_info["GD Version"];
 
-					}else{echo '<font color="red">×</font>';}
+					}else{echo NO;}
 
 					?></td>
 
 				<td>压缩文件支持(Zlib)：</td>
 
-				<td><?php echo isfun("gzclose");?></td>
+				<td><?php echo is_func("gzclose");?></td>
 
 			</tr>
 
@@ -893,11 +923,11 @@ foreach ($able as $key=>$value) {
 
 				<td>IMAP电子邮件系统函数库：</td>
 
-				<td><?php echo isfun("imap_close");?></td>
+				<td><?php echo is_func("imap_close");?></td>
 
 				<td>历法运算函数库：</td>
 
-				<td><?php echo isfun("JDToGregorian");?></td>
+				<td><?php echo is_func("JDToGregorian");?></td>
 
 			</tr>
 
@@ -905,11 +935,11 @@ foreach ($able as $key=>$value) {
 
 				<td>正则表达式函数库：</td>
 
-				<td><?php echo isfun("preg_match");?></td>
+				<td><?php echo is_func("preg_match");?></td>
 
 				<td>WDDX支持：</td>
 
-				<td><?php echo isfun("wddx_add_vars");?></td>
+				<td><?php echo is_func("wddx_add_vars");?></td>
 
 			</tr>
 
@@ -917,11 +947,11 @@ foreach ($able as $key=>$value) {
 
 				<td>Iconv编码转换：</td>
 
-				<td><?php echo isfun("iconv");?></td>
+				<td><?php echo is_func("iconv");?></td>
 
 				<td>mbstring：</td>
 
-				<td><?php echo isfun("mb_eregi");?></td>
+				<td><?php echo is_func("mb_eregi");?></td>
 
 			</tr>
 
@@ -929,11 +959,11 @@ foreach ($able as $key=>$value) {
 
 				<td>高精度数学运算：</td>
 
-				<td><?php echo isfun("bcadd");?></td>
+				<td><?php echo is_func("bcadd");?></td>
 
 				<td>LDAP目录协议：</td>
 
-				<td><?php echo isfun("ldap_close");?></td>
+				<td><?php echo is_func("ldap_close");?></td>
 
 			</tr>
 
@@ -941,11 +971,11 @@ foreach ($able as $key=>$value) {
 
 				<td>MCrypt加密处理：</td>
 
-				<td><?php echo isfun("mcrypt_cbc");?></td>
+				<td><?php echo is_func("mcrypt_cbc");?></td>
 
 				<td>哈稀计算：</td>
 
-				<td><?php echo isfun("mhash_count");?></td>
+				<td><?php echo is_func("mhash_count");?></td>
 
 			</tr>
 
@@ -957,7 +987,7 @@ foreach ($able as $key=>$value) {
 			<tr><th colspan="4" >第三方组件</th></tr>
 			<tr>
 				<td width="32%">Zend版本</td>
-				<td width="18%"><?php $zend_version = zend_version();if(empty($zend_version)){echo '<font color=red>×</font>';}else{echo $zend_version;}?></td>
+				<td width="18%"><?php $zend_version = zend_version();if(empty($zend_version)){echo NO;}else{echo $zend_version;}?></td>
 				<td width="32%">
 					<?php
 					$PHP_VERSION = PHP_VERSION;
@@ -972,19 +1002,19 @@ foreach ($able as $key=>$value) {
 					}
 					?>
 				</td>
-				<td width="18%"><?php if($PHP_VERSION > 2){echo (get_cfg_var("zend_loader.enable"))?'<font color=green>√</font>':'<font color=red>×</font>';} else{if(function_exists('zend_optimizer_version')){	echo zend_optimizer_version();}else{	echo (get_cfg_var("zend_optimizer.optimization_level")||get_cfg_var("zend_extension_manager.optimizer_ts")||get_cfg_var("zend.ze1_compatibility_mode")||get_cfg_var("zend_extension_ts"))?'<font color=green>√</font>':'<font color=red>×</font>';}}?></td>
+				<td width="18%"><?php if($PHP_VERSION > 2){echo (get_cfg_var("zend_loader.enable"))?'<font color=green>√</font>':NO;} else{if(function_exists('zend_optimizer_version')){	echo zend_optimizer_version();}else{	echo (get_cfg_var("zend_optimizer.optimization_level")||get_cfg_var("zend_extension_manager.optimizer_ts")||get_cfg_var("zend.ze1_compatibility_mode")||get_cfg_var("zend_extension_ts"))?'<font color=green>√</font>':NO;}}?></td>
 			</tr>
 			<tr>
 				<td>eAccelerator</td>
-				<td><?php if((phpversion('eAccelerator'))!=''){echo phpversion('eAccelerator');}else{ echo "<font color=red>×</font>";} ?></td>
+				<td><?php if((phpversion('eAccelerator'))!=''){echo phpversion('eAccelerator');}else{ echo NO;} ?></td>
 				<td>ioncube</td>
-				<td><?php if(extension_loaded('ionCube Loader')){   $ys = ioncube_loader_iversion();   $gm = ".".(int)substr($ys,3,2);   echo ionCube_Loader_version().$gm;}else{echo "<font color=red>×</font>";}?></td>
+				<td><?php if(extension_loaded('ionCube Loader')){   $ys = ioncube_loader_iversion();   $gm = ".".(int)substr($ys,3,2);   echo ionCube_Loader_version().$gm;}else{echo NO;}?></td>
 			</tr>
 			<tr>
 				<td>XCache</td>
-				<td><?php if((phpversion('XCache'))!=''){echo phpversion('XCache');}else{ echo "<font color=red>×</font>";} ?></td>
+				<td><?php if((phpversion('XCache'))!=''){echo phpversion('XCache');}else{ echo NO;} ?></td>
 				<td>APC</td>
-				<td><?php if((phpversion('APC'))!=''){echo phpversion('APC');}else{ echo "<font color=red>×</font>";} ?></td>
+				<td><?php if((phpversion('APC'))!=''){echo phpversion('APC');}else{ echo NO;} ?></td>
 			</tr>
 		</table>
 
@@ -1000,7 +1030,7 @@ foreach ($able as $key=>$value) {
 
 				<td width="32%">MySQL 数据库：</td>
 
-				<td width="18%"><?php echo isfun("mysql_close");?>
+				<td width="18%"><?php echo is_func("mysql_close");?>
 
 					<?php
 					if(function_exists("mysql_get_server_info")) {
@@ -1015,7 +1045,7 @@ foreach ($able as $key=>$value) {
 
 				<td width="32%">ODBC 数据库：</td>
 
-				<td width="18%"><?php echo isfun("odbc_close");?></td>
+				<td width="18%"><?php echo is_func("odbc_close");?></td>
 
 			</tr>
 
@@ -1023,11 +1053,11 @@ foreach ($able as $key=>$value) {
 
 				<td>Oracle 数据库：</td>
 
-				<td><?php echo isfun("ora_close");?></td>
+				<td><?php echo is_func("ora_close");?></td>
 
 				<td>SQL Server 数据库：</td>
 
-				<td><?php echo isfun("mssql_close");?></td>
+				<td><?php echo is_func("mssql_close");?></td>
 
 			</tr>
 
@@ -1035,11 +1065,11 @@ foreach ($able as $key=>$value) {
 
 				<td>dBASE 数据库：</td>
 
-				<td><?php echo isfun("dbase_close");?></td>
+				<td><?php echo is_func("dbase_close");?></td>
 
 				<td>mSQL 数据库：</td>
 
-				<td><?php echo isfun("msql_close");?></td>
+				<td><?php echo is_func("msql_close");?></td>
 
 			</tr>
 
@@ -1047,11 +1077,11 @@ foreach ($able as $key=>$value) {
 
 				<td>SQLite 数据库：</td>
 
-				<td><?php if(extension_loaded('sqlite3')) {$sqliteVer = SQLite3::version();echo '<font color=green>√</font>　';echo "SQLite3　Ver ";echo $sqliteVer[versionString];}else {echo isfun("sqlite_close");if(isfun("sqlite_close") == '<font color="green">√</font>') {echo "&nbsp; 版本： ".@sqlite_libversion();}}?></td>
+				<td><?php if(extension_loaded('sqlite3')) {$sqliteVer = SQLite3::version();echo '<font color=green>√</font>　';echo "SQLite3　Ver ";echo $sqliteVer[versionString];}else {echo is_func("sqlite_close");if(is_func("sqlite_close") == '<font color="green">√</font>') {echo "&nbsp; 版本： ".@sqlite_libversion();}}?></td>
 
 				<td>Hyperwave 数据库：</td>
 
-				<td><?php echo isfun("hw_close");?></td>
+				<td><?php echo is_func("hw_close");?></td>
 
 			</tr>
 
@@ -1059,24 +1089,24 @@ foreach ($able as $key=>$value) {
 
 				<td>Postgre SQL 数据库：</td>
 
-				<td><?php echo isfun("pg_close"); ?></td>
+				<td><?php echo is_func("pg_close"); ?></td>
 
 				<td>Informix 数据库：</td>
 
-				<td><?php echo isfun("ifx_close");?></td>
+				<td><?php echo is_func("ifx_close");?></td>
 
 			</tr>
 			<tr>
 				<td>DBA 数据库：</td>
-				<td><?php echo isfun("dba_close");?></td>
+				<td><?php echo is_func("dba_close");?></td>
 				<td>DBM 数据库：</td>
-				<td><?php echo isfun("dbmclose");?></td>
+				<td><?php echo is_func("dbmclose");?></td>
 			</tr>
 			<tr>
 				<td>FilePro 数据库：</td>
-				<td><?php echo isfun("filepro_fieldcount");?></td>
+				<td><?php echo is_func("filepro_fieldcount");?></td>
 				<td>SyBase 数据库：</td>
-				<td><?php echo isfun("sybase_close");?></td>
+				<td><?php echo is_func("sybase_close");?></td>
 			</tr>
 
 		</table>
