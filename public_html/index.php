@@ -82,7 +82,7 @@ if (defined('ENVIRONMENT'))
  * NO TRAILING SLASH!
  *
  */
-	$application_folder = 'M';
+	$application_folder = 'Mib/';
 
 /*
  * --------------------------------------------------------------------

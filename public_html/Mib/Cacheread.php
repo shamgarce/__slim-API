@@ -1,4 +1,36 @@
 <?php
+
+
+
+$mem = new Memcache;
+$mem->connect("127.0.0.1", 11211);
+//保存数据
+$mem->set('key1', 'This is first value', 0, 60);
+$val = $mem->get('key1');
+echo "Get key1 value: " . $val ."<br />";
+
+
+$mstr = serialize($mem);
+
+
+//测试
+
+$m = function () {
+	//检查 top hash表
+	echo 1;
+};
+//$m  = '123';
+//这个可以序列化吗      不可以
+//$mstr = serialize($m);
+
+
+
+
+echo $mstr;
+
+
+
+
 /*
  *
  * 重要的
@@ -35,10 +67,10 @@ getmc(
     }
     return $mc
 );
+*/
 
 
 
-
-
+?>
 
 
