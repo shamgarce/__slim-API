@@ -1,121 +1,67 @@
 <?php
 
-//测试 apc
-$t = T();
+
+/*
+ * 加载配置文件
+ * */
+include "Seter/Config.php";
 
 
+/*
+ * 加载Seter文件
+ * */
+//include "Seter/Seter.php";
+
+/*
+ * 对象实例化
+ * */
+$Seter = new Seter();
+
+//对象赋值
+$Seter->reawd = 123;
+$Seter['reawd'] = 1234;
+
+//调用apc
+//$Seter->apc->set_cache("vid",19999999);
+//$Seter->apc->get_cache("vid");
+
+//调用Mysql
+//$sql = "select * from dy_user";
+//$rc = $Seter->db->getall($sql);
+
+//调用 mongodb
+//$ar = $Seter->mdb->find("dy_user", array());
+
+//调用memcache
+
+//print_r($ar);
+exit;
+
+//* $mongo->ensureIndex("test_table", array("id"=>1), array('unique'=>true));
+//* 获取表的记录
+//* $mongo->count("test_table");
+//*
 
 
+print_r($rc);
 
-//匿名函数监测
-$md = function(){
-    return 1;
-};
-echo $md();
-var_dump($md());
-
-
-
+//$this->S->apc->clear();
+//$this->S->apc->clear_all($key);
+//$this->S->apc->exists($key);
+//$this->S->apc->inc("vidd",1);
+//$this->S->apc->dec("vidd",1);
+//$mr =  $this->S->apc->info();
 
 
+echo $Seter->reawd;
 
+
+$t = Seter::T();
 
 
 
 echo '<hr>';
-echo T()-$t;
-
-
-
-
-
-function set_cache($key, $value, $time = 0) {
-    if ($time == 0) $time = null; //null情况下永久缓存
-    return apc_store($key, $value, $time);
-}
-
-
-
-/**
- * Apc缓存-获取缓存
- * 通过KEY获取缓存数据
- * @param  string $key   KEY值
- */
-function get_cache($key) {
-    return apc_fetch($key);
-}
-
-/**
- * Apc缓存-清除一个缓存
- * 从memcache中删除一条缓存
- * @param  string $key   KEY值
- */
-function clear($key) {
-    return apc_delete($key);
-}
-
-/**
- * Apc缓存-清空所有缓存
- * 不建议使用该功能
- * @return
- */
-function clear_all() {
-    apc_clear_cache('user'); //清除用户缓存
-    return apc_clear_cache(); //清楚缓存
-}
-
-/**
- * 检查APC缓存是否存在
- * @param  string $key   KEY值
- */
-function exists($key) {
-    return apc_exists($key);
-}
-
-/**
- * 字段自增-用于记数
- * @param string $key  KEY值
- * @param int    $step 新增的step值
- */
-function inc($key, $step) {
-    return apc_inc($key, (int) $step);
-}
-
-/**
- * 字段自减-用于记数
- * @param string $key  KEY值
- * @param int    $step 新增的step值
- */
-function dec($key, $step) {
-    return apc_dec($key, (int) $step);
-}
-
-/**
- * 返回APC缓存信息
- */
-function info() {
-    return apc_cache_info();
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-function T(){
-    list($usec, $sec) = explode(" ",microtime());
-    $num = ((float)$usec + (float)$sec);
-    return $num;
-}
-
+echo Seter::T()-$t;
 
 
 
@@ -190,9 +136,3 @@ getmc(
     return $mc
 );
 */
-
-
-
-?>
-
-

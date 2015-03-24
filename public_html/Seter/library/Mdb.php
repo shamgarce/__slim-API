@@ -46,15 +46,15 @@ class Mdb {
      * 成功：mongo object
      * 失败：false
      */
-    public function __construct($mongo_server, $connect=true, $auto_balance=true)
+    public function __construct($mongo_server=array(), $connect=true, $auto_balance=true)
     {
-        $file_path = APPPATH.'config/mongodb.php';
 
-        if ( ! file_exists($file_path))
+        $Config_file = SHAM_PATH.'\Config\mongodb.php';
+        if ( ! file_exists($Config_file))
         {
             show_error('The configuration file mongodb.php does not exist.');
         }
-        include_once($file_path);
+        include_once($Config_file);           //获得    $mysql_set.
         //==================================================
 //      $mongodb_set['default']['host']		= '127.0.0.1';
 //      $mongodb_set['default']['port']		= '27017';

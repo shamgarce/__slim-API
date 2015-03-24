@@ -32,6 +32,16 @@ class Mcache{
      
     public function __construct()
     {
+        /*加载配置文件 * */
+        $Config_file = SHAM_PATH.'\Config\memcache.php';
+        if ( ! file_exists($Config_file))
+        {
+            show_error('The configuration file mysql.php does not exist.');
+        }
+        include_once($Config_file);           //获得  配置文件
+
+
+
         $this->client_type = class_exists('Memcache') ? "Memcache" : (class_exists('Memcached') ? "Memcached" : FALSE);
          
         if($this->client_type)

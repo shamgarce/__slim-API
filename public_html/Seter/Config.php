@@ -14,4 +14,4 @@ spl_autoload_register('__Sham__loader');
 define(SHAM_PATH,__DIR__);
 
 //加载文件
-require(__DIR__.'\Set.php');                        //加载s类文件
+require(__DIR__.'\Seter.php');                        //加载s类文件

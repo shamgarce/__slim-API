@@ -59,15 +59,14 @@ class Db{
     public static $instance;
 
     public function __construct($chr = 'default'){
-        $file_path = APPPATH.'config/mysql.php';
-        if ( ! file_exists($file_path))
+        $Config_file = SHAM_PATH.'\Config\mysql.php';
+        if ( ! file_exists($Config_file))
         {
             show_error('The configuration file mysql.php does not exist.');
         }
-        include_once($file_path);
+        include_once($Config_file);           //获得    $mysql_set.
 
         $this->base = dirname(__FILE__)."\\";
-
         $this->root_path = $this->base.'/'.$this->root_path;
 //        $this->cls_mysql($config['dbhost'], $config['dbuser'], $config['dbpw'], $config['dbname'], $config['charset'], $config['pconnect'], $config['quiet']);
         $this->cls_mysql(
