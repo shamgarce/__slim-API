@@ -27,14 +27,15 @@
 
         <div class="container-fluid pts">
     <div class="row-fluid">
-        <div class="span12">
+        <div class="span4">
             <div class="well well-small">
+            <a href="/W/">首页</a> -> <?=$leaf['title']?>
                 <ul class="nav nav-list">
 					<?php foreach($leaf['child'] as $key=>$value){?>  
-                    <li class="nav-header"><h4><a href="view/<?=$value['id']?>"><?=$value['title']?></a>
-                     [ <a href="viewm/<?=$value['id']?>">Mobile</a> ]
-                     [ <a href="viewt/<?=$value['id']?>">TEST</a> ]</h4></li>
-                    <div class="alert alert-info"><?=$mast[$value['id']]['content']?></div>
+                    <li class="nav-header"><a href="#book<?=$value['id']?>"><?=$value['title']?></a></li>
+						<?php foreach($value['child'] as $key2=>$value2){?>  
+		                    <li class="nav-page"><a href="#book<?=$value2['id']?>"><?=$value2['title']?></a></li>
+						<?php }?>
 					<?php }?>
                 </ul>
             </div>
@@ -42,7 +43,35 @@
 
 
 <!-- -->
+        <div class="span8">
+        <h1><?=$leaf['title']?></h1>
+<HR>
+<?php foreach($leaf['child'] as $key=>$value){?>  
 
+          <section class="page-section" id="book<?=$value['id']?>">
+            <h1 class="page-header"><?=$value['title']?> <a class="bookmark"><i class="icon-bookmark"></i></a></h1>
+            <?php if(!empty($mc[$value['id']]['content'])){?>
+            <div class="alert alert-info">
+                <?=$mc[$value['id']]['content']?>
+            </div>
+            <?php }?>
+            
+            <?php foreach($mc as $key2=>$value2){?>  
+                <?php if($value2['preid'] == $value['id']){?>
+                <article class="page-article" id="book<?=$value2['id']?>">
+                    <header>
+                    <h2 class="page-article-header"><?=$value2['title']?></h2>
+                    </header>
+                    <?=$mc[$value2['id']]['content']?>
+                    <div class="page-article-footer">
+                    <a class="btn" href="#top">Back to Top <i class="icon-arrow-up"></i></a>
+                    </div>
+                </article>
+	 			<?php }?>
+ 			<?php }?>
+            </section>
+<?php }?>
+      </div>
   
     </div>
 </div>

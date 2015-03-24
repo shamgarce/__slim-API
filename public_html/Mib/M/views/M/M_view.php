@@ -31,6 +31,7 @@
 <link type="text/css" rel="stylesheet" href="/A/syntaxhighlighter_3.0.83/styles/shCoreDefault.css"/>
 <script type="text/javascript">SyntaxHighlighter.all();</script>   
 
+    <script src="/A/CommonIni.js"></script>
 
    
     <title>Metro UI CSS : Metro Bootstrap CSS Library</title>
@@ -151,6 +152,8 @@ border-radius: 50%"></i>
 <?php endif;?>
 </h2>              
 <p><?=$value['content']?></p>
+<blockquote><?=$value['content_hidden']?></blockquote>
+
 <?php endforeach;?>
 
 <br>

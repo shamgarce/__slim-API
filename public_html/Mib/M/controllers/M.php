@@ -50,6 +50,7 @@ class M extends CI_Controller
     public function vselect($nodeid = 0)
     {
         $this->load->helper('cookie');
+        $nodeid = intval($_COOKIE['___groupname']);
 
         //检索所有的信息,选择归属
         //功能 :设置是否显示编辑和排序,还有是否展示地址
@@ -60,8 +61,8 @@ class M extends CI_Controller
         $this->load->library('tree',$_rc);
 
 
-        $leaf 	= $this->tree->leaf(0);
-        $level 	= $this->tree->leaf_level(0);
+        $leaf 	= $this->tree->leaf($nodeid);
+        $level 	= $this->tree->leaf_level($nodeid);
         $list 	= $this->tree->getlist();
         //=============================================================
         $_rc['id'] = 0;
@@ -69,9 +70,23 @@ class M extends CI_Controller
         $data['list'] = $list;
         $data['_rc'] = $_rc;
         //=============================================================
+
+        //一级枝干 供筛选
+        $sql	= "select id,title from doc_document where preid= 0 and enable = 0 order by sort desc ,id";
+        $mc	= $this->db->getall($sql);
+        $data['mc'] = $mc;
+
+
+
+        //=============================================================
         $this->sor = $_rc;
         $this->load->view('M/M_select',$data);
     }
+
+
+
+
+
     public function setup_group($groupid){
         $this->load->helper('cookie');
 
@@ -97,10 +112,13 @@ class M extends CI_Controller
         $rc['preid'] 	= $_POST['bguishu'];
         $rc['titleonly'] = empty($_POST['titleonly'])?0:1;
         $rc['startscreen'] = empty($_POST['startscreen'])?0:1;
+        $rc['test'] = empty($_POST['test'])?0:1;
 
         $rc['title'] 	= trim($_POST['btiaoti']);
         if($rc['titleonly'] !=1) $rc['content'] 	= addslashes($_POST['bnr']);
         if($rc['titleonly'] !=1) $rc['url'] 		= $_POST['burl'];
+        if($rc['test'] ==1 && isset($_POST['content_hidden']))    $rc['content_hidden'] 	= trim($_POST['content_hidden']);
+
 
         if(empty($rc['title']))	{
             echo json_encode(array("code"=>"-200","msg"=>'标题必须填写'));
@@ -150,6 +168,9 @@ class M extends CI_Controller
     public function vedit($id)
     {
         $id = intval($id);
+        $this->load->helper('cookie');
+
+
         $sql	= "select * from doc_document where id=$id";
         $rc	= $this->db->getrow($sql);
         $data['rc']=$rc;

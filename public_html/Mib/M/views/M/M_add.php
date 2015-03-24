@@ -52,7 +52,7 @@ $.getScript('/A/kindeditor-4.1.10/kindeditor-min.js', function() {
         $('#selectguishu').click(function(){
 			 $.CK({
                 rel:'#selectguishu',
-                url:'/Doc/vset_select',
+                url:'/M/vselect',
 				width:'500px',
                 _this:$(this),
                 buttonok	: true,

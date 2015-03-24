@@ -20,6 +20,7 @@
 
     <!-- Metro UI CSS JavaScript plugins -->
     <script src="/A/Metro/js/load-metro.js"></script>
+    <script src="/A/CommonIni.js"></script>
 
     <!-- Local JavaScript -->
     <script src="/A/Metro/js/docs.js"></script>

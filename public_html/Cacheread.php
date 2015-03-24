@@ -1,6 +1,32 @@
 <?php
 
 //测试 apc
+$t = T();
+
+
+
+
+
+//匿名函数监测
+$md = function(){
+    return 1;
+};
+echo $md();
+var_dump($md());
+
+
+
+
+
+
+
+
+
+echo '<hr>';
+echo T()-$t;
+
+
+
 
 
 function set_cache($key, $value, $time = 0) {
@@ -8,7 +34,7 @@ function set_cache($key, $value, $time = 0) {
     return apc_store($key, $value, $time);
 }
 
- echo 1;
+
 
 /**
  * Apc缓存-获取缓存
@@ -84,6 +110,11 @@ function info() {
 
 
 
+function T(){
+    list($usec, $sec) = explode(" ",microtime());
+    $num = ((float)$usec + (float)$sec);
+    return $num;
+}
 
 
 
@@ -92,33 +123,32 @@ function info() {
 
 
 
-
-exit;
-$mem = new Memcache;
-$mem->connect("127.0.0.1", 11211);
-//保存数据
-$mem->set('key1', 'This is first value', 0, 60);
-$val = $mem->get('key1');
-echo "Get key1 value: " . $val ."<br />";
-
-
-$mstr = serialize($mem);
-
-
-//测试
-
-$m = function () {
-	//检查 top hash表
-	echo 1;
-};
-//$m  = '123';
-//这个可以序列化吗      不可以
-//$mstr = serialize($m);
-
-
-
-
-echo $mstr;
+//exit;
+//$mem = new Memcache;
+//$mem->connect("127.0.0.1", 11211);
+////保存数据
+//$mem->set('key1', 'This is first value', 0, 60);
+//$val = $mem->get('key1');
+//echo "Get key1 value: " . $val ."<br />";
+//
+//
+//$mstr = serialize($mem);
+//
+//
+////测试
+//
+//$m = function () {
+//	//检查 top hash表
+//	echo 1;
+//};
+////$m  = '123';
+////这个可以序列化吗      不可以
+////$mstr = serialize($m);
+//
+//
+//
+//
+//echo $mstr;
 
 
 

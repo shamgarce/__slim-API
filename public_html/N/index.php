@@ -1,10 +1,10 @@
 <?php
 error_reporting(1); //抑制所有错误信息
+@header("content-Type: text/html; charset=utf-8"); //语言强制
 
 include "Config.php";
 include "Act.php";
 
-@header("content-Type: text/html; charset=utf-8"); //语言强制
 ob_start();
 date_default_timezone_set('Asia/Shanghai');//此句用于消除时间差
 $title = 'EASY PHP探针 [简体版]';
@@ -128,11 +128,13 @@ function show_form(vd){
 				<td colspan="4">
 <div style="width:100px;float:left;">扩展检测 : </div>
 
-<div style="width:100px;float:left;"><a href="N.php?act=phpinfo" target="_blank">PHPINFO</a></div>
+<div style="width:100px;float:left;"><a href="index.php?act=phpinfo" target="_blank">PHPINFO</a></div>
+
+<div style="width:100px;float:left;"><a href="index.php?act=ser" target="_blank">SERVER</a></div>
 
 <div style="width:100px;float:left;"><a href="N_Function.php" target="_blank">函数</a></div>
 
-<div style="width:100px;float:left;"><a href="N.php?act=disable_functions" target="_blank">被禁用的函数</a></div>
+<div style="width:100px;float:left;"><a href="index.php?act=disable_functions" target="_blank">被禁用的函数</a></div>
 
 
 				</td>
