@@ -546,48 +546,7 @@ class Db{
 
     //=======================================
     //=======================================
-    //=======================================
 
-    public function all()
-    {
-        return $this->properties;
-    }
-
-    /**
-     * Array Access: Offset Exists
-     */
-    public function offsetExists($offset)
-    {
-        return isset($this->properties[$offset]);
-    }
-
-    /**
-     * Array Access: Offset Get
-     */
-    public function offsetGet($offset)
-    {
-        if (isset($this->properties[$offset])) {
-            return $this->properties[$offset];
-        } else {
-            return null;
-        }
-    }
-
-    /**
-     * Array Access: Offset Set
-     */
-    public function offsetSet($offset, $value)
-    {
-        $this->properties[$offset] = $value;
-    }
-
-    /**
-     * Array Access: Offset Unset
-     */
-    public function offsetUnset($offset)
-    {
-        unset($this->properties[$offset]);
-    }
 
 
 }

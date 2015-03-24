@@ -1,8 +1,8 @@
-<?php
+<?php  if ( ! defined('SHAM_PATH')) exit('No direct script access allowed');
 
 /**
  *
- * $S = new Set();      //集成众多的单例模式
+ * $S = new Seter();      //集成众多的单例模式//静态函数//程序员们,摇摆吧
  */
 class Seter implements ArrayAccess, Countable, IteratorAggregate
 {
@@ -237,10 +237,7 @@ class Seter implements ArrayAccess, Countable, IteratorAggregate
     }
 
     //--------------------------------------------------------------------------------
-
-
     //函数群
-
     /*
     +----------------------------------------------------------
     * 获得时间戳
@@ -337,7 +334,6 @@ class Seter implements ArrayAccess, Countable, IteratorAggregate
         }
     }
 
-
     /**
     +----------------------------------------------------------
      * // 魔术转义
@@ -374,7 +370,6 @@ class Seter implements ArrayAccess, Countable, IteratorAggregate
         return $string;
     }
 
-
     /**
     +----------------------------------------------------------
      * // 内容截取
@@ -394,8 +389,6 @@ class Seter implements ArrayAccess, Countable, IteratorAggregate
         return trim($outstr);
     }
 
-
-
     /**
     +----------------------------------------------------------
      * //判断字符串是否存在
@@ -406,6 +399,7 @@ class Seter implements ArrayAccess, Countable, IteratorAggregate
     }
     //--------------------------------------------------------------------------------
 
+    //对象转成数组
     public static function ob2ar($obj) {
         if(is_object($obj)) {
             $obj = (array)$obj;
