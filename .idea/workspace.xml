@@ -2,41 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8fdaf63a-f73f-4dde-aabf-fdc3c5cc9f28" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/Seter/library/Apc.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/Seter/Config.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/Seter/library/Db.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/Seter/library/Mcache.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/Seter/library/Mdb.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/Seter/Seter.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/Seter/library/_Logmon.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/Seter/library/_Sample.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/Seter/library/_Tree.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/Seter/library/_V1db.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/Seter/Config/autoload.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/Seter/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/Seter/library/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/Seter/Config/memcache.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/Seter/Config/mongodb.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/Seter/Config/mysql.php" />
-      <change type="DELETED" beforePath="E:\www\slim-API\public_html\Set\Config.php" afterPath="" />
-      <change type="DELETED" beforePath="E:\www\slim-API\public_html\Set\Config\autoload.php" afterPath="" />
-      <change type="DELETED" beforePath="E:\www\slim-API\public_html\Set\Config\mongodb.php" afterPath="" />
-      <change type="DELETED" beforePath="E:\www\slim-API\public_html\Set\Config\mysql.php" afterPath="" />
-      <change type="DELETED" beforePath="E:\www\slim-API\public_html\Set\Set.php" afterPath="" />
-      <change type="DELETED" beforePath="E:\www\slim-API\public_html\Set\library\Apc.php" afterPath="" />
-      <change type="DELETED" beforePath="E:\www\slim-API\public_html\Set\library\Db.php" afterPath="" />
-      <change type="DELETED" beforePath="E:\www\slim-API\public_html\Set\library\Logmon.php" afterPath="" />
-      <change type="DELETED" beforePath="E:\www\slim-API\public_html\Set\library\Mcache.php" afterPath="" />
-      <change type="DELETED" beforePath="E:\www\slim-API\public_html\Set\library\Mdb.php" afterPath="" />
-      <change type="DELETED" beforePath="E:\www\slim-API\public_html\Set\library\Sample.php" afterPath="" />
-      <change type="DELETED" beforePath="E:\www\slim-API\public_html\Set\library\Tree.php" afterPath="" />
-      <change type="DELETED" beforePath="E:\www\slim-API\public_html\Set\library\V1db.php" afterPath="" />
-      <change type="DELETED" beforePath="E:\www\slim-API\public_html\Set\library\index.html" afterPath="" />
-      <change type="DELETED" beforePath="E:\www\slim-API\public_html\Set\vs.php" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public_html/Cacheread.php" afterPath="$PROJECT_DIR$/public_html/Cacheread.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public_html/Mib/v3/libraries/EasyCache/query_caches/sqlcache_config_file_1a9ff34e620810f4b2158361627eb1d4.php" afterPath="$PROJECT_DIR$/public_html/Mib/v3/libraries/EasyCache/query_caches/sqlcache_config_file_1a9ff34e620810f4b2158361627eb1d4.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public_html/Mib/M/libraries/EasyCache/query_caches/sqlcache_config_file_8a2b23b85ffbfb5009f5cec06aa6066d.php" afterPath="$PROJECT_DIR$/public_html/Mib/M/libraries/EasyCache/query_caches/sqlcache_config_file_8a2b23b85ffbfb5009f5cec06aa6066d.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public_html/Mib/v3/libraries/EasyCache/query_caches/sqlcache_config_file_a88f6b2ed762e0d58851785da11a911e.php" afterPath="$PROJECT_DIR$/public_html/Mib/v3/libraries/EasyCache/query_caches/sqlcache_config_file_a88f6b2ed762e0d58851785da11a911e.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="slim-API.iws" />
@@ -413,12 +378,6 @@
       <option name="number" value="Default" />
       <updated>1422269068506</updated>
     </task>
-    <task id="LOCAL-00014" summary="Rejected commit: Default">
-      <created>1423999516022</created>
-      <option name="number" value="00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1423999516022</updated>
-    </task>
     <task id="LOCAL-00015" summary="Rejected commit: Default">
       <created>1424070643667</created>
       <option name="number" value="00015" />
@@ -707,7 +666,13 @@
       <option name="project" value="LOCAL" />
       <updated>1427183970818</updated>
     </task>
-    <option name="localTasksCounter" value="63" />
+    <task id="LOCAL-00063" summary="Rejected commit: Default">
+      <created>1427189150999</created>
+      <option name="number" value="00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1427189150999</updated>
+    </task>
+    <option name="localTasksCounter" value="64" />
     <servers />
   </component>
   <component name="TodoView" selected-index="4">
