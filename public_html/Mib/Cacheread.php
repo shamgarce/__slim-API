@@ -1,14 +1,48 @@
 <?php
 
-//测试 apc
 
 
+$db = new SQLite3('mysqlitedb.db');
+
+//获取文件2进制流
+$filename = "http://www.jb51.net/logo.gif";
+$handle = fopen($filename, "r");
+$contents = fread($handle, filesize ($filename));
+fclose($handle);
+//创建数据表
+$db->exec('CREATE TABLE person (idnum TEXT,name TEXT,photo BLOB)');
+
+$stmt = $db->prepare("INSERT INTO person VALUES ('41042119720101001X', '张三',?)");
+$stmt->bindValue(1, $contents, SQLITE3_BLOB);
+$stmt->execute();
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+echo 1;
+/**
+ * @param $key
+ * @param $value
+ * @param int $time     时间
+ * @return array|bool
+ */
 function set_cache($key, $value, $time = 0) {
     if ($time == 0) $time = null; //null情况下永久缓存
     return apc_store($key, $value, $time);
 }
 
- echo 1;
+
 
 /**
  * Apc缓存-获取缓存
@@ -18,6 +52,9 @@ function set_cache($key, $value, $time = 0) {
 function get_cache($key) {
     return apc_fetch($key);
 }
+
+
+
 
 /**
  * Apc缓存-清除一个缓存
@@ -58,7 +95,7 @@ function inc($key, $step) {
 /**
  * 字段自减-用于记数
  * @param string $key  KEY值
- * @param int    $step 新增的step值
+ * @$key int    $step 新增的step值
  */
 function dec($key, $step) {
     return apc_dec($key, (int) $step);
@@ -70,24 +107,6 @@ function dec($key, $step) {
 function info() {
     return apc_cache_info();
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -107,6 +126,9 @@ $mstr = serialize($mem);
 
 //测试
 
+/**
+ *
+ */
 $m = function () {
 	//检查 top hash表
 	echo 1;
@@ -116,10 +138,7 @@ $m = function () {
 //$mstr = serialize($m);
 
 
-
-
 echo $mstr;
-
 
 
 
@@ -161,8 +180,5 @@ getmc(
 );
 */
 
-
-
-?>
 
 
