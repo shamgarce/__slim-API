@@ -23,7 +23,7 @@
 <p class="resultte">
 <pre><?php echo $row['dis']?></pre></p>
 <hr>
-校验工具 : <a href="http://www.bejson.com/" target="_blank">http://www.bejson.com/</a></td>
+校验工具 : <a href="http://www.sojson.com/" target="_blank">http://www.sojson.com/</a></td>
 </tr>
 <!-- tr>
   <td>默认 ：

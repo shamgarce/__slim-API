@@ -46,7 +46,7 @@ class V1db
     public static function table_dy_typeoddid(){
         return array(
             "type_id"    => 1,          //检验单id
-            "odd_id"    => 0,          //单号
+            "odd_id"    => "",          //单号
             "openid"     => "",         //客户端id
             "used"      => 0,           //是否已经占用
             "device_id" => "",          //设备id
