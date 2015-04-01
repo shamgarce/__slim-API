@@ -2,7 +2,9 @@
 include "Seter/Config.php";
 $Seter = new Seter();               //实例化对象
 
-$m = $Seter->uri->_detect_uri();
+echo 1;
+
+//$m = $Seter->uri->_detect_uri();
 
 print_r($m);
 

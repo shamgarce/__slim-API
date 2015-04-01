@@ -2,53 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8fdaf63a-f73f-4dde-aabf-fdc3c5cc9f28" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test.so/.htaccess" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test.so/.idea/.name" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test.so/Seter/library/Apc.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test.so/Seter/Config.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test.so/Seter/library/Db.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test.so/Seter/library/Mcache.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test.so/Seter/library/Mdb.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/Seter/library/Route.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test.so/Seter/library/Route.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test.so/Router.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/Seter/Sample.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test.so/Seter/Sample.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test.so/Seter/Seter.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test.so/URI.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/Seter/library/Uri.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test.so/Seter/library/Uri.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test.so/Seter/library/_Logmon.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test.so/Seter/library/_SQLite.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test.so/Seter/library/_Sample.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test.so/Seter/library/_Tree.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test.so/Seter/library/_V1db.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test.so/Seter/Config/autoload.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test.so/.idea/encodings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test.so/Seter/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test.so/Seter/library/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test.so/index.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test.so/Seter/Config/memcache.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test.so/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test.so/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test.so/Seter/Config/mongodb.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test.so/Seter/Config/mysql.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/Seter/route.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test.so/.idea/scopes/scope_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test.so/.idea/test.so.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test.so/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test.so/.idea/workspace.xml" />
-      <change type="DELETED" beforePath="E:\www\slim-API\public_html\Seter\Cacheread.php" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public_html/T/Act.php" afterPath="$PROJECT_DIR$/public_html/T/Act.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public_html/Seter/Config.php" afterPath="$PROJECT_DIR$/public_html/Seter/Config.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public_html/Mib/v1/libraries/M/Enter.php" afterPath="$PROJECT_DIR$/public_html/Mib/v1/libraries/M/Enter.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public_html/Seter/Seter.php" afterPath="$PROJECT_DIR$/public_html/Seter/Seter.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public_html/Mib/v3/libraries/EasyCache/query_caches/sqlcache_config_file_1a9ff34e620810f4b2158361627eb1d4.php" afterPath="$PROJECT_DIR$/public_html/Mib/v3/libraries/EasyCache/query_caches/sqlcache_config_file_1a9ff34e620810f4b2158361627eb1d4.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public_html/Mib/v1/libraries/EasyCache/query_caches/sqlcache_config_file_1e9f4807034b5e56eb2db5c9a2c7b243.php" afterPath="$PROJECT_DIR$/public_html/Mib/v1/libraries/EasyCache/query_caches/sqlcache_config_file_1e9f4807034b5e56eb2db5c9a2c7b243.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public_html/Mib/v3/libraries/EasyCache/query_caches/sqlcache_config_file_a88f6b2ed762e0d58851785da11a911e.php" afterPath="$PROJECT_DIR$/public_html/Mib/v3/libraries/EasyCache/query_caches/sqlcache_config_file_a88f6b2ed762e0d58851785da11a911e.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public_html/Mib/Man/libraries/EasyCache/query_caches/sqlcache_config_file_aff75ec61dbd111277d1f56ed79f9837.php" afterPath="$PROJECT_DIR$/public_html/Mib/Man/libraries/EasyCache/query_caches/sqlcache_config_file_aff75ec61dbd111277d1f56ed79f9837.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public_html/Mib/v1/controllers/v1.php" afterPath="$PROJECT_DIR$/public_html/Mib/v1/controllers/v1.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public_html/Mib/v3/controllers/v3.php" afterPath="$PROJECT_DIR$/public_html/Mib/v3/controllers/v3.php" />
+      <change type="DELETED" beforePath="E:\www\slim-API\public_html\Cacheread.php" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test.so/index.php" afterPath="$PROJECT_DIR$/test.so/index.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="slim-API.iws" />
@@ -93,8 +48,8 @@
       <file leaf-file-name="Enter.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/public_html/Mib/v1/libraries/M/Enter.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.59363955" vertical-offset="3774" max-vertical-offset="16836">
-              <caret line="186" column="29" selection-start-line="186" selection-start-column="29" selection-end-line="186" selection-end-column="29" />
+            <state vertical-scroll-proportion="0.6765053" vertical-offset="3774" max-vertical-offset="16836">
+              <caret line="189" column="48" selection-start-line="189" selection-start-column="48" selection-end-line="189" selection-end-column="48" />
               <folding />
             </state>
           </provider>
@@ -424,12 +379,6 @@
       <option name="number" value="Default" />
       <updated>1422269068506</updated>
     </task>
-    <task id="LOCAL-00029" summary="Rejected commit: Default">
-      <created>1425038828987</created>
-      <option name="number" value="00029" />
-      <option name="project" value="LOCAL" />
-      <updated>1425038828987</updated>
-    </task>
     <task id="LOCAL-00030" summary="Rejected commit: Default">
       <created>1425039089347</created>
       <option name="number" value="00030" />
@@ -718,7 +667,13 @@
       <option name="project" value="LOCAL" />
       <updated>1427799593257</updated>
     </task>
-    <option name="localTasksCounter" value="78" />
+    <task id="LOCAL-00078" summary="Rejected commit: Default">
+      <created>1427889231544</created>
+      <option name="number" value="00078" />
+      <option name="project" value="LOCAL" />
+      <updated>1427889231551</updated>
+    </task>
+    <option name="localTasksCounter" value="79" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -743,15 +698,16 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.77691454" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32779622" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32963374" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32963374" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32960597" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2657082" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16932908" sideWeight="0.49944505" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16932908" sideWeight="0.49944505" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2630458" sideWeight="0.5005549" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32963374" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2874584" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
@@ -760,7 +716,6 @@
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32963374" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.5327414" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.77691454" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -1154,8 +1109,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/public_html/Mib/v1/libraries/M/Enter.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.59363955" vertical-offset="3774" max-vertical-offset="16836">
-          <caret line="186" column="29" selection-start-line="186" selection-start-column="29" selection-end-line="186" selection-end-column="29" />
+        <state vertical-scroll-proportion="0.6765053" vertical-offset="3774" max-vertical-offset="16836">
+          <caret line="189" column="48" selection-start-line="189" selection-start-column="48" selection-end-line="189" selection-end-column="48" />
           <folding />
         </state>
       </provider>
