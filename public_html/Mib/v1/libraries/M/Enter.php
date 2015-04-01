@@ -163,6 +163,72 @@ class Enter
     }
 
 
+    public function uploading_inland($sign = array())
+    {
+        $this->sign = $sign;
+        !empty($sign) && $this->log['sign'] = $sign;        //方法中截取
+        $this->log['mothod'] = __METHOD__;        //方法中截取
+
+        $phaForm = $_POST['phaForm'];
+        $phaForm = json_decode($phaForm, true);
+//        $phaForm = Set::ob2ar($phaForm);
+
+        print_r($phaForm);
+
+        $phaForm = $phaForm['pharmaceuticalForm'];
+        $phaForm['SampleFormNumber'] = (string)($phaForm['SampleFormNumber']);
+        $phaForm['for'] = substr($phaForm['SampleFormNumber'],0,1);
+
+
+        $odd_id = $phaForm['SampleFormNumber'];
+        //首先检查抽样id的合法性
+        //============================================================
+        $cond['odd_id'] = $odd_id;
+        $this->get($phaForm);
+        $row = $this->mdb->findOne("dy_typeoddid", $cond);
+        if (empty($row)) {
+            $this->J(-201, '无效的预定单号' . $odd_id);
+        }
+
+        if ($row['used'] == 0) {
+            $this->J(-202, '非有效');
+        }
+        if ($row['up'] == 1) {
+            $this->J(-203, '过期的单号');
+        }
+
+        //============================================================
+        $simpleConditionList = $phaForm['sampleCondition']['sampleConditionList'];
+        $simpleDepartmentList = $phaForm['sampleDepartment']['sampleDepartmentList'];
+
+        unset($phaForm['sampleCondition']['sampleConditionList']);
+        unset($phaForm['sampleDepartment']['sampleDepartmentList']);
+
+        $this->mdb->insert('dy_SampleForm', $phaForm);        //主记录
+
+        foreach ($simpleConditionList as $key => $value) {
+            unset($me);
+            $me['odd_id'] = $odd_id;
+            $me = array_merge($me, $value);
+            $this->mdb->insert('dy_SampleCondition', $me);
+        }
+
+        foreach ($simpleDepartmentList as $key => $value) {
+            unset($me);
+            $me['odd_id'] = $odd_id;
+            $me = array_merge($me, $value);
+            $this->mdb->insert('dy_SampleDepartment', $me);
+        }
+
+        //上传完毕,更改状态
+        // print_r($row);
+//        $this->mdb->update("test_table", array("id"=>1),array("id"=>1,"title"=>"bbb"));
+        $row['up'] = 1;
+        $this->mdb->update("dy_typeoddid", array("odd_id" => $row['odd_id']), $row);
+
+        $this->J(200, 'succeed');
+    }
+
     /*
      * 接口 : 上传抽样单    [enter/uploading]
      * 录入模块中的上传模块，将抽样单中的所有信息通过json串上传，
@@ -178,9 +244,11 @@ class Enter
 
         $phaForm = $_POST['phaForm'];
         $phaForm = json_decode($phaForm, true);
+
+//        print_r($phaForm);
+
 //        $phaForm = Set::ob2ar($phaForm);
         $phaForm = $phaForm['pharmaceuticalForm'];
-
         $phaForm['SampleFormNumber'] = (string)($phaForm['SampleFormNumber']);
         $phaForm['for'] = substr($phaForm['SampleFormNumber'],0,1);
         $odd_id = $phaForm['SampleFormNumber'];
@@ -381,9 +449,9 @@ class Enter
         //============================================================
         if(empty($SimpleNumber))$SimpleNumber = array();
         foreach($SimpleNumber as $value){
-            $row = $this->mdb->findone("dy_typeoddid", array("odd_id"=>intval($value)));
+            $row = $this->mdb->findone("dy_typeoddid", array("odd_id"=>$value));
             $row['used'] = 0;
-            $this->mdb->update("dy_typeoddid", array("odd_id"=>intval($value)),$row);
+            $this->mdb->update("dy_typeoddid", array("odd_id"=>$value),$row);
         }
         $this->J(200, 'succeed');
     }

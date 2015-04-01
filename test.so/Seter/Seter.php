@@ -28,6 +28,11 @@ class Seter implements ArrayAccess, Countable, IteratorAggregate
         $this->singleton('apc', function ($c) {
             return new Apc();
         });
+
+        $this->singleton('uri', function ($c) {
+            return new Uri();
+        });
+
 //        $this->singleton('logmon', function ($c) {
 //            return new Logmon();
 //        });

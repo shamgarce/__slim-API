@@ -105,6 +105,17 @@ class v1 extends CI_Controller
 		$this->sign['user'] 		= $this->input->get('user',true);		//$_GET['ush'];			//ush //获取得到 再次获取则会更换
 		$this->sign['sign'] 		= false;
 		$this->sign['openid'] 		= 'sd568';
+
+
+
+		$_sign = md5($this->sign['user'].$this->sign['deviceid']);
+		if($_sign == $this->sign['openid'])$this->sign['sign_'] 		= true;
+
+		$signature = md5($this->sign['openid'].$this->sign['timestamp'].$this->sign['salt']);
+		if($signature == $this->sign['signature'])$this->sign['sign'] 		= true;
+
+
+
 	}
 
 	//=========================================================
