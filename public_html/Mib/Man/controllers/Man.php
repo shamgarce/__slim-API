@@ -164,16 +164,17 @@ class Man extends CI_Controller
 
 		$rc['name'] 	= $_POST['name'];
 
-		$rc['request'] 	= stripslashes($_POST['request']);
-		$rc['response'] = stripslashes($_POST['response']);
-		$rc['request'] = str_replace("'","\"",$rc['request']);
-		$rc['response'] = str_replace("'","\"",$rc['response']);
+		$rc['request'] 	= $_POST['request'];
+		$rc['response'] = $_POST['response'];
+//		$rc['request'] 	= stripslashes($_POST['request']);
+//		$rc['response'] = stripslashes($_POST['response']);
+//		$rc['request'] = str_replace("'","\"",$rc['request']);
+//		$rc['response'] = str_replace("'","\"",$rc['response']);
 		$rc['request'] 	= addslashes($rc['request']);
 		$rc['response'] = addslashes($rc['response']);
 
 		$rc['enable'] 	= $_POST['enable']==1?true:false;
 		$rc['debug'] 	= $_POST['debug']==1?true:false;
-
 		$this->db->autoExecute('userapi',$rc,'UPDATE',"ID = {$_POST['id']}");
 		$res['code'] = 200;
 		$res['msg'] ='完成';

@@ -1,5 +1,18 @@
 <?php if ( ! defined('BASEPATH')) exit('No direct script access allowed');
 
+/* 通常的流程
+ * 1 预制处理
+ * 2 接收参数
+ * 3 前置判断
+ *
+ * 5 过程
+ *
+ * 8 后置处理
+ * 9 输出
+ * */
+
+
+
 class Enter
 {
     private $tmp = array();
@@ -50,17 +63,23 @@ class Enter
     */
     public function adduser($sign = array())
     {
+        //-----------------------------------------------------------------
+        //1 前置
         $this->sign = $sign;
         !empty($sign) && $this->log['sign'] = $sign;        //方法中截取
-        $this->log['mothod'] = __METHOD__;        //方法中截取
+        $this->log['mothod'] = __METHOD__;                  //方法中截取
+        $this->getpost($_POST);
+        //-----------------------------------------------------------------
 
-        /*
-         * 1 : 用户名是否已经存在
-         * 2 : 长度
-         * */
+
+        //-----------------------------------------------------------------
+        //2 : 接收参数
         $username = $this->CI->input->post('username');
         $password = $this->CI->input->post('password');
-        //====================================================
+        //-----------------------------------------------------------------
+
+        //-----------------------------------------------------------------
+        //3 : 判断
         $_march = '/[^A-Za-z0-9]/';             //如果发现字母数字意外的字符 报错
         if (preg_match($_march, $username)) {
             $this->J(-200, '用户名非法，请重新输入正确的用户名');
@@ -84,6 +103,8 @@ class Enter
             $this->J(-200, '该用户已经存在');
         }
 
+        //-----------------------------------------------------------------
+        //3 : 流程处理
         //===============================================================
         //添加用户操作
         $mc['user_login'] = $username;
@@ -118,9 +139,13 @@ class Enter
     * */
     public function login($sign = array())
     {
-        $this->sign = $sign;
+        //-----------------------------------------------------------------
+        $this->sign = $sign;                                //签字获取
         !empty($sign) && $this->log['sign'] = $sign;        //方法中截取
-        $this->log['mothod'] = __METHOD__;        //方法中截取
+        $this->log['mothod'] = __METHOD__;                  //方法中截取
+        $this->getpost($_POST);                             //反馈获取到的数据
+        //-----------------------------------------------------------------
+
 
         $username = $this->CI->input->post('username');
         $password = $this->CI->input->post('password');
@@ -165,15 +190,22 @@ class Enter
 
     public function uploading_inland($sign = array())
     {
+        //-----------------------------------------------------------------
         $this->sign = $sign;
         !empty($sign) && $this->log['sign'] = $sign;        //方法中截取
-        $this->log['mothod'] = __METHOD__;        //方法中截取
+        $this->log['mothod'] = __METHOD__;                  //方法中截取
+        //-----------------------------------------------------------------
 
         $phaForm = $_POST['phaForm'];
         $phaForm = json_decode($phaForm, true);
 //        $phaForm = Set::ob2ar($phaForm);
 
-        print_r($phaForm);
+
+        $this->getpost($phaForm);
+
+
+        //echo $md;
+        //$this->getarr($md);
 
         $phaForm = $phaForm['pharmaceuticalForm'];
         $phaForm['SampleFormNumber'] = (string)($phaForm['SampleFormNumber']);
@@ -238,14 +270,16 @@ class Enter
      * */
     public function uploading($sign = array())
     {
+        //-----------------------------------------------------------------
         $this->sign = $sign;
         !empty($sign) && $this->log['sign'] = $sign;        //方法中截取
-        $this->log['mothod'] = __METHOD__;        //方法中截取
+        $this->log['mothod'] = __METHOD__;                  //方法中截取
+        //-----------------------------------------------------------------
 
         $phaForm = $_POST['phaForm'];
         $phaForm = json_decode($phaForm, true);
 
-//        print_r($phaForm);
+        $this->getpost($phaForm);
 
 //        $phaForm = Set::ob2ar($phaForm);
         $phaForm = $phaForm['pharmaceuticalForm'];
@@ -322,9 +356,12 @@ class Enter
      */
     public function book($sign = array())
     {
+        //-----------------------------------------------------------------
         $this->sign = $sign;
         !empty($sign) && $this->log['sign'] = $sign;        //方法中截取
-        $this->log['mothod'] = __METHOD__;        //方法中截取
+        $this->log['mothod'] = __METHOD__;                  //方法中截取
+        $this->getpost($_POST);
+        //-----------------------------------------------------------------
 
         //参数
         $_f = 'J';              // $_f 国外
@@ -340,9 +377,12 @@ class Enter
 
     public function book_gn($sign = array())
     {
+        //-----------------------------------------------------------------
         $this->sign = $sign;
         !empty($sign) && $this->log['sign'] = $sign;        //方法中截取
-        $this->log['mothod'] = __METHOD__;        //方法中截取
+        $this->log['mothod'] = __METHOD__;                  //方法中截取
+        $this->getpost($_POST);
+        //-----------------------------------------------------------------
 
         //参数
         $_f = 'G';              // 国内
@@ -438,8 +478,12 @@ class Enter
      */
     public function chexiao($sign = array())
     {
+        //-----------------------------------------------------------------
+        $this->sign = $sign;
         !empty($sign) && $this->log['sign']    = $sign;        //方法中截取
         $this->log['mothod']    = __METHOD__;        //方法中截取
+        $this->getpost($_POST);
+        //-----------------------------------------------------------------
 
         $SimpleNumber = $_POST['SimpleNumber'];
         $SimpleNumber = json_decode($SimpleNumber);
@@ -472,8 +516,14 @@ class Enter
     */
     public function simplenumber($sign = array())
     {
+        //-----------------------------------------------------------------
+        $this->sign = $sign;
         !empty($sign) && $this->log['sign']    = $sign;        //方法中截取
         $this->log['mothod']    = __METHOD__;        //方法中截取
+        $this->getpost($_POST);
+        //-----------------------------------------------------------------
+
+
         $oddid =  (string)$_POST['SampleFormNumber'];
 //echo $oddid;
         $row = $this->mdb->findone("dy_SampleForm", array("SampleFormNumber"=>$oddid));
@@ -486,9 +536,14 @@ if(empty($row)) $this->J(508, 'error');
 
     public function search($sign = array())
     {
+        //-----------------------------------------------------------------
         $this->sign = $sign;
         !empty($sign) && $this->log['sign']    = $sign;        //方法中截取
         $this->log['mothod']    = __METHOD__;        //方法中截取
+        $this->getpost($_POST);
+        //-----------------------------------------------------------------
+
+
         $nrc = $this->search_do("J");
         $this->data($nrc);
         $this->J(200, 'succeed');
@@ -496,9 +551,14 @@ if(empty($row)) $this->J(508, 'error');
 
     public function search_gn($sign = array())
     {
+        //-----------------------------------------------------------------
         $this->sign = $sign;
         !empty($sign) && $this->log['sign']    = $sign;        //方法中截取
         $this->log['mothod']    = __METHOD__;        //方法中截取
+        $this->getpost($_POST);
+        //-----------------------------------------------------------------
+
+
         $nrc = $this->search_do("G");
         $this->data($nrc);
         $this->J(200, 'succeed');
@@ -580,6 +640,7 @@ if(empty($row)) $this->J(508, 'error');
     {
         !empty($sign) && $this->log['sign']    = $sign;        //方法中截取
         $this->log['mothod']    = __METHOD__;        //方法中截取
+        $this->getpost($_POST);
 
 
     }
@@ -600,6 +661,38 @@ if(empty($row)) $this->J(508, 'error');
 "simpleName":"wahaha"
 }
     */
+
+
+
+    /*
+     * 测试
+     * */
+    public function test($sign=array())
+    {
+        $this->log['sign']    = $sign;        //方法中截取
+
+        $m["12"] = "[\"1\",\"2\"]";
+
+        echo json_encode($m);
+        exit;
+        //该用户已经存在
+        //// $sql = "select count(*) from dy_user where user_login = '$username'";
+        //// $count = $this->CI->S->Db->getone($sql);
+//        $user['name'] = 'yangjun';
+//        $user['pwd'] = 'yangjun';
+//        //$this->CI->S->Mongodb->insert("table_user", $user);
+//echo 'test2';
+//        $params = $sign['params'];
+//        print_r($params);
+//array_shift($params);
+//array_pop()
+//array_push()
+//array_unshift()
+//array_shift()
+        $this->ver = '123456789';
+        echo($this->CI->S->ver);
+        exit;
+    }
 
     /**********************************************************************
     /**********************************************************************
@@ -632,6 +725,11 @@ if(empty($row)) $this->J(508, 'error');
     {
         $this->de['get'] = $msg;
     }
+    private function getpost($arr = '')
+    {
+        $this->de['getpost'] = print_r($arr,true);
+    }
+
     private function code($code = '')
     {
         $code = intval($code);
@@ -665,33 +763,6 @@ if(empty($row)) $this->J(508, 'error');
         //print_r($this->de);
         $this->logmon->L($code,$msg,$this->log);
         echo json_encode($this->de);
-        exit;
-    }
-
-    public function test($sign=array())
-    {
-        $this->log['sign']    = $sign;        //方法中截取
-
-        $m["12"] = "[\"1\",\"2\"]";
-
-        echo json_encode($m);
-exit;
-        //该用户已经存在
-       //// $sql = "select count(*) from dy_user where user_login = '$username'";
-       //// $count = $this->CI->S->Db->getone($sql);
-//        $user['name'] = 'yangjun';
-//        $user['pwd'] = 'yangjun';
-//        //$this->CI->S->Mongodb->insert("table_user", $user);
-//echo 'test2';
-//        $params = $sign['params'];
-//        print_r($params);
-//array_shift($params);
-//array_pop()
-//array_push()
-//array_unshift()
-//array_shift()
-        $this->ver = '123456789';
-        echo($this->CI->S->ver);
         exit;
     }
 

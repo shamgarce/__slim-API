@@ -20,8 +20,8 @@
 </tr>
 <tr>
   <td valign="top"><p>
-<p class="resultte">
-<pre><?php echo $row['dis']?></pre></p>
+<p class="resultte"><pre><?php echo $row['dis']?></pre></p>
+<pre><p class="resultte_getpost"></p></pre>
 <hr>
 校验工具 : <a href="http://www.sojson.com/" target="_blank">http://www.sojson.com/</a></td>
 </tr>
@@ -74,9 +74,19 @@ var url = '/'+$('.baseurl').val();
 			dataType: "json",
 			async:false,
 			cache:false
-		}).responseText;
+		}).responseJSON;
+		var _getpost = res.getpost;
+		res.getpost = {};
+		
 		console.log(res);
+		
+		getpost = _getpost;//JSON.stringify(_getpost)
+		console.log(getpost);
+		res = JSON.stringify(res)
+
+		$('.resultte_getpost').text(getpost)
 		$('.resultte').text(res)
+		
 	});
 
 </script>
