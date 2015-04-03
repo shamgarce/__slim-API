@@ -61,7 +61,7 @@ if (move_uploaded_file($_FILES['file']['tmp_name'],$uploadfile)){
 	if (file_exists($uploadfile)) {
 		$res['code'] = 200;
 		$res['msg'] = '超出文件大小限制';
-		$res['img'] = $uploadfile;
+		$res['img'] = $uploadfilere;
 		//$res['file'] = 'a.html';
 		$strjson = json_encode($res);
 		echo '<script type="text/javascript">';

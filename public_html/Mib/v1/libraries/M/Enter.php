@@ -1,17 +1,24 @@
 <?php if ( ! defined('BASEPATH')) exit('No direct script access allowed');
 
-/* 通常的流程
+/*
+ * 日志系统
+ * //输入日志       //接收到那些
+ * //输出日志       //中间过程记录
+ * //操作日志       //输出哪些
+ * //==================================================================
  * 1 预制处理
+ * //统一的代码,稍有区别
  * 2 接收参数
+ * 接收参数成为变量//并且基本预处理
  * 3 前置判断
- *
+ * //对变量进行基本运算和判断
  * 5 过程
- *
+ * 程序流程 存储
  * 8 后置处理
+ * //跟随主流程的后置处理过程
  * 9 输出
+ * //输出结果
  * */
-
-
 
 class Enter
 {
@@ -41,9 +48,9 @@ class Enter
         $this->tmp['timestamp_'] = Set::T();        //$sign //参数是签名
         //======================================================================
         !empty($params) && $this->log['params'] = $params;              //log
-        $this->log['time']['timecu'] = time();;        //log
+        $this->log['time']['timecu'] = time();;                         //log
         $this->log['time']['timebe'] = $this->tmp['timestamp_'];        //log
-        $this->log['class'] = __class__;        //log
+        $this->log['class'] = __class__;                                //log
         //======================================================================
         //print_r($this->log);
     }
@@ -115,6 +122,8 @@ class Enter
         $mc['f_regtime'] = time();
 
         $this->mdb->insert('dy_user', array_merge(V1db::table_dy_user(), $mc));               //添加数据
+
+        //输出
         $this->J(200, 'succeed');
     }
 
@@ -140,6 +149,7 @@ class Enter
     public function login($sign = array())
     {
         //-----------------------------------------------------------------
+        //* 1 预制处理
         $this->sign = $sign;                                //签字获取
         !empty($sign) && $this->log['sign'] = $sign;        //方法中截取
         $this->log['mothod'] = __METHOD__;                  //方法中截取
@@ -147,9 +157,11 @@ class Enter
         //-----------------------------------------------------------------
 
 
+        // * 2 接收参数
         $username = $this->CI->input->post('username');
         $password = $this->CI->input->post('password');
 
+        // * 3 前置判断
         $_march = '/[^A-Za-z0-9]/';             //如果发现字母数字意外的字符 报错
         if (preg_match($_march, $username)) {
             $this->J(-200, '用户名非法，请重新输入正确的用户名');
@@ -178,18 +190,21 @@ class Enter
         //================================================================
         //$mc['f_logintime'] = $this->CI->T();
 
+        // * 5 过程
+        // * 8 后置处理
         $row['f_logintime'] = time();
         $row['f_loginip'] = Set::GetIP();
 
         //变更数据
         $this->mdb->update("dy_user", $se, $row);
 
+        // * 9 输出
         $this->J(200, 'succeed');
     }
 
-
     public function uploading_inland($sign = array())
     {
+
         //-----------------------------------------------------------------
         $this->sign = $sign;
         !empty($sign) && $this->log['sign'] = $sign;        //方法中截取
@@ -707,7 +722,6 @@ if(empty($row)) $this->J(508, 'error');
     /**********************************************************************
     /**********************************************************************
     /**********************************************************************
-     *
      * */
     private function data($data)
     {
@@ -730,26 +744,7 @@ if(empty($row)) $this->J(508, 'error');
         $this->de['getpost'] = print_r($arr,true);
     }
 
-    private function code($code = '')
-    {
-        $code = intval($code);
-        $this->de['code'] = $code;
-    }
-    public function D($code = 0, $data)
-    {
-        $code = intval($code);
-        if (!empty($code)) $this->de['code'] = $code;
-        $this->de['data'] = $data;
-
-        //$this->de['timestamp_'] = $this->tmp['timestamp_'];
-        //$this->de['timestamp'] = Set::T();
-        $this->de['ExecuteTime'] = Set::T() - $this->tmp['timestamp_'];
-        $this->de['ExecuteModel'] = 'Enter';
-        $this->logmon->L($code,$this->de['msg'],$this->log);
-        echo json_encode($this->de);
-        exit;
-    }
-
+    //输出json
     public function J($code=0,$msg='')
     {
         $code = intval($code);

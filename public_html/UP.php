@@ -21,8 +21,12 @@ function random($length){
 	for($i = 0; $i < $length; $i++){  
 		$hash .= $chars[mt_rand(0, $max)];  
 	}  
-	return $hash;  
+	return $hash;
 }
+
+echo json_encode($_FILES);
+exit;
+
 //--------------------------------------------------------------
 if(!in_array(strtolower(fileext($_FILES['file']['name'])),$type)){  
 	$text=implode(",",$type);  
@@ -81,4 +85,6 @@ if (move_uploaded_file($_FILES['file']['tmp_name'],$uploadfile)){
 //	if(is_uploaded_file($_FILES['file']['tmp_name'])){
 }
 
-?>
+
+
+
