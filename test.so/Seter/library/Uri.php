@@ -55,11 +55,12 @@ class Uri {
     function __construct()
     {
 
-//        $this->config =& load_class('Config', 'core');
-//        log_message('debug', "URI Class Initialized");
-
     }
 
+    function _do()
+    {
+        return $this->_detect_uri();
+    }
 
     // --------------------------------------------------------------------
 
@@ -197,7 +198,6 @@ class Uri {
             $_SERVER['QUERY_STRING'] = '';
             $_GET = array();
         }
-
         if ($uri == '/' || empty($uri))
         {
             return '/';
@@ -211,20 +211,20 @@ class Uri {
 
     // --------------------------------------------------------------------
 
-    /**
-     * Parse cli arguments
-     *
-     * Take each command line argument and assume it is a URI segment.
-     * 命令行的时候
-     * @access	private
-     * @return	string
-     */
-    private function _parse_cli_args()
-    {
-        $args = array_slice($_SERVER['argv'], 1);
-
-        return $args ? '/' . implode('/', $args) : '';
-    }
+//    /**
+//     * Parse cli arguments
+//     *
+//     * Take each command line argument and assume it is a URI segment.
+//     * 命令行的时候
+//     * @access	private
+//     * @return	string
+//     */
+//    private function _parse_cli_args()
+//    {
+//        $args = array_slice($_SERVER['argv'], 1);
+//
+//        return $args ? '/' . implode('/', $args) : '';
+//    }
 
     // --------------------------------------------------------------------
 
