@@ -202,173 +202,51 @@ class Enter
         $this->J(200, 'succeed');
     }
 
-    public function uploading_inland($sign = array())
-    {
 
-        //-----------------------------------------------------------------
-        $this->sign = $sign;
-        !empty($sign) && $this->log['sign'] = $sign;        //方法中截取
-        $this->log['mothod'] = __METHOD__;                  //方法中截取
-        //-----------------------------------------------------------------
-
-        $phaForm = $_POST['phaForm'];
-        $phaForm = json_decode($phaForm, true);
-//        $phaForm = Set::ob2ar($phaForm);
-
-
-        $this->getpost($phaForm);
-
-
-        //echo $md;
-        //$this->getarr($md);
-
-        $phaForm = $phaForm['pharmaceuticalForm'];
-        $phaForm['SampleFormNumber'] = (string)($phaForm['SampleFormNumber']);
-        $phaForm['for'] = substr($phaForm['SampleFormNumber'],0,1);
-
-
-        $odd_id = $phaForm['SampleFormNumber'];
-        //首先检查抽样id的合法性
-        //============================================================
-        $cond['odd_id'] = $odd_id;
-        $this->get($phaForm);
-        $row = $this->mdb->findOne("dy_typeoddid", $cond);
-        if (empty($row)) {
-            $this->J(-201, '无效的预定单号' . $odd_id);
-        }
-
-        if ($row['used'] == 0) {
-            $this->J(-202, '非有效');
-        }
-        if ($row['up'] == 1) {
-            $this->J(-203, '过期的单号');
-        }
-
-        //============================================================
-        $simpleConditionList = $phaForm['sampleCondition']['sampleConditionList'];
-        $simpleDepartmentList = $phaForm['sampleDepartment']['sampleDepartmentList'];
-
-        unset($phaForm['sampleCondition']['sampleConditionList']);
-        unset($phaForm['sampleDepartment']['sampleDepartmentList']);
-
-        $this->mdb->insert('dy_SampleForm', $phaForm);        //主记录
-
-        foreach ($simpleConditionList as $key => $value) {
-            unset($me);
-            $me['odd_id'] = $odd_id;
-            $me = array_merge($me, $value);
-            $this->mdb->insert('dy_SampleCondition', $me);
-        }
-
-        foreach ($simpleDepartmentList as $key => $value) {
-            unset($me);
-            $me['odd_id'] = $odd_id;
-            $me = array_merge($me, $value);
-            $this->mdb->insert('dy_SampleDepartment', $me);
-        }
-
-        //上传完毕,更改状态
-        // print_r($row);
-//        $this->mdb->update("test_table", array("id"=>1),array("id"=>1,"title"=>"bbb"));
-        $row['up'] = 1;
-        $this->mdb->update("dy_typeoddid", array("odd_id" => $row['odd_id']), $row);
-
-        $this->J(200, 'succeed');
-    }
 
     /*
-     * 接口 : 上传抽样单    [enter/uploading]
-     * 录入模块中的上传模块，将抽样单中的所有信息通过json串上传，
-     * 上传成功后code返回200，上传失败返回505。
-     * 提交 数据
-     *返回    { "code":"200","msg":"succeed","data":{"name":"name"}}
-     * */
-    public function uploading($sign = array())
-    {
-        //-----------------------------------------------------------------
-        $this->sign = $sign;
-        !empty($sign) && $this->log['sign'] = $sign;        //方法中截取
-        $this->log['mothod'] = __METHOD__;                  //方法中截取
-        //-----------------------------------------------------------------
-
-        $phaForm = $_POST['phaForm'];
-        $phaForm = json_decode($phaForm, true);
-
-        $this->getpost($phaForm);
-
-//        $phaForm = Set::ob2ar($phaForm);
-        $phaForm = $phaForm['pharmaceuticalForm'];
-        $phaForm['SampleFormNumber'] = (string)($phaForm['SampleFormNumber']);
-        $phaForm['for'] = substr($phaForm['SampleFormNumber'],0,1);
-        $odd_id = $phaForm['SampleFormNumber'];
-        //首先检查抽样id的合法性
-        //============================================================
-        $cond['odd_id'] = $odd_id;
-        $this->get($phaForm);
-        $row = $this->mdb->findOne("dy_typeoddid", $cond);
-        if (empty($row)) {
-            $this->J(-201, '无效的预定单号' . $odd_id);
-        }
-
-        if ($row['used'] == 0) {
-            $this->J(-202, '非有效');
-        }
-        if ($row['up'] == 1) {
-            $this->J(-203, '过期的单号');
-        }
-
-        //============================================================
-        $simpleConditionList = $phaForm['sampleCondition']['sampleConditionList'];
-        $simpleDepartmentList = $phaForm['sampleDepartment']['sampleDepartmentList'];
-
-        unset($phaForm['sampleCondition']['sampleConditionList']);
-        unset($phaForm['sampleDepartment']['sampleDepartmentList']);
-
-        $this->mdb->insert('dy_SampleForm', $phaForm);        //主记录
-
-        foreach ($simpleConditionList as $key => $value) {
-            unset($me);
-            $me['odd_id'] = $odd_id;
-            $me = array_merge($me, $value);
-            $this->mdb->insert('dy_SampleCondition', $me);
-        }
-
-        foreach ($simpleDepartmentList as $key => $value) {
-            unset($me);
-            $me['odd_id'] = $odd_id;
-            $me = array_merge($me, $value);
-            $this->mdb->insert('dy_SampleDepartment', $me);
-        }
-
-        //上传完毕,更改状态
-        // print_r($row);
-//        $this->mdb->update("test_table", array("id"=>1),array("id"=>1,"title"=>"bbb"));
-        $row['up'] = 1;
-        $this->mdb->update("dy_typeoddid", array("odd_id" => $row['odd_id']), $row);
-
-        $this->J(200, 'succeed');
-    }
-
-    /*
-     *  上传预定 [enter/book/]
-     *  模块 : 抽样单号管理
-        说明 : 本接口为上传预定的接口;
-        参数 : 为要预定的抽样单号的数量;
-        成功 : code返回200并且在data数组中返回所预定的抽样单号号码
-        失败 : 预定失败则返回506.
-     * ========================================================
-     * 输入
-     *{
-        "count":2
-        }
-     * ========================================================
-     * 输出
-     * {
-        "code":"200",
-        "msg":"succeed",
-        "data":["j2015000001","j2015000002"]
-        }
+    *  返回本地剩余的抽样单号 [enter/chexiao]
+     * //国内 国外调用的同一个
      */
+    public function chexiao($sign = array())
+    {
+        //-----------------------------------------------------------------
+        $this->sign = $sign;
+        !empty($sign) && $this->log['sign']    = $sign;        //方法中截取
+        $this->log['mothod']    = __METHOD__;        //方法中截取
+        $this->getpost($_POST);
+        //-----------------------------------------------------------------
+
+        $SimpleNumber = $_POST['SimpleNumber'];
+        $SimpleNumber = json_decode($SimpleNumber);
+//        print_r($SimpleNumber);
+//        exit;
+        $this->get($SimpleNumber);
+        //============================================================
+        if(empty($SimpleNumber))$SimpleNumber = array();
+        foreach($SimpleNumber as $value){
+            $row = $this->mdb->findone("dy_typeoddid", array("odd_id"=>$value));
+            $row['used'] = 0;
+            $this->mdb->update("dy_typeoddid", array("odd_id"=>$value),$row);
+        }
+        $this->J(200, 'succeed');
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    //获取预定单号, 分国内国外
+    //book / book_gn
     public function book($sign = array())
     {
         //-----------------------------------------------------------------
@@ -377,7 +255,6 @@ class Enter
         $this->log['mothod'] = __METHOD__;                  //方法中截取
         $this->getpost($_POST);
         //-----------------------------------------------------------------
-
         //参数
         $_f = 'J';              // $_f 国外
         $_s = '46';             // $_s 省
@@ -410,6 +287,7 @@ class Enter
         $this->data2($de['data2']);
         $this->J(200, 'succeed');
     }
+
     // $_f 国内国外
     // $_s 省
     // $_y 年
@@ -472,241 +350,39 @@ class Enter
     }
 
 
-    /*
-    *  返回本地剩余的抽样单号 [enter/chexiao]
-     *
-       模块 :录入
-       说明 :录入模块中的撤销功能，此功能会把手机端数据库中没有用过的抽样单号返回给数据库。
-       参数 :SimpleNumber
-       成功 :"code"的值为200
-       失败 :“code”的值为507
-     * 提交 :
-       {
-           "SimpleNumber":[]
-       }
-     * 返回 :
-       {
-       "code":"200",
-       "data":[],
-       "msg":"succeed"
-       }
-     */
-    public function chexiao($sign = array())
-    {
-        //-----------------------------------------------------------------
-        $this->sign = $sign;
-        !empty($sign) && $this->log['sign']    = $sign;        //方法中截取
-        $this->log['mothod']    = __METHOD__;        //方法中截取
-        $this->getpost($_POST);
-        //-----------------------------------------------------------------
-
-        $SimpleNumber = $_POST['SimpleNumber'];
-        $SimpleNumber = json_decode($SimpleNumber);
-//        print_r($SimpleNumber);
-//        exit;
-        $this->get($SimpleNumber);
-        //============================================================
-        if(empty($SimpleNumber))$SimpleNumber = array();
-        foreach($SimpleNumber as $value){
-            $row = $this->mdb->findone("dy_typeoddid", array("odd_id"=>$value));
-            $row['used'] = 0;
-            $this->mdb->update("dy_typeoddid", array("odd_id"=>$value),$row);
-        }
-        $this->J(200, 'succeed');
-    }
-
 
     /*
-    *  抽样号检索 [search/simplenumber]
-        模块 :检索模块中的抽样单号检索
-        说明 :此接口用于实现在服务器上根据抽样单号
-        参数 :"phaSimpleNumber":要查询的抽样单号
-        成功 :查询成功"code"返回200，同时"data"中带有查询到的抽样单表的信息
-        失败 :查询失败"code"返回508
-     * 输入
-     * {
-        "phaSimpleNumber":"1312122"
-        }
-     * 输出
-    */
-    public function simplenumber($sign = array())
-    {
-        //-----------------------------------------------------------------
-        $this->sign = $sign;
-        !empty($sign) && $this->log['sign']    = $sign;        //方法中截取
-        $this->log['mothod']    = __METHOD__;        //方法中截取
-        $this->getpost($_POST);
-        //-----------------------------------------------------------------
-
-
-        $oddid =  (string)$_POST['SampleFormNumber'];
-//echo $oddid;
-        $row = $this->mdb->findone("dy_SampleForm", array("SampleFormNumber"=>$oddid));
-if(empty($row)) $this->J(508, 'error');
-        $row['sampleCondition']['sampleConditionList']     = $this->mdb->find("dy_SampleCondition", array("odd_id"=>$oddid));
-        $row['sampleDepartment']['sampleDepartmentList']   = $this->mdb->find("dy_SampleDepartment", array("odd_id"=>$oddid));
-        $this->data($row);
-        $this->J(200, 'succeed');
-    }
-
-    public function search($sign = array())
-    {
-        //-----------------------------------------------------------------
-        $this->sign = $sign;
-        !empty($sign) && $this->log['sign']    = $sign;        //方法中截取
-        $this->log['mothod']    = __METHOD__;        //方法中截取
-        $this->getpost($_POST);
-        //-----------------------------------------------------------------
-
-
-        $nrc = $this->search_do("J");
-        $this->data($nrc);
-        $this->J(200, 'succeed');
-    }
-
-    public function search_gn($sign = array())
-    {
-        //-----------------------------------------------------------------
-        $this->sign = $sign;
-        !empty($sign) && $this->log['sign']    = $sign;        //方法中截取
-        $this->log['mothod']    = __METHOD__;        //方法中截取
-        $this->getpost($_POST);
-        //-----------------------------------------------------------------
-
-
-        $nrc = $this->search_do("G");
-        $this->data($nrc);
-        $this->J(200, 'succeed');
-    }
-
-
-
-    private function search_do($_f='J')
-    {
-
-
-        $se = array();
-        //接收参数
-//        "phaSampleNumber":"5",
-//        "sampledate":"2015-02-12",
-//        "startDate":"2015-01-11",
-//        "endDate":"2015-02-28",
-
-        $se['for'] = $_f;
-        isset($_POST['SampleFormNumber'])    && $se['SampleFormNumber'] = (string)$_POST['SampleFormNumber'];      //抽样单号
-//        isset($_POST['sampledate'])         && $sampledate     = $_POST['sampledate'];            //抽样日期
-//        isset($_POST['startDate'])          && $startDate      = $_POST['startDate'];             //开始日期
-//        isset($_POST['endDate'])            && $endDate        = $_POST['endDate'];               //终止日期
-//
-//        isset($_POST['sampleName'])         && $sampleName     = $_POST['sampleName'];             //检品名称
-//        isset($_POST['sampleDepartment'])   && $sampleDepartment = $_POST['sampleDepartment'];     //被抽样单位
-        isset($_POST['pageSize'])           && $pageSize       = $_POST['pageSize'];               //每次访问能够返回的最大数据量
-        isset($_POST['page'])               && $page           = $_POST['page'];
-
-        // $se = array();
-//        isset($_POST['SampleFormNumber'])   && $se["SampleFormNumber"] = (string)$_POST['SampleFormNumber'];     //条件一 : 检验单号
-        isset($_POST['sampleName'])         && $se['pharmaceuticalInforamation.pharmaceuticalName'] = $_POST['sampleName'];                 //条件二 : 药品名称
-
-        isset($_POST['sampleDepartment'])   && $se['sampleDepartment.sampleDepartment'] = $_POST['sampleDepartment'];         //条件三 : 抽样单位
-
-        $md["\$gte"] = $_POST['startDate'];
-        $md["\$lte"] = $_POST['endDate'];
-        ( isset($_POST['startDate']) && isset($_POST['endDate']) )  && $se["sampleDepartment.sampleDate"] = $md;      //"\$gt '{$_POST['startDate']}'";
-        isset($_POST['sampledate'])    && $se["sampleDepartment.sampleDate"] = $_POST['sampledate'];
-
-        // print_r($se);
-        $start= ($page-1)*$pageSize;
-
-        $fi["start"] =$start;
-        $fi["limit"] =$pageSize;
-        $fi["sort"] = array("sampleDepartment.sampleDate"=>-1);
-
-
-        $rc = $this->mdb->find("dy_SampleForm", $se,$fi);
-        // print_r($rc);
-        $nrc  = array();
-        foreach($rc as $key=>$value){
-            $ou['SampleFormNumber'] = (string)$value['SampleFormNumber'];
-            $ou['pharmaceuticalName'] = $value['pharmaceuticalInforamation']['pharmaceuticalName'];
-            $ou['OnLine'] = (int)$value['OnLine'];
-            $nrc[] = $ou;
-        }
-
-
-        return $nrc;
-    }
-
-    /*
-    *  当天被抽样单位检索 [search/todaysearch]
-     *
-        模块 :检索模块中的当天被抽样单位检索
-        说明 :此接口用于实现检索模块中的当天被抽样单位检索功能
-        参数 :"simpledepartment":被抽样单位，"simpledate":抽样日期
-        成功 :查询成功，"code"的值返回"200",同时"data"数组中携带查询到的抽样单表信息
-        失败 :查询失败，"code"的值返回"509"。
-         *
-提交 :
-{
-"simpledepartment":"tianjinchouyang",
-"simpledate":"2015-02-12"
-}
-    */
-    public function todaysearch($sign = array())
-    {
-        !empty($sign) && $this->log['sign']    = $sign;        //方法中截取
-        $this->log['mothod']    = __METHOD__;        //方法中截取
-        $this->getpost($_POST);
-
-
-    }
-
-    /*
-    *  抽样单位检索 [search/simpledepartment]
-模块 :检索模块中的抽样单位检索
-说明 :本接口能够实现检索模块中的抽样单位检索功能
-参数 :"startDate":开始日期,"endDate":终止日期,"simpleName":检品名称
-成功 :查询成功，"code"的返回值为200，并且在"data"数组中有返回的抽样单表信息
-失败 :查询失败，"code"的返回值为510。     *
-     *
-提交 :
-
-{
-"startDate":"2015-01-11",
-"endDate":"2015-02-28",
-"simpleName":"wahaha"
-}
-    */
-
-
-
-    /*
-     * 测试
+     * 上传文件数据
      * */
-    public function test($sign=array())
+    public function upfile($sign = array())
     {
-        $this->log['sign']    = $sign;        //方法中截取
-
-        $m["12"] = "[\"1\",\"2\"]";
-
-        echo json_encode($m);
-        exit;
-        //该用户已经存在
-        //// $sql = "select count(*) from dy_user where user_login = '$username'";
-        //// $count = $this->CI->S->Db->getone($sql);
-//        $user['name'] = 'yangjun';
-//        $user['pwd'] = 'yangjun';
-//        //$this->CI->S->Mongodb->insert("table_user", $user);
-//echo 'test2';
-//        $params = $sign['params'];
-//        print_r($params);
-//array_shift($params);
-//array_pop()
-//array_push()
-//array_unshift()
-//array_shift()
-        $this->ver = '123456789';
-        echo($this->CI->S->ver);
-        exit;
+        //-----------------------------------------------------------------
+        $this->sign = $sign;
+        !empty($sign) && $this->log['sign']    = $sign;         //方法中截取
+        $this->log['mothod']    = __METHOD__;                   //方法中截取
+        //$this->getpost($_FILES);
+        //-----------------------------------------------------------------
+        if(empty($_FILES['tfile']['name'])) $this->J(-200, 'error');        //文件名空
+        //接收数据上传文件
+        //-----------------------------------------------------------------
+        $dirp = './A/upload/v1/'.date("Ym").'/';
+        !is_dir($dirp) && @mkdir($dirp);
+        $dirp = './A/upload/v1/'.date("Ym").'/'.date("d").'/';
+        !is_dir($dirp) && @mkdir($dirp);
+        //-----------------------------------------------------------------
+        $target_path = $dirp . basename($_FILES['tfile']['name']);
+        //-----------------------------------------------------------------
+        if(move_uploaded_file($_FILES['tfile']['tmp_name'], $target_path)) {
+            $refile = $target_path;
+            $msg = " 上传成功";
+        }  else{
+            $refile = "";
+            $msg = " error, please try again!" . $_FILES['tfile']['error'];
+        }
+        $this->data($refile);
+        $this->msg($msg);
+        //-----------------------------------------------------------------
+        $this->J(200, 'succeed');
     }
 
     /**********************************************************************

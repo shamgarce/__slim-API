@@ -2,16 +2,77 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8fdaf63a-f73f-4dde-aabf-fdc3c5cc9f28" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test.so/.htaccess.bak" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test.so/C/core/Easy.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test.so/index23.php.bak" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test.so/index23.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test.so/.htaccess" afterPath="$PROJECT_DIR$/test.so/.htaccess" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test.so/Seter/library/Uri.php" afterPath="$PROJECT_DIR$/test.so/Seter/library/Uri.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test.so/index.php" afterPath="$PROJECT_DIR$/test.so/index.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/upload/v1/201504/07/Desert.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test.so/Seter/Seter.rar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/upload/v1/201504/07/bbbbbbbbbbbbbbbb.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/UI/images/设置-健康/u5.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/UI/images/设置-隐私和帮助/u5.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/Datalist.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/upload/Datalist.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/Mib/v1/libraries/M/Enter - 副本.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/Mib/v1/libraries/M/Enterfo.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/Mib/v1/libraries/M/Enterzh.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/A/upload/v1/201504/07/ZenburnZ_1.icl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/UI/files/忘记密码-短信验证/data.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/UI/files/忘记密码-短信验证-重新设置密码/data.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/UI/files/注册验证/data.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/UI/files/设置-健康/data.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/UI/files/设置-系统设置/data.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/UI/files/设置-隐私和帮助/data.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/UI/files/忘记密码-短信验证/styles.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/UI/files/忘记密码-短信验证-重新设置密码/styles.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/UI/files/注册验证/styles.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/UI/files/设置-健康/styles.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/UI/files/设置-系统设置/styles.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/UI/files/设置-隐私和帮助/styles.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/test.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/UI/忘记密码-短信验证-重新设置密码.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/UI/忘记密码-短信验证.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/UI/注册验证.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/UI/设置-健康.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/UI/设置-系统设置.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/UI/设置-隐私和帮助.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public_html/Mib/v1/libraries/M/Enter.php" afterPath="$PROJECT_DIR$/public_html/Mib/v1/libraries/M/Enter.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public_html/UI/files/android/data.js" afterPath="$PROJECT_DIR$/public_html/UI/files/android/data.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public_html/UI/files/index/data.js" afterPath="$PROJECT_DIR$/public_html/UI/files/index/data.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public_html/UI/files/iso/data.js" afterPath="$PROJECT_DIR$/public_html/UI/files/iso/data.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public_html/UI/files/main/data.js" afterPath="$PROJECT_DIR$/public_html/UI/files/main/data.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public_html/UI/files/page1/data.js" afterPath="$PROJECT_DIR$/public_html/UI/files/page1/data.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public_html/UI/files/page2/data.js" afterPath="$PROJECT_DIR$/public_html/UI/files/page2/data.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public_html/UI/files/page3/data.js" afterPath="$PROJECT_DIR$/public_html/UI/files/page3/data.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public_html/UI/files/元素/data.js" afterPath="$PROJECT_DIR$/public_html/UI/files/元素/data.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public_html/UI/files/元素一/data.js" afterPath="$PROJECT_DIR$/public_html/UI/files/元素一/data.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public_html/UI/files/其他/data.js" afterPath="$PROJECT_DIR$/public_html/UI/files/其他/data.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public_html/UI/files/忘记密码/data.js" afterPath="$PROJECT_DIR$/public_html/UI/files/忘记密码/data.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public_html/UI/files/数据/data.js" afterPath="$PROJECT_DIR$/public_html/UI/files/数据/data.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public_html/UI/files/数据和用户未登录/data.js" afterPath="$PROJECT_DIR$/public_html/UI/files/数据和用户未登录/data.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public_html/UI/files/欢迎页一/data.js" afterPath="$PROJECT_DIR$/public_html/UI/files/欢迎页一/data.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public_html/UI/files/欢迎页三/data.js" afterPath="$PROJECT_DIR$/public_html/UI/files/欢迎页三/data.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public_html/UI/files/欢迎页二/data.js" afterPath="$PROJECT_DIR$/public_html/UI/files/欢迎页二/data.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public_html/UI/files/注册/data.js" afterPath="$PROJECT_DIR$/public_html/UI/files/注册/data.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public_html/UI/files/注册密码/data.js" afterPath="$PROJECT_DIR$/public_html/UI/files/注册密码/data.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public_html/UI/files/用户/data.js" afterPath="$PROJECT_DIR$/public_html/UI/files/用户/data.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public_html/UI/files/登录/data.js" afterPath="$PROJECT_DIR$/public_html/UI/files/登录/data.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public_html/UI/files/知识/data.js" afterPath="$PROJECT_DIR$/public_html/UI/files/知识/data.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public_html/UI/files/设置/data.js" afterPath="$PROJECT_DIR$/public_html/UI/files/设置/data.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public_html/UI/files/设置-个人资料/data.js" afterPath="$PROJECT_DIR$/public_html/UI/files/设置-个人资料/data.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public_html/UI/files/设置-账号/data.js" afterPath="$PROJECT_DIR$/public_html/UI/files/设置-账号/data.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public_html/UI/files/颜色_尺寸/data.js" afterPath="$PROJECT_DIR$/public_html/UI/files/颜色_尺寸/data.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public_html/UI/files/首页/data.js" afterPath="$PROJECT_DIR$/public_html/UI/files/首页/data.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public_html/UI/data/document.js" afterPath="$PROJECT_DIR$/public_html/UI/data/document.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public_html/Mib/v3/libraries/EasyCache/query_caches/sqlcache_config_file_1a9ff34e620810f4b2158361627eb1d4.php" afterPath="$PROJECT_DIR$/public_html/Mib/v3/libraries/EasyCache/query_caches/sqlcache_config_file_1a9ff34e620810f4b2158361627eb1d4.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public_html/Mib/v1/libraries/EasyCache/query_caches/sqlcache_config_file_1e9f4807034b5e56eb2db5c9a2c7b243.php" afterPath="$PROJECT_DIR$/public_html/Mib/v1/libraries/EasyCache/query_caches/sqlcache_config_file_1e9f4807034b5e56eb2db5c9a2c7b243.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public_html/Mib/W/libraries/EasyCache/query_caches/sqlcache_config_file_506bc0210df8e70ab7da692c5a4d7a6e.php" afterPath="$PROJECT_DIR$/public_html/Mib/W/libraries/EasyCache/query_caches/sqlcache_config_file_506bc0210df8e70ab7da692c5a4d7a6e.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public_html/Mib/M/libraries/EasyCache/query_caches/sqlcache_config_file_8a2b23b85ffbfb5009f5cec06aa6066d.php" afterPath="$PROJECT_DIR$/public_html/Mib/M/libraries/EasyCache/query_caches/sqlcache_config_file_8a2b23b85ffbfb5009f5cec06aa6066d.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public_html/Mib/Doc/libraries/EasyCache/query_caches/sqlcache_config_file_8fe2e84b63ad295048e9432a9b03fad9.php" afterPath="$PROJECT_DIR$/public_html/Mib/Doc/libraries/EasyCache/query_caches/sqlcache_config_file_8fe2e84b63ad295048e9432a9b03fad9.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public_html/Mib/v3/libraries/EasyCache/query_caches/sqlcache_config_file_a88f6b2ed762e0d58851785da11a911e.php" afterPath="$PROJECT_DIR$/public_html/Mib/v3/libraries/EasyCache/query_caches/sqlcache_config_file_a88f6b2ed762e0d58851785da11a911e.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public_html/Mib/Man/libraries/EasyCache/query_caches/sqlcache_config_file_aff75ec61dbd111277d1f56ed79f9837.php" afterPath="$PROJECT_DIR$/public_html/Mib/Man/libraries/EasyCache/query_caches/sqlcache_config_file_aff75ec61dbd111277d1f56ed79f9837.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public_html/UI/files/忘记密码/styles.css" afterPath="$PROJECT_DIR$/public_html/UI/files/忘记密码/styles.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public_html/UI/files/注册/styles.css" afterPath="$PROJECT_DIR$/public_html/UI/files/注册/styles.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public_html/UI/忘记密码.html" afterPath="$PROJECT_DIR$/public_html/UI/忘记密码.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public_html/UI/注册.html" afterPath="$PROJECT_DIR$/public_html/UI/注册.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public_html/UI/设置.html" afterPath="$PROJECT_DIR$/public_html/UI/设置.html" />
     </list>
     <ignored path="slim-API.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -42,51 +103,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index23.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test.so/index23.php">
+      <file leaf-file-name="Enterzh.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/public_html/Mib/v1/libraries/M/Enterzh.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-22.0" vertical-offset="2143" max-vertical-offset="3151">
-              <caret line="119" column="71" selection-start-line="119" selection-start-column="71" selection-end-line="119" selection-end-column="71" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Easy.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test.so/C/core/Easy.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-26.25926" vertical-offset="280" max-vertical-offset="1127">
-              <caret line="43" column="0" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Common.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public_html/C/core/Common.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-9.490566" vertical-offset="10560" max-vertical-offset="12995">
-              <caret line="481" column="9" selection-start-line="481" selection-start-column="9" selection-end-line="481" selection-end-column="9" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CodeIgniter.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public_html/C/core/CodeIgniter.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-19.592592" vertical-offset="3381" max-vertical-offset="9384">
-              <caret line="170" column="57" selection-start-line="170" selection-start-column="57" selection-end-line="170" selection-end-column="57" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Router.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/public_html/C/core/Router.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5891089" vertical-offset="2744" max-vertical-offset="12144">
-              <caret line="140" column="0" selection-start-line="140" selection-start-column="0" selection-end-line="140" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.6540732" vertical-offset="2183" max-vertical-offset="7452">
+              <caret line="119" column="43" selection-start-line="119" selection-start-column="43" selection-end-line="119" selection-end-column="43" />
               <folding />
             </state>
           </provider>
@@ -105,9 +126,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/public_html/T/N/css.css" />
-        <option value="$PROJECT_DIR$/public_html/T/N/N.php" />
-        <option value="$PROJECT_DIR$/public_html/T/N/Config.php" />
         <option value="$PROJECT_DIR$/public_html/T/N/www/index_.php" />
         <option value="$PROJECT_DIR$/public_html/T/N/view/N_function.php" />
         <option value="$PROJECT_DIR$/public_html/T/N/views/N_function.php" />
@@ -150,12 +168,15 @@
         <option value="$PROJECT_DIR$/public_html/Mib/Man/controllers/Man.php" />
         <option value="$PROJECT_DIR$/public_html/Mib/Man/views/Man/Man_edit.php" />
         <option value="$PROJECT_DIR$/public_html/UP.php" />
-        <option value="$PROJECT_DIR$/public_html/Mib/v1/libraries/M/Enter.php" />
         <option value="$PROJECT_DIR$/test.so/Sam/index.php" />
         <option value="$PROJECT_DIR$/test.so/index.php" />
         <option value="$PROJECT_DIR$/test.so/Seter/library/Uri.php" />
         <option value="$PROJECT_DIR$/test.so/index23.php" />
         <option value="$PROJECT_DIR$/test.so/C/core/Easy.php" />
+        <option value="$PROJECT_DIR$/public_html/C/core/CodeIgniter.php" />
+        <option value="$PROJECT_DIR$/public_html/Mib/v1/libraries/M/Enter.php" />
+        <option value="$PROJECT_DIR$/public_html/Mib/v1/libraries/M/Enterfo.php" />
+        <option value="$PROJECT_DIR$/public_html/Mib/v1/libraries/M/Enterzh.php" />
       </list>
     </option>
   </component>
@@ -200,40 +221,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="slim-API" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="slim-API" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="slim-API" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test.so" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="slim-API" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="slim-API" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
       <pane id="Scope">
         <subPane subId="Problems" />
         <subPane subId="Tests" />
@@ -282,6 +269,40 @@
           </PATH>
         </subPane>
         <subPane subId="Changed Files" />
+      </pane>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="slim-API" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="slim-API" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="slim-API" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="slim-API" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="slim-API" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public_html" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
       </pane>
     </panes>
   </component>
@@ -409,12 +430,6 @@
       <created>1422269068506</created>
       <option name="number" value="Default" />
       <updated>1422269068506</updated>
-    </task>
-    <task id="LOCAL-00033" summary="Rejected commit: Default">
-      <created>1425127893987</created>
-      <option name="number" value="00033" />
-      <option name="project" value="LOCAL" />
-      <updated>1425127893987</updated>
     </task>
     <task id="LOCAL-00034" summary="Rejected commit: Default">
       <created>1425290569262</created>
@@ -704,7 +719,13 @@
       <option name="project" value="LOCAL" />
       <updated>1428046293731</updated>
     </task>
-    <option name="localTasksCounter" value="82" />
+    <task id="LOCAL-00082" summary="Rejected commit: Default">
+      <created>1428053395587</created>
+      <option name="number" value="00082" />
+      <option name="project" value="LOCAL" />
+      <updated>1428053395588</updated>
+    </task>
+    <option name="localTasksCounter" value="83" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -728,17 +749,16 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="0" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.77691454" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32779622" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32963374" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32963374" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32960597" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.26783812" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17199148" sideWeight="0.49944505" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17305644" sideWeight="0.49944505" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2630458" sideWeight="0.5005549" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32963374" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2874584" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
@@ -747,6 +767,7 @@
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32963374" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.5327414" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.77691454" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -779,34 +800,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/public_html/Seter/Config/autoload.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.688019" vertical-offset="1885" max-vertical-offset="2728">
-          <caret line="21" column="14" selection-start-line="21" selection-start-column="14" selection-end-line="21" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public_html/Seter/Config/memcache.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.46975088" vertical-offset="0" max-vertical-offset="843">
-          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public_html/Seter/Config/mongodb.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33926454" vertical-offset="0" max-vertical-offset="843">
-          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public_html/Seter/Config/mysql.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="594">
-          <caret line="0" column="5" selection-start-line="0" selection-start-column="5" selection-end-line="0" selection-end-column="76" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public_html/Seter/library/Apc.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.57413995" vertical-offset="0" max-vertical-offset="2288">
@@ -1032,26 +1025,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public_html/Mib/v1/controllers/v1.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4899882" vertical-offset="2896" max-vertical-offset="3772">
-          <caret line="144" column="0" selection-start-line="144" selection-start-column="0" selection-end-line="144" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public_html/Mib/v1/libraries/M/Enter.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-15.333333" vertical-offset="6969" max-vertical-offset="18354">
-          <caret line="321" column="44" selection-start-line="321" selection-start-column="44" selection-end-line="321" selection-end-column="44" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test.so/Seter/Sample.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-11.925926" vertical-offset="0" max-vertical-offset="1633">
           <caret line="14" column="23" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1059,7 +1036,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="5.111111" vertical-offset="552" max-vertical-offset="10281">
           <caret line="18" column="49" selection-start-line="18" selection-start-column="49" selection-end-line="18" selection-end-column="49" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1067,7 +1043,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="575">
           <caret line="16" column="35" selection-start-line="16" selection-start-column="35" selection-end-line="16" selection-end-column="35" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1075,7 +1050,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.837072" vertical-offset="14011" max-vertical-offset="14858">
           <caret line="640" column="37" selection-start-line="640" selection-start-column="37" selection-end-line="640" selection-end-column="37" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1091,7 +1065,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.46162927" vertical-offset="69" max-vertical-offset="4554">
           <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1099,23 +1072,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-22.0" vertical-offset="2143" max-vertical-offset="3151">
           <caret line="119" column="71" selection-start-line="119" selection-start-column="71" selection-end-line="119" selection-end-column="71" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public_html/C/core/Common.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-9.490566" vertical-offset="10560" max-vertical-offset="12995">
-          <caret line="481" column="9" selection-start-line="481" selection-start-column="9" selection-end-line="481" selection-end-column="9" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test.so/C/core/Easy.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-26.25926" vertical-offset="280" max-vertical-offset="1127">
+        <state vertical-scroll-proportion="0.0" vertical-offset="280" max-vertical-offset="1127">
           <caret line="43" column="0" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1123,15 +1086,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-1.6021252" vertical-offset="1932" max-vertical-offset="13340">
           <caret line="25" column="22" selection-start-line="25" selection-start-column="22" selection-end-line="25" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public_html/C/core/CodeIgniter.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-19.592592" vertical-offset="3381" max-vertical-offset="9384">
-          <caret line="170" column="57" selection-start-line="170" selection-start-column="57" selection-end-line="170" selection-end-column="57" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1139,14 +1093,77 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.6198347" vertical-offset="349" max-vertical-offset="1196">
           <caret line="38" column="2" selection-start-line="38" selection-start-column="2" selection-end-line="38" selection-end-column="2" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public_html/C/core/Router.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5891089" vertical-offset="2744" max-vertical-offset="12144">
-          <caret line="140" column="0" selection-start-line="140" selection-start-column="0" selection-end-line="140" selection-end-column="0" />
+        <state vertical-scroll-proportion="3.6633663" vertical-offset="191" max-vertical-offset="12144">
+          <caret line="137" column="9" selection-start-line="137" selection-start-column="9" selection-end-line="137" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public_html/C/core/CodeIgniter.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3745583" vertical-offset="8192" max-vertical-offset="9384">
+          <caret line="370" column="3" selection-start-line="370" selection-start-column="3" selection-end-line="370" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public_html/C/core/Common.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.32155478" vertical-offset="10560" max-vertical-offset="12995">
+          <caret line="471" column="34" selection-start-line="471" selection-start-column="34" selection-end-line="471" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/com/jetbrains/php/lang/psi/stubs/data/date.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.37170264" vertical-offset="6360" max-vertical-offset="32522">
+          <caret line="290" column="0" selection-start-line="290" selection-start-column="0" selection-end-line="290" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public_html/Mib/v1/controllers/v1.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5159386" vertical-offset="0" max-vertical-offset="3772">
+          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <folding>
+            <marker date="1427878158730" expanded="true" signature="-1:-1" placeholder="select * fro..userapi..." />
+            <marker date="1427878158730" expanded="true" signature="-1:-1" placeholder="select * fro..userapi..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public_html/Mib/v1/libraries/M/Enter - 副本.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5773318" vertical-offset="8389" max-vertical-offset="19136">
+          <caret line="386" column="0" selection-start-line="386" selection-start-column="0" selection-end-line="386" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public_html/Mib/v1/libraries/M/Enter.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-7.888889" vertical-offset="5445" max-vertical-offset="10902">
+          <caret line="246" column="0" selection-start-line="246" selection-start-column="0" selection-end-line="246" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public_html/Mib/v1/libraries/M/Enterfo.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33293977" vertical-offset="3490" max-vertical-offset="7544">
+          <caret line="164" column="20" selection-start-line="164" selection-start-column="20" selection-end-line="164" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public_html/Mib/v1/libraries/M/Enterzh.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6540732" vertical-offset="2183" max-vertical-offset="7452">
+          <caret line="119" column="43" selection-start-line="119" selection-start-column="43" selection-end-line="119" selection-end-column="43" />
           <folding />
         </state>
       </provider>
