@@ -28,27 +28,42 @@
 
 ------------------------------------------------------------------------------* /
  */
+
+define(SHAMLOGSYSTEM,true);
+define(SHAMLOGGET,true);
+define(SHAMLOGPOST,true);
+define(SHAMLOG,true);
+
+
 class Logmon{
-
-
     protected $errors = array();
-
-
     public function __construct()
     {
-        $this->CI =& get_instance();
+        $this->CI =& get_instance();                //返回本类的实例 [引用]
     }
 
     //系统的开发日志
-    public function L($code,$info,$loginfo)
+    public function L($code=0,$info='',$loginfo)
     {
         $loginfo['code'] = $code;        //code
         $loginfo['info'] = $info;        //info
 
+        $loginfo= $this->inv($loginfo);     //获取信息
+        $this->Write($loginfo);             //写数据
+        return true;
+    }
 
-        !empty($_GET) && $loginfo['_GET']   = $_GET;            //log
-        $loginfo['_POST'] = $_POST;        //log
-        $loginfo['time']['timeen']  = Set::T();      //log
+    //获取信息
+    public function inv($loginfo)
+    {
+        !empty($_GET)   && $loginfo['_GET']   = $_GET;          //log
+        !empty($_POST)  && $loginfo['_POST'] = $_POST;          //log
+        $loginfo['time']['timeen']  = Seter::T();      //log
+    }
+
+    //保存数据
+    public function Write($loginfo)
+    {
         $this->CI->S->mdb->insert('dy_log',$loginfo);
         return true;
     }

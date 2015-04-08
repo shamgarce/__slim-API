@@ -48,7 +48,7 @@ class Man extends CI_Controller
 		$sql = !empty($ver)?" v= '$ver'":" 1";
 		$sql .= !empty($mm)?" and (`api` like '$mm%')":"";
 
-		$sql = "select * from userapi where $sql";
+		$sql = "select * from userapi where $sql order by sort desc";
 		$rc = $this->db->getall($sql);
 
 		foreach($rc as $key=>$value){
@@ -56,8 +56,8 @@ class Man extends CI_Controller
 			$ma[$apis[0]][$apis[1]] = 1;
 		}
 
-		$data['msg'] = "默认m";
-		$data['rc'] = $rc;
+		$data['msg'] 	= "默认m";
+		$data['rc'] 	= $rc;
 		$data['ver'] 	= $ver;
 		$data['mm'] 	= $mm;
 		$data['ma'] 	= $ma;
@@ -264,11 +264,8 @@ class Man extends CI_Controller
 		echo json_encode($res);
 	}
 
-
-
 }
-
-
 
 /* End of file welcome.php */
 /* Location: ./application/controllers/welcome.php */
+

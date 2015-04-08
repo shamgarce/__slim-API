@@ -49,10 +49,11 @@
        
 <table class="table table-hover table-condensed table-striped table-bordered" >
 <tr>
-  <td>  <a href="/Man/index/v1" type="button" class="btn btn-primary" <?php if($ver === 'v1' && $mm == ''){echo 'disabled';}?>>版本 v1</a>
-  <a href="/Man/index/v3" type="button" class="btn btn-primary" <?php if($ver === 'v3' && $mm == ''){echo 'disabled';}?>>版本 v3</a>
-  <a href="/Man/index/v5" type="button" class="btn btn-primary" <?php if($ver === 'v5' && $mm == ''){echo 'disabled';}?>>版本 v5</a>
-  </td>
+  <td>  
+<a href="/Man/index/v1" type="button" class="btn btn-primary" <?php if($ver === 'v1' && $mm == ''){echo 'disabled';}?>>版本 v1</a>
+<a href="/Man/index/v3" type="button" class="btn btn-primary" <?php if($ver === 'v3' && $mm == ''){echo 'disabled';}?>>版本 v3</a>
+<a href="/Man/index/v5" type="button" class="btn btn-primary" <?php if($ver === 'v5' && $mm == ''){echo 'disabled';}?>>版本 v5</a>
+</td>
 </tr>
 <tr>
   <td>模块 : 

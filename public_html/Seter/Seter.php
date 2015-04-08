@@ -20,13 +20,13 @@ class Seter implements ArrayAccess, Countable, IteratorAggregate
     {
         $this->replace($items);
         $this->singleton('db', function ($c) {
-            return new Db();
+            return new Seter_Db();
         });
         $this->singleton('mdb', function ($c) {
-            return new Mdb();
+            return new Seter_Mdb();
         });
         $this->singleton('apc', function ($c) {
-            return new Apc();
+            return new Seter_Apc();
         });
 //        $this->singleton('logmon', function ($c) {
 //            return new Logmon();
@@ -37,7 +37,7 @@ class Seter implements ArrayAccess, Countable, IteratorAggregate
 //            define('MEMCACHE_EXPIRATION', 0);
 //            define('MEMCACHE_PREFIX', 'licai');
 //            define('MEMCACHE_COMPRESSION', FALSE);
-            return new Mcache();
+            return new Seter_Mcache();
         });
 
     }
@@ -431,6 +431,15 @@ class Seter implements ArrayAccess, Countable, IteratorAggregate
             $cip = "无法获取！";
         }
         return $cip;
+    }
+
+    //类文件自动加载 ->config中引用
+    public static function __Sham__loader($class)
+    {
+        $file = SHAM_PATH."/library/$class.php";
+        if (is_file($file)) {
+            require_once($file);
+        }
     }
 
 }

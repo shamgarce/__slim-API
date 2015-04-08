@@ -41,6 +41,7 @@ if (defined('ENVIRONMENT'))
 		break;
 
 		case 'testing':
+
 		case 'production':
 			error_reporting(0);
 		break;
@@ -196,15 +197,17 @@ if (defined('ENVIRONMENT'))
 	}
 
 
-/**	 addby sham 3.5	**/
-function __Sham__loader($class)
-{
-	$file = FCPATH.APPPATH.'libraries/'.$class.'.php';
-	if (is_file($file)) {
-		require_once($file);
-	}
-}
-spl_autoload_register('__Sham__loader');
+///**	 addby sham 3.5	**/
+//function __Sham__loader($class)
+//{
+//	$file = FCPATH.APPPATH.'libraries/'.$class.'.php';
+//	if (is_file($file)) {
+//		require_once($file);
+//	}
+//}
+//spl_autoload_register('__Sham__loader');
+
+
 /**	 /addby sham 3.5	**/
 /*
  * --------------------------------------------------------------------

@@ -9,8 +9,9 @@ class v5 extends CI_Controller
 	 * 完善sign
 	 * 分级判断
 	 * 数据管理后台
-	 * 1
-	 * 完善log系统 [安全部分 应用部分 环境部分]
+	 *
+	 * 完善log系统 [安全部分 应用部分 环境部分] [前置记录,过程记录,环境收集]
+	 *
 	 * */
 
 
@@ -35,10 +36,17 @@ class v5 extends CI_Controller
 	function __construct()
 	{
 		parent::__construct();
-		$this->S = new Set();		//里面包含系列的单例对象
+
 		//=========================================================
+		//加载Seter组件
+		include FCPATH.'Seter/Config.php';
+		$this->S = new Seter();
+		//=========================================================
+		//=========================================================
+
 		$this->getsign();			//获取资源$this->sign
 		$this->getmap();			//获取资源$this->map
+		print_r($this->map);
 	}
 
 	public function _remap($method, $params = array())
@@ -55,9 +63,10 @@ class v5 extends CI_Controller
 		 * 1 安全检查没有通过
 		 * 2 method 缺失
 		 * 3
+		//if(!) $this->jout($this->code,'未通过签名监测');
 		//根据输入的数据,和sign中的数据,来判断是否有false
 		*/
-		//if(!$this->safe_sign()) $this->jout($this->code,'未通过签名监测');
+
 		//=============================================================
 		//数据库id 有了//能够获取到映射
 		$tid = $this->map[$this->sign['mothod']][$this->sign['mothod_action']][0];
@@ -115,20 +124,14 @@ class v5 extends CI_Controller
 		$this->sign['user'] 		= $this->input->get('user',true);		//$_GET['ush'];			//ush //获取得到 再次获取则会更换
 		$this->sign['sign'] 		= false;
 
+		//签名判断
 		$_sign = md5($this->sign['user'].$this->sign['deviceid']);
 		if($_sign == $this->sign['openid'])$this->sign['sign_'] 		= true;
 
+		//签名判断
 		$signature = md5($this->sign['openid'].$this->sign['timestamp'].$this->sign['salt']);
 		if($signature == $this->sign['signature'])$this->sign['sign'] 		= true;
 	}
-
-	//=========================================================
-	//数据完整性 和安全签名
-	public function safe_sign()	//安全签名
-	{	//md5 (openid,timestamp,salt)
-		return true;
-	}
-
 
 	//=========================================================
 	//匹配是否正确

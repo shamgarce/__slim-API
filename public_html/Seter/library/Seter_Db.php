@@ -26,7 +26,7 @@ $db->version();
 $db->setMaxCacheTime(0);
 $db->getMaxCacheTime();
 */
-class Db{
+class Seter_Db{
     protected $properties;
     //private $settings = array();
     //下面是单例结构===================================================
