@@ -103,11 +103,9 @@ class Man extends CI_Controller
 	public function index($ver = 0,$mm=0)
 	{
 
-
-
 		$sql = !empty($ver)?" v= '$ver'":" 1";
 		$sql .= !empty($mm)?" and (`api` like '$mm%')":"";
-		$sql = "select * from userapi where $sql";
+		$sql = "select * from userapi where $sql order by sort desc";
 
 		$rc = $this->S->db->getall($sql);
 
@@ -115,12 +113,6 @@ class Man extends CI_Controller
 			$apis = explode('/',$value['api']);
 			$ma[$apis[0]][$apis[1]] = 1;
 		}
-
-
-
-
-
-
 
 		$data['ver'] 	= $ver;
 		$data['mm'] 	= $mm;
@@ -163,6 +155,7 @@ class Man extends CI_Controller
 		$rc['dis'] 		= $_POST['dis'];
 
 		$rc['name'] 	= $_POST['name'];
+		$rc['sort'] 	= $_POST['sort'];
 
 		$rc['request'] 	= $_POST['request'];
 		$rc['response'] = $_POST['response'];

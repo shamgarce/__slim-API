@@ -21,6 +21,8 @@ RewriteRule ^D/(.*)$ D.php/$1 [L]
 RewriteRule ^v3$ v3.php [L]
 RewriteRule ^v3/(.*)$ v3.php/$1 [L]
 
+RewriteRule ^v5$ v5.php [L]
+RewriteRule ^v5/(.*)$ v5.php/$1 [L]
 
 RewriteRule ^Doc$ Doc.php [L]
 RewriteRule ^Doc/(.*)$ Doc.php/$1 [L]

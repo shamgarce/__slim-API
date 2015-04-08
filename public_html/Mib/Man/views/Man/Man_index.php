@@ -50,7 +50,9 @@
 <table class="table table-hover table-condensed table-striped table-bordered" >
 <tr>
   <td>  <a href="/Man/index/v1" type="button" class="btn btn-primary" <?php if($ver === 'v1' && $mm == ''){echo 'disabled';}?>>版本 v1</a>
-  <a href="/Man/index/v3" type="button" class="btn btn-primary" <?php if($ver === 'v3' && $mm == ''){echo 'disabled';}?>>版本 v3</a></td>
+  <a href="/Man/index/v3" type="button" class="btn btn-primary" <?php if($ver === 'v3' && $mm == ''){echo 'disabled';}?>>版本 v3</a>
+  <a href="/Man/index/v5" type="button" class="btn btn-primary" <?php if($ver === 'v5' && $mm == ''){echo 'disabled';}?>>版本 v5</a>
+  </td>
 </tr>
 <tr>
   <td>模块 : 
@@ -75,7 +77,7 @@ foreach($ma as $key=>$value){
             </td>
             <td><a class="apiaddnew">添加新的</a></td>
             <td width="350">映射</td>
-            <td width="80">调试</td>
+            <td width="100">调试</td>
           </tr>
           <?php
 foreach($rc as $key=>$value) {
@@ -83,7 +85,7 @@ foreach($rc as $key=>$value) {
           <tr>
             <td><?php echo $value['id']?></td>
             <td><a class="viewdoc" rel=<?php echo $value['id']?>><?php echo $value['name']?></a></td>
-            <td><?php echo $value['api']?>[<?php echo $value['v']?>]</td>
+            <td>[<?php echo $value['v']?>]<?php echo $value['api']?></td>
             <td> 
             <?php
             if($value['debug'] ==1){
@@ -98,6 +100,7 @@ foreach($rc as $key=>$value) {
 			?>
 &nbsp; 
             <a class="apiedit" rel="<?php echo $value['id']?>"><span class="glyphicon glyphicon-wrench yellow"></span></a>
+			<?php echo $value['sort']?>
             </td>
           </tr>
           <?php

@@ -148,7 +148,6 @@ class Enterfo
         $this->sign = $sign;
         !empty($sign) && $this->log['sign']    = $sign;        //方法中截取
         $this->log['mothod']    = __METHOD__;        //方法中截取
-        $this->getpost($_POST);
         //-----------------------------------------------------------------
 
 
@@ -158,6 +157,7 @@ class Enterfo
 if(empty($row)) $this->J(508, 'error');
         $row['sampleCondition']['sampleConditionList']     = $this->mdb->find("dy_SampleCondition", array("odd_id"=>$oddid));
         $row['sampleDepartment']['sampleDepartmentList']   = $this->mdb->find("dy_SampleDepartment", array("odd_id"=>$oddid));
+        $this->getpost($row);
         $this->data($row);
         $this->J(200, 'succeed');
     }

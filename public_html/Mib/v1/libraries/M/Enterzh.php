@@ -77,7 +77,6 @@ class Enterzh
 //        $phaForm = Set::ob2ar($phaForm);
         $this->getpost($phaForm);
 
-
         //echo $md;
         //$this->getarr($md);
 
@@ -157,15 +156,19 @@ class Enterzh
         $this->sign = $sign;
         !empty($sign) && $this->log['sign']    = $sign;        //方法中截取
         $this->log['mothod']    = __METHOD__;        //方法中截取
-        $this->getpost($_POST);
         //-----------------------------------------------------------------
 
         $oddid =  (string)$_POST['SampleFormNumber'];
 //echo $oddid;
         $row = $this->mdb->findone("dy_zh_SampleForm", array("SampleFormNumber"=>$oddid));
 if(empty($row)) $this->J(508, 'error');
-        $row['sampleCondition']['sampleConditionList']     = $this->mdb->find("dy_SampleCondition", array("odd_id"=>$oddid));
-        $row['sampleDepartment']['sampleDepartmentList']   = $this->mdb->find("dy_SampleDepartment", array("odd_id"=>$oddid));
+
+        $row['inLandSampleCondition']['sampleConditionList']        = $this->mdb->find("dy_zh_SampleCondition", array("odd_id"=>$oddid));
+        $row['inLandEnforcementUnitSign']['sampleDepartmentList']   = $this->mdb->find("dy_zh_SampleDepartment", array("odd_id"=>$oddid));
+
+
+
+        $this->getpost($row);
         $this->data($row);
         $this->J(200, 'succeed');
     }
@@ -199,33 +202,31 @@ if(empty($row)) $this->J(508, 'error');
         isset($_POST['page'])               && $page           = $_POST['page'];
 
         // $se = array();
-//        isset($_POST['SampleFormNumber'])   && $se["SampleFormNumber"] = (string)$_POST['SampleFormNumber'];     //条件一 : 检验单号
-        //isset($_POST['sampleName'])         && $se['pharmaceuticalInforamation.pharmaceuticalName'] = $_POST['sampleName'];                 //条件二 : 药品名称
-
-       // isset($_POST['sampleDepartment'])   && $se['sampleDepartment.sampleDepartment'] = $_POST['sampleDepartment'];         //条件三 : 抽样单位
+        isset($_POST['sampleName'])         && $se['inLandPhaInformation.phaName'] = $_POST['sampleName'];                 //条件二 : 药品名称
+        isset($_POST['sampledDepartment'])   && $se['inLandSuperviseOffereeSign.sampledDepartment'] = $_POST['sampledDepartment'];         //条件三 : 抽样单位
 
         $md["\$gte"] = $_POST['startDate'];
         $md["\$lte"] = $_POST['endDate'];
         ( isset($_POST['startDate']) && isset($_POST['endDate']) )  && $se["inLandEnforcementUnitSign.sampleDate"] = $md;      //"\$gt '{$_POST['startDate']}'";
         isset($_POST['sampledate'])    && $se["inLandEnforcementUnitSign.sampleDate"] = $_POST['sampledate'];
 
-        // print_r($se);
+
         $start= ($page-1)*$pageSize;
 
         $fi["start"] =$start;
         $fi["limit"] =$pageSize;
         $fi["sort"] = array("inLandEnforcementUnitSign.sampleDate"=>-1);
 
-print_r($se);
+       // print_r($se);
         $rc = $this->mdb->find("dy_zh_SampleForm", $se,$fi);
         // print_r($rc);
         $nrc  = array();
-//        foreach($rc as $key=>$value){
-//            $ou['SampleFormNumber'] = (string)$value['SampleFormNumber'];
-//            $ou['pharmaceuticalName'] = $value['pharmaceuticalInforamation']['pharmaceuticalName'];
-//            $ou['OnLine'] = (int)$value['OnLine'];
-//            $nrc[] = $ou;
-//        }
+        foreach($rc as $key=>$value){
+            $ou['SampleFormNumber'] = (string)$value['SampleFormNumber'];
+            $ou['pharmaceuticalName'] = $value['inLandPhaInformation']['phaName'];
+            $ou['OnLine'] = (int)$value['OnLine'];
+            $nrc[] = $ou;
+        }
 
 
         $this->data($nrc);

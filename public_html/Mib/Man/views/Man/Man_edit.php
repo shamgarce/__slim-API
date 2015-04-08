@@ -2,6 +2,10 @@
 <tr>
 <td valign="top"><table class="table table-bordered table-hover  table-condensed" >
   <tr>
+    <td>排序 
+      <input type="text" class="rowsort" id="textfield7" value="<?php echo $row['sort']?>" /></td>
+  </tr>
+  <tr>
     <td>接口映射<?php echo $row['id']?></td>
   </tr>
   <tr>
@@ -96,6 +100,7 @@ this.opt = {				//确定按钮的点击
 				request 	: $('.rowrequest').val(),
 				response 	: $('.rowresponse').val(),
 				name 	: $('.rowname').val(),
+				sort 	: $('.rowsort').val(),
 				
 				
 				debug 	: $("input[name='vsdebug']:checked").val(),
