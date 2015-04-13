@@ -148,7 +148,7 @@ class v1 extends CI_Controller
 	//===============================================================
 	public function jout($code,$msg = '有错误')
 	{
-		$res['code'] = $code.'00';
+		$res['code'] = $code;
 		$res['msg'] = $msg;
 		echo json_encode($res);
 		exit;

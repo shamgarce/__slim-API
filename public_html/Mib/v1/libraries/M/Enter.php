@@ -203,6 +203,35 @@ class Enter
     }
 
 
+    public function changepassword($sign = array())
+    {
+        //-----------------------------------------------------------------
+        //* 1 预制处理
+        $this->sign = $sign;                                //签字获取
+        !empty($sign) && $this->log['sign'] = $sign;        //方法中截取
+        $this->log['mothod'] = __METHOD__;                  //方法中截取
+        $this->getpost($_POST);                             //反馈获取到的数据
+        //-----------------------------------------------------------------
+
+        // * 2 接收参数
+        $username       = $this->CI->input->post('username');
+        $newPassword    = $this->CI->input->post('newPassword');
+
+        $se['user_login'] = $username;
+        $row = $this->mdb->findOne("dy_user", $se);
+
+        if ($row['enable'] == 0) {
+            $this->J(-200, '不是有效用户');
+        }
+
+
+
+
+        //$this->mdb->update("dy_typeoddid", array("odd_id"=>$value),$row);
+        //-----------------------------------------------------------------
+        $this->J(200, 'ok');
+    }
+
 
     /*
     *  返回本地剩余的抽样单号 [enter/chexiao]
