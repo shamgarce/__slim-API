@@ -60,7 +60,9 @@ class Mdb {
 //      $mongodb_set['default']['port']		= '27017';
 //      $mongodb_set['default']['database']	= 'v1';
         //==================================================
-        $mongo_server = "{$mongodb_set['default']['host']}:{$mongodb_set['default']['port']}";
+//        $mongo_server = "{$mongodb_set['default']['host']}:{$mongodb_set['default']['port']}";
+        $mongo_server = "mongodb://{$mongodb_set['default']['user']}:{$mongodb_set['default']['pwd']}@{$mongodb_set['default']['host']}:{$mongodb_set['default']['port']}";
+
         if (is_array($mongo_server))
         {
             $mongo_server_num = count($mongo_server);

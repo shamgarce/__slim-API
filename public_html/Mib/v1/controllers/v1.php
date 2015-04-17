@@ -9,7 +9,7 @@ class v1 extends CI_Controller
 	 */
 	private	$code = 0;
 	private	$msg = '';
-	private 	$salt	= 'ccab8f440ff0825e';
+	private 	$salt	= 'eebd9h551hh1936d';
 	private 	$sign	= array();			//所有的输入数据存储
 	private 	$map	= array();			//数据库解析到的所有匹配
 	private 	$debug = false;
@@ -98,22 +98,20 @@ class v1 extends CI_Controller
 		//=========================================================
 		$this->sign['salt'] 		= $this->salt;				//
 		$this->sign['timestamp'] 	= $this->input->get('timestamp',true);	//$_GET['timestamp'];	//时间
+		$this->sign['user'] 		= $this->input->get('user',true);		//$_GET['ush'];			//ush //获取得到 再次获取则会更换
 		$this->sign['deviceid'] 	= $this->input->get('deviceid',true);	//$_GET['deviceid'];	//设备id
-		$this->sign['openid'] 		= $this->input->get('openid',true);		//$_GET['openid'];		//设备id
+
+		$this->sign['openid'] 		= md5($this->sign['user'].$this->sign['deviceid']);
+
 		//$this->sign['actionid'] 	= $this->input->get('actionid',true);	//$_GET['actionid'];	//动作id用来验证是否重复提交	//暂时不处理
 		$this->sign['signature'] 	= $this->input->get('signature',true);	//$_GET['signature'];	//计算出来的签名比对 2014087451d28443c11e84107dfaae1f
-		$this->sign['user'] 		= $this->input->get('user',true);		//$_GET['ush'];			//ush //获取得到 再次获取则会更换
-		$this->sign['sign'] 		= false;
-		$this->sign['openid'] 		= 'sd568';
-
-
+		$this->sign['sign'] 		= false;		//签名是否通过
 
 		$_sign = md5($this->sign['user'].$this->sign['deviceid']);
 		if($_sign == $this->sign['openid'])$this->sign['sign_'] 		= true;
 
 		$signature = md5($this->sign['openid'].$this->sign['timestamp'].$this->sign['salt']);
 		if($signature == $this->sign['signature'])$this->sign['sign'] 		= true;
-
 
 
 	}
