@@ -14,5 +14,3 @@ $memcache_set['default']['prefix']	    = 'licai';
 $memcache_set['default']['conpression']	= 'false';
 
 
-/* End of file database.php */
-/* Location: ./application/config/database.php */
