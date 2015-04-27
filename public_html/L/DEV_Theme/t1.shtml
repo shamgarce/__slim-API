@@ -1,4 +1,0 @@
-<!--#include file="t2.shtml"-->
-<?php
-echo 1;
-?>
