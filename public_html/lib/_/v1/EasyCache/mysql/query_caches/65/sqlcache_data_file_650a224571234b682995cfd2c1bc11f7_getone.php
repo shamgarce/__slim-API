@@ -1,1 +1,0 @@
-<?php exit;?>//[begin]//a:3:{s:9:"cachename";s:21:"select * from sy_user";s:7:"cachetm";i:1422509854;s:12:"cachecontent";s:9:"s:2:"18";";}//[end]//
