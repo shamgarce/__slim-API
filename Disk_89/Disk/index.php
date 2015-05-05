@@ -209,6 +209,8 @@ if (defined('ENVIRONMENT'))
  * And away we go...
  *
  */
+
+include 'M/Seter/Seter.php';
 require_once BASEPATH.'core/CodeIgniter.php';
 
 /* End of file index.php */

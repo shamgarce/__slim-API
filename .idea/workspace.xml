@@ -2,352 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8fdaf63a-f73f-4dde-aabf-fdc3c5cc9f28" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Disk_89/Disk/M/Seter/Documents/fonts/FontAwesome.otf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Disk_89/Disk/M/Seter/Documents/fonts/fontawesome-webfont.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Disk_89/Disk/M/Seter/Documents/fonts/fontawesome-webfont.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Disk_89/Disk/M/Seter/Documents/fonts/fontawesome-webfont.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Disk_89/Disk/C/fonts/texb.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Disk_89/Disk/.htaccess" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Disk_89/Disk/C/.htaccess" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Disk_89/Disk/M/TEST/.htaccess" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Disk_89/Disk/M/TEST/cache/.htaccess" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Disk_89/Disk/M/Seter/Documents/syntaxhighlighter/tests/.rvmrc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Disk_89/Disk/M/Seter/Documents/syntaxhighlighter/tests/cases/001_basic.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Disk_89/Disk/M/Seter/Documents/syntaxhighlighter/tests/cases/002_brushes.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Disk_89/Disk/M/Seter/Documents/syntaxhighlighter/tests/cases/003_script_tag.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Disk_89/Disk/M/Seter/Documents/syntaxhighlighter/tests/cases/004_url_parsing.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Disk_89/Disk/M/Seter/Documents/syntaxhighlighter/tests/cases/005_no_gutter.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Disk_89/Disk/M/Seter/Documents/syntaxhighlighter/tests/cases/006_pad_line_numbers.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Disk_89/Disk/M/Seter/Documents/syntaxhighlighter/tests/cases/007_collapse.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Disk_89/Disk/M/Seter/Documents/syntaxhighlighter/tests/cases/007_collapse_interaction.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Disk_89/Disk/M/Seter/Documents/syntaxhighlighter/tests/cases/008_first_line.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Disk_89/Disk/M/Seter/Documents/syntaxhighlighter/tests/cases/009_class_name.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Disk_89/Disk/M/Seter/Documents/syntaxhighlighter/tests/cases/010_highlight.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Disk_89/Disk/M/Seter/Documents/syntaxhighlighter/tests/cases/011_smart_tabs.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Disk_89/Disk/M/Seter/Documents/syntaxhighlighter/tests/cases/012_server_side.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Disk_89/Disk/M/Seter/Documents/syntaxhighlighter/tests/cases/013_html_script.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Disk_89/Disk/M/Seter/Documents/syntaxhighlighter/tests/cases/014_legacy.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Disk_89/Disk/M/Seter/library/Apc.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Disk_89/Disk/M/TEST/libraries/Apc.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Disk_89/Disk/C/core/Benchmark.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Disk_89/Disk/C/libraries/Cache/Cache.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Disk_89/Disk/C/libraries/Cache/drivers/Cache_apc.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Disk_89/Disk/C/libraries/Cache/drivers/Cache_dummy.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Disk_89/Disk/C/libraries/Cache/drivers/Cache_file.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Disk_89/Disk/C/libraries/Cache/drivers/Cache_memcached.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Disk_89/Disk/C/libraries/Calendar.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Disk_89/Disk/C/libraries/Cart.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Disk_89/Disk/C/core/CodeIgniter.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Disk_89/Disk/C/core/Common.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Disk_89/Disk/C/core/Config.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Disk_89/Disk/C/core/Controller.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Disk_89/Disk/C/database/DB.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Disk_89/Disk/C/database/DB_active_rec.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Disk_89/Disk/C/database/DB_cache.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Disk_89/Disk/C/database/DB_driver.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Disk_89/Disk/C/database/DB_forge.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Disk_89/Disk/C/database/DB_result.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Disk_89/Disk/C/database/DB_utility.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Disk_89/Disk/M/TEST/controllers/DEO.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Disk_89/Disk/M/TEST/views/DEO/DEO_danhao.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Disk_89/Disk/M/TEST/views/DEO/DEO_guonei.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Disk_89/Disk/M/TEST/views/DEO/DEO_guowai.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Disk_89/Disk/M/TEST/views/DEO/DEO_index.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Disk_89/Disk/M/TEST/views/DEO/DEO_login.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Disk_89/Disk/M/TEST/views/DEO/DEO_user.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Disk_89/Disk/M/Seter/Documents/Documents.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Disk_89/Disk/C/libraries/Driver.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Disk_89/Disk/C/libraries/Email.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Disk_89/Disk/C/libraries/Encrypt.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Disk_89/Disk/C/core/Exceptions.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Disk_89/Disk/C/libraries/Form_validation.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Disk_89/Disk/C/libraries/Ftp.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Disk_89/Disk/C/core/Hooks.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Disk_89/Disk/C/libraries/Image_lib.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Disk_89/Disk/C/core/Input.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Disk_89/Disk/C/libraries/Javascript.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Disk_89/Disk/C/libraries/javascript/Jquery.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Disk_89/Disk/M/Seter/Documents/syntaxhighlighter/LGPL-LICENSE" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Disk_89/Disk/C/core/Lang.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Disk_89/Disk/C/core/Loader.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Disk_89/Disk/C/libraries/Log.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Disk_89/Disk/M/TEST/libraries/Logmon.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Disk_89/Disk/M/Seter/Documents/syntaxhighlighter/MIT-LICENSE" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Disk_89/Disk/C/libraries/Migration.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Disk_89/Disk/C/core/Model.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Disk_89/Disk/C/core/Output.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Disk_89/Disk/C/libraries/Pagination.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Disk_89/Disk/C/libraries/Parser.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Disk_89/Disk/C/libraries/Profiler.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Disk_89/Disk/C/core/Router.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Disk_89/Disk/M/Seter/Sample/Sample.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Disk_89/Disk/C/core/Security.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Disk_89/Disk/C/libraries/Session.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Disk_89/Disk/M/Seter/Seter.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Disk_89/Disk/C/libraries/Sha1.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Disk_89/Disk/M/Seter/library/Sham_Db.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Disk_89/Disk/M/Seter/library/Sham_Logmon.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Disk_89/Disk/M/Seter/library/Sham_Mdb.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Disk_89/Disk/C/libraries/Table.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Disk_89/Disk/C/libraries/Trackback.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Disk_89/Disk/M/TEST/libraries/Tree.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Disk_89/Disk/C/libraries/Typography.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Disk_89/Disk/C/core/URI.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Disk_89/Disk/C/libraries/Unit_test.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Disk_89/Disk/C/libraries/Upload.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Disk_89/Disk/C/libraries/User_agent.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Disk_89/Disk/C/core/Utf8.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Disk_89/Disk/M/TEST/libraries/V1db.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Disk_89/Disk/C/libraries/Xmlrpc.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Disk_89/Disk/C/libraries/Xmlrpcs.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Disk_89/Disk/C/libraries/Zip.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Disk_89/Disk/M/Seter/library/_/_SQLite.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Disk_89/Disk/M/Seter/library/_/_Sample.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Disk_89/Disk/M/Seter/library/_/_Tree.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Disk_89/Disk/M/Seter/library/_/_V1db.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Disk_89/Disk/M/Seter/library/_/____Sham_Apc.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Disk_89/Disk/M/Seter/library/_/____Sham_Mcache.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Disk_89/Disk/M/Seter/library/_/____Sham_Route.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Disk_89/Disk/M/Seter/library/_/____Sham_Uri.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Disk_89/Disk/M/TEST/views/_____code404.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Disk_89/Disk/M/Seter/Documents/syntaxhighlighter/compass/_theme_template.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Disk_89/Disk/M/Seter/Documents/css/all.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Disk_89/Disk/M/Seter/Documents/css/allindex.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Disk_89/Disk/C/helpers/array_helper.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Disk_89/Disk/M/Seter/Config/autoload.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Disk_89/Disk/M/TEST/config/autoload.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Disk_89/Disk/M/Seter/Documents/css/bootstrap.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Disk_89/Disk/M/Seter/Documents/syntaxhighlighter/tests/brushes_tests.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Disk_89/Disk/C/language/english/calendar_lang.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Disk_89/Disk/C/helpers/captcha_helper.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Disk_89/Disk/M/Seter/Documents/syntaxhighlighter/tests/commonjs_tests.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Disk_89/Disk/M/TEST/config/config.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Disk_89/Disk/M/Seter/Documents/syntaxhighlighter/compass/config.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Disk_89/Disk/M/TEST/config/constants.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Disk_89/Disk/C/helpers/cookie_helper.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Disk_89/Disk/C/database/drivers/cubrid/cubrid_driver.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Disk_89/Disk/C/database/drivers/cubrid/cubrid_forge.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Disk_89/Disk/C/database/drivers/cubrid/cubrid_result.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Disk_89/Disk/C/database/drivers/cubrid/cubrid_utility.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Disk_89/Disk/M/TEST/config/database.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Disk_89/Disk/C/helpers/date_helper.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Disk_89/Disk/C/language/english/date_lang.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Disk_89/Disk/C/language/english/db_lang.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Disk_89/Disk/C/helpers/directory_helper.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Disk_89/Disk/M/TEST/config/doctypes.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Disk_89/Disk/C/helpers/download_helper.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Disk_89/Disk/C/helpers/email_helper.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Disk_89/Disk/C/language/english/email_lang.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Disk_89/Disk/M/TEST/errors/error_404.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Disk_89/Disk/M/TEST/errors/error_db.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Disk_89/Disk/M/TEST/errors/error_general.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Disk_89/Disk/M/TEST/errors/error_php.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Disk_89/Disk/C/helpers/file_helper.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Disk_89/Disk/M/Seter/Documents/fonts/fontawesome-webfont.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Disk_89/Disk/M/TEST/config/foreign_chars.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Disk_89/Disk/C/helpers/form_helper.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Disk_89/Disk/C/language/english/form_validation_lang.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Disk_89/Disk/C/language/english/ftp_lang.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Disk_89/Disk/M/TEST/config/hooks.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Disk_89/Disk/C/helpers/html_helper.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Disk_89/Disk/C/language/english/imglib_lang.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Disk_89/Disk/C/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Disk_89/Disk/C/core/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Disk_89/Disk/C/database/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Disk_89/Disk/C/database/drivers/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Disk_89/Disk/C/database/drivers/cubrid/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Disk_89/Disk/C/database/drivers/mssql/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Disk_89/Disk/C/database/drivers/mysql/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Disk_89/Disk/C/database/drivers/mysqli/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Disk_89/Disk/C/database/drivers/oci8/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Disk_89/Disk/C/database/drivers/odbc/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Disk_89/Disk/C/database/drivers/pdo/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Disk_89/Disk/C/database/drivers/postgre/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Disk_89/Disk/C/database/drivers/sqlite/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Disk_89/Disk/C/database/drivers/sqlsrv/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Disk_89/Disk/C/fonts/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Disk_89/Disk/C/helpers/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Disk_89/Disk/C/language/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Disk_89/Disk/C/language/english/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Disk_89/Disk/C/libraries/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Disk_89/Disk/C/libraries/Cache/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Disk_89/Disk/C/libraries/Cache/drivers/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Disk_89/Disk/C/libraries/javascript/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Disk_89/Disk/M/Seter/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Disk_89/Disk/M/Seter/Documents/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Disk_89/Disk/M/Seter/Documents/syntaxhighlighter/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Disk_89/Disk/M/Seter/library/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Disk_89/Disk/M/TEST/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Disk_89/Disk/M/TEST/cache/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Disk_89/Disk/M/TEST/config/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Disk_89/Disk/M/TEST/controllers/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Disk_89/Disk/M/TEST/core/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Disk_89/Disk/M/TEST/errors/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Disk_89/Disk/M/TEST/helpers/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Disk_89/Disk/M/TEST/hooks/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Disk_89/Disk/M/TEST/language/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Disk_89/Disk/M/TEST/language/english/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Disk_89/Disk/M/TEST/libraries/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Disk_89/Disk/M/TEST/logs/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Disk_89/Disk/M/TEST/models/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Disk_89/Disk/M/TEST/third_party/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Disk_89/Disk/M/TEST/views/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Disk_89/Disk/index.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Disk_89/Disk/M/Seter/Sample/index.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Disk_89/Disk/M/TEST/views/index.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Disk_89/Disk/M/Seter/Sample/index_.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Disk_89/Disk/C/helpers/inflector_helper.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Disk_89/Disk/M/Seter/Documents/syntaxhighlighter/tests/js/jquery-1.4.2.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Disk_89/Disk/M/TEST/views/json_out.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Disk_89/Disk/C/helpers/language_helper.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Disk_89/Disk/M/Seter/Config/memcache.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Disk_89/Disk/M/TEST/config/migration.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Disk_89/Disk/C/language/english/migration_lang.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Disk_89/Disk/M/TEST/config/mimes.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Disk_89/Disk/M/Seter/Config/mongodb.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Disk_89/Disk/M/TEST/config/mongodb.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Disk_89/Disk/C/database/drivers/mssql/mssql_driver.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Disk_89/Disk/C/database/drivers/mssql/mssql_forge.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Disk_89/Disk/C/database/drivers/mssql/mssql_result.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Disk_89/Disk/C/database/drivers/mssql/mssql_utility.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Disk_89/Disk/M/Seter/Config/mysql.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Disk_89/Disk/M/TEST/config/mysql.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Disk_89/Disk/C/database/drivers/mysql/mysql_driver.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Disk_89/Disk/C/database/drivers/mysql/mysql_forge.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Disk_89/Disk/C/database/drivers/mysql/mysql_result.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Disk_89/Disk/C/database/drivers/mysql/mysql_utility.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Disk_89/Disk/C/database/drivers/mysqli/mysqli_driver.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Disk_89/Disk/C/database/drivers/mysqli/mysqli_forge.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Disk_89/Disk/C/database/drivers/mysqli/mysqli_result.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Disk_89/Disk/C/database/drivers/mysqli/mysqli_utility.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Disk_89/Disk/M/TEST/views/nrview.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Disk_89/Disk/C/helpers/number_helper.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Disk_89/Disk/C/language/english/number_lang.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Disk_89/Disk/C/database/drivers/oci8/oci8_driver.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Disk_89/Disk/C/database/drivers/oci8/oci8_forge.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Disk_89/Disk/C/database/drivers/oci8/oci8_result.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Disk_89/Disk/C/database/drivers/oci8/oci8_utility.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Disk_89/Disk/C/database/drivers/odbc/odbc_driver.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Disk_89/Disk/C/database/drivers/odbc/odbc_forge.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Disk_89/Disk/C/database/drivers/odbc/odbc_result.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Disk_89/Disk/C/database/drivers/odbc/odbc_utility.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Disk_89/Disk/C/helpers/path_helper.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Disk_89/Disk/C/database/drivers/pdo/pdo_driver.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Disk_89/Disk/C/database/drivers/pdo/pdo_forge.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Disk_89/Disk/C/database/drivers/pdo/pdo_result.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Disk_89/Disk/C/database/drivers/pdo/pdo_utility.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Disk_89/Disk/C/database/drivers/postgre/postgre_driver.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Disk_89/Disk/C/database/drivers/postgre/postgre_forge.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Disk_89/Disk/C/database/drivers/postgre/postgre_result.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Disk_89/Disk/C/database/drivers/postgre/postgre_utility.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Disk_89/Disk/M/TEST/config/profiler.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Disk_89/Disk/C/language/english/profiler_lang.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Disk_89/Disk/M/Seter/Documents/syntaxhighlighter/tests/js/qunit.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Disk_89/Disk/M/Seter/Documents/syntaxhighlighter/tests/js/qunit.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Disk_89/Disk/M/Seter/Documents/css/responsive.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Disk_89/Disk/M/TEST/config/routes.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Disk_89/Disk/M/Seter/Documents/syntaxhighlighter/tests/brushes/sass.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Disk_89/Disk/C/helpers/security_helper.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Disk_89/Disk/M/Seter/Documents/syntaxhighlighter/scripts/shAutoloader.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Disk_89/Disk/M/Seter/Documents/syntaxhighlighter/src/shAutoloader.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Disk_89/Disk/M/Seter/Documents/syntaxhighlighter/scripts/shBrushAS3.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Disk_89/Disk/M/Seter/Documents/syntaxhighlighter/scripts/shBrushAppleScript.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Disk_89/Disk/M/Seter/Documents/syntaxhighlighter/scripts/shBrushBash.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Disk_89/Disk/M/Seter/Documents/syntaxhighlighter/scripts/shBrushCSharp.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Disk_89/Disk/M/Seter/Documents/syntaxhighlighter/scripts/shBrushColdFusion.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Disk_89/Disk/M/Seter/Documents/syntaxhighlighter/scripts/shBrushCpp.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Disk_89/Disk/M/Seter/Documents/syntaxhighlighter/scripts/shBrushCss.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Disk_89/Disk/M/Seter/Documents/syntaxhighlighter/scripts/shBrushDelphi.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Disk_89/Disk/M/Seter/Documents/syntaxhighlighter/scripts/shBrushDiff.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Disk_89/Disk/M/Seter/Documents/syntaxhighlighter/scripts/shBrushErlang.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Disk_89/Disk/M/Seter/Documents/syntaxhighlighter/scripts/shBrushGroovy.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Disk_89/Disk/M/Seter/Documents/syntaxhighlighter/scripts/shBrushJScript.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Disk_89/Disk/M/Seter/Documents/syntaxhighlighter/scripts/shBrushJava.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Disk_89/Disk/M/Seter/Documents/syntaxhighlighter/scripts/shBrushJavaFX.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Disk_89/Disk/M/Seter/Documents/syntaxhighlighter/scripts/shBrushPerl.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Disk_89/Disk/M/Seter/Documents/syntaxhighlighter/scripts/shBrushPhp.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Disk_89/Disk/M/Seter/Documents/syntaxhighlighter/scripts/shBrushPlain.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Disk_89/Disk/M/Seter/Documents/syntaxhighlighter/scripts/shBrushPowerShell.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Disk_89/Disk/M/Seter/Documents/syntaxhighlighter/scripts/shBrushPython.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Disk_89/Disk/M/Seter/Documents/syntaxhighlighter/scripts/shBrushRuby.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Disk_89/Disk/M/Seter/Documents/syntaxhighlighter/scripts/shBrushSass.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Disk_89/Disk/M/Seter/Documents/syntaxhighlighter/scripts/shBrushScala.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Disk_89/Disk/M/Seter/Documents/syntaxhighlighter/scripts/shBrushSql.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Disk_89/Disk/M/Seter/Documents/syntaxhighlighter/scripts/shBrushVb.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Disk_89/Disk/M/Seter/Documents/syntaxhighlighter/scripts/shBrushXml.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Disk_89/Disk/M/Seter/Documents/syntaxhighlighter/styles/shCore.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Disk_89/Disk/M/Seter/Documents/syntaxhighlighter/scripts/shCore.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Disk_89/Disk/M/Seter/Documents/syntaxhighlighter/src/shCore.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Disk_89/Disk/M/Seter/Documents/syntaxhighlighter/compass/shCore.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Disk_89/Disk/M/Seter/Documents/syntaxhighlighter/styles/shCoreDefault.css.bak" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Disk_89/Disk/M/Seter/Documents/syntaxhighlighter/styles/shCoreDefault.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Disk_89/Disk/M/Seter/Documents/syntaxhighlighter/compass/shCoreDefault.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Disk_89/Disk/M/Seter/Documents/syntaxhighlighter/styles/shCoreDjango.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Disk_89/Disk/M/Seter/Documents/syntaxhighlighter/compass/shCoreDjango.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Disk_89/Disk/M/Seter/Documents/syntaxhighlighter/styles/shCoreEclipse.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Disk_89/Disk/M/Seter/Documents/syntaxhighlighter/compass/shCoreEclipse.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Disk_89/Disk/M/Seter/Documents/syntaxhighlighter/styles/shCoreEmacs.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Disk_89/Disk/M/Seter/Documents/syntaxhighlighter/compass/shCoreEmacs.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Disk_89/Disk/M/Seter/Documents/syntaxhighlighter/styles/shCoreFadeToGrey.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Disk_89/Disk/M/Seter/Documents/syntaxhighlighter/compass/shCoreFadeToGrey.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Disk_89/Disk/M/Seter/Documents/syntaxhighlighter/styles/shCoreMDUltra.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Disk_89/Disk/M/Seter/Documents/syntaxhighlighter/compass/shCoreMDUltra.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Disk_89/Disk/M/Seter/Documents/syntaxhighlighter/styles/shCoreMidnight.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Disk_89/Disk/M/Seter/Documents/syntaxhighlighter/compass/shCoreMidnight.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Disk_89/Disk/M/Seter/Documents/syntaxhighlighter/styles/shCoreRDark.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Disk_89/Disk/M/Seter/Documents/syntaxhighlighter/compass/shCoreRDark.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Disk_89/Disk/M/Seter/Documents/syntaxhighlighter/scripts/shLegacy.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Disk_89/Disk/M/Seter/Documents/syntaxhighlighter/src/shLegacy.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Disk_89/Disk/M/Seter/Documents/syntaxhighlighter/styles/shThemeDefault.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Disk_89/Disk/M/Seter/Documents/syntaxhighlighter/compass/shThemeDefault.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Disk_89/Disk/M/Seter/Documents/syntaxhighlighter/styles/shThemeDjango.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Disk_89/Disk/M/Seter/Documents/syntaxhighlighter/compass/shThemeDjango.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Disk_89/Disk/M/Seter/Documents/syntaxhighlighter/styles/shThemeEclipse.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Disk_89/Disk/M/Seter/Documents/syntaxhighlighter/compass/shThemeEclipse.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Disk_89/Disk/M/Seter/Documents/syntaxhighlighter/styles/shThemeEmacs.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Disk_89/Disk/M/Seter/Documents/syntaxhighlighter/compass/shThemeEmacs.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Disk_89/Disk/M/Seter/Documents/syntaxhighlighter/styles/shThemeFadeToGrey.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Disk_89/Disk/M/Seter/Documents/syntaxhighlighter/compass/shThemeFadeToGrey.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Disk_89/Disk/M/Seter/Documents/syntaxhighlighter/styles/shThemeMDUltra.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Disk_89/Disk/M/Seter/Documents/syntaxhighlighter/compass/shThemeMDUltra.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Disk_89/Disk/M/Seter/Documents/syntaxhighlighter/styles/shThemeMidnight.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Disk_89/Disk/M/Seter/Documents/syntaxhighlighter/compass/shThemeMidnight.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Disk_89/Disk/M/Seter/Documents/syntaxhighlighter/styles/shThemeRDark.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Disk_89/Disk/M/Seter/Documents/syntaxhighlighter/compass/shThemeRDark.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Disk_89/Disk/C/helpers/smiley_helper.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Disk_89/Disk/M/TEST/config/smileys.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Disk_89/Disk/M/Seter/Cache/query_caches/sqlcache_config_file_213925566f504f7ec9342030bdbec89b.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Disk_89/Disk/M/Seter/Cache/query_caches/sqlcache_config_file_43e7dfdbb5298a1b3a4a846587001d0a.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Disk_89/Disk/C/database/drivers/sqlite/sqlite_driver.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Disk_89/Disk/C/database/drivers/sqlite/sqlite_forge.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Disk_89/Disk/C/database/drivers/sqlite/sqlite_result.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Disk_89/Disk/C/database/drivers/sqlite/sqlite_utility.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Disk_89/Disk/C/database/drivers/sqlsrv/sqlsrv_driver.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Disk_89/Disk/C/database/drivers/sqlsrv/sqlsrv_forge.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Disk_89/Disk/C/database/drivers/sqlsrv/sqlsrv_result.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Disk_89/Disk/C/database/drivers/sqlsrv/sqlsrv_utility.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Disk_89/Disk/C/helpers/string_helper.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Disk_89/Disk/M/Seter/Documents/syntaxhighlighter/tests/syntaxhighlighter_tests.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Disk_89/Disk/M/TEST/controllers/test.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Disk_89/Disk/C/helpers/text_helper.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Disk_89/Disk/M/Seter/Documents/syntaxhighlighter/tests/theme_tests.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Disk_89/Disk/C/helpers/typography_helper.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Disk_89/Disk/C/language/english/unit_test_lang.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Disk_89/Disk/C/language/english/upload_lang.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Disk_89/Disk/C/helpers/url_helper.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Disk_89/Disk/M/TEST/config/user_agents.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Disk_89/Disk/M/TEST/views/v1_msg.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Disk_89/Disk/M/TEST/views/vset.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Disk_89/Disk/M/TEST/views/vset_addnew.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Disk_89/Disk/M/TEST/views/vset_edit.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Disk_89/Disk/M/TEST/views/vset_select.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Disk_89/Disk/M/TEST/views/vset_sort.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Disk_89/Disk/M/Seter/Documents/syntaxhighlighter/tests/webrick.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Disk_89/Disk/M/Seter/Documents/syntaxhighlighter/tests/webrick.sh" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Disk_89/Disk/M/TEST/controllers/welcome.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Disk_89/Disk/C/helpers/xml_helper.php" />
-      <change type="DELETED" beforePath="E:\www\slim-API\Disk_89\Disk\php.xml" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Disk_89/Disk/M/Seter/library/Sham_Env.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Disk_89/Disk/M/Seter/library/Sham_Log.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Disk_89/Disk/M/Seter/library/Sham_User.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Disk_89/Disk/M/TEST/controllers/index.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Disk_89/Disk/M/Seter/Cache/query_caches/sqlcache_config_file_01310237c1d2e35759347ca14e47a610.php" />
+      <change type="DELETED" beforePath="E:\www\slim-API\Disk_89\Disk\M\Seter\library\Sham_Logmon.php" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Disk_89/Disk/.htaccess" afterPath="$PROJECT_DIR$/Disk_89/Disk/.htaccess" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Disk_89/Disk/M/Seter/Seter.php" afterPath="$PROJECT_DIR$/Disk_89/Disk/M/Seter/Seter.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Disk_89/Disk/M/Seter/library/Sham_Db.php" afterPath="$PROJECT_DIR$/Disk_89/Disk/M/Seter/library/Sham_Db.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Disk_89/Disk/M/TEST/config/config.php" afterPath="$PROJECT_DIR$/Disk_89/Disk/M/TEST/config/config.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Disk_89/Disk/index.php" afterPath="$PROJECT_DIR$/Disk_89/Disk/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public_html/Mib/Man/libraries/EasyCache/query_caches/sqlcache_config_file_49ff71e1eb1aef71d673f09d2ad52283.php" afterPath="$PROJECT_DIR$/public_html/Mib/Man/libraries/EasyCache/query_caches/sqlcache_config_file_49ff71e1eb1aef71d673f09d2ad52283.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public_html/Mib/v3/libraries/EasyCache/query_caches/sqlcache_config_file_e7ce43b29797ab06cf20bf8580b8b20f.php" afterPath="$PROJECT_DIR$/public_html/Mib/v3/libraries/EasyCache/query_caches/sqlcache_config_file_e7ce43b29797ab06cf20bf8580b8b20f.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Disk_89/Disk/M/TEST/controllers/welcome.php" afterPath="$PROJECT_DIR$/Disk_89/Disk/M/TEST/controllers/welcome.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="slim-API.iws" />
@@ -378,7 +46,41 @@
     <favorites_list name="slim-API" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file leaf-file-name="Sham_Env.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Disk_89/Disk/M/Seter/library/Sham_Env.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-22.0" vertical-offset="1246" max-vertical-offset="2806">
+              <caret line="103" column="22" selection-start-line="103" selection-start-column="15" selection-end-line="103" selection-end-column="22" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Disk_89/Disk/M/TEST/controllers/index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-11.074074" vertical-offset="552" max-vertical-offset="1771">
+              <caret line="37" column="32" selection-start-line="37" selection-start-column="32" selection-end-line="37" selection-end-column="32" />
+              <folding>
+                <marker date="1430825847963" expanded="true" signature="772:793" placeholder="select * fro..dy_user..." />
+                <marker date="1430825847963" expanded="true" signature="1020:1041" placeholder="select * fro..dy_user..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Sham_User.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Disk_89/Disk/M/Seter/library/Sham_User.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.44124702" vertical-offset="0" max-vertical-offset="1357">
+              <caret line="16" column="15" selection-start-line="16" selection-start-column="15" selection-end-line="16" selection-end-column="15" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="Git.Settings">
     <option name="PREVIOUS_COMMIT_AUTHORS">
@@ -396,17 +98,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/test.so/Seter/library/Uri.php" />
-        <option value="$PROJECT_DIR$/test.so/index23.php" />
-        <option value="$PROJECT_DIR$/test.so/C/core/Easy.php" />
-        <option value="$PROJECT_DIR$/public_html/C/core/CodeIgniter.php" />
-        <option value="$PROJECT_DIR$/public_html/Mib/v1/libraries/M/Enterfo.php" />
-        <option value="$PROJECT_DIR$/public_html/Mib/v1/libraries/M/Enterzh.php" />
-        <option value="$PROJECT_DIR$/public_html/Mib/Man/controllers/Man.php" />
-        <option value="$PROJECT_DIR$/public_html/v5.php" />
-        <option value="$PROJECT_DIR$/public_html/Seter/library/_Logmon.php" />
-        <option value="$PROJECT_DIR$/public_html/Seter/Seter.php" />
-        <option value="$PROJECT_DIR$/public_html/Seter/library/Db.php" />
         <option value="$PROJECT_DIR$/public_html/Mib/v5/controllers/v5.php" />
         <option value="$PROJECT_DIR$/public_html/Mib/V1es/views/V1se/index.php" />
         <option value="$PROJECT_DIR$/public_html/Mib/V1es/controllers/V1es.php" />
@@ -447,6 +138,17 @@
         <option value="$PROJECT_DIR$/public_html/Seter/Config/mysql.php" />
         <option value="$PROJECT_DIR$/public_html/Mib/DEO/controllers/DEO.php" />
         <option value="$PROJECT_DIR$/test.so/i.php" />
+        <option value="$PROJECT_DIR$/Disk_89/Disk/.htaccess" />
+        <option value="$PROJECT_DIR$/Disk_89/Disk/M/TEST/config/routes.php" />
+        <option value="$PROJECT_DIR$/Disk_89/Disk/M/TEST/controllers/welcome.php" />
+        <option value="$PROJECT_DIR$/Disk_89/Disk/index.php" />
+        <option value="$PROJECT_DIR$/Disk_89/Disk/M/TEST/config/config.php" />
+        <option value="$PROJECT_DIR$/Disk_89/Disk/M/Seter/library/Sham_Env.php" />
+        <option value="$PROJECT_DIR$/Disk_89/Disk/M/Seter/library/Sham_Db.php" />
+        <option value="$PROJECT_DIR$/Disk_89/Disk/M/TEST/controllers/index.php" />
+        <option value="$PROJECT_DIR$/Disk_89/Disk/M/Seter/library/Sham_Log.php" />
+        <option value="$PROJECT_DIR$/Disk_89/Disk/M/Seter/Seter.php" />
+        <option value="$PROJECT_DIR$/Disk_89/Disk/M/Seter/library/Sham_User.php" />
       </list>
     </option>
   </component>
@@ -541,6 +243,148 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="slim-API" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="slim-API" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Disk_89" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Disk" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="M" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TEST" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="slim-API" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="slim-API" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Disk_89" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Disk" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="M" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TEST" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="controllers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="slim-API" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="slim-API" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Disk_89" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Disk" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="M" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TEST" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="config" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="slim-API" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="slim-API" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Disk_89" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Disk" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="M" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Seter" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="slim-API" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="slim-API" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Disk_89" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Disk" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="M" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Seter" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="library" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scope">
@@ -623,11 +467,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\www\slim-API\Disk_89\Disk\M\Seter\library" />
       <recent name="E:\www\slim-API\test.so" />
       <recent name="E:\www\slim-API\public_html\Mib\v1\libraries" />
       <recent name="E:\www\slim-API\public_html\Mib\Te\controllers" />
       <recent name="E:\www\slim-API\public_html\Mib\V1\libraries" />
-      <recent name="E:\www\slim-API\public_html\M\API" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\www\slim-API\test.so\Sam" />
@@ -725,12 +569,6 @@
       <created>1422269068506</created>
       <option name="number" value="Default" />
       <updated>1422269068506</updated>
-    </task>
-    <task id="LOCAL-00045" summary="Rejected commit: Default">
-      <created>1425981797936</created>
-      <option name="number" value="00045" />
-      <option name="project" value="LOCAL" />
-      <updated>1425981797936</updated>
     </task>
     <task id="LOCAL-00046" summary="Rejected commit: Default">
       <created>1426210138907</created>
@@ -1020,7 +858,13 @@
       <option name="project" value="LOCAL" />
       <updated>1430816550050</updated>
     </task>
-    <option name="localTasksCounter" value="96" />
+    <task id="LOCAL-00096" summary="split">
+      <created>1430817225189</created>
+      <option name="number" value="00096" />
+      <option name="project" value="LOCAL" />
+      <updated>1430817225189</updated>
+    </task>
+    <option name="localTasksCounter" value="97" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -1045,7 +889,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.43174252" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32779622" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -1054,7 +898,7 @@
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32960597" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.14749734" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20447284" sideWeight="0.49944505" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20447284" sideWeight="0.49944505" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2630458" sideWeight="0.5005549" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3207547" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2874584" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
@@ -1109,104 +953,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/public_html/Mib/V1es/controllers/V1es.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.46162927" vertical-offset="0" max-vertical-offset="1702">
-          <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public_html/Mib/v3/controllers/v3.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.57024795" vertical-offset="2001" max-vertical-offset="3404">
-          <caret line="108" column="0" selection-start-line="95" selection-start-column="0" selection-end-line="108" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public_html/Mib/v1/libraries/M/Enter.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.66593885" vertical-offset="8711" max-vertical-offset="11316">
-          <caret line="392" column="48" selection-start-line="392" selection-start-column="48" selection-end-line="392" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public_html/Mib/Doc/config/config.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5159386" vertical-offset="0" max-vertical-offset="8464">
-          <caret line="19" column="55" selection-start-line="19" selection-start-column="55" selection-end-line="19" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public_html/Mib/D/config/config.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-14.481482" vertical-offset="0" max-vertical-offset="8464">
-          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public_html/Mib/W/config/database.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.73317593" vertical-offset="621" max-vertical-offset="1702">
-          <caret line="54" column="0" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public_html/Mib/v5/config/database.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.8961039" vertical-offset="483" max-vertical-offset="1702">
-          <caret line="54" column="0" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public_html/Mib/v3/config/database.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.8146399" vertical-offset="552" max-vertical-offset="1702">
-          <caret line="54" column="0" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public_html/Mib/V1es/config/database.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.78748524" vertical-offset="483" max-vertical-offset="1702">
-          <caret line="50" column="41" selection-start-line="50" selection-start-column="41" selection-end-line="50" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public_html/Mib/v1/config/database.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.837072" vertical-offset="510" max-vertical-offset="1702">
-          <caret line="53" column="34" selection-start-line="53" selection-start-column="34" selection-end-line="53" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public_html/Mib/Te/config/database.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.54309326" vertical-offset="759" max-vertical-offset="1702">
-          <caret line="53" column="34" selection-start-line="53" selection-start-column="34" selection-end-line="53" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public_html/Mib/Man/config/database.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-14.333333" vertical-offset="855" max-vertical-offset="1702">
-          <caret line="54" column="0" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public_html/Mib/M/config/database.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-14.333333" vertical-offset="855" max-vertical-offset="1702">
-          <caret line="54" column="0" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public_html/Mib/Doc/config/database.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-15.333333" vertical-offset="828" max-vertical-offset="1702">
-          <caret line="54" column="0" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public_html/Mib/D/config/database.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.46162927" vertical-offset="828" max-vertical-offset="1702">
@@ -1457,6 +1203,136 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="4669">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Disk_89/Disk/.htaccess">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.47368422" vertical-offset="0" max-vertical-offset="874">
+          <caret line="18" column="36" selection-start-line="18" selection-start-column="36" selection-end-line="18" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Disk_89/Disk/M/TEST/.htaccess">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="874">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Disk_89/Disk/C/core/Controller.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6422668" vertical-offset="560" max-vertical-offset="1610">
+          <caret line="48" column="0" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Disk_89/Disk/M/TEST/config/routes.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6198347" vertical-offset="349" max-vertical-offset="1196">
+          <caret line="38" column="2" selection-start-line="38" selection-start-column="2" selection-end-line="38" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Disk_89/Disk/M/TEST/controllers/welcome.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.27154663" vertical-offset="0" max-vertical-offset="847">
+          <caret line="10" column="31" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Disk_89/Disk/M/TEST/controllers/DEO.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.38016528" vertical-offset="0" max-vertical-offset="4485">
+          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding>
+            <marker date="1430098168828" expanded="true" signature="-1:-1" placeholder="select * fro..sy_user..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Disk_89/Disk/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.42975205" vertical-offset="4144" max-vertical-offset="4991">
+          <caret line="201" column="5" selection-start-line="201" selection-start-column="5" selection-end-line="201" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Disk_89/Disk/M/TEST/config/config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.58465284" vertical-offset="4764" max-vertical-offset="8464">
+          <caret line="228" column="2" selection-start-line="228" selection-start-column="2" selection-end-line="228" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Disk_89/Disk/M/Seter/library/Sham_Mdb.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.41440377" vertical-offset="1466" max-vertical-offset="9131">
+          <caret line="102" column="32" selection-start-line="102" selection-start-column="32" selection-end-line="102" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Disk_89/Disk/M/Seter/library/Sham_Db.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.7721822" vertical-offset="1173" max-vertical-offset="12742">
+          <caret line="79" column="5" selection-start-line="79" selection-start-column="5" selection-end-line="79" selection-end-column="5" />
+          <folding>
+            <marker date="1430824709838" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
+            <marker date="1430824709838" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
+            <marker date="1430824709838" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
+            <marker date="1430824709838" expanded="true" signature="-1:-1" placeholder="SELECT COUNT.._table WHERE..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Disk_89/Disk/M/Seter/library/Sham_Env.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-22.0" vertical-offset="1246" max-vertical-offset="2806">
+          <caret line="103" column="22" selection-start-line="103" selection-start-column="15" selection-end-line="103" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Disk_89/Disk/M/Seter/library/Sham_Log.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.755608" vertical-offset="648" max-vertical-offset="1771">
+          <caret line="66" column="53" selection-start-line="66" selection-start-column="53" selection-end-line="66" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Disk_89/Disk/M/TEST/controllers/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-11.074074" vertical-offset="552" max-vertical-offset="1771">
+          <caret line="37" column="32" selection-start-line="37" selection-start-column="32" selection-end-line="37" selection-end-column="32" />
+          <folding>
+            <marker date="1430825847963" expanded="true" signature="772:793" placeholder="select * fro..dy_user..." />
+            <marker date="1430825847963" expanded="true" signature="1020:1041" placeholder="select * fro..dy_user..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Disk_89/Disk/M/Seter/Seter.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.37544274" vertical-offset="9549" max-vertical-offset="10396">
+          <caret line="429" column="18" selection-start-line="429" selection-start-column="13" selection-end-line="429" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Disk_89/Disk/M/Seter/library/Sham_User.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.44124702" vertical-offset="0" max-vertical-offset="1357">
+          <caret line="16" column="15" selection-start-line="16" selection-start-column="15" selection-end-line="16" selection-end-column="15" />
+          <folding />
         </state>
       </provider>
     </entry>

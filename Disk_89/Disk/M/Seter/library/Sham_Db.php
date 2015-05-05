@@ -79,11 +79,6 @@ class Sham_Db{
             $mysql_set[$chr]['quiet']);
     }
 
-    public static function getInstance($config = 'default'){
-        !(self::$instance instanceof self)&&self::$instance = new Db($config);
-        return self::$instance;
-    }
-
     private function __clone(){}
     //==================================================结束单例结构=
     private function cls_mysql($dbhost, $dbuser, $dbpw, $dbname = '', $charset = 'utf8', $pconnect = 0, $quiet = 0){

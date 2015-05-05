@@ -28,38 +28,45 @@
 
 ------------------------------------------------------------------------------* /
  */
-class Sham_Logmon{
-
+class Sham_Log{
 
     protected $errors = array();
-
+    public $logid   = '';
+    public $S       = null;
+    public $loginfo  = array();
 
     public function __construct()
     {
-        $this->CI =& get_instance();
+        $this->S                = Seter::getInstance();
+        $this->logid            = md5(Seter::T().rand(1,999999999));//.rnd();;
+        $this->loginfo['logid'] = $this->logid;
+        $this->loginfo['time']  = Seter::T();
     }
 
-    //系统的开发日志
+    /*
+     * 系统
+     * */
+    public function logsys()
+    {
+        $this->loginfo['env']     = $this->S->env->env;
+        $this->loginfo['get']     = $this->S->env->get;
+        $this->loginfo['post']    = $this->S->env->post;
+        $this->loginfo['cookies'] = $this->S->env->cookies;
+    }
+
+    public function loguser($code,$info,$loginfo)
+    {
+        $this->L($code,$info,$loginfo);        //保存数据
+    }
+
     public function L($code,$info,$loginfo)
     {
         $loginfo['code'] = $code;        //code
         $loginfo['info'] = $info;        //info
-
-
-        !empty($_GET) && $loginfo['_GET']   = $_GET;            //log
-        $loginfo['_POST'] = $_POST;        //log
-        $loginfo['time']['timeen']  = Set::T();      //log
-        $this->CI->S->mdb->insert('dy_log',$loginfo);
+        $loginfo['time']['timeen']  = Seter::T();      //log
+        $this->S->db->mdb->insert('dy_log',$loginfo);
         return true;
     }
-
-    //格式
-    //==================================================================
-    //code
-    //msg
-    //time
-    //input
-    //==================================================================
 
 
 }// END class

@@ -19,6 +19,7 @@ class Welcome extends CI_Controller {
 	 */
 	public function index()
 	{
+		//默认首页
 		$data['msg'] = 'welcome';
 		$this->load->view('welcome_message',$data);
 	}

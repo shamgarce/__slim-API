@@ -21,7 +21,7 @@ class Seter implements ArrayAccess, Countable, IteratorAggregate
      * @var array
      */
     public $data = array();
-
+    public static $instance;
     /**
      * Constructor
      * @param array $items Pre-populate set with this key-value array
@@ -35,11 +35,23 @@ class Seter implements ArrayAccess, Countable, IteratorAggregate
         $this->singleton('mdb', function ($c) {
             return new Sham_Mdb();
         });
-        $this->singleton('logmon', function ($c) {
-            return new Sham_Logmon();
+        $this->singleton('log', function ($c) {
+            return new Sham_Log();
         });
+        $this->singleton('env', function ($c) {
+            return new Sham_Env();
+        });
+        $this->singleton('user', function ($c) {
+            return new Sham_User();
+        });
+
     }
 
+    public static function getInstance(){
+        !(self::$instance instanceof self)&&self::$instance = new Seter();
+        //empty(self::$instance) && self::$instance = new Preference();
+        return self::$instance;
+    }
     /**
      * Normalize data key
      *
