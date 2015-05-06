@@ -20,6 +20,9 @@ class Seter implements ArrayAccess, Countable, IteratorAggregate
      * Key-value array of arbitrary data
      * @var array
      */
+    public $btm = 0;        //记录开始时间
+    public $bmem = 0;        //记录开始时间
+
     public $data = array();
     public static $instance;
     /**
@@ -44,6 +47,9 @@ class Seter implements ArrayAccess, Countable, IteratorAggregate
         $this->singleton('user', function ($c) {
             return new Sham_User();
         });
+        $this->btm  = static::T();          //时间标记
+        $this->bmem = memory_get_usage();   //内存标记
+
 
     }
 

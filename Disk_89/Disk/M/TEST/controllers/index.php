@@ -6,14 +6,32 @@ class index extends CI_Controller
 	public function __construct()
 	{
 		parent::__construct();
-		//连接数据库================================================两种方式都可以
-		$this->load->helper('cookie');        //
-		//$this->load->library('session');
+		$this->load->helper('cookie');
 		$this->S = Seter::getInstance();
+
+		//获取环境信息
+		$this->get 		= $this->S->env->get;
+		$this->post 	= $this->S->env->post;
+		$this->env 		= $this->S->env->env;
+		$this->cookies 	= $this->S->env->cookies;
+
+		//用户相关信息获取
+		$islogin 	= $this->S->user->islogin;
+		$userlogin 	= $this->S->user->islogin;
+
+		$this->islogin 		=  $this->S->user->userislogin;	//是否已经登录
+		$this->userlogin 	=  $this->S->user->userlogin;	//登陆的用户名
+		$this->userinfo 	= $this->S->user->getUserinfo();	//获取 用户信息
+		$this->menuinfo 	= $this->S->user->getUserinfo();	//获取菜单信息
+		$this->poinfo 		= $this->S->user->getUserinfo();	//获取权限信息
+
+//		$this->S->log->L($code,$info,$loginfo);			//日志记录
 	}
 
 	public function index()
 	{
+
+
 		//默认首页
 		$this->SS = Seter::getInstance();
 
@@ -21,10 +39,33 @@ class index extends CI_Controller
 		//$this->load->view('welcome_message',$data);
 	}
 
+	public function go()
+	{
+		//获取参数
+
+		//预处理参数
+
+		//逻辑运算
+
+		//后置处理
+
+		//执行输出
+
+	}
+
+
+
+
+
 	public function env_demo()
 	{
 
-		$this->S->log->test();
+//		show_error();
+//		show_404();
+
+		$md = $this->S->user->getUserinfo($uid);			//获取用户信息
+print_r($md);
+		//$this->S->log->test();
 echo 1;
 		//$rc = $this->S->env->env;
 

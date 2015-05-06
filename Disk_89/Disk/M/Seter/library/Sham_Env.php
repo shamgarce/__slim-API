@@ -1,28 +1,10 @@
 <?php
-/*** Mongodb类** examples:
- * $mongo = new HMongodb("127.0.0.1:11223");
- * $mongo->selectDb("test_db");
- * 创建索引
- * $mongo->ensureIndex("test_table", array("id"=>1), array('unique'=>true));
- * 获取表的记录
- * $mongo->count("test_table");
- * 插入记录
- * $mongo->insert("test_table", array("id"=>2, "title"=>"asdqw"));
- * 更新记录
- * $mongo->update("test_table", array("id"=>1),array("id"=>1,"title"=>"bbb"));
- * 更新记录-存在时更新，不存在时添加-相当于set
- * $mongo->update("test_table", array("id"=>1),array("id"=>1,"title"=>"bbb"),array("upsert"=>1));
- * 查找记录
- * $mongo->find("c", array("title"=>"asdqw"), array("start"=>2,"limit"=>2,"sort"=>array("id"=>1)))
- * 查找一条记录
- * $mongo->findOne("$mongo->findOne("ttt", array("id"=>1))", array("id"=>1));
- * 删除记录
- * $mongo->remove("ttt", array("title"=>"bbb"));
- * 仅删除一条记录
- * $mongo->remove("ttt", array("title"=>"bbb"), array("justOne"=>1));
- * 获取Mongo操作的错误信息
- * $mongo->getError();
- */
+/*
+ * $this->get 		= $this->S->env->get;
+ * $this->post 		= $this->S->env->post;
+ * $this->env 		= $this->S->env->env;
+ * $this->cookies 	= $this->S->env->cookies;
+ * */
 
 class Sham_Env {
 
