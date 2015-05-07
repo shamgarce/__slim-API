@@ -43,9 +43,9 @@ class Enterzh
     public function __construct($params)    //$params 是路由参数
     {
         $this->CI =& get_instance();
-        $this->vdb = new V1db();                    //数据逻辑层
+        //$this->vdb = new V1db();                    //数据逻辑层
         $this->params = $params;                    //路由参数
-        $this->tmp['timestamp_'] = Set::T();        //$sign //参数是签名
+        $this->tmp['timestamp_'] = Seter::T();        //$sign //参数是签名
         //======================================================================
         !empty($params) && $this->log['params'] = $params;              //log
         $this->log['time']['timecu'] = time();;                         //log
@@ -280,7 +280,7 @@ if(empty($row)) $this->J(508, 'error');
 
         //$this->de['timestamp_'] = $this->tmp['timestamp_'];
         //$this->de['timestamp']  = Set::T();
-        $this->de['ExecuteTime'] = Set::T() - $this->tmp['timestamp_'];
+        $this->de['ExecuteTime'] = Seter::T() - $this->tmp['timestamp_'];
         $this->de['ExecuteModel']  = 'Enterzh';
         //print_r($this->de);
         $this->logmon->L($code,$msg,$this->log);

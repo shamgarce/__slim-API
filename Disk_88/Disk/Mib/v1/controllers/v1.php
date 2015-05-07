@@ -21,7 +21,7 @@ class v1 extends CI_Controller
 	function __construct()
 	{
 		parent::__construct();
-		$this->S = new Set();		//里面包含系列的单例对象
+		$this->S = new Seter();		//里面包含系列的单例对象
 		//=========================================================
 		$this->getsign();			//获取资源$this->sign
 		$this->getmap();			//获取资源$this->map

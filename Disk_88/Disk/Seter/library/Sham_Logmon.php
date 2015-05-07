@@ -48,7 +48,7 @@ class Sham_Logmon{
 
         !empty($_GET) && $loginfo['_GET']   = $_GET;            //log
         $loginfo['_POST'] = $_POST;        //log
-        $loginfo['time']['timeen']  = Set::T();      //log
+        $loginfo['time']['timeen']  = Seter::T();      //log
         $this->CI->S->mdb->insert('dy_log',$loginfo);
         return true;
     }

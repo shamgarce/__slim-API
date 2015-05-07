@@ -195,16 +195,6 @@ if (defined('ENVIRONMENT'))
 		define('APPPATH', BASEPATH.$application_folder.'/');
 	}
 
-/**	 addby sham 3.5	**/
-function __Sham__loader($class)
-{
-	$file = FCPATH.APPPATH.'libraries/'.$class.'.php';
-	if (is_file($file)) {
-		require_once($file);
-	}
-}
-spl_autoload_register('__Sham__loader');
-/**	 /addby sham 3.5	**/
 
 /*
  * --------------------------------------------------------------------
@@ -214,6 +204,8 @@ spl_autoload_register('__Sham__loader');
  * And away we go...
  *
  */
+
+require_once 'Seter/Seter.php';
 require_once BASEPATH.'core/CodeIgniter.php';
 
 /* End of file index.php */
