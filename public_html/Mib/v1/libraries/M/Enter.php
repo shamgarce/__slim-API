@@ -199,7 +199,8 @@ class Enter
 
         //变更数据
         $this->mdb->update("dy_user", $se, $row);
-
+       // $row['category']
+        $this->data( $row['category']);
         // * 9 输出
         $this->J(200, 'succeed');
     }
