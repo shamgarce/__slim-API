@@ -78,7 +78,6 @@ class Enter
         $this->getpost($_POST);
         //-----------------------------------------------------------------
 
-
         //-----------------------------------------------------------------
         //2 : 接收参数
         $username = $this->CI->input->post('username');
@@ -120,6 +119,9 @@ class Enter
         $mc['open_id'] = substr(MD5($username . '_' . $sign['salt'] . '_' . Set::T()), 8, 16);                //计算生成一个  唯一
         $mc['enable'] = 1;
         $mc['f_regtime'] = time();
+        $mc['phonenumber'] = $this->CI->input->post('phonenumber');
+        $mc['category']= $this->CI->input->post('category');
+
 
         $this->mdb->insert('dy_user', array_merge(V1db::table_dy_user(), $mc));               //添加数据
 

@@ -24,20 +24,20 @@ class Set implements ArrayAccess, Countable, IteratorAggregate
         $this->singleton('mdb', function ($c) {
             return new Mdb();
         });
-        $this->singleton('apc', function ($c) {
-            return new Apc();
-        });
+//        $this->singleton('apc', function ($c) {
+//            return new Apc();
+//        });
         $this->singleton('logmon', function ($c) {
             return new Logmon();
         });
-        $this->singleton('mcache', function ($c) {
-            define('MEMCACHE_HOST', '127.0.0.1');
-            define('MEMCACHE_PORT', 11211);
-            define('MEMCACHE_EXPIRATION', 0);
-            define('MEMCACHE_PREFIX', 'licai');
-            define('MEMCACHE_COMPRESSION', FALSE);
-            return new Mcache();
-        });
+//        $this->singleton('mcache', function ($c) {
+//            define('MEMCACHE_HOST', '127.0.0.1');
+//            define('MEMCACHE_PORT', 11211);
+//            define('MEMCACHE_EXPIRATION', 0);
+//            define('MEMCACHE_PREFIX', 'licai');
+//            define('MEMCACHE_COMPRESSION', FALSE);
+//            return new Mcache();
+//        });
 
     }
 

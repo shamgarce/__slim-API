@@ -211,9 +211,6 @@ function __Sham__loader($class)
 spl_autoload_register('__Sham__loader');
 /**  /addby sham 3.5 **/
 
-
-
-
 require_once BASEPATH.'core/CodeIgniter.php';
 
 /* End of file index.php */

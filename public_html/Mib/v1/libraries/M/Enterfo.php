@@ -55,13 +55,69 @@ class Enterfo
         //print_r($this->log);
     }
 
+
+    //更新
+    //先删除，在添加就ok
+    public function update($sign = array())
+    {
+        //-----------------------------------------------------------------
+        $this->sign = $sign;
+        !empty($sign) && $this->log['sign'] = $sign;        //方法中截取
+        $this->log['mothod'] = __METHOD__;                  //方法中截取
+        //-----------------------------------------------------------------
+
+        $phaForm = $_POST['phaForm'];
+        $phaForm = json_decode($phaForm, true);
+        $phaForm = $phaForm['pharmaceuticalForm'];
+        $this->getpost($phaForm);
+
+
+        $phaForm['SampleFormNumber'] = (string)($phaForm['SampleFormNumber']);
+        $odd_id = $phaForm['SampleFormNumber'];
+
+        //删除
+        $this->mdb->remove("dy_SampleCondition", array("odd_id"=>$odd_id));
+        $this->mdb->remove("dy_SampleDepartment", array("odd_id"=>$odd_id));
+        $this->mdb->remove("dy_SampleForm", array("SampleFormNumber"=>$odd_id));
+        //=================================================================
+//
+        //============================================================
+        $simpleConditionList = $phaForm['sampleCondition']['sampleConditionList'];
+        $simpleDepartmentList = $phaForm['sampleDepartment']['sampleDepartmentList'];
+
+        unset($phaForm['sampleCondition']['sampleConditionList']);
+        unset($phaForm['sampleDepartment']['sampleDepartmentList']);
+
+        $this->mdb->insert('dy_SampleForm', $phaForm);        //主记录
+
+        foreach ($simpleConditionList as $key => $value) {
+            unset($me);
+            $me['odd_id'] = $odd_id;
+            $me = array_merge($me, $value);
+            $this->mdb->insert('dy_SampleCondition', $me);
+        }
+
+        foreach ($simpleDepartmentList as $key => $value) {
+            unset($me);
+            $me['odd_id'] = $odd_id;
+            $me = array_merge($me, $value);
+            $this->mdb->insert('dy_SampleDepartment', $me);
+        }
+
+
+       // print_r($odd_id);
+
+
+        //-----------------------------------------------------------------
+        $this->J(200, 'succeed');
+    }
+
     /*
      * 国外功能
      * 1 : 上传         uploading
      * 2 : 单号检索     simplenumber
      * 3 : 综合检索     search
      * */
-
     public function uploading($sign = array())
     {
         //-----------------------------------------------------------------
@@ -72,11 +128,11 @@ class Enterfo
 
         $phaForm = $_POST['phaForm'];
         $phaForm = json_decode($phaForm, true);
-
         $this->getpost($phaForm);
 
 //        $phaForm = Set::ob2ar($phaForm);
         $phaForm = $phaForm['pharmaceuticalForm'];
+
         $phaForm['SampleFormNumber'] = (string)($phaForm['SampleFormNumber']);
         $phaForm['for'] = substr($phaForm['SampleFormNumber'],0,1);
         $odd_id = $phaForm['SampleFormNumber'];
@@ -85,6 +141,7 @@ class Enterfo
         $cond['odd_id'] = $odd_id;
         $this->get($phaForm);
         $row = $this->mdb->findOne("dy_typeoddid", $cond);
+
         if (empty($row)) {
             $this->J(-201, '无效的预定单号' . $odd_id);
         }
@@ -181,6 +238,7 @@ if(empty($row)) $this->J(508, 'error');
 
 
         isset($_POST['SampleFormNumber'])    && $se['SampleFormNumber'] = (string)$_POST['SampleFormNumber'];      //抽样单号
+        isset($_POST['UserName'])           && $se['UserName'] = (string)$_POST['UserName'];      //抽样单号
 //        isset($_POST['sampledate'])         && $sampledate     = $_POST['sampledate'];            //抽样日期
 //        isset($_POST['startDate'])          && $startDate      = $_POST['startDate'];             //开始日期
 //        isset($_POST['endDate'])            && $endDate        = $_POST['endDate'];               //终止日期
@@ -189,6 +247,10 @@ if(empty($row)) $this->J(508, 'error');
 //        isset($_POST['sampleDepartment'])   && $sampleDepartment = $_POST['sampleDepartment'];     //被抽样单位
         isset($_POST['pageSize'])           && $pageSize       = $_POST['pageSize'];               //每次访问能够返回的最大数据量
         isset($_POST['page'])               && $page           = $_POST['page'];
+
+
+
+
 
         // $se = array();
 //        isset($_POST['SampleFormNumber'])   && $se["SampleFormNumber"] = (string)$_POST['SampleFormNumber'];     //条件一 : 检验单号

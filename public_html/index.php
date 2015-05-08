@@ -6,9 +6,6 @@
 	//$_POST 		= saddslashes($_POST);
 	//$_COOKIE 	= saddslashes($_COOKIE);
 //}
-
-
-
 /*
  *---------------------------------------------------------------
  * APPLICATION ENVIRONMENT

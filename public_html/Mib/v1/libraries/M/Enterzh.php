@@ -55,6 +55,70 @@ class Enterzh
         //print_r($this->log);
     }
 
+
+    //更新
+    //先删除，在添加就ok
+    public function update($sign = array())
+    {
+        //-----------------------------------------------------------------
+        $this->sign = $sign;
+        !empty($sign) && $this->log['sign'] = $sign;        //方法中截取
+        $this->log['mothod'] = __METHOD__;                  //方法中截取
+        //-----------------------------------------------------------------
+
+        $phaForm = $_POST['phaForm'];
+        $phaForm = json_decode($phaForm, true);
+        $this->getpost($phaForm);
+
+        $phaForm['SampleFormNumber'] = (string)($phaForm['SampleFormNumber']);
+        $odd_id = $phaForm['SampleFormNumber'];
+
+        //删除
+        $this->mdb->remove("dy_zh_SampleCondition", array("odd_id"=>$odd_id));
+        $this->mdb->remove("dy_zh_SampleDepartment", array("odd_id"=>$odd_id));
+        $this->mdb->remove("dy_zh_SampleForm", array("SampleFormNumber"=>$odd_id));
+        //=================================================================
+
+        //============================================================
+        $simpleConditionList = $phaForm['inLandSampleCondition']['sampleConditionList'];
+        $simpleDepartmentList = $phaForm['inLandEnforcementUnitSign']['sampleDepartmentList'];
+
+        unset($phaForm['inLandSampleCondition']['sampleConditionList']);
+        unset($phaForm['inLandEnforcementUnitSign']['sampleDepartmentList']);
+
+        $this->mdb->insert('dy_zh_SampleForm', $phaForm);        //主记录
+
+        foreach ($simpleConditionList as $key => $value) {
+            unset($me);
+            $me['odd_id'] = $odd_id;
+            $me = array_merge($me, $value);
+            $this->mdb->insert('dy_zh_SampleCondition', $me);
+        }
+
+        foreach ($simpleDepartmentList as $key => $value) {
+            unset($me);
+            $me['odd_id'] = $odd_id;
+            $me = array_merge($me, $value);
+            $this->mdb->insert('dy_zh_SampleDepartment', $me);
+        }
+
+
+
+
+
+        //-----------------------------------------------------------------
+        $this->J(200, 'succeed');
+    }
+
+
+
+
+
+
+
+
+
+
     /*
      * 国内功能
      * 1 : 上传         uploading_inland
@@ -192,6 +256,7 @@ if(empty($row)) $this->J(508, 'error');
 //        "endDate":"2015-02-28",
 
         isset($_POST['SampleFormNumber'])    && $se['SampleFormNumber'] = (string)$_POST['SampleFormNumber'];      //抽样单号
+        isset($_POST['UserName'])           && $se['UserName'] = (string)$_POST['UserName'];      //抽样单号
 //        isset($_POST['sampledate'])         && $sampledate     = $_POST['sampledate'];            //抽样日期
 //        isset($_POST['startDate'])          && $startDate      = $_POST['startDate'];             //开始日期
 //        isset($_POST['endDate'])            && $endDate        = $_POST['endDate'];               //终止日期
