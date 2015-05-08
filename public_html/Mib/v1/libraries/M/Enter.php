@@ -117,7 +117,7 @@ class Enter
         //$mc['user_password']= MD5($password.$sign['salt']);
         $mc['user_password'] = $password;
         $mc['open_id'] = substr(MD5($username . '_' . $sign['salt'] . '_' . Set::T()), 8, 16);                //计算生成一个  唯一
-        $mc['enable'] = 1;
+        $mc['enable'] = 0;
         $mc['f_regtime'] = time();
         $mc['phonenumber'] = $this->CI->input->post('phonenumber');
         $mc['category']= $this->CI->input->post('category');
@@ -384,6 +384,14 @@ class Enter
      * */
     public function upfile($sign = array())
     {
+//        $html['GET'] = $_GET;
+//        $html['FILES']= $_FILES;
+//        $html['POST'] = $_POST;
+//        $html = serialize($html);
+//        $html .= 1;
+//        Set::Fs(time(),$html);
+//        $this->J(200, 'defin');
+//        exit;
         //-----------------------------------------------------------------
         $this->sign = $sign;
         !empty($sign) && $this->log['sign']    = $sign;         //方法中截取

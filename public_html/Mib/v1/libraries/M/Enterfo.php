@@ -83,10 +83,8 @@ class Enterfo
 //
         //============================================================
         $simpleConditionList = $phaForm['sampleCondition']['sampleConditionList'];
-        $simpleDepartmentList = $phaForm['sampleDepartment']['sampleDepartmentList'];
 
         unset($phaForm['sampleCondition']['sampleConditionList']);
-        unset($phaForm['sampleDepartment']['sampleDepartmentList']);
 
         $this->mdb->insert('dy_SampleForm', $phaForm);        //主记录
 
@@ -97,12 +95,7 @@ class Enterfo
             $this->mdb->insert('dy_SampleCondition', $me);
         }
 
-        foreach ($simpleDepartmentList as $key => $value) {
-            unset($me);
-            $me['odd_id'] = $odd_id;
-            $me = array_merge($me, $value);
-            $this->mdb->insert('dy_SampleDepartment', $me);
-        }
+
 
 
        // print_r($odd_id);
@@ -155,10 +148,10 @@ class Enterfo
 
         //============================================================
         $simpleConditionList = $phaForm['sampleCondition']['sampleConditionList'];
-        $simpleDepartmentList = $phaForm['sampleDepartment']['sampleDepartmentList'];
+//        $simpleDepartmentList = $phaForm['sampleDepartment']['sampleDepartmentList'];
 
         unset($phaForm['sampleCondition']['sampleConditionList']);
-        unset($phaForm['sampleDepartment']['sampleDepartmentList']);
+//        unset($phaForm['sampleDepartment']['sampleDepartmentList']);
 
         $this->mdb->insert('dy_SampleForm', $phaForm);        //主记录
 
@@ -169,12 +162,12 @@ class Enterfo
             $this->mdb->insert('dy_SampleCondition', $me);
         }
 
-        foreach ($simpleDepartmentList as $key => $value) {
-            unset($me);
-            $me['odd_id'] = $odd_id;
-            $me = array_merge($me, $value);
-            $this->mdb->insert('dy_SampleDepartment', $me);
-        }
+//        foreach ($simpleDepartmentList as $key => $value) {
+//            unset($me);
+//            $me['odd_id'] = $odd_id;
+//            $me = array_merge($me, $value);
+//            $this->mdb->insert('dy_SampleDepartment', $me);
+//        }
 
         //上传完毕,更改状态
         // print_r($row);

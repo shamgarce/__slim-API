@@ -1,7 +1,7 @@
 <?php unset($rc['_id']);?>
 <div class="modal-header">
     <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-    <h4 class="modal-title">国外 ： 单号<?=$danhao?>  - <?php echo $rc['sampleDepartment']['sampleDate']?></h4>
+    <h4 class="modal-title">国外 ： 单号<?=$danhao?>  - <?php echo $rc['sampleDepartment']['sampleDate']?></h4>导出成excel
 </div>
 
 <div class="modal-body">
@@ -11,14 +11,12 @@
       <table class="table">
         <tr>
           <td>节点</td>
-          <td>节点</td>
           <td>值</td>
           <td>说明</td>
         </tr>   
 <?php foreach($rc as $key=>$value){?>        
     <tr>
-    <td><?=$key?></td>
-    <td>&nbsp;</td>
+    <td><?=$dic1[$key]?></td>
     <td><?php if(!is_array($value))echo $value?></td>
     <td>&nbsp;</td>
     </tr>
@@ -26,8 +24,7 @@
     
 			<?php foreach($value as $key2=>$value2){?>        
                 <tr>
-                <td></td>
-                <td><?=$key2?></td>
+                <td>&nbsp;&nbsp;&nbsp;&nbsp;<?=$key2?></td>
                 <td><?php if(!is_array($value2))echo $value2?></td>
                 <td><span class="gray">描述</span></td>
                 </tr>
@@ -59,10 +56,10 @@
         <?php }?>
   </table>
 <br>
-<h4 class="modal-title">抽样单位</h4>
+<!-- h4 class="modal-title">抽样单位</h4>
 <br>
 
-      <table class="table">
+      <!-- table class="table">
         <tr>
           <td>序号</td>
           <td>密码</td>
@@ -76,7 +73,7 @@
           <td><?=$value['jingshouren']?></td>
         </tr>
         <?php }?>
-  </table>
+  </table -->
       <p>&nbsp;</p>
       
       

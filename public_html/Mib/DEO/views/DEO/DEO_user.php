@@ -12,6 +12,7 @@
 
     <!-- Bootstrap core CSS -->
     <link href="/A/bootstrap-3.2.0/css/bootstrap.css" rel="stylesheet">
+	<link href="/A/bootstrap-3.2.0/font.css" rel="stylesheet">
 
     <!-- Custom styles for this template -->
     <link href="/A/UI1/dashboard.css" rel="stylesheet">
@@ -38,14 +39,12 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="#">Easy manage</a>
+          <a class="navbar-brand" href="#">药品抽样单管理系统</a>
         </div>
         <div id="navbar" class="navbar-collapse collapse">
           <ul class="nav navbar-nav navbar-right">
-            <li><a href="./index.html">首页</a></li>
-            <li><a href="#">设置</a></li>
-            <li><a href="#">帮助</a></li>
-            <li><a href="#">退出</a></li>
+            
+            <li><a href="/DEO/loginout">退出</a></li>
           </ul>
           <!-- form class="navbar-form navbar-right">
             <input type="text" class="form-control" placeholder="Search...">
@@ -58,9 +57,9 @@
       <div class="row">
         <div class="col-sm-3 col-md-2 sidebar">
           <ul class="nav nav-sidebar">
-            <li class="active"><a href="index.html">菜单 <span class="sr-only">(current)</span></a></li>
+            <li class="active"><a>菜单 <span class="sr-only">(current)</span></a></li>
             <li><a href="/DEO/user/">用户管理</a></li>
-            <li><a href="/DEO/danhao/">抽样单号查看</a></li>
+            <li><a href="/DEO/danhao/">抽样单号管理</a></li>
           </ul>
         </div>
         <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
@@ -73,7 +72,7 @@
                   <th>最后登陆时间</th>
                   <th>最后登陆ip</th>
                   <th>注册时间</th>
-                  <th>是否有效</th>
+                  
                   <th>操作</th>
                 </tr>
               </thead>
@@ -85,8 +84,21 @@
                   <td><?=date('Y/m/d',$value['f_logintime'])?></td>
                   <td><?=$value['f_loginip']?></td>
                   <td><?=date('Y/m/d',$value['f_regtime'])?></td>
-                  <td><?=$value['enable']?></td>
-                  <td></td>
+                  
+                  <td>
+                  <?php
+                  if($value['enable']==1){
+				  ?>
+                  <a href="javascript:void(0)" class="cflag" ulogin="<?=$value['user_login']?>" rel="<?=$value['enable']?>"><span class=" glyphicon glyphicon-ok red"></span></a>
+                  <?php
+				  }else{
+				  ?>
+                  <a href="javascript:void(0)" class="cflag" ulogin="<?=$value['user_login']?>" rel="<?=$value['enable']?>"><span class=" glyphicon glyphicon-remove"></span></a>
+                  <?php
+				  }
+				  ?>
+                  
+                  </td>
                 </tr>
                <?php } ?>
               </tbody>
@@ -103,6 +115,38 @@
     <script src="/A/bootstrap-3.2.0/js/bootstrap.min.js"></script>
     <!-- script src="assets/js/docs.min.js"></script -->
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+<script language="javascript"> 
+$(document).ready(function(){
+	
+	$(".cflag").click(function(){
+		var res = $.ajax({
+			url : '/DEO/cflag',
+			type: 'post',
+			data: {
+				ulogin 		: $(this).attr('ulogin'),
+				rel 		: $(this).attr('rel'),
+				
+				},
+			dataType: "json",
+			async:false,
+			cache:false
+		}).responseJSON;
+		//console.log(res);
+		//==========================1
+		if(res.code<0){
+			alert(res.msg);
+			return false;
+		}else{
+			location.reload();
+			// window.location.href="/DEO/index"; 
+			//return true;
+		}		
+		
+	});	
+	
+}) 
+</script> 
+
    
   </body>
 </html>

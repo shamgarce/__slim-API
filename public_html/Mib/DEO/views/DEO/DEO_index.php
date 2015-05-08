@@ -38,14 +38,11 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="#">Easy manage</a>
+          <a class="navbar-brand" href="#">药品抽样单管理系统</a>
         </div>
         <div id="navbar" class="navbar-collapse collapse">
           <ul class="nav navbar-nav navbar-right">
-            <li><a href="./index.html">首页</a></li>
-            <li><a href="#">设置</a></li>
-            <li><a href="#">帮助</a></li>
-            <li><a href="#">退出</a></li>
+           <li><a href="/DEO/loginout">退出</a></li>
           </ul>
           <!-- form class="navbar-form navbar-right">
             <input type="text" class="form-control" placeholder="Search...">
@@ -58,9 +55,9 @@
       <div class="row">
         <div class="col-sm-3 col-md-2 sidebar">
           <ul class="nav nav-sidebar">
-            <li class="active"><a href="/DEO/">菜单 <span class="sr-only">(current)</span></a></li>
+            <li class="active"><a>菜单 <span class="sr-only">(current)</span></a></li>
             <li><a href="/DEO/user">用户管理</a></li>
-            <li><a href="/DEO/danhao">抽样单号查看</a></li>
+            <li><a href="/DEO/danhao">抽样单号管理</a></li>
           </ul>
         </div>
         <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">

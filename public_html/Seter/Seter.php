@@ -38,6 +38,10 @@ class Seter implements ArrayAccess, Countable, IteratorAggregate
         $this->singleton('logmon', function ($c) {
             return new Sham_Logmon();
         });
+        $this->singleton('PHPExcel', function ($c) {
+            return new PHPExcel();
+        });
+
     }
 
     /**

@@ -81,10 +81,9 @@ class Enterzh
 
         //============================================================
         $simpleConditionList = $phaForm['inLandSampleCondition']['sampleConditionList'];
-        $simpleDepartmentList = $phaForm['inLandEnforcementUnitSign']['sampleDepartmentList'];
 
         unset($phaForm['inLandSampleCondition']['sampleConditionList']);
-        unset($phaForm['inLandEnforcementUnitSign']['sampleDepartmentList']);
+
 
         $this->mdb->insert('dy_zh_SampleForm', $phaForm);        //主记录
 
@@ -94,17 +93,6 @@ class Enterzh
             $me = array_merge($me, $value);
             $this->mdb->insert('dy_zh_SampleCondition', $me);
         }
-
-        foreach ($simpleDepartmentList as $key => $value) {
-            unset($me);
-            $me['odd_id'] = $odd_id;
-            $me = array_merge($me, $value);
-            $this->mdb->insert('dy_zh_SampleDepartment', $me);
-        }
-
-
-
-
 
         //-----------------------------------------------------------------
         $this->J(200, 'succeed');
@@ -170,10 +158,10 @@ class Enterzh
 
         //============================================================
         $simpleConditionList = $phaForm['inLandSampleCondition']['sampleConditionList'];
-        $simpleDepartmentList = $phaForm['inLandEnforcementUnitSign']['sampleDepartmentList'];
+        //$simpleDepartmentList = $phaForm['inLandEnforcementUnitSign']['sampleDepartmentList'];
 
         unset($phaForm['inLandSampleCondition']['sampleConditionList']);
-        unset($phaForm['inLandEnforcementUnitSign']['sampleDepartmentList']);
+       // unset($phaForm['inLandEnforcementUnitSign']['sampleDepartmentList']);
 
         $this->mdb->insert('dy_zh_SampleForm', $phaForm);        //主记录
 
@@ -184,12 +172,12 @@ class Enterzh
             $this->mdb->insert('dy_zh_SampleCondition', $me);
         }
 
-        foreach ($simpleDepartmentList as $key => $value) {
-            unset($me);
-            $me['odd_id'] = $odd_id;
-            $me = array_merge($me, $value);
-            $this->mdb->insert('dy_zh_SampleDepartment', $me);
-        }
+//        foreach ($simpleDepartmentList as $key => $value) {
+//            unset($me);
+//            $me['odd_id'] = $odd_id;
+//            $me = array_merge($me, $value);
+//            $this->mdb->insert('dy_zh_SampleDepartment', $me);
+//        }
 
         //上传完毕,更改状态
         // print_r($row);
