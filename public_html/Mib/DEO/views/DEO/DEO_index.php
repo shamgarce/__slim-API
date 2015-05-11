@@ -55,7 +55,6 @@
       <div class="row">
         <div class="col-sm-3 col-md-2 sidebar">
           <ul class="nav nav-sidebar">
-            <li class="active"><a>菜单 <span class="sr-only">(current)</span></a></li>
             <li><a href="/DEO/user">用户管理</a></li>
             <li><a href="/DEO/danhao">抽样单号管理</a></li>
           </ul>

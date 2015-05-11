@@ -1,5 +1,7 @@
 <?php
 
+header("Location: /DEO/");
+exit;
 //$magic_quote = get_magic_quotes_gpc(); //$magic_quote = 0
 //if (empty($magic_quote)) {
 	//$_GET 		= saddslashes($_GET);

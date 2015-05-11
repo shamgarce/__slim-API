@@ -57,7 +57,7 @@
       <div class="row">
         <div class="col-sm-3 col-md-2 sidebar">
           <ul class="nav nav-sidebar">
-            <li class="active"><a>菜单 <span class="sr-only">(current)</span></a></li>
+            
             <li><a href="/DEO/user/">用户管理</a></li>
             <li><a href="/DEO/danhao/">抽样单号管理</a></li>
           </ul>
@@ -68,10 +68,12 @@
            <a class="btn btn-primary <?php if($fic=='A'){?>active<?php }?>" href="/DEO/danhao/A/1">全部</a>
            <a class="btn btn-primary <?php if($fic=='J'){?>active<?php }?>" href="/DEO/danhao/J/1">国外</a>
            <a class="btn btn-primary <?php if($fic=='G'){?>active<?php }?>" href="/DEO/danhao/G/1">国内</a>
--->FLIT : 
-启用 <input name="" type="checkbox" onClick="setc('deo_qiyong')" value="" <?php if($_COOKIE['deo_qiyong'] ==1 ){?>checked="CHECKED"<?php }?>>
+--> : 
+显示已启用
+<input name="" type="checkbox" onClick="setc('deo_qiyong')" value="" <?php if($_COOKIE['deo_qiyong'] ==1 ){?>checked="CHECKED"<?php }?>>
 　| 　
-上传 <input name="" type="checkbox" onClick="setc('deo_shangchuan')" value="" <?php if($_COOKIE['deo_shangchuan'] ==1 ){?>checked="CHECKED"<?php }?>>
+显示已上传 
+<input name="" type="checkbox" onClick="setc('deo_shangchuan')" value="" <?php if($_COOKIE['deo_shangchuan'] != 1 ){?>checked="CHECKED"<?php }?>>
 
 
             <table class="table table-striped">
@@ -108,9 +110,9 @@
                   
                   </td>
                   <td><?=$value['f']?></td>
-                  <td><?=$value['used']?></td>
-                  <td><?=$value['up']?></td>
-                  <td><?=$value['enable']?></td>
+                  <td><?=$fff[$value['used']]?></td>
+                  <td><?=$fff[$value['up']]?></td>
+                  <td><?=$fff[$value['enable']]?></td>
                   <td><?=$value['user']?></td>
                  
                 </tr>
@@ -153,7 +155,7 @@
 		}
 		
 		$.CK({
-			width:'60%',
+			width:'50%',
 			rel:rel
 		});
 	});	

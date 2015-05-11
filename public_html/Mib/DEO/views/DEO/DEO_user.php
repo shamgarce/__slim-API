@@ -57,7 +57,6 @@
       <div class="row">
         <div class="col-sm-3 col-md-2 sidebar">
           <ul class="nav nav-sidebar">
-            <li class="active"><a>菜单 <span class="sr-only">(current)</span></a></li>
             <li><a href="/DEO/user/">用户管理</a></li>
             <li><a href="/DEO/danhao/">抽样单号管理</a></li>
           </ul>
@@ -97,6 +96,9 @@
                   <?php
 				  }
 				  ?>
+                   &nbsp;&nbsp;&nbsp;&nbsp;
+<a class="edit_user btn btn-primary " dh="<?=$value['user_login']?>">修改权限</a>                  
+                  
                   
                   </td>
                 </tr>
@@ -115,8 +117,24 @@
     <script src="/A/bootstrap-3.2.0/js/bootstrap.min.js"></script>
     <!-- script src="assets/js/docs.min.js"></script -->
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="/A/artDialog4.1.7/artDialog.js?skin=default"></script>
+    <script src="/A/CK_bootstrap.js"></script>
+
 <script language="javascript"> 
 $(document).ready(function(){
+	
+
+
+$(".edit_user").click(function(){
+		
+		var fr = $(this).attr('fr');
+		rel = '/DEO/edit_user/'+$(this).attr('dh');
+		$.CK({
+			width:'50%',
+			rel:rel
+		});
+	});	
+	
 	
 	$(".cflag").click(function(){
 		var res = $.ajax({

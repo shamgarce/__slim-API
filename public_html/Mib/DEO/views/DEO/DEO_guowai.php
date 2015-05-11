@@ -1,7 +1,9 @@
 <?php unset($rc['_id']);?>
 <div class="modal-header">
     <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-    <h4 class="modal-title">国外 ： 单号<?=$danhao?>  - <?php echo $rc['sampleDepartment']['sampleDate']?></h4>导出成excel
+    <h4 class="modal-title">国外 ： 单号<?=$danhao?>  - <?php echo $rc['sampleDepartment']['sampleDate']?>
+    <a target="_blank" href="/DEO/output_gw/<?=$danhao?>" class="btn btn-primary">导出成excel</a>
+    </h4>
 </div>
 
 <div class="modal-body">
@@ -10,23 +12,24 @@
 
       <table class="table">
         <tr>
-          <td>节点</td>
+          <td width="200">节点</td>
           <td>值</td>
-          <td>说明</td>
         </tr>   
 <?php foreach($rc as $key=>$value){?>        
     <tr>
     <td><?=$dic1[$key]?></td>
     <td><?php if(!is_array($value))echo $value?></td>
-    <td>&nbsp;</td>
     </tr>
     <?php if(is_array($value)){?>
     
 			<?php foreach($value as $key2=>$value2){?>        
                 <tr>
-                <td>&nbsp;&nbsp;&nbsp;&nbsp;<?=$key2?></td>
+                <td>&nbsp;&nbsp;&nbsp;&nbsp;<?php 
+//				$ma =($dic[$key][$key2])?$dic[$key][$key2]：$key2；
+//				echo $key2;
+	echo $dic[$key][$key2];
+				?></td>
                 <td><?php if(!is_array($value2))echo $value2?></td>
-                <td><span class="gray">描述</span></td>
                 </tr>
             <?php }?>
 	<?php }?>

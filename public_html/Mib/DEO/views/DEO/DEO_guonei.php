@@ -2,7 +2,7 @@
 <div class="modal-header">
     <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
     <h4 class="modal-title">国内 ： 单号<?=$danhao?> - <?php echo $rc['inLandEnforcementUnitSign']['sampleDate']?>
-    <a target="_blank" href="/DEO/output_gn/1" class="btn btn-primary">导出</a>
+    <a target="_blank" href="/DEO/output_gn/<?=$danhao?>" class="btn btn-primary">导出成excel</a>
    </h4> 
 </div>
 
@@ -11,24 +11,21 @@
   <img src="http://m.so/<?php echo $rc['PictureSrc']?>" class="img-responsive" alt="Responsive image">
   <table class="table">
         <tr>
-          <td width="80">节点</td>
+          <td width="200">节点</td>
           <td>值</td>
-          <td>说明</td>
         </tr>   
 <?php foreach($rc as $key=>$value){?>        
     <tr>
     <td><?=$dic1[$key]?></td>
     <td><?php if(!is_array($value))echo $value?></td>
-    <td>&nbsp;</td>
     </tr>
     <?php if(is_array($value)){?>
     
     
 			<?php foreach($value as $key2=>$value2){?>        
                 <tr>
-                <td>&nbsp;&nbsp;&nbsp;&nbsp;<?=$key2?></td>
+                <td>&nbsp;&nbsp;&nbsp;&nbsp;<?=$dic[$key][$key2]?></td>
                 <td><?php if(!is_array($value2))echo $value2?></td>
-                <td><span class="gray">描述</span></td>
                 </tr>
                
             
