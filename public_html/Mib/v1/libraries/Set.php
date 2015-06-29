@@ -10,7 +10,7 @@ class Set implements ArrayAccess, Countable, IteratorAggregate
      * @var array
      */
     public $data = array();
-
+    public static $instance = null;
     /**
      * Constructor
      * @param array $items Pre-populate set with this key-value array
@@ -39,6 +39,11 @@ class Set implements ArrayAccess, Countable, IteratorAggregate
             return new Mcache();
         });
 
+    }
+
+    public static function getInstance(){
+        !(self::$instance instanceof self)&&self::$instance = new self();
+        return self::$instance;
     }
 
     /**

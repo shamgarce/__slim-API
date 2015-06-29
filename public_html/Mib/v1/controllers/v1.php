@@ -81,8 +81,10 @@ class v1 extends CI_Controller
 	}
 
 	public function getmap(){
+
 		$sql = "select * from userapi where enable = 1 AND  v = 'V1'";
 		$rc = $this->S->db->getall($sql);
+
 		foreach($rc as $key=>$value){
 			$ar 	= explode('/',$value['api']);
 			$___m 	= array_shift($ar);

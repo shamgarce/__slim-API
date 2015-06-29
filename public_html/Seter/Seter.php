@@ -35,6 +35,11 @@ class Seter implements ArrayAccess, Countable, IteratorAggregate
         $this->singleton('mdb', function ($c) {
             return new Sham_Mdb();
         });
+//        $this->singleton('cdb', function ($c) {
+//            return new Sham_cdb();
+//        });
+
+
         $this->singleton('logmon', function ($c) {
             return new Sham_Logmon();
         });

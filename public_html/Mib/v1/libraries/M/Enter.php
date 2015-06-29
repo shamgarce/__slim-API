@@ -44,6 +44,8 @@ class Enter
     {
         $this->CI =& get_instance();
         $this->vdb = new V1db();                    //数据逻辑层
+        $this->cdb = new Cdb();
+
         $this->params = $params;                    //路由参数
         $this->tmp['timestamp_'] = Set::T();        //$sign //参数是签名
         //======================================================================
@@ -86,16 +88,16 @@ class Enter
 
         //-----------------------------------------------------------------
         //3 : 判断
-        $_march = '/[^A-Za-z0-9]/';             //如果发现字母数字意外的字符 报错
-        if (preg_match($_march, $username)) {
-            $this->J(-200, '用户名非法，请重新输入正确的用户名');
-        }
+//        $_march = '/[^A-Za-z0-9]/';             //如果发现字母数字意外的字符 报错
+//        if (preg_match($_march, $username)) {
+//            $this->J(-200, '用户名非法，请重新输入正确的用户名');
+//        }
         if (preg_match($_march, $password)) {
             $this->J(-200, '密码非法，请重新输入正确的密码');
         }
         $ulen = strlen($username);
         $upwd = strlen($password);
-        if ($ulen < 4 || $ulen > 16) {
+        if ($ulen < 1) {
             $this->J(-200, '用户名长度非法');
         }
         if ($upwd < 4) {
@@ -123,8 +125,23 @@ class Enter
         $mc['category']= $this->CI->input->post('category');
 
 
-        $this->mdb->insert('dy_user', array_merge(V1db::table_dy_user(), $mc));               //添加数据
+//        $C = CI_Controller::get_instance();
+//controller 对象调用
+//        $sql = "select * from userapi where enable = 1 AND  v = 'V1'";
+//        $rc = $C->S->db->getall($sql);
+//        var_dump($se);
+//        print_r($rc);
+//        exit;
+//        $this->S = Set::getInstance();
+//        $sql = "select * from userapi where enable = 1 AND  v = 'V1'";
+//        $rc = $this->S->db->getall($sql);
+//exit;
+//        $this->cdb->test();               //添加数据
+//        $this->cdb->insert('dy_user', array_merge(V1db::table_dy_user(), $mc));               //添加数据
+//exit;
 
+
+        $this->mdb->insert('dy_user', array_merge(V1db::table_dy_user(), $mc));               //添加数据
         //输出
         $this->J(200, 'succeed');
     }

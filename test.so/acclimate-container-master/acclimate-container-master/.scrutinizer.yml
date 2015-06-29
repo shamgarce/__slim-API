@@ -1,0 +1,18 @@
+filter:
+    paths:
+        - src/
+
+before_commands:
+    - 'composer install --no-interaction --prefer-source --dev'
+    - 'cp phpunit.xml.dist phpunit.xml'
+
+tools:
+    php_code_sniffer:
+        config:
+            standard: PSR2
+    php_code_coverage:
+        test_command: vendor/bin/phpunit
+        config_path: phpunit.xml
+    php_loc: true
+    php_analyzer: true
+    php_pdepend: true

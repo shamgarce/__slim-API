@@ -39,8 +39,8 @@ class Dbv3_config
 {
     static public $hostname = '127.0.0.1';
     static public $username = 'root';
-    static public $password = '123';
-    static public $database = 'nsv3';
+    static public $password = 'root3306';
+    static public $database = 'ns';
 
     static public $charset  = 'utf8';
     static public $pconnect = '0';
