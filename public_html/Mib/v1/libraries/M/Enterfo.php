@@ -28,7 +28,7 @@ class Enterfo
     private $de = array();
     private $log = array();
     private $sign = array();
-
+    private $S = null;
 //log格式
 //==================================================================
 //class
@@ -43,7 +43,8 @@ class Enterfo
     public function __construct($params)    //$params 是路由参数
     {
         $this->CI =& get_instance();
-        $this->vdb = new V1db();                    //数据逻辑层
+        $this->S = $this->CI->S;
+        //$this->vdb = new V1db();                    //数据逻辑层
         $this->params = $params;                    //路由参数
         $this->tmp['timestamp_'] = Set::T();        //$sign //参数是签名
         //======================================================================
@@ -77,7 +78,7 @@ class Enterfo
 
         //删除
         $this->mdb->remove("dy_SampleCondition", array("odd_id"=>$odd_id));
-        $this->mdb->remove("dy_SampleDepartment", array("odd_id"=>$odd_id));
+        //$this->mdb->remove("dy_SampleDepartment", array("odd_id"=>$odd_id));
         $this->mdb->remove("dy_SampleForm", array("SampleFormNumber"=>$odd_id));
         //=================================================================
 //
@@ -85,6 +86,8 @@ class Enterfo
         $simpleConditionList = $phaForm['sampleCondition']['sampleConditionList'];
 
         unset($phaForm['sampleCondition']['sampleConditionList']);
+
+       // print_r($phaForm);
 
         $this->mdb->insert('dy_SampleForm', $phaForm);        //主记录
 
@@ -121,6 +124,9 @@ class Enterfo
 
         $phaForm = $_POST['phaForm'];
         $phaForm = json_decode($phaForm, true);
+        echo '-------';
+        print_r($phaForm);
+        echo '-------';
         $this->getpost($phaForm);
 
 //        $phaForm = Set::ob2ar($phaForm);
@@ -133,7 +139,11 @@ class Enterfo
         //============================================================
         $cond['odd_id'] = $odd_id;
         $this->get($phaForm);
-        $row = $this->mdb->findOne("dy_typeoddid", $cond);
+
+        $row = $this->S->db->getrow("select * from dy_typeoddid where odd_id = '$odd_id'");
+        echo "select * from dy_typeoddid where odd_id = '$odd_id'";
+        print_r($row);
+//        $row = $this->mdb->findOne("dy_typeoddid", $cond);
 
         if (empty($row)) {
             $this->J(-201, '无效的预定单号' . $odd_id);
@@ -206,7 +216,7 @@ class Enterfo
         $row = $this->mdb->findone("dy_SampleForm", array("SampleFormNumber"=>$oddid));
 if(empty($row)) $this->J(508, 'error');
         $row['sampleCondition']['sampleConditionList']     = $this->mdb->find("dy_SampleCondition", array("odd_id"=>$oddid));
-        $row['sampleDepartment']['sampleDepartmentList']   = $this->mdb->find("dy_SampleDepartment", array("odd_id"=>$oddid));
+       // $row['sampleDepartment']['sampleDepartmentList']   = $this->mdb->find("dy_SampleDepartment", array("odd_id"=>$oddid));
         $this->getpost($row);
         $this->data($row);
         $this->J(200, 'succeed');

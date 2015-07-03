@@ -8,9 +8,9 @@
 
 
 $mysql_set['default']['hostname'] = '127.0.0.1';
-$mysql_set['default']['username'] = 'ns';
+$mysql_set['default']['username'] = 'nsv1';
 $mysql_set['default']['password'] = 'nsgd012003';
-$mysql_set['default']['database'] = 'ns';
+$mysql_set['default']['database'] = 'nsv1';
 
 $mysql_set['default']['charset']    = 'utf8';
 $mysql_set['default']['pconnect']   = '0';

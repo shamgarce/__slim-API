@@ -25,6 +25,7 @@ class Enter
     private $tmp = array();
     private $params = array();
     private $CI = null;
+    private $S = null;
     private $de = array();
     private $log = array();
     private $sign = array();
@@ -43,8 +44,17 @@ class Enter
     public function __construct($params)    //$params 是路由参数
     {
         $this->CI =& get_instance();
-        $this->vdb = new V1db();                    //数据逻辑层
-        $this->cdb = new Cdb();
+        //$this->vdb = new V1db();                    //数据逻辑层
+
+        //vadd
+        $this->S = $this->CI->S;
+        //controller 对象调用
+
+        //调用示例
+//        $sql = "select * from userapi where enable = 1 AND  v = 'V1'";
+//        $rc = $this->S->db->getall($sql);
+//        print_r($rc);
+        //end
 
         $this->params = $params;                    //路由参数
         $this->tmp['timestamp_'] = Set::T();        //$sign //参数是签名
@@ -105,7 +115,9 @@ class Enter
         }
 
         $se['user_login'] = $username;
-        $row = $this->mdb->findOne("dy_user", $se);
+
+        $row = $this->S->db->getrow("select * from dy_user where user_login = '$username'");
+//        $row = $this->mdb->findOne("dy_user", $se);
 
         if ($row) {
             $this->J(-200, '该用户已经存在');
@@ -124,24 +136,8 @@ class Enter
         $mc['phonenumber'] = $this->CI->input->post('phonenumber');
         $mc['category']= $this->CI->input->post('category');
 
-
-//        $C = CI_Controller::get_instance();
-//controller 对象调用
-//        $sql = "select * from userapi where enable = 1 AND  v = 'V1'";
-//        $rc = $C->S->db->getall($sql);
-//        var_dump($se);
-//        print_r($rc);
-//        exit;
-//        $this->S = Set::getInstance();
-//        $sql = "select * from userapi where enable = 1 AND  v = 'V1'";
-//        $rc = $this->S->db->getall($sql);
-//exit;
-//        $this->cdb->test();               //添加数据
-//        $this->cdb->insert('dy_user', array_merge(V1db::table_dy_user(), $mc));               //添加数据
-//exit;
-
-
-        $this->mdb->insert('dy_user', array_merge(V1db::table_dy_user(), $mc));               //添加数据
+       $this->S->cdb->insert('dy_user', $mc);               //添加数据
+        //$this->mdb->insert('dy_user', array_merge(V1db::table_dy_user(), $mc));               //添加数据
         //输出
         $this->J(200, 'succeed');
     }
@@ -191,7 +187,9 @@ class Enter
         //$row = $this->CI->db->getrow($sql);
 
         $se['user_login'] = $username;
-        $row = $this->mdb->findOne("dy_user", $se);
+        //
+        $row = $this->S->db->getrow("select * from dy_user where user_login = '$username'");
+//        $row = $this->mdb->findOne("dy_user", $se);
 
         if (empty($row)) {
             $this->J(-200, '该用户不存在');
@@ -214,8 +212,10 @@ class Enter
         $row['f_logintime'] = time();
         $row['f_loginip'] = Set::GetIP();
 
+        //autoExecute($table, $field_values, $mode = 'INSERT', $where = '', $querymode = ''){
         //变更数据
-        $this->mdb->update("dy_user", $se, $row);
+        $row = $this->S->db->autoExecute("dy_user",$row,'UPDATE',"user_login  = '$username'");
+//        $this->mdb->update("dy_user", $se, $row);
        // $row['category']
         $this->data( $row['category']);
         // * 9 输出
@@ -237,13 +237,16 @@ class Enter
         $newPassword    = $this->CI->input->post('newPassword');
 
         $se['user_login'] = $username;
-        $row = $this->mdb->findOne("dy_user", $se);
+
+        $row = $this->S->db->getrow("select * from dy_user where user_login = '$username'");
+//        $row = $this->mdb->findOne("dy_user", $se);
         if ($row['enable'] == 0) {
             $this->J(-200, '不是有效用户');
         }
         $row['user_password'] = $newPassword;
 
-        $this->mdb->update("dy_user", array("user_login"=>$username),$row);
+        $this->S->db->autoExecute("dy_user",$row,'UPDATE',"user_login  = '$username'");
+//        $this->mdb->update("dy_user", array("user_login"=>$username),$row);
         //-----------------------------------------------------------------
         $this->J(200, 'ok1');
     }
@@ -270,9 +273,11 @@ class Enter
         //============================================================
         if(empty($SimpleNumber))$SimpleNumber = array();
         foreach($SimpleNumber as $value){
-            $row = $this->mdb->findone("dy_typeoddid", array("odd_id"=>$value));
+            $row = $this->S->db->getrow("select * from dy_typeoddid where odd_id = '$value'");
+            //$row = $this->mdb->findone("dy_typeoddid", array("odd_id"=>$value));
             $row['used'] = 0;
-            $this->mdb->update("dy_typeoddid", array("odd_id"=>$value),$row);
+            $this->S->db->autoExecute("dy_typeoddid",$row,'UPDATE',"odd_id  = '$value'");
+//            $this->mdb->update("dy_typeoddid", array("odd_id"=>$value),$row);
         }
         $this->J(200, 'succeed');
     }
@@ -343,7 +348,8 @@ class Enter
         if(empty($_y))  $_y = date('Y'); //海南
         $pre = $_f.$_s.$_y;
 
-        $rc = $this->mdb->find("dy_typeoddid", array("f"=>$_f), array("sort" => array("odd_id" => -1), "limit" => 1));
+        $rc = $this->S->db->getall("select * from dy_typeoddid where f = '$_f' order by odd_id desc limit 1");
+        //$rc = $this->mdb->find("dy_typeoddid", array("f"=>$_f), array("sort" => array("odd_id" => -1), "limit" => 1));
         $max = $rc[0]['odd_id'];        //系统中最大的id
         //截取max获得数字
         $max_num = substr($max, -6);
@@ -351,7 +357,10 @@ class Enter
 
         // ========================================================
         //空闲单号中最大的
-        $nd = $this->mdb->find("dy_typeoddid", array("f"=>$_f,"enable" => 1, "up" => 0, "used" => 0), array("sort" => array("odd_id" => 1), "limit" => $_n));
+        $nd = $this->S->db->getall("select * from dy_typeoddid where f = '$_f' and enable = 1 and used = 0 order by odd_id limit $_n");
+        //echo "select * from dy_typeoddid where f = '$_f' and enable = 0 and used = 0 order by odd_id limit $_n";
+//print_r($nd);
+        //$nd = $this->mdb->find("dy_typeoddid", array("f"=>$_f,"enable" => 1, "up" => 0, "used" => 0), array("sort" => array("odd_id" => 1), "limit" => $_n));
         $j = 0;
         $nw = array();
         foreach ($nd as $key => $value) {
@@ -361,7 +370,9 @@ class Enter
                 $me['openid'] = '';
                 $me['used'] = 1;
                 $me['up'] = 0;
-                $this->mdb->update("dy_typeoddid", array("odd_id" => $value['odd_id']), $me);
+
+                $this->S->db->autoExecute("dy_typeoddid",$me,'UPDATE',"odd_id  = '{$value['odd_id']}'");
+//                $this->mdb->update("dy_typeoddid", array("odd_id" => $value['odd_id']), $me);
             }
             $j++;
         }
@@ -378,11 +389,13 @@ class Enter
             $md['up']       = 0;
             $md['enable']   = 1;
 //            $this->CI->db->autoexecute('dy_typeoddid',$md,'INSERT');
-            $this->mdb->insert('dy_typeoddid', array_merge(V1db::table_dy_typeoddid(), $md));
+            $this->S->db->autoExecute("dy_typeoddid",$md,'INSERT');
+//            $this->mdb->insert('dy_typeoddid', array_merge(V1db::table_dy_typeoddid(), $md));
         }
 
         $user = (string)$this->sign['user'];
-        $rc = $this->mdb->find("dy_typeoddid", array("f"=>$_f,"enable" => 1, "up" => 0, "used" => 1, "user" => "$user"));
+        $rc = $this->S->db->getall("select * from dy_typeoddid where f = '$_f' and enable = 1 and up =0 and used = 1 and user = '$user'");
+//        $rc = $this->mdb->find("dy_typeoddid", array("f"=>$_f,"enable" => 1, "up" => 0, "used" => 1, "user" => "$user"));
         foreach ($rc as $key => $value) {
             $dt[] = $value["odd_id"];
         }

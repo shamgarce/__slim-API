@@ -7,14 +7,14 @@ class v1 extends CI_Controller
 	 * 根据salt / timestamp / deviceid / signature / 判断是否合法的请求
 	 * 根据salt / timestamp / openid 判断是否合法用户
 	 */
-	private	$code = 0;
-	private	$msg = '';
+	private		$code = 0;
+	private		$msg = '';
 	private 	$salt	= 'eebd9h551hh1936d';
 	private 	$sign	= array();			//所有的输入数据存储
 	private 	$map	= array();			//数据库解析到的所有匹配
 	private 	$debug = false;
-	private	$mothod = '';
-	private	$params = array();
+	private		$mothod = '';
+	private		$params = array();
 	public 		$db 	= NULL;
 	public 		$S 	= NULL;
 

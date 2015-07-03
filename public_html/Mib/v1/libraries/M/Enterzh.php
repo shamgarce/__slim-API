@@ -28,7 +28,7 @@ class Enterzh
     private $de = array();
     private $log = array();
     private $sign = array();
-
+    private $S = null;
 //log格式
 //==================================================================
 //class
@@ -43,7 +43,8 @@ class Enterzh
     public function __construct($params)    //$params 是路由参数
     {
         $this->CI =& get_instance();
-        $this->vdb = new V1db();                    //数据逻辑层
+        $this->S = $this->CI->S;
+        //$this->vdb = new V1db();                    //数据逻辑层
         $this->params = $params;                    //路由参数
         $this->tmp['timestamp_'] = Set::T();        //$sign //参数是签名
         //======================================================================

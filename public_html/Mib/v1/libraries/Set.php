@@ -24,6 +24,10 @@ class Set implements ArrayAccess, Countable, IteratorAggregate
         $this->singleton('mdb', function ($c) {
             return new Mdb();
         });
+        $this->singleton('cdb', function ($c) {
+            return new Cdb();
+        });
+
         $this->singleton('apc', function ($c) {
             return new Apc();
         });
@@ -39,6 +43,7 @@ class Set implements ArrayAccess, Countable, IteratorAggregate
             return new Mcache();
         });
 
+        self::$instance = $this;
     }
 
     public static function getInstance(){
